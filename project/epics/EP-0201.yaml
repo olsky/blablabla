@@ -1,0 +1,39 @@
+epic_id: EP-0201
+title: Autonomous Marine Cargo Spoilage & Delay Parametric Insurance
+description: Ingests real-time IoT sensor data (temperature, humidity) from shipping containers and GPS/AIS data. If temperature exceeds a threshold for a set duration or arrival is delayed past a certain date, a smart contract automatically pays out to the cargo owner.
+status: Draft
+priority: High
+business_value:
+  revenue_potential: "$120,000,000+"
+  market_size: "$50 Billion (Global Marine Cargo Insurance)"
+  target_audience: Shippers, Freight Forwarders, and Logistics Companies
+  value_proposition: "Automated, real-time insurance for marine cargo spoilage and delays, with instant payouts triggered by IoT sensor data."
+technical_complexity:
+  estimated_effort: "3 Months (by AI Agents)"
+  key_technologies:
+    - IoT Sensor Data APIs (e.g., from carriers like Maersk)
+    - GPS/AIS Data APIs
+    - Smart Contracts (Solidity)
+    - Serverless Functions (AWS Lambda)
+  integration_points:
+    - IoT Platform APIs
+    - GPS/AIS Data Provider APIs
+    - Chainlink (for on-chain data oracles)
+metrics:
+  kpis:
+    - Policy Volume
+    - Premium Margin
+    - Payout Accuracy
+  roi_calculator: "20% premium margin on a high-volume, low-ticket product."
+  first_year_projections:
+    revenue: "$120,000,000"
+    users: 1,000,000 policies
+feasibility_score: 8.5
+risk_analysis:
+  technical_risks: "Dependency on the reliability and security of IoT sensor data. Potential for sensor malfunction or tampering."
+  market_risks: "Adoption may be slow if shippers are hesitant to install or rely on IoT sensors."
+  compliance_risks: "Must comply with maritime insurance regulations."
+legal_ethical_considerations:
+  - "Ensure policy terms clearly define the parametric triggers and data sources."
+  - "Implement robust security measures to prevent sensor data tampering."
+dependencies: []

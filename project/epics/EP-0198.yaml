@@ -1,0 +1,39 @@
+epic_id: EP-0198
+title: Autonomous Rare Earth & Specialty Gas Supply Chain Disruption Predictor
+description: An intelligence mesh that monitors global geopolitical events, mining output, and shipping lanes to predict shortages of critical semiconductor materials (neon gas, palladium, photoresists) and automatically executes pre-orders to secure supply.
+status: Draft
+priority: High
+business_value:
+  revenue_potential: "$120,000,000+"
+  market_size: "$600 Billion (Global Semiconductor Manufacturing)"
+  target_audience: Tier 1 and Tier 2 Semiconductor Fabs (TSMC, Samsung, Intel, GlobalFoundries)
+  value_proposition: "Predict shortages of critical semiconductor materials and automatically execute pre-orders to secure supply, avoiding costly production shutdowns."
+technical_complexity:
+  estimated_effort: High
+  key_technologies:
+    - Predictive Analytics (Geopolitical Events, Mining Output, Shipping Lanes)
+    - Supply Chain Disruption Modeling
+    - Automated Pre-ordering & Hedging Algorithms
+    - Global News & Event APIs
+  integration_points:
+    - Fab Enterprise Resource Planning (ERP) Systems
+    - Supplier APIs (Linde, Air Liquide)
+    - Global News & Event APIs (Bloomberg, Reuters)
+metrics:
+  kpis:
+    - Production Shutdowns Avoided
+    - Critical Material Supply Secured
+    - Pre-ordering & Hedging ROI
+  roi_calculator: "$1M/year per fab subscription + 5% commission on secured critical materials during shortages."
+  first_year_projections:
+    revenue: "$120,000,000"
+    users: 30 Enterprise Fabs
+feasibility_score: 8.5
+risk_analysis:
+  technical_risks: "Predicting geopolitical events and their impact on the supply chain can be challenging and require sophisticated modeling."
+  market_risks: "Fabs may be hesitant to fully automate their critical material procurement, requiring a phased rollout with human-in-the-loop oversight."
+  compliance_risks: "Must adhere to international trade regulations and export controls."
+legal_ethical_considerations:
+  - "Ensure all automated procurement decisions comply with international trade regulations and export controls."
+  - "Implement robust audit logging to track all automated procurement decisions."
+dependencies: []
