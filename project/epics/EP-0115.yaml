@@ -1,0 +1,37 @@
+id: EP-0115
+title: Autonomous Wind Curtailment Revenue Reclamation & Forecasting Engine
+description: |
+  **Idea:** Wind farms lose revenue to grid curtailment orders and imbalance charges. This engine ingests SCADA production, curtailment signals, day-ahead/real-time prices, congestion maps, and weather forecasts. Agents forecast curtailment risk, auto-bid flexibility products, file compensation claims where applicable, and adjust dispatch/maintenance schedules to minimize loss.
+
+  **Why "WOW":** Converts curtailment pain into reclaimable revenue and proactive avoidance, boosting project IRR without adding operators.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~7 months (market connectors, SCADA adapters, forecasting models, claim automation).
+  - Cash Out: platform SaaS + 12% share of recovered/avoided curtailment value.
+
+  **First Year Projections:**
+  - Wind Sites: 520
+  - Average Annual Recovery per Site: $45,000
+  - Performance Revenue: $2,808,000
+  - SaaS Revenue: $8,700,000
+  - Total Estimated Earnings: $11,508,000
+
+  **Feasibility Score:** 8.1/10
+
+  **Risk Analysis:**
+  - Medium: Grid rule variance; mitigated by market-specific policy modules.
+  - Medium: Forecast error; mitigated via ensemble models and conservative bidding.
+
+  **Legal & Ethical:** Aligned with grid participation rules; transparent measurement for compensation filings.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.3-codex
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

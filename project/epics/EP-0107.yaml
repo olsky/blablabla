@@ -1,0 +1,33 @@
+id: EP-0107
+title: Autonomous "White-Glove" B2B Onboarding & Data Migration Agent
+description: |
+  **Idea:** Enterprise software sales often stall for months post-signature because "data migration is hard." This service acts as a universal, autonomous data ingestion layer for any B2B SaaS platform. A new customer securely connects their legacy system (e.g., old CRM, custom SQL DB, or messy CSV exports). This Autonomous Data Engineering Agent inspects the incoming messy schema, deeply analyzes the destination schema (the SaaS product), auto-maps the fields, identifies data type mismatches, and writes a robust ETL Python script on the fly. It runs the migration to a staging server, highlights the inevitable edge cases (e.g., "Customer 403 has two emails"), asks the user single-click resolution questions via a Slack/Teams bot, and then executes the final production migration.
+
+  **Why "WOW":** Onboarding that usually takes 6 weeks of back-and-forth mapping spreadsheets between Solution Architects now takes 6 hours. SaaS companies win more deals because they can honestly promise "instant, zero-friction migration from competitors."
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~6 months (Schema analysis ML, LLM-generated Python ETL runners, secure sandbox execution environment, Slack/Teams bot integrations).
+  - Cash Out: $1,000-$5,000 per enterprise migration (white-labeled to the SaaS vendor) + recurring platform fee.
+
+  **First Year Projections:**
+  - SaaS Vendor Partners: 80
+  - Migrations Executed: 8,000
+  - Estimated Earnings: $16,000,000
+
+  **Feasibility Score:** 8/10 (Schema mapping via LLM is highly accurate; the challenge is safely executing the generated ETL code without exposing the host to security risks, which sandboxing solves.)
+
+  **Risk Analysis:**
+  - Medium: Data format edge cases (e.g., dates in UK vs US format); mitigated by the interactive exception-handling Slack bot.
+  - Low: Integration complexity (standard database and REST APIs are well supported).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

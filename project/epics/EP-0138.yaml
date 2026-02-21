@@ -1,0 +1,71 @@
+id: EP-0138
+title: "Autonomous Employer Health Plan Waste & Duplicate-Coverage Recovery Engine"
+description: |
+  **Idea:** US employer-sponsored health insurance covers **160 million Americans** with **$1.4 trillion** in annual premiums. Self-insured employers — representing 65% of covered workers — directly bear claims costs. And they're bleeding money to **structural waste** that HR departments cannot detect:
+
+  **The hidden leakage:**
+  - **Ineligible dependents (5-10% of dependents):** Children who aged out at 26, ex-spouses post-divorce, deceased family members still on plan, domestic partners who no longer qualify
+  - **Duplicate coverage (8-12% of members):** Employees covered by spouse's plan, retirees on Medicare, COBRA overlap, Medicaid-eligible dependents
+  - **Coordination of Benefits (COB) failures:** Claims paid at primary when another plan should be primary — billions in overpayments
+  - **Pharmacy waste:** Non-formulary drugs, therapeutic duplication, high-cost brand when generic available, specialty pharmacy steering
+  - **Plan design misalignment:** Employees on wrong plan tier for their utilization patterns
+
+  Total estimated waste: **$350+ billion annually**, or 25% of employer-sponsored health spend.
+
+  This engine creates an **autonomous eligibility audit and waste recovery platform**:
+
+  **Data Ingestion:**
+  - Census data from benefits administration platforms: Workday, ADP, Paycom, Benefitfocus, Businessolver
+  - Claims data from TPAs (Third Party Administrators) and carriers: EDI 837/835, claims warehouse feeds
+  - Eligibility verification sources: Social Security death index, divorce records, marriage records, Medicare enrollment files, Medicaid eligibility, credit bureaus
+  - Pharmacy data: PBM feeds, formulary databases, clinical guidelines
+
+  **Autonomous Agent Workflow:**
+  1. **Census Validation:** Cross-reference enrolled dependents against eligibility sources. Identify: deceased, aged-out, divorced spouses, ineligible relationships.
+  2. **COB Detection:** Identify members with other health coverage (spouse's employer, Medicare, Medicaid, VA, TRICARE). Determine correct primary/secondary order.
+  3. **Claims Recovery:** For COB failures, generate subrogation claims to recover overpayments from other payers.
+  4. **Pharmacy Audit:** Identify non-formulary prescriptions, therapeutic duplications, generic substitution opportunities, specialty pharmacy optimization.
+  5. **Plan Optimization:** Analyze utilization patterns vs. plan options. Recommend optimal plan for each employee (within ACA/ERISA rules).
+  6. **Dependent Audit Campaign:** Generate compliant dependent-verification requests. Process documentation. Remove ineligibles.
+  7. **Continuous Monitoring:** Ongoing eligibility surveillance, COB detection on new claims, waste trending.
+
+  **Revenue Model:** Pure contingency — 20% of recovered waste (removed ineligibles, COB recoveries, pharmacy savings). Ongoing analytics subscription for continuous monitoring.
+
+  **Why "WOW":** Every HR director knows dependents slip through the cracks, but running a dependent audit is expensive ($15-20/employee) and awkward. This engine automates the entire process: identify, verify, recover — without HR lifting a finger. A 10,000-employee company with 25,000 covered lives and $100M in health spend might have $10M in recoverable waste. At 20% contingency, that's $2M in savings they didn't know existed.
+
+  The network effect: as the engine processes more employers, it builds a proprietary COB graph — knowing who is covered where across the entire ecosystem.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~8 months (benefits-admin integrations, eligibility-source APIs, COB detection engine, recovery workflows)
+  - Cash Out: Contingency revenue from first audit cycle. Employers typically see ROI within 90 days.
+
+  **First Year Projections:**
+  - Total Self-Insured Employer Health Spend: $900,000,000,000
+  - Estimated Waste (12%): $108,000,000,000
+  - Recoverable Waste (50%): $54,000,000,000
+  - Platform Market Share (10%): $5,400,000,000 in recoveries
+  - Contingency Fee (20%): **$1,080,000,000**
+  - Analytics Subscription Revenue: **$45,000,000**
+  - **Total Estimated Earnings: $1,125,000,000**
+
+  **Feasibility Score:** 8.7/10 — Benefits-admin integrations are standard (APIs available). Eligibility verification sources are commercially accessible (LexisNexis, Verisk, CMS). COB detection logic is deterministic. Dependent audits are a proven category. The innovation is automation and continuous monitoring vs. one-time projects.
+
+  **Risk Analysis:**
+  - Medium: Employee/dependent pushback on verification requests; mitigated by compliant communication templates, reasonable documentation requirements, and appeals process
+  - Medium: Data privacy — handling PHI and PII; mitigated by HIPAA BAA, SOC 2, and need-to-know data minimization
+  - Low: Legal — employers have the right to verify eligibility; well-established practice
+  - Low: HR adoption — CFOs mandate this; HR is relieved to outsource
+
+  **Legal & Ethical:** Helps employers ensure only eligible dependents receive coverage (fiduciary duty under ERISA). Recovers money that should have been paid by other insurers (COB is a legal obligation). Does not deny coverage to legitimately eligible individuals. Fair, compliant verification process with appeals.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

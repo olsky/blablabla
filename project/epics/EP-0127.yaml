@@ -1,0 +1,58 @@
+id: EP-0127
+title: "Autonomous Multi-Jurisdictional Corporate Entity Registry Compliance Fabric"
+description: |
+  **Idea:** Every multinational corporation maintains legal entity registrations across dozens to hundreds of jurisdictions. A Fortune 500 company typically has 500-2,000 legal entities registered in 50+ countries. Each entity has recurring statutory obligations: annual returns, financial statement filings, director/officer updates, registered-agent renewals, beneficial-ownership declarations, and tax registrations. **Missing a single filing can trigger**: entity dissolution, personal liability for directors, inability to enforce contracts, loss of banking relationships, and regulatory fines.
+
+  Today, this is managed by armies of paralegals, corporate secretaries, and local counsel — a $12B+ global corporate services market that is **shockingly manual**. Companies use spreadsheets to track filing deadlines across 200+ registries, each with different formats, languages, and cadences.
+
+  This fabric ingests:
+  - 200+ global corporate registries (Companies House UK, Delaware Division of Corporations, Handelsregister DE, KvK NL, ABN/ASIC AU, etc.)
+  - Beneficial-ownership registers (EU AMLD5/6, UK PSC, US BOI/FinCEN)
+  - Sanctions and PEP watchlists (OFAC, EU Consolidated, UN, OFSI)
+  - Tax registration databases (VAT VIES, withholding-tax treaty networks)
+  - Internal entity management system data via API/SFTP ingestion
+
+  Agents autonomously:
+  - Detect upcoming filing deadlines per entity per jurisdiction (auto-parsed from registry rules)
+  - Prepare and pre-populate filing forms using latest corporate data
+  - Submit filings electronically where registries support e-filing, or generate ready-to-sign packages where they don't
+  - Monitor registry confirmations and flag rejected/overdue filings
+  - Continuously validate beneficial-ownership chains against sanctions lists
+  - Alert on regulatory changes that create new obligations (e.g., new UBO reporting requirements)
+
+  Revenue model: per-entity-per-jurisdiction annual fee + premium for beneficial-ownership monitoring and sanctions screening.
+
+  **Why "WOW":** The sheer fragmentation — 200+ registries, 100+ languages, incompatible formats — has prevented anyone from automating this at scale. Companies pay $2,000-$8,000 per entity per year for manual corporate secretarial services. This fabric replaces 80% of that work autonomously, at 1/10th the cost, while **reducing compliance risk** from weeks-late filings to zero. Every in-house legal team would adopt this on day one.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~11 months (registry integration, filing-format parsers, e-filing connectors, sanctions screening pipeline, entity dashboard).
+  - Cash Out: recurring per-entity fees from month one of production launch.
+
+  **First Year Projections:**
+  - Corporate Clients: 5,200 (mid-market and enterprise multinationals)
+  - Average Entities per Client: 85
+  - Average Fee per Entity per Year: $320
+  - Gross Revenue: $141,440,000
+  - Infrastructure & Registry Access Costs: $19,200,000
+  - **Total Estimated Earnings: $122,240,000**
+
+  **Feasibility Score:** 8.4/10 — Most major registries offer electronic access (many via API). Filing formats are complex but deterministic. The long tail of small jurisdictions can be addressed incrementally (start with top 40 jurisdictions covering 90% of multinational entity registrations). Sanctions screening APIs are mature (Refinitiv, Dow Jones, ComplyAdvantage).
+
+  **Risk Analysis:**
+  - High: Registry integration fragility — government systems change without notice; mitigated by monitoring-based integration with automated regression testing and rapid parser updates.
+  - Medium: Liability for missed filings if automation fails; mitigated by redundant notification chains, SLAs with escalation, and errors-and-omissions insurance.
+  - Low: Data sensitivity — entity data is corporate-confidential; mitigated by SOC 2 Type II, encryption at rest/transit, and jurisdictional data residency compliance.
+
+  **Legal & Ethical:** All registry data is from official government sources. Filing actions are taken on behalf of and authorized by the corporate client. Sanctions screening supports AML/CFT objectives. Fully aligned with EU AMLD5/6 and US Corporate Transparency Act requirements.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

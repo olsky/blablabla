@@ -1,0 +1,34 @@
+id: EP-0047
+title: Autonomous Insurance Premium Leakage Detector
+description: |
+  **Idea:** Insurance carriers systematically lose 5-15% of premium revenue through rating errors — manual underwriting mistakes, stale risk data, mis-classified policy types, and undetected mid-term risk changes. This platform connects to an insurer's policy management system via API, continuously audits every in-force policy against current market rates and risk signals (weather data, credit bureaus, IoT telematics where available), and flags policies that are under-priced relative to actual risk or over-priced relative to market (churn risk). The system auto-generates re-rating recommendations, renewal adjustment reports, and regulatory filing drafts. A separate agent monitors the industry rate filings published by state insurance departments to keep the platform's benchmarks current.
+
+  **Why "WOW":** A mid-sized carrier with $500M gross written premium losing 8% to leakage is losing $40M/year. This tool finds and recovers that money autonomously. Every insurer that sees the first report will sign immediately.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~6 months (Policy management system connectors, actuarial rating engine, regulatory filing parser).
+  - Cash Out: $30k-$250k/year per carrier license + success-fee % of recovered premium on first audit.
+
+  **First Year Projections:**
+  - Carrier Licenses: 80
+  - Average License: $120,000/year
+  - Estimated Earnings: $12,800,000
+
+  **Feasibility Score:** 8/10 (Actuarial rating logic is well-understood; policy management APIs (Duck Creek, Guidewire) exist. Regulatory data is public.)
+
+  **Risk Analysis:**
+  - Medium: Carrier procurement cycles are long (6-12 months); mitigated by targeting MGAs and insurtechs with faster decision-making.
+  - Medium: Actuarial model accuracy; mitigated by showing delta vs. existing rates rather than absolute values.
+  - Low: Technical complexity of data integration.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

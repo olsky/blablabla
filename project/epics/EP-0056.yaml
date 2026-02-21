@@ -1,0 +1,39 @@
+id: EP-0056
+title: Autonomous B2B SaaS Renewal Negotiation Agent Network
+description: |
+  **Idea:** Mid-market CFO and procurement teams overpay for SaaS renewals due to low pricing transparency and manual negotiation cycles. This platform ingests contract terms, seat-level usage, invoice history, benchmark datasets, and renewal windows to autonomously negotiate vendor renewals through policy-controlled agent interactions.
+
+  Agents initiate negotiation sequences, propose volume/term alternatives, execute approval-safe playbooks, and route finalized contracts for digital signature.
+
+  **Why "WOW":** Companies cut software spend quickly without expanding procurement teams.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~6 months (contract parser, benchmark engine, negotiation protocol).
+  - Cash Out: savings-share fee + subscription.
+
+  **First Year Projections:**
+  - Companies Onboarded: 3,200
+  - Average Negotiated Savings per Company: $36,000
+  - Savings Share Revenue (20%): $23,040,000
+  - Subscription Revenue: $5,120,000
+  - Total Estimated Earnings: $28,160,000
+
+  **Feasibility Score:** 8.6/10
+
+  **Risk Analysis:**
+  - Medium: Vendor resistance to automated negotiation; mitigated by standardized protocol templates and hybrid fallback lanes.
+  - Medium: Benchmark bias by segment; mitigated with cohort-aware pricing models.
+
+  **Legal & Ethical:** Operates with customer-approved negotiation boundaries and transparent decision logs; no collusion or unfair market manipulation.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.3-codex
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

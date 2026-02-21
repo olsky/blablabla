@@ -1,0 +1,34 @@
+id: EP-0153
+title: Autonomous Global Payroll Float & Micro-Yield Treasury Engine
+description: |
+  **Idea:** The global payroll industry (ADP, Deel, Rippling) moves over $5 Trillion annually. When employers run payroll, funds sit in zero-yield staging accounts for 3-5 days before clearing to employees. This Autonomous Treasury Engine intercepts that ocean of float. Autonomous agents instantly and programmatically deploy the staging capital into ultra-safe, high-yield overnight repo markets, tokenized US Treasuries, or Tier-1 sovereign debt. It streams the generated yield back to the employers in real-time, minute-by-minute, while mathematically guaranteeing the exact liquidity required to execute the final payroll clearing is always available.
+
+  **Why "WOW":** A mid-sized enterprise running a $50M/month payroll earns exactly $0 on that float today. This system turns their payroll expense line into a multi-million-dollar yield-generating asset with zero effort and zero perceived risk.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~16 months (API integration with massive payroll processors, creating ultra-low latency programmatic trading/treasury bridges to Wall Street Repo markets, rigorous FINRA/SEC compliance).
+  - Cash Out: The platform takes a 20% performance fee on the net yield generated for the client.
+
+  **First Year Projections:**
+  - Daily Average Float Managed (AUM): $150,000,000,000 ($150B)
+  - Blended APY Generated: 4.5% ($6.75B total yield generated)
+  - Estimated Earnings (20% fee): $1,350,000,000 ($1.35B)
+
+  **Feasibility Score:** 7/10 (The algorithmic trading and overnight lending APIs exist. The blocker is regulatory capital requirements and getting massive, conservative payroll providers to integrate the routing API).
+
+  **Risk Analysis:**
+  - High: Liquidity shocks in the overnight repo market preventing the un-winding of assets in time for payroll. (Mitigation: holding a 10% cash/bank reserve and using only hyper-liquid Tier-1 government backed instruments).
+  - Medium: Regulatory classification of the yield (Is it a security? Is it interest?).
+  - Low: Market adoption (CFOs will violently demand this from their payroll providers once it exists).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

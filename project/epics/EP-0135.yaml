@@ -1,0 +1,67 @@
+id: EP-0135
+title: "Autonomous Mortgage Underwriting & Origination Factory"
+description: |
+  **Idea:** The US mortgage market originates **$4+ trillion annually** in new loans (purchases + refinances), generating **$40+ billion in origination fees** (100+ basis points per loan). Yet mortgage underwriting remains **shockingly manual**: human underwriters review tax returns, bank statements, employment verification letters, appraisals, title reports, and credit files — often printing documents and using highlighters.
+
+  The average cost to originate a mortgage is **$8,000-$12,000**, and the timeline is **30-45 days**. Borrowers submit documents via email or fax. Underwriters make judgment calls. Lenders hedge rate-lock risk while waiting for clear-to-close. It's 2026, and we're still FedExing W-2s.
+
+  This factory creates a **fully autonomous mortgage origination pipeline**:
+
+  **Data Ingestion:**
+  - Borrower application data via POS (Point of Sale) systems: Blend, Encompass, MeridianLink
+  - IRS transcripts: direct pull via Income Verification Express Service (IVES) — Form 4506-C
+  - Bank account aggregation: Plaid, Finicity, Yodlee — real-time asset and income verification
+  - Employment verification: Equifax Workforce Solutions (The Work Number), Argyle
+  - Credit data: tri-bureau pull via credit report aggregators
+  - Property data: AVM (automated valuation models), Corelogic, Black Knight, AI-powered appraisal
+  - Title data: integration with instant title engine (see EP-0132) or traditional title providers
+
+  **Autonomous Agent Workflow:**
+  1. **Application Intake:** Borrower completes application. System auto-pulls credit, income, assets, employment.
+  2. **Eligibility Screening:** Instant check against Fannie Mae/Freddie Mac guidelines (Desktop Underwriter / Loan Prospector integration) and product eligibility rules.
+  3. **Document Verification:** Cross-reference IRS transcripts vs. stated income. Verify bank statements for large deposits, asset sourcing. Check employment continuity.
+  4. **Property Valuation:** Order AVM or bifurcated appraisal. For purchases, pull listing data and comparable sales.
+  5. **Condition Clearing:** Identify any conditions (student loans, pending liabilities, name variations) and autonomously clear via additional data pulls or borrower micro-requests.
+  6. **Final Underwrite:** Run full DU/LP AUS. Generate clear-to-close or detailed exception report.
+  7. **Closing Package:** Generate loan docs, coordinate closing via e-notarization (RON) and e-closing providers.
+  8. **Secondary Market Sale:** Package loan for sale to GSEs or private investors. Generate compliant loan file.
+
+  **Revenue Model:** Per-loan underwriting fee ($500-$1,000, replacing $3,000+ manual underwriting cost) + gain-on-sale margin for loans funded on warehouse lines.
+
+  **Why "WOW":** Mortgage origination is a $40B/year industry that still runs on paper and humans. Zillow tried to fix home-buying; nobody fixed the mortgage. This factory turns 45-day originations into 48-hour originations. Lenders can close loans before rate-lock expiration. Borrowers get faster approval. Real estate transactions accelerate.
+
+  The go-to-market is B2B: white-label the factory to non-bank lenders (Rocket, UWM, loanDepot) and regional banks who can't afford to build this themselves.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~12 months (IVES integration, POS connectors, AUS integration, appraisal APIs, doc-gen engine, compliance engine)
+  - Cash Out: Per-loan fees from launch. Pipeline grows as lender customers onboard.
+
+  **First Year Projections:**
+  - Total US Mortgage Originations: 10,000,000 loans
+  - Platform Market Share (12%): 1,200,000 loans
+  - Average Revenue per Loan: $850 (underwriting fee + tech fee)
+  - Core Revenue: $1,020,000,000
+  - Warehouse Lending Gain-on-Sale (20% of volume): $105,000,000
+  - **Total Estimated Earnings: $1,125,000,000**
+
+  **Feasibility Score:** 8.0/10 — All data sources are available via API. DU/LPA integration is standard (Fannie/Freddie provide). IVES automation is increasingly common. The challenge is building a system robust enough to handle the edge cases (self-employed borrowers, complex income, non-warrantable condos). These require human escalation initially but can be automated over time.
+
+  **Risk Analysis:**
+  - High: Regulatory compliance — TILA, RESPA, ECOA, state licensing; mitigated by compliance-first architecture, built-in auditing, and partnership with compliance counsel
+  - High: Underwriting errors leading to buyback demands from GSEs; mitigated by conservative credit overlays, robust QC, and rep & warranty insurance
+  - Medium: Lender customer concentration; mitigated by rapid diversification and white-label strategy
+  - Low: Borrower adoption — borrowers don't care who underwrites; they care about approval and speed
+
+  **Legal & Ethical:** Fully compliant with fair-lending laws. Algorithm-based underwriting may actually reduce human bias (provided models are carefully audited). HMDA data collection automated. Equal access to all qualified borrowers.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

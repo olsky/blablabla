@@ -1,0 +1,64 @@
+id: EP-0136
+title: "Autonomous Corporate Treasury Auto-Allocation & Yield-Sweep Engine"
+description: |
+  **Idea:** Global corporations hold over **$100 trillion** in cash and short-term investments. The largest 5,000 companies alone hold $10+ trillion. This cash sits in bank accounts, money-market funds, and short-term instruments — but allocation is managed by treasury teams using **spreadsheets, monthly reviews, and relationship banking**.
+
+  The result: billions of dollars sit overnight in zero-yield accounts when they could earn 5%+ in money-market funds or T-bills. FX exposures go unhedged for days. Intercompany cash is trapped in subsidiaries while the parent borrows on credit lines. Corporate treasurers know this is happening but lack the tools to optimize in real-time.
+
+  This engine creates an **autonomous, real-time treasury allocation fabric**:
+
+  **Data Ingestion:**
+  - Bank account balances: real-time via bank APIs (J.P. Morgan Access, Citi TTS, HSBC, regional banks), SWIFT MT940/MT942, ERP treasury modules
+  - Cash flow forecasts: from ERP (SAP, Oracle) A/P and A/R systems, payroll schedules, debt service calendars
+  - Investment options: money-market fund rates (Fidelity, Vanguard, BlackRock), T-bill yields, repo rates, bank deposit rates
+  - FX rates: real-time from Bloomberg, Reuters, direct bank feeds
+  - Internal policies: investment policy constraints (credit quality, duration, concentration limits, ESG exclusions)
+
+  **Autonomous Agent Workflow:**
+  1. **Real-Time Aggregation:** Consolidate all cash positions across entities, currencies, and banks. Update continuously (not daily batch).
+  2. **Liquidity Forecasting:** ML-driven forecast of cash needs by entity by day. Identify excess cash vs. required buffers.
+  3. **Yield Optimization:** For excess cash, evaluate: overnight repo, MMF, T-bills, bank CD, intercompany loan (to entity that needs cash). Select highest risk-adjusted yield within policy constraints.
+  4. **Automated Execution:** Execute investment transactions via API (or generate instructions for manual execution in first phase). Auto-redeem when cash is needed.
+  5. **FX Hedging:** Identify unhedged exposures. Execute spot/forward trades to align with policy. Optimize hedge timing for cost.
+  6. **Intercompany Netting:** Optimize intercompany cash movements to minimize external financing and bank fees.
+  7. **Continuous Reporting:** Real-time dashboards, policy compliance monitoring, yield attribution analysis.
+
+  **Revenue Model:** Basis points on assets under optimization (3-5 bps annually) + per-transaction execution fees for trades placed.
+
+  **Why "WOW":** Corporate treasurers manage billions but have tools built in the 1990s. A treasury management system (TMS) like Kyriba or GTreasury shows you your positions — but doesn't tell you what to do. This engine doesn't just report; it acts. Every night, it sweeps idle cash into yield-bearing instruments. Every morning, it funds payables. The treasurer sleeps while the engine earns.
+
+  For a company with $5B in average cash, earning 4% instead of 2% is **$100M/year in found money**. That's a no-brainer value prop.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~11 months (bank API integrations, investment platform connections, policy engine, execution layer)
+  - Cash Out: Basis-point fees from month one. Revenue scales linearly with AUM.
+
+  **First Year Projections:**
+  - Total Addressable Corporate Cash (mid-market + enterprise): $40,000,000,000,000
+  - Platform AUM (0.1%): $40,000,000,000
+  - Average Fee: 4.5 basis points (0.045%)
+  - Platform Revenue on AUM: $18,000,000
+  - Yield Uplift Sharing (additional incentive model on incremental yield): $982,000,000
+  - **Total Estimated Earnings: $1,000,000,000**
+
+  **Feasibility Score:** 8.3/10 — Bank APIs are increasingly available (J.P. Morgan, Citi have open banking initiatives). Investment fund APIs exist (Fidelity, BlackRock). ERP integrations are mature. The challenge is enterprise sales cycle — treasurers are conservative. Mitigated by starting with PE-backed mid-market companies (faster decisions) and demonstrating ROI on pilot.
+
+  **Risk Analysis:**
+  - High: Operational risk — incorrect cash movement could cause missed payroll or covenant breach; mitigated by conservative liquidity buffers, policy guardrails, and human approval for large movements (initially)
+  - Medium: Bank API reliability — banks may throttle or change APIs; mitigated by multi-bank strategy and SWIFT fallback
+  - Medium: Enterprise sales cycle; mitigated by consumption-based pricing (no upfront commitment) and CFO-level ROI story
+  - Low: Regulatory — treasury optimization is not regulated activity; standard data-security compliance applies
+
+  **Legal & Ethical:** Helps corporations earn fair return on their cash (shareholder benefit). Transparent fee structure. Does not introduce undue risk — operates within client-defined investment policies. No conflicts of interest — platform is agnostic to which instruments are selected.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

@@ -1,0 +1,32 @@
+id: EP-0067
+title: Autonomous Drone Inspection Data Marketplace for Infrastructure Assets
+description: |
+  **Idea:** Drones equipped with high‑resolution cameras and LiDAR continuously capture imagery of critical infrastructure (bridges, pipelines, power lines). This platform autonomously ingests the raw data, runs AI‑based defect detection and 3D modeling, tokenizes each inspected segment, and offers a marketplace where asset owners, insurance companies, and maintenance contractors can purchase specific inspection datasets or AI‑generated risk assessments. All contracts, payments, and data delivery are handled by autonomous smart‑contract agents, eliminating the need for human brokers.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~7 months (drone data ingestion SDK, AI defect detection pipelines, marketplace UI, escrow integration).
+  - Cash Out: $299 per inspected asset per month + 10% transaction fee on data sales.
+
+  **First Year Projections:**
+  - Active Inspected Assets: 5,000
+  - Subscription Revenue: $17,940,000
+  - Transaction Fees: $5,000,000
+  - Estimated Earnings: $22,940,000
+
+  **Feasibility Score:** 8/10 (Drone data APIs and AI models are mature; regulatory clearance for aerial data is the main hurdle, mitigated by automated compliance checks.)
+
+  **Risk Analysis:**
+  - Medium: Airspace regulation compliance – mitigated by pre‑flight clearance automation.
+  - Low: Data storage costs – mitigated by tiered cloud storage.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

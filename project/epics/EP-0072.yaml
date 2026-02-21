@@ -1,0 +1,21 @@
+id: EP-0072
+title: TBD Placeholder for Future Emerging IT Service Epic
+description: |
+  **Idea:** Placeholder for a future high‑impact autonomous service. To be defined based on emerging market data and user feedback.
+
+  **ROI (Time In vs Cash Out):** TBD
+  **First Year Projections:** TBD
+  **Feasibility Score:** TBD
+  **Risk Analysis:** TBD
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 1
+  approval_threshold: 0.5
+  require_blocking_clearance: false

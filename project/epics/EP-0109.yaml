@@ -1,0 +1,33 @@
+id: EP-0109
+title: Autonomous Gig-Worker Wage-Factoring & Instant Liquidity Mesh
+description: |
+  **Idea:** 75 million freelancers and gig workers globally wait 14-30 days to clear invoices from platforms like Upwork, Fiverr, or direct B2B clients. Traditional factoring requires a human underwriter and high minimums. This Autonomous Cashflow Engine integrates with freelance marketplace APIs (to verify escrowed work) and open-banking/plaid APIs (to verify historical cash flow). When a worker submits a valid, approved invoice, an autonomous risk agent calculates the platform default risk and the client dispute risk in 800 milliseconds. It instantly offers an 85-95% cash advance to the physical/virtual debit card, keeping the remaining % as a fee. The system then automatically re-routes the final invoice payment from the platform directly to its own treasury.
+
+  **Why "WOW":** Liquidity is the single biggest pain point for gig workers. Offering "instant payout for a 3% flat fee" creates absolute viral devotion in the freelancer community. The risk is incredibly low because the money is already escrowed or approved by the B2B platform; it's a pure timeline arbitrage.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~7 months (Marketplace APIs, Open Banking underwriting ML, disbursement treasury infra [Stripe/Marqeta]).
+  - Cash Out: 3-5% discount fee on advanced capital + interchange revenue on card spend.
+
+  **First Year Projections:**
+  - Active Gig Workers: 50,000
+  - Total Invoice Value Factored: $500,000,000
+  - Estimated Earnings (at blended 4% fee): $20,000,000
+
+  **Feasibility Score:** 9/10 (APIs for Upwork, Fiverr, and Plaid exist. Modern card issuing APIs make instant disbursement trivial. The core IP is the high-speed, probabilistic risk underwriting model.)
+
+  **Risk Analysis:**
+  - Medium: Platform changes to payout routing rules; mitigated by requiring the freelancer to update their direct-deposit details to a platform-controlled virtual account.
+  - Low: Fraudulent invoice submission; mitigated by deep API verification of the escrowed funds and historical client behavior before funding.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

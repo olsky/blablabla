@@ -1,0 +1,34 @@
+id: EP-0104
+title: Programmatic Connected TV (CTV) Ad-Inventory Arbitrage DSP
+description: |
+  **Idea:** Advertisers overpay for CTV (Hulu, Roku, Pluto) because the programmatic supply chain is opaque. This Autonomous Demand-Side Platform (DSP) cuts out the middlemen. It ingests bid-stream data directly from Supply-Side Platforms (SSPs) via OpenRTB protocols. Using multi-modal AI agents, it analyzes the live streaming video context (e.g., detecting a car chase scene vs. a romantic comedy) microseconds before the ad break. It autonomously bids on undervalued premium inventory that matches the client's intent-profile and resells/places the ad instantly. 
+
+  **Why "WOW":** Instead of buying "demographics", advertisers buy "contextual moments" in real-time. It turns generic ad buys into hyper-relevant placements at wholesale arbitrage prices.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~7 months (High-frequency trading infrastructure, OpenRTB integrations, visual-context ML models).
+  - Cash Out: The "Spread" (arbitrage margin) on ad inventory + 5% platform fee from advertisers.
+
+  **First Year Projections:**
+  - Active Advertiser Brands: 120
+  - Daily Impressions Arbitraged: 50,000,000
+  - Estimated Earnings: $16,500,000
+
+  **Feasibility Score:** 7.5/10 (High-frequency OpenRTB bidding requires extreme low-latency engineering [sub-50ms responses]. Visual context ML is doable but must be pre-calculated or lightning fast.)
+
+  **Risk Analysis:**
+  - High: Latency. Bids must be submitted in <100ms or they are dropped.
+  - Medium: SSPs changing their integration protocols.
+  - Low: Advertiser demand (CTV is the fastest-growing ad sector globally).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,61 @@
+id: EP-0129
+title: "Autonomous Pension Fund Alternative-Asset Liquidity & Secondary Market Mesh"
+description: |
+  **Idea:** Global pension funds manage **$56 trillion** in assets, with an accelerating allocation toward illiquid alternatives — private equity, infrastructure funds, real estate funds, private credit, and venture capital. The problem: once a pension fund commits capital to a PE fund with a 10-year lockup, there is **no efficient way to exit early**. The secondary market for LP stakes exists but is absurdly manual — human brokers, dinners at conferences, months-long negotiations, opaque pricing, and closing timelines of 60-120 days.
+
+  The annual volume of LP secondary transactions is ~$130B (2024) and growing 25%+ YoY, yet the infrastructure supporting this market has **essentially zero IT sophistication**. Pricing is based on back-of-envelope NAV discounts. Due diligence involves FedExing boxes of quarterly reports. Transfer mechanics require hand-drafted side letters and GP consent processes conducted via email chains.
+
+  This mesh creates a **fully autonomous secondary market platform** for alternative-asset LP stakes:
+
+  Data ingestion:
+  - Fund performance data: quarterly NAV reports, capital call/distribution histories, IRR/TVPI/DPI metrics
+  - GP term sheets: waterfall structures, fee schedules, key-person clauses, transfer restrictions
+  - Market comparables: recent secondary transactions, NAV discount/premium benchmarks by vintage/strategy/geography
+  - Macro signals: interest rates, credit spreads, public-market equivalents (PME) for fair-value anchoring
+  - LP portfolio data: commitment schedules, unfunded obligations, liquidity needs, regulatory constraints (Solvency II for EU pensions, ERISA for US plans)
+
+  Agents autonomously:
+  - Ingest LP portfolios and generate real-time fair-value estimates for every stake (replacing 6-week manual valuation processes)
+  - Match sellers with qualified buyers based on strategy fit, regulatory constraints, and price expectations
+  - Generate standardized due-diligence packages (auto-extracted from quarterly reports, audited financials, and side letters)
+  - Draft transfer agreements using jurisdiction-appropriate templates (ILPA standards)
+  - Manage GP consent workflows (automated notification, tracking, and escalation)
+  - Execute settlement and capital-account transfer through custodian APIs
+  - Provide continuous portfolio-level liquidity scoring (enabling pension boards to understand exit options in real time)
+
+  Revenue model: 0.35% of transaction value (buy-side fee) + 0.15% (sell-side fee) + annual portfolio-analytics subscription.
+
+  **Why "WOW":** This is a **$130B/year market** that runs on dinners, handshakes, and FedEx boxes. The incumbents (Lazard, Evercore, Jefferies) charge 1-2% advisory fees and take 90+ days to close. This mesh cuts the fee to 0.50%, the closing time to 14 days, and makes the market accessible to mid-tier pension funds that currently have zero secondary-market access because they're too small for the white-glove brokers. It's the "Bloomberg Terminal for PE secondaries" — whoever builds it first owns the market.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~10 months (fund data parsers, valuation engine, matching algorithm, legal-doc generation, GP consent workflow, custodian integration).
+  - Cash Out: transaction fees from first closed deal. Platform network effects create a flywheel — more LPs listing → better price discovery → more buyers → more listings.
+
+  **First Year Projections:**
+  - Transaction Volume Facilitated: $24,000,000,000 (of $130B+ annual market)
+  - Average Fee: 0.50% of transaction value
+  - Transaction Fee Revenue: $120,000,000
+  - Portfolio Analytics Subscriptions: 1,200 pension funds × $18,000/year = $21,600,000
+  - **Total Estimated Earnings: $141,600,000**
+
+  **Feasibility Score:** 8.2/10 — Fund performance data is available through LP portal scraping and data providers (Preqin, PitchBook, Burgiss). Transfer mechanics follow ILPA standardized templates. GP consent processes are well-defined contractually. The main challenge is achieving critical mass of listings — addressed by launching as a portfolio analytics tool first (low commitment) and adding marketplace functionality once LPs are onboarded. Regulatory: no exchange license needed for OTC LP stake transfers (these are bilateral negotiated transactions).
+
+  **Risk Analysis:**
+  - High: Two-sided marketplace cold-start problem; mitigated by launching analytics-first (single-sided value prop) and partnering with 3-5 large pension consultants (Mercer, Aon, WTW) who advise thousands of pension funds.
+  - Medium: GP consent refusal — some GPs block transfers to preserve LP base quality; mitigated by pre-qualifying buyers against GP criteria and maintaining GP relationship layer.
+  - Medium: Valuation model risk — if the platform's fair-value estimates diverge significantly from realized transaction prices, trust erodes; mitigated by continuous calibration against closed transactions and transparent methodology disclosure.
+  - Low: Regulatory — LP stake transfers are private bilateral transactions, not securities exchange activity. No exchange license required in US (SEC no-action precedent), EU (MiFID II exemption for qualified counterparties), or UK.
+
+  **Legal & Ethical:** Increases market transparency and access for smaller pension funds (fiduciary benefit to pensioners). Reduces information asymmetry in an opaque market. All transactions between qualified institutional investors. Compliant with ILPA best practices and relevant securities exemptions.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

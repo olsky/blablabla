@@ -1,0 +1,39 @@
+id: EP-0061
+title: Autonomous Municipal Water Loss Monetization Platform
+description: |
+  **Idea:** Water utilities lose substantial non-revenue water due to leaks, meter drift, and billing mismatches. This platform ingests smart-meter pulses, pressure telemetry, acoustic sensor events, billing ledgers, and weather/soil context to autonomously isolate probable loss clusters and prioritize interventions by financial return.
+
+  Agents trigger maintenance tickets through utility systems, forecast recovered billable volume, and auto-reconcile post-fix revenue uplift.
+
+  **Why "WOW":** Utilities directly convert infrastructure telemetry into measurable revenue recovery and lower waste.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~8 months (IoT integration mesh, anomaly graph, recovery attribution engine).
+  - Cash Out: annual platform subscription + performance-linked fee on validated recovered revenue.
+
+  **First Year Projections:**
+  - Utility Customers: 320
+  - Average Recovered Billable Revenue per Utility: $900,000
+  - Performance Revenue (8%): $23,040,000
+  - Platform Revenue: $9,600,000
+  - Total Estimated Earnings: $32,640,000
+
+  **Feasibility Score:** 7.7/10
+
+  **Risk Analysis:**
+  - High: Legacy utility IT fragmentation; mitigated with adapter-first architecture and staged district rollout.
+  - Medium: False leak localization; mitigated by multi-signal confirmation and conservative alert confidence thresholds.
+
+  **Legal & Ethical:** Improves public-resource efficiency with transparent, non-discriminatory operational recommendations.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.3-codex
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

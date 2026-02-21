@@ -1,0 +1,45 @@
+id: EP-0121
+title: "Autonomous Global Music & Media Royalty Missing-Payment Recovery Network"
+description: |
+  **Idea:** The global music industry generates **$28B+/yr** in royalties, yet an estimated **$2.5 billion annually** goes uncollected or misallocated — payments sitting in "black boxes" at collecting societies (ASCAP, BMI, GEMA, PRS, SACEM, JASRAC), mechanical royalty funds, streaming platforms, sync licensing intermediaries, and neighboring-rights organizations. Independent artists, small labels, and even mid-size publishers have no way to audit whether they received everything owed. The problem: fragmented rights data, inconsistent metadata (ISRC/ISWC mismatches), unmatched streams, and opaque society distribution rules.
+
+  This network ingests streaming platform reports (Spotify, Apple Music, YouTube Content ID, TikTok, Amazon Music via distributor APIs), PRO/CMO distribution statements, mechanical royalty records, sync license databases, neighboring-rights logs, and public performance monitoring. Autonomous agents reconcile expected royalties (based on stream counts × per-stream rates × ownership shares) against actual payments received, identify discrepancies, file correction claims with the appropriate society or platform, and track resolution.
+
+  **Artist viral loop:** "Connect your catalog → we find your missing money." Any artist on DistroKid, TuneCore, CD Baby, or a label can onboard in 2 minutes by linking their distributor account. The system immediately scans for discrepancies and shows a "Missing Money Dashboard" within hours. Artists who recover $5K tell every musician they know.
+
+  **Label/publisher loop:** Enterprise dashboard with portfolio-wide reconciliation, automated dispute filing, and predictive leakage alerts.
+
+  **Why "WOW":** Every musician alive suspects they're being underpaid but has no way to verify it. This is the first system that actually proves it and then recovers the money autonomously. The viral coefficient in music communities (TikTok, Twitter/X, Reddit) is off the charts.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~7 months (distributor/platform API integrations, PRO data normalization, metadata matching engine, dispute automation).
+  - Cash Out: 15-20% of recovered royalties + enterprise SaaS for labels.
+
+  **First Year Projections:**
+  - Artists/Rights Holders Onboarded: 3,000,000 (of 60M+ independent artists globally)
+  - Discrepancies Identified: $1,800,000,000
+  - Successfully Recovered (Y1): $720,000,000 (40% recovery rate)
+  - Platform Fee Revenue (18%): $129,600,000
+  - Enterprise Label SaaS: $8,400,000
+  - **Total Estimated Earnings: $138,000,000**
+
+  **Feasibility Score:** 8.7/10 — Distributor APIs exist (DistroKid, TuneCore expose reporting). PRO data is partially machine-readable. The metadata matching problem is hard but solvable with fuzzy matching + ISRC/ISWC cross-referencing. Biggest lift is society-by-society dispute filing automation.
+
+  **Risk Analysis:**
+  - High: Collecting society cooperation — some may resist automated audits; mitigated by positioning as "member service enhancement" and regulatory pressure (EU Copyright Directive mandates transparency).
+  - Medium: Metadata quality for older catalogs; mitigated by progressive enrichment and confidence-scored matching.
+  - Low: Artist adoption — the "free money" proposition drives itself.
+
+  **Legal & Ethical:** Recovers rightfully owed royalties using contractual audit rights. Compliant with EU Copyright Directive transparency requirements. No unauthorized access to any system.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

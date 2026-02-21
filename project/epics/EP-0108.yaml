@@ -1,0 +1,33 @@
+id: EP-0108
+title: AI-Driven Autonomous Corporate Benefits & Perks Optimization Engine
+description: |
+  **Idea:** Companies spend $2K-$10K per employee annually on "perks" (gym memberships, wellness apps, stipends, corporate discounts) that see less than 15% utilization because they are rigid and generic. This platform connects to HRIS systems (Workday, Rippling, BambooHR) and corporate card APIs to manage a flexible "stipend wallet." What makes it autonomous and hyper-scale is the "Perk Matching Engine." An AI agent polls anonymous employee demographic data and spending patterns, then autonomously scours local/digital vendors to negotiate bulk-rate discounts or custom packages (e.g., matching 5 employees near a specific zip code for a group discounted yoga studio pass, or auto-generating a Spotify Family plan for a remote pod). It dynamically surfaces hyper-personalized perk options in Slack/Teams.
+
+  **Why "WOW":** HR directors save millions on unused blanket corporate deals. Employees feel like they have a literal personal concierge finding them perks they actually want. It turns generic HR spend into a high-ROI retention tool.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~5 months (HRIS APIs, corporate card issuance infra [Stripe Issuing], vendor negotiation ML agent).
+  - Cash Out: $10-$20/month per employee active on the platform + interchange revenue from the physical/virtual stipend cards.
+
+  **First Year Projections:**
+  - Corporate Customers: 800
+  - Employees Monitored: 120,000
+  - Estimated Earnings: $21,600,000 (SaaS + Interchange fees)
+
+  **Feasibility Score:** 8/10 (Stripe Issuing makes the financial routing trivial. HRIS data integrations are standardized. The AI matching and automated vendor outreach is the core IP).
+
+  **Risk Analysis:**
+  - Medium: Privacy limits on analyzing employee spending data; mitigated by requiring explicit opt-in for personalized matching (which employees give willingly to access tailored discounts).
+  - Low: Technical complexity of integrating HRIS and card issuing.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

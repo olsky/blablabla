@@ -1,0 +1,40 @@
+id: EP-0055
+title: Autonomous OTA Commission Reconciliation & Recovery Engine for Hotels
+description: |
+  **Idea:** Hotels and hospitality groups often lose margin to OTA commission mischarges, parity-violation penalties, and incorrect cancellation-fee deductions hidden across thousands of bookings. This engine ingests PMS records, channel-manager logs, OTA invoices, cancellation windows, and rate-plan contracts to autonomously reconcile expected vs. charged commissions.
+
+  Agents generate dispute packets, submit recovery claims through OTA partner workflows, monitor resolution SLA, and optimize future rate-plan structures to reduce recurring leakage.
+
+  **Why "WOW":** Revenue managers recover hidden profit without adding reconciliation staff, turning opaque OTA billing into a transparent cashflow lever.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~6 months (PMS/channel connectors, commission-rules graph, claim automation).
+  - Cash Out: recovery success fee + property subscription.
+
+  **First Year Projections:**
+  - Hotel/Group Customers: 2,800
+  - Average Recoverable OTA Leakage per Customer: $55,000
+  - Gross Recoveries: $154,000,000
+  - Success-Fee Revenue (14%): $21,560,000
+  - Subscription Revenue: $4,760,000
+  - Total Estimated Earnings: $26,320,000
+
+  **Feasibility Score:** 8.9/10
+
+  **Risk Analysis:**
+  - Medium: OTA policy changes; mitigated with continuously updated policy adapters and versioned reconciliation rules.
+  - Medium: Data latency from channel managers; mitigated through delayed-close reconciliation windows.
+
+  **Legal & Ethical:** Enforces contract-aligned billing recovery only, with evidence-backed claims and transparent audit trails.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.3-codex
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

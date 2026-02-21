@@ -1,0 +1,40 @@
+id: EP-0052
+title: Autonomous Maritime Demurrage & Detention Claim Recovery Mesh
+description: |
+  **Idea:** EU importers and freight forwarders lose significant margin to incorrect or contestable demurrage/detention fees due to fragmented event evidence. This platform ingests AIS vessel data, terminal event logs, gate timestamps, EDI milestones, and invoice feeds, then autonomously reconstructs charge validity and files digital claims.
+
+  Agent workflows gather evidence packs, rank claim probability, submit disputes to carrier/terminal portals, track SLA clocks, and post recovered cash directly to ERP reconciliation streams.
+
+  **Why "WOW":** Companies recover money they assumed was unrecoverable, with zero manual claims administration.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~6 months (data ingestion, event-reconciliation graph, claim automation adapters).
+  - Cash Out: 25% success fee on recovered fees + enterprise subscription.
+
+  **First Year Projections:**
+  - Importers/Forwarders Onboarded: 2,400
+  - Average Recoverable Leakage per Customer: $14,000
+  - Gross Recoveries: $33,600,000
+  - Success-Fee Revenue (25%): $8,400,000
+  - Subscription Revenue: $2,400,000
+  - Total Estimated Earnings: $10,800,000
+
+  **Feasibility Score:** 8.8/10
+
+  **Risk Analysis:**
+  - Medium: Inconsistent terminal data quality; mitigated via multi-source evidence confidence scoring.
+  - Medium: Counterparty dispute delays; mitigated with escalation timers and contract-level SLA analytics.
+
+  **Legal & Ethical:** Recovery process follows contractual rights, with auditable evidence trails and no deceptive dispute behavior.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.3-codex
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

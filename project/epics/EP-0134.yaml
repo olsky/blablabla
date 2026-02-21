@@ -1,0 +1,63 @@
+id: EP-0134
+title: "Autonomous B2B Invoice Instant-Financing & Dynamic Factoring Mesh"
+description: |
+  **Idea:** Global B2B commerce generates **$50+ trillion** in invoices annually. The vast majority — roughly **$45 trillion** — is financed informally through trade credit: "Net 30," "Net 60," "Net 90" payment terms. Suppliers wait weeks or months for payment, tying up working capital that could fuel growth. Meanwhile, large buyers sit on cash, earning near-zero yield, when they could pay early in exchange for discounts.
+
+  Traditional factoring exists but is **fragmented, expensive, and slow**: 2-4% fees, week-long underwriting, and relationship-based selling. Banks focus on large accounts receivable facilities; SMB suppliers are underserved. The $3+ trillion trade finance market is ripe for disruption.
+
+  This mesh creates a **two-sided, real-time invoice financing network**:
+
+  **Data Ingestion:**
+  - Invoice data: from ERP systems (SAP, Oracle, NetSuite, QuickBooks), e-invoicing networks (Ariba, Coupa, Tradeshift), and direct uploads
+  - Buyer creditworthiness: real-time signals from financial statements, payment history, credit ratings (D&B, Experian), news/litigation monitoring
+  - Supplier performance: historical payment receipt patterns, dispute rates, concentration risk
+  - Market rates: risk-free rates, credit spreads, factoring market benchmarks
+
+  **Autonomous Agent Workflow:**
+  1. **Invoice Verification:** Validate invoice authenticity via buyer confirmation (automated AP matching) or three-way match (PO, receipt, invoice).
+  2. **Risk Scoring:** Real-time assessment of buyer credit risk, supplier reliability, and invoice characteristics (amount, tenor, industry, geography).
+  3. **Pricing Engine:** Calculate dynamic discount rate based on: risk score, days until due date, funding source cost-of-capital, competitive market rates.
+  4. **Funding Matching:** Match invoices with funders: (a) buyer's own treasury (early payment in exchange for discount), (b) platform balance sheet, (c) institutional funders (banks, credit funds), (d) invoice marketplace.
+  5. **Instant Settlement:** Advance 95-98% of invoice value to supplier within minutes. Collect from buyer at original due date.
+  6. **Collection & Reconciliation:** Automated collection, payment matching, and dispute resolution.
+
+  **Revenue Model:** Spread on financing (0.4-0.8% of invoice face value for 30-day advances) + platform transaction fee (0.05-0.1% per invoice).
+
+  **Why "WOW":** This is "Uber for invoices" — any supplier can upload an invoice and receive cash in minutes, not weeks. Any buyer can earn yield by paying early. The marketplace liquidity creates a flywheel: more invoices → better pricing → more suppliers → more invoices. Traditional factoring companies (CIT, Bibby, BlueVine) cannot compete on speed or pricing.
+
+  The wedge is the supplier: they're the one waiting for cash. Once suppliers are on the platform, buyers are pulled in (or the platform finances without buyer participation using credit models).
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~10 months (ERP integrations, invoice verification engine, credit-scoring models, funding-partner integrations, settlement infrastructure)
+  - Cash Out: Spread income from day one. Platform earns on every funded invoice.
+
+  **First Year Projections:**
+  - Total Addressable Invoice Volume (SMB suppliers with 30-90 day terms): $8,000,000,000,000
+  - Platform Volume (2%): $160,000,000,000
+  - Average Financing Spread: 0.6%
+  - Spread Revenue: $960,000,000
+  - Transaction Fees (0.08%): $128,000,000
+  - Institutional Funder Fees (for marketplace matches): $62,000,000
+  - **Total Estimated Earnings: $1,150,000,000**
+
+  **Feasibility Score:** 8.6/10 — ERP/e-invoicing integrations are well-established. Credit-scoring models for trade finance are proven. Instant settlement requires banking infrastructure but is achievable via banking-as-a-service partners (Cross River, Column, Lead Bank). Regulatory: platform may need state lending licenses or operate through licensed partners.
+
+  **Risk Analysis:**
+  - High: Credit losses on non-recourse financing if buyers default; mitigated by credit limits, portfolio diversification, and credit insurance
+  - Medium: Buyer verification fraud (fake invoices); mitigated by three-way matching and buyer confirmation workflows
+  - Medium: Two-sided marketplace cold-start; mitigated by supplier-first strategy (can fund without buyer participation using credit models) and integration with existing e-invoicing networks
+  - Low: Regulatory — trade finance is well-established; compliance frameworks exist
+
+  **Legal & Ethical:** Provides working-capital access to SMB suppliers who are currently underserved. Transparent pricing with no hidden fees. Does not charge usurious rates — market-based pricing tied to risk. Supports supply-chain stability.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

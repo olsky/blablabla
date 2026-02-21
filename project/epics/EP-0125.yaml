@@ -1,0 +1,52 @@
+id: EP-0125
+title: "Autonomous Parcel-Level Wildfire Parametric Coverage & Real-Time Risk Pricing Engine"
+description: |
+  **Idea:** Traditional insurers are **withdrawing from wildfire-prone regions** — State Farm and Allstate have stopped writing new policies in California, leaving **4.5 million homeowners** without coverage. Southern Europe, Australia, Canada, and the Western US face the same structural insurance gap. The problem: actuarial models treat fire risk as a regional average, but wildfire risk is hyper-local — two houses 500m apart can have 10x different risk based on vegetation, slope, defensible space, access roads, and wind corridors.
+
+  This engine ingests:
+  - VIIRS/MODIS satellite hotspot data (real-time fire detection, 375m resolution)
+  - Sentinel-2 vegetation indices (NDVI/NBR) and fuel moisture content
+  - High-resolution topography (LiDAR DEMs for slope, aspect, ridgeline exposure)
+  - Weather data (wind speed/direction, humidity, temperature forecasts)
+  - Building-level attributes (roof material, defensible-space radius from aerial imagery)
+  - Power grid status (de-energization events as fire-risk triggers)
+  - Historical fire perimeters and ignition-probability surfaces
+
+  Agents compute a **real-time risk score for every individual parcel** (not zip code — parcel). Parametric triggers are defined: "if an active fire is confirmed by satellite within X km of your parcel AND wind is blowing toward you → automatic payout within 4 hours." No claims adjuster. No delay. Satellite confirms the event, smart contract settles the payout.
+
+  Revenue model: monthly premium per parcel. Reinsured through parametric reinsurance markets (significant capacity exists).
+
+  **Why "WOW":** Millions of homeowners literally cannot buy fire insurance today. This creates an entirely new product category — real-time, parcel-resolution, satellite-verified parametric wildfire coverage — that doesn't exist anywhere. Each person who gets coverage tells their entire neighborhood; the adoption unit is the community, not the individual.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~9 months (satellite pipelines, risk model, parametric trigger engine, reinsurance placement, policy issuance platform).
+  - Cash Out: gross written premium minus claims minus reinsurance cost = net underwriting margin.
+
+  **First Year Projections:**
+  - Parcels Covered: 2,000,000 (of 15M+ at-risk in US + EU + AU)
+  - Average Annual Premium: $180
+  - Gross Written Premium: $360,000,000
+  - Claims + Reinsurance Cost (65% combined ratio target): $234,000,000
+  - Net Underwriting Revenue: $126,000,000
+  - **Total Estimated Earnings: $126,000,000**
+
+  **Feasibility Score:** 8.0/10 — Satellite data is freely available (NASA FIRMS, Copernicus). LiDAR DEMs exist for most developed countries. Parametric insurance is a well-established legal structure. The risk model is novel but builds on proven wildfire-spread simulations. Reinsurance capacity for parametric products is abundant.
+
+  **Risk Analysis:**
+  - High: Catastrophic loss concentration — a mega-fire could trigger mass payouts; mitigated by geographic diversification requirements and catastrophe reinsurance.
+  - Medium: Regulatory approval for parametric products varies by state/country; mitigated by launching in jurisdictions with existing parametric frameworks (UK, Bermuda structure, select US states).
+  - Medium: Basis risk (payout triggers but house doesn't burn, or vice versa); mitigated by calibration using historical fire + damage datasets.
+
+  **Legal & Ethical:** Provides coverage to people the traditional market has abandoned. Transparent trigger definitions. Fully reinsured. Licensed as required per jurisdiction.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

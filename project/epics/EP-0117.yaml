@@ -1,0 +1,37 @@
+id: EP-0117
+title: Autonomous Fisheries Quota Utilization Optimizer
+description: |
+  **Idea:** EU fishing fleets often underutilize quotas or incur penalties for misallocation. This optimizer ingests AIS tracks, haul logs, species detection data, quota ledgers, and market prices. Agents recommend dynamic trip plans, coordinate intra-fleet quota swaps, auto-file compliance reports, and optimize landings for margin.
+
+  **Why "WOW":** Captains maximize revenue per voyage while staying within ecological and legal limits, without manual planners.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~7 months (AIS ingestion, species/quota logic, swap engine, compliance generator).
+  - Cash Out: subscription per vessel + 5% share of uplifted margin.
+
+  **First Year Projections:**
+  - Vessels Onboarded: 2,000
+  - Average Margin Uplift per Vessel: $18,000
+  - Performance Revenue: $1,800,000
+  - Subscription Revenue: $10,000,000
+  - Total Estimated Earnings: $11,800,000
+
+  **Feasibility Score:** 7.7/10
+
+  **Risk Analysis:**
+  - Medium: Data gaps at sea; mitigated via delayed-sync buffering and onboard caching.
+  - Medium: Regulatory scrutiny; mitigated with transparent compliance reports and audit trails.
+
+  **Legal & Ethical:** Supports sustainable fishing within quota limits; no illegal overfishing enablement.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.3-codex
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

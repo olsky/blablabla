@@ -1,0 +1,37 @@
+id: EP-0118
+title: Autonomous Rural Broadband Grant Capture & Compliance Copilot
+description: |
+  **Idea:** Regional ISPs and municipalities miss public broadband grants due to complex applications and reporting. This copilot ingests coverage maps, fiber plant data, census demographics, speed-test telemetry, and grant program rules (EU, national, regional). Agents auto-generate eligibility models, draft applications with budget/engineering plans, and manage post-award compliance reporting with evidence packs.
+
+  **Why "WOW":** Converts grant complexity into predictable cash inflow and accelerates rural coverage buildouts with minimal sales/BD overhead.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~6 months (rule ingestion, plan generator, reporting automation, GIS).
+  - Cash Out: success fee on awarded grants + annual compliance SaaS.
+
+  **First Year Projections:**
+  - ISP/Muni Customers: 450
+  - Average Grants Captured per Customer: $900,000
+  - Success-Fee Revenue (4%): $16,200,000
+  - SaaS Revenue: $3,150,000
+  - Total Estimated Earnings: $19,350,000
+
+  **Feasibility Score:** 8.3/10
+
+  **Risk Analysis:**
+  - Medium: Program rule changes; mitigated via continuous rulepack updates and versioned applications.
+  - Medium: Evidence collection gaps; mitigated with automated field data pulls (speed tests, GIS photos) and validation gates.
+
+  **Legal & Ethical:** Compliant with grant rules; no misrepresentation of coverage; transparent evidence.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.3-codex
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

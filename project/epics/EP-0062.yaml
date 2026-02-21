@@ -1,0 +1,39 @@
+id: EP-0062
+title: Autonomous Mobile Ad-Fraud Refund Recovery Network
+description: |
+  **Idea:** App publishers and gaming studios absorb invalid traffic spend from sophisticated click-injection, SDK spoofing, and install-fraud patterns that are discovered too late. This network ingests MMP attribution logs, SKAdNetwork postbacks, in-app event quality signals, ad-network invoices, and fraud graph telemetry to autonomously quantify refundable spend.
+
+  Agents compile fraud-proof evidence packets, submit refund/rebate claims to ad partners, enforce holdback policies, and dynamically reallocate budgets to cleaner supply paths.
+
+  **Why "WOW":** Growth teams recover budget while simultaneously improving ROAS — a rare immediate double win.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~5 months (attribution connectors, fraud graph, claim workflow automation).
+  - Cash Out: recovery share + network optimization SaaS tier.
+
+  **First Year Projections:**
+  - Publisher/Studio Customers: 4,800
+  - Average Fraud Spend Recovered per Customer: $48,000
+  - Recovery Share Revenue (18%): $41,472,000
+  - SaaS Revenue: $7,680,000
+  - Total Estimated Earnings: $49,152,000
+
+  **Feasibility Score:** 8.9/10
+
+  **Risk Analysis:**
+  - Medium: Ad-network evidence standards vary; mitigated by network-specific claim templates and confidence scoring.
+  - Medium: Attribution blind spots; mitigated through multi-signal anomaly fusion and delayed-conversion correction windows.
+
+  **Legal & Ethical:** Targets only evidence-backed invalid traffic recovery and enforces transparent, contract-aligned claim behavior.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.3-codex
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

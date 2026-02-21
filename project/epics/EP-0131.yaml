@@ -1,0 +1,63 @@
+id: EP-0131
+title: "Autonomous Global Payment Routing & Interchange Optimization Network"
+description: |
+  **Idea:** Global card payments exceed **$50 trillion annually**, generating over **$100 billion in interchange fees** paid by merchants to card networks and issuing banks. Yet the routing decision for each transaction — which network, which acquirer, which payment rail — is made by payment processors with **zero incentive to minimize merchant cost**. Processors often have revenue-sharing arrangements that favor high-cost routes.
+
+  Meanwhile, the payments landscape has exploded with alternatives: ACH/SEPA instant payments (near-zero cost), open banking rails (PSD2, FedNow), BNPL (Klarna, Affirm), crypto rails (stablecoins), and regional networks (RuPay, UnionPay, PIX). Each transaction has an optimal route — but no one is optimizing for the merchant.
+
+  This network creates an **intelligent payment routing layer** that sits between merchants and their acquirers/PSPs:
+
+  **Data Ingestion:**
+  - Real-time transaction data: BIN (card issuer), card type (credit/debit/prepaid/corporate), amount, currency, geography, merchant category code (MCC)
+  - Acquirer fee schedules: interchange, assessment fees, acquirer markup, currency conversion spreads
+  - Alternative rail availability: ACH/SEPA cutoffs, instant-payment network coverage, open-banking consent status, BNPL eligibility
+  - Historical authorization rates by route (some rails have higher auth rates for certain card types)
+  - Chargeback rates by rail (ACH has no chargebacks; cards do)
+
+  **Autonomous Agent Workflow:**
+  1. **Transaction Interception:** API-based middleware receives payment intent from merchant checkout
+  2. **Route Scoring:** For each available rail, calculate: total cost (fees + FX + chargeback risk), authorization probability, settlement speed, customer friction
+  3. **Optimal Selection:** Route to lowest-cost rail that meets merchant's auth-rate and settlement-speed requirements
+  4. **Dynamic Fallback:** If primary rail declines, automatically retry on secondary rail
+  5. **Continuous Optimization:** Learn from outcomes, adjust scoring models, negotiate better rates with acquirers based on volume steering
+
+  **Revenue Model:** Basis-point share of savings — 20-25% of the cost reduction vs. merchant's baseline routing. Merchants pay nothing unless they save money.
+
+  **Why "WOW":** This is the "Google Flights for payments" — suddenly merchants see their true cost options and always get the best price. The $100B interchange pool is sacrosanct to Visa/Mastercard, but routing optimization chips away at it legally by steering to lower-cost rails. Every merchant CFO will adopt this instantly — it's free money.
+
+  Network effects are massive: as volume grows, negotiating leverage with acquirers increases, enabling even lower rates, attracting more merchants.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~8 months (acquirer API integrations, BIN database licensing, routing engine, merchant SDK/API)
+  - Cash Out: Savings share from transaction one. No sales cycle — merchants see immediate value.
+
+  **First Year Projections:**
+  - Addressable Card Volume (mid-market merchants): $8,000,000,000,000
+  - Volume Routed Through Platform (5%): $400,000,000,000
+  - Average Savings per Transaction: 25 basis points (0.25%)
+  - Total Merchant Savings: $1,000,000,000
+  - Platform Share of Savings (25%): **$250,000,000**
+  - Premium Volume (enterprise direct deals at higher share): **$850,000,000**
+  - **Total Estimated Earnings: $1,100,000,000**
+
+  **Feasibility Score:** 8.8/10 — Payment routing is well-understood; the technology is proven. BIN databases are commercially available. Acquirer APIs exist. The challenge is achieving scale quickly enough to unlock negotiating leverage. Regulatory: no licensing required for routing optimization (not money transmission).
+
+  **Risk Analysis:**
+  - High: Card network retaliation — Visa/MC could impose routing restrictions or penalties; mitigated by legal compliance (Durbin amendment protects debit routing choice in US) and geographic diversification
+  - Medium: Acquirer pushback — processors may resist volume steering; mitigated by multi-acquirer strategy and direct acquirer partnerships
+  - Medium: Settlement complexity with multiple rails; mitigated by unified reconciliation layer
+  - Low: Merchant adoption friction — API integration required; mitigated by Shopify/WooCommerce/Stripe plugin ecosystem
+
+  **Legal & Ethical:** Fully legal route optimization. Durbin Amendment explicitly protects merchant routing choice for debit. PSD2 enables open banking alternatives in EU. No consumer data misuse — routing decisions based on transaction metadata only.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

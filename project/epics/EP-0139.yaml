@@ -1,0 +1,66 @@
+id: EP-0139
+title: "Autonomous Enterprise Tax Credit & Incentive Auto-Capture Engine"
+description: |
+  **Idea:** Governments worldwide offer **$500+ billion annually** in tax credits and incentives to encourage behavior: R&D investment, job creation, energy efficiency, equipment purchases, location decisions, training programs, veteran hiring, and dozens of other categories. Yet most companies claim **less than 50%** of the credits they're legally entitled to.
+
+  **Why the gap?** Awareness (didn't know the credit existed), complexity (500+ federal/state/local programs with different rules), documentation (need contemporaneous records that weren't kept), and calculation (arcane formulas requiring specialized expertise). The tax-credit industry is dominated by boutique consultancies charging 25-35% of credits captured — and even they miss opportunities.
+
+  This engine creates an **autonomous, continuous tax credit identification and capture system**:
+
+  **Data Ingestion:**
+  - ERP general ledger: R&D expenditures (wages, supplies, contractors), capital expenditures, training costs, utility consumption
+  - Payroll data: employee locations, job categories, hire dates, demographics (for hiring credits)
+  - HR data: training programs, certifications, veteran/ex-felon/disadvantaged-worker designations
+  - Property data: real estate owned/leased, energy systems, equipment purchases
+  - Project data: new construction, expansion, relocation, technology implementation
+  - Regulatory database: all federal, state, local, and foreign tax credits with eligibility rules, calculation methods, filing requirements, and deadlines
+
+  **Autonomous Agent Workflow:**
+  1. **Credit Discovery:** Continuously scan regulatory database against company profile. Identify all potentially applicable credits (R&D, WOTC, energy efficiency, state job credits, investment credits, etc.).
+  2. **Eligibility Evaluation:** For each potential credit, evaluate: does the company's activity qualify? Are thresholds met? Is documentation available?
+  3. **Documentation Assembly:** Auto-extract supporting documentation from source systems. Generate contemporaneous records where possible. Flag documentation gaps for remediation.
+  4. **Calculation Engine:** Apply credit-specific formulas. Handle complexities: aggregation rules, at-risk limitations, credit ordering, carryforward/carryback, AMT interactions.
+  5. **Return Preparation:** Generate tax-return schedules and supporting workpapers. Feed to tax software (Thomson Reuters, CCH, SAP Tax) or provide audit-ready packages.
+  6. **Amended Returns:** Identify prior-year credits not claimed. Prepare amended returns and refund claims (3-year lookback for most credits).
+  7. **Ongoing Monitoring:** Track regulatory changes. Alert when new credits become available or existing credits change.
+
+  **Revenue Model:** Contingency fee — 15-20% of credits captured. No upfront cost — companies only pay when credits are realized. Premium tier with lower contingency for enterprise customers with predictable credit volumes.
+
+  **Why "WOW":** Every CFO knows they're probably missing tax credits but can't justify hiring consultants for uncertain returns. This engine flips the model: continuous, automated scanning with pay-only-on-success economics. A mid-market manufacturer with $50M in R&D spend might qualify for $4M in federal and state R&D credits, plus $500K in other credits — money left on the table every year.
+
+  The data advantage compounds: as the engine processes more companies, it builds proprietary intelligence on audit-success rates by jurisdiction, documentation patterns, and regulatory interpretations.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~10 months (ERP integrations, regulatory database, calculation engine, documentation generator)
+  - Cash Out: Contingency revenue from first filed credits. Amended returns can accelerate recognition.
+
+  **First Year Projections:**
+  - Total Available Tax Credits (US federal + state): $300,000,000,000 (estimated, including unclaimed)
+  - Unclaimed/Under-claimed Credits: $150,000,000,000
+  - Capturable by Platform (60%): $90,000,000,000
+  - Platform Market Share (10%): $9,000,000,000 in credits captured
+  - Contingency Fee (15%): **$1,350,000,000**
+  - Enterprise Subscription Revenue: **$85,000,000**
+  - **Total Estimated Earnings: $1,435,000,000**
+
+  **Feasibility Score:** 8.5/10 — ERP integrations are mature. Tax-credit rules are complex but codifiable. Documentation requirements are well-defined. The challenge is regulatory database maintenance — thousands of programs with constant changes. Mitigated by dedicated regulatory-monitoring team supplemented by AI-based change detection.
+
+  **Risk Analysis:**
+  - Medium: IRS/state audit risk — aggressive credit claims invite scrutiny; mitigated by conservative interpretation, robust documentation, and audit-defense support (included in pricing)
+  - Medium: Regulatory change — credits can be reduced or eliminated; mitigated by diversification across credit types and jurisdictions
+  - Low: Customer adoption — CFOs love found money; zero-risk contingency model removes barriers
+  - Low: Competitive — boutique consultants can't match automation scale; Big 4 are conflicted on contingency
+
+  **Legal & Ethical:** Helps companies claim credits they are legally entitled to — reduces effective tax burden while promoting policy goals (R&D, jobs, sustainability). Does not promote aggressive or questionable positions. All credits are substantiated with documentation. Supports tax compliance, not avoidance.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

@@ -1,0 +1,38 @@
+id: EP-0050
+title: Autonomous "Dark Pool" SME Credit Routing Engine
+description: |
+  **Idea:** Small and Medium Enterprises (SMEs) seeking business loans spend an average of 26 hours and face 40% rejection rates at traditional banks — not because they lack creditworthiness, but because banks can't efficiently price non-standard risk. Simultaneously, institutional capital from family offices, credit funds, and community development financial institutions (CDFIs) sits idle, looking for yield with acceptable risk characteristics.
+
+  This platform is an autonomous credit routing mesh. SMEs connect their accounting stack (QuickBooks, Xero, Stripe, Shopify) via read-only API. Autonomous agents build a real-time business health profile — revenue velocity, customer concentration, payment cycle, gross margin trends — and translate this into a structured creditworthiness package. The package is then matched against a live registry of 200+ institutional capital providers with their stated appetite parameters. When there's a match, the system auto-generates term sheet drafts and initiates a digital negotiation protocol between both parties. All matching, scoring, and document generation is autonomous.
+
+  **Why "WOW":** SMEs get a loan offer in hours, not months, without a bank. Capital providers get pre-qualified, data-rich deal flow at zero origination cost. Both sides experience a moment of genuine amazement — the kind that drives viral word-of-mouth in tight SME communities and finance circles.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~7 months (Accounting API integration mesh, credit scoring ML, capital provider registry, negotiation protocol engine, legal document generation).
+  - Cash Out: 1% origination fee from lender side + $299-$499/month SaaS for SME access.
+
+  **First Year Projections:**
+  - SME Borrowers Matched: 16,000
+  - Average Loan Size: $150,000
+  - Origination Revenue (1%): $24,000,000
+  - SaaS Revenue: $4,200,000
+  - Total Estimated Earnings: $28,200,000
+
+  **Feasibility Score:** 8.5/10 (All APIs exist; credit scoring ML is proven; the innovation is the autonomous matching and negotiation protocol. Regulatory framework for credit matching platforms is established in most jurisdictions.)
+
+  **Risk Analysis:**
+  - High: Financial regulation compliance varies by jurisdiction; mitigated by positioning as a "marketplace" not a "lender" and working with licensed origination partners.
+  - Medium: Capital provider onboarding requires trust-building — mitigated by launching with 20 anchor CDFI partners.
+  - Medium: SME data quality varies; mitigated by multi-source reconciliation across accounting + payment APIs.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

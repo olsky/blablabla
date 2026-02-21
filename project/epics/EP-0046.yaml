@@ -1,0 +1,33 @@
+id: EP-0046
+title: Autonomous SaaS Churn Prediction & Revenue Recovery Engine
+description: |
+  **Idea:** SaaS companies lose 5-7% of revenue monthly to churn, yet most don't know a customer is leaving until they've already cancelled. This platform connects to a SaaS product's data stack (database, Mixpanel, Stripe, Intercom) via read-only API keys, trains a per-company behavioral churn model on historical cohort data, and then runs continuously. When it detects a user entering a "churn trajectory" (defined by feature withdrawal, login drop, and support ticket sentiment), autonomous agents execute a pre-configured multi-step win-back playbook: custom discount generation, feature unlock, or targeted success content — all without human involvement. A compensation agent monitors win-back campaign ROI and adjusts the playbook dynamically.
+
+  **Why "WOW":** Recovering even 20% of churn saves the average $5M ARR SaaS company $600k/year. The system literally generates more revenue than its own cost within 30 days of deployment for most customers.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months (Behavioral ML pipeline, multi-CRM connectors, win-back playbook engine).
+  - Cash Out: $1,000-$8,000/month subscription + success-fee % of recovered ARR.
+
+  **First Year Projections:**
+  - SaaS Companies: 3,500
+  - Average Plan: $3,200/month
+  - Estimated Earnings: $13,440,000
+
+  **Feasibility Score:** 9/10 (All required APIs (Stripe, Mixpanel, Intercom) are readily available. Churn prediction ML is a well-solved problem. The innovation is fully autonomous win-back execution.)
+
+  **Risk Analysis:**
+  - Low: Autonomous discount/unlock execution requires careful guardrails; mitigated by configurable policy limits per customer.
+  - Low: Model accuracy — cold-start issue for new customers with limited history, mitigated by transfer learning from aggregate cohort data.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,55 @@
+id: EP-0126
+title: "Autonomous Global Court Filing Intelligence & Litigation Signal Graph"
+description: |
+  **Idea:** The world's courts generate **millions of filings daily** — lawsuits, motions, judgments, liens, bankruptcy petitions, regulatory enforcement actions — but there is no unified, real-time, structured feed of this data. PACER (US federal courts) alone processes 88M filings/year; add state courts, EU courts (CJEU, national systems), UK courts, and you have a firehose of actionable intelligence that is **entirely dark** to most market participants.
+
+  Law firms, hedge funds, credit insurers, enterprise risk teams, and investigative journalists all need to know: "Who is suing whom, for how much, over what, and what's the likely outcome?" Today they learn days or weeks late, or never.
+
+  This engine deploys autonomous filing-ingestion agents across:
+  - US PACER + all 50 state court EFSP systems
+  - UK HMCTS, EU CJEU, ECHR, and all 27 member-state court systems
+  - International arbitration registries (ICC, LCIA, ICSID, SIAC)
+  - Regulatory enforcement dockets (SEC, FTC, EU DG COMP, BaFin, FCA)
+  - Lien registries, UCC filings, and judgment databases
+
+  Agents extract parties, claims, amounts, judge assignments, case types, and outcomes using legal-domain NLP. They construct a **real-time litigation graph** — a connected knowledge graph where every entity (person, company, law firm, judge) is a node and every legal proceeding is an edge with attributes. The system detects:
+  - Early signals of corporate distress (spike in supplier lawsuits)
+  - Emerging mass-tort patterns (clustered personal-injury filings)
+  - Regulatory enforcement waves (coordinated multi-jurisdiction actions)
+  - Litigation funding opportunities (high-merit, underfunded cases)
+
+  Revenue model: tiered API access (per-query + streaming subscriptions) + enterprise platform licenses.
+
+  **Why "WOW":** No one has built a real-time, global litigation graph. The data exists but is fragmented across thousands of court systems, each with its own format, access rules, and quirks. Whoever unifies this first creates a moat that is nearly impossible to replicate — court-level access agreements, parser coverage, and entity resolution quality compound over time. Every law firm, every hedge fund, every insurer would pay immediately.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~10 months (court system integrations, NLP pipelines, graph construction, API platform).
+  - Cash Out: subscription and per-query revenue from day one once coverage reaches critical mass (~30% of US federal + top 10 state courts + UK + EU).
+
+  **First Year Projections:**
+  - Enterprise Subscribers: 4,800 (law firms: 3,000, hedge funds: 600, insurers: 400, corporates: 800)
+  - Average Annual Contract: $28,000
+  - Enterprise Revenue: $134,400,000
+  - API/Pay-Per-Query Revenue: $14,200,000
+  - **Total Estimated Earnings: $148,600,000**
+
+  **Feasibility Score:** 8.1/10 — PACER data is publicly available (fee-based). UK and EU courts increasingly offer electronic access. Entity resolution across jurisdictions is challenging but tractable with modern NLP and knowledge-graph techniques. Legal: all court filings are public records. The moat is execution speed and coverage breadth.
+
+  **Risk Analysis:**
+  - High: Court systems may rate-limit or restrict automated access; mitigated by negotiating bulk access agreements and deploying distributed ingestion infrastructure.
+  - Medium: Entity resolution errors (confusing "ABC Corp" across jurisdictions); mitigated by multi-signal disambiguation (addresses, registration numbers, attorney linkages).
+  - Low: Competitor replication — the integration complexity across thousands of court systems creates a structural moat.
+
+  **Legal & Ethical:** All data sourced from public court records. No sealed or confidential filings are accessed. GDPR considerations for EU personal data addressed through lawful-basis processing (legitimate interest in public judicial records) with appropriate data minimization.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

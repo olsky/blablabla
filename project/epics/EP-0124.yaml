@@ -1,0 +1,54 @@
+id: EP-0124
+title: "Autonomous Global Empty-Container Matching & Repositioning Exchange"
+description: |
+  **Idea:** The global shipping industry moves **800 million containers/year**, but **25-30% of all movements are EMPTY** — deadhead repositioning that costs the industry **$20-30 billion annually** in pure waste. An empty 40-foot container costs $800-$2,500 to reposition across a single ocean leg. The root cause: massive trade imbalances (e.g., Asia→Europe is full, Europe→Asia is often empty). Today, repositioning is managed by individual shipping lines using internal planners and spreadsheets, with virtually zero cross-carrier coordination.
+
+  This exchange ingests:
+  - AIS vessel tracking data (global fleet positions in real time)
+  - Container tracking events (gate-in/out, vessel load/discharge)
+  - Trade-lane demand forecasts (customs data, booking pipelines)
+  - Empty container inventory at every port and depot worldwide
+  - Carrier rate cards and willingness-to-lease parameters
+
+  Autonomous agents:
+  (1) Build a real-time global heat map of container surplus/deficit by location, equipment type, and time window.
+  (2) Match exporters needing containers in surplus locations with carriers who would otherwise reposition empty.
+  (3) Execute cross-carrier container leases ("street turns") that eliminate unnecessary depot moves.
+  (4) Auto-negotiate spot rates for one-way container use, splitting savings between shipper and carrier.
+  (5) Settle financially between all parties via integrated payment rails.
+
+  **Why "WOW":** This is a $20B+ annual cost that every shipping line and shipper recognizes but no one has solved because it requires cross-carrier cooperation on a neutral platform. Think "Uber for empty containers." The environmental win (millions of tons of CO2 from empty moves) adds ESG magnetism.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~9 months (AIS integration, carrier API adapters, matching engine, settlement rails, demand forecasting).
+  - Cash Out: 8% of savings generated per match + carrier listing fees.
+
+  **First Year Projections:**
+  - Carriers Onboarded: 35 (of ~100 major lines)
+  - Empty Moves Eliminated: 4,200,000
+  - Average Savings per Eliminated Move: $1,200
+  - Gross Savings: $5,040,000,000
+  - Platform Revenue (8%): $403,200,000
+  - Conservative Realization (30% fill rate Y1): $120,960,000
+  - **Total Estimated Earnings: $120,960,000**
+
+  **Feasibility Score:** 7.8/10 — AIS data is commodity. Container tracking is standardized (EDI/BIC). The matching algorithm is computationally tractable. The hard part is carrier adoption — shipping is conservative. Mitigated by launching with 3-5 anchor carriers and demonstrating undeniable savings.
+
+  **Risk Analysis:**
+  - High: Carrier reluctance to share competitive data; mitigated by anonymized matching where carriers only see matched opportunities, not competitor positions.
+  - Medium: Contractual complexity of cross-carrier container use; mitigated by standardized interchange agreements (already exist in the industry via BIC).
+  - Low: Technical — the algorithms are variants of well-understood vehicle routing problems.
+
+  **Legal & Ethical:** No antitrust risk — container sharing/interchange is explicitly permitted and already practiced bilaterally. Platform operates as a neutral exchange. Compliant with FMC (US) and EU competition law.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

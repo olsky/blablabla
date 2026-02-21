@@ -1,0 +1,69 @@
+id: EP-0133
+title: "Autonomous Prescription Drug Rebate Leakage Recovery Oracle"
+description: |
+  **Idea:** The US pharmaceutical supply chain moves **$600+ billion annually** in drug spend, with **$180+ billion** flowing back as manufacturer rebates to PBMs (Pharmacy Benefit Managers) and health plans. These rebates are negotiated in byzantine contracts — 50+ page agreements with tier structures, market-share thresholds, volume bands, exclusivity clauses, and true-up calculations.
+
+  **The leakage is staggering:** 5-10% of entitled rebates are never collected or incorrectly calculated. This represents **$9-18 billion annually** left on the table due to:
+  - Classification errors (drug assigned to wrong rebate tier)
+  - Threshold miscalculations (volume bands not properly credited across 340B, Medicaid, commercial)
+  - Contract ambiguity (vague language interpreted in manufacturer's favor)
+  - PBM pass-through failures (PBMs retain rebates that should flow to plans)
+  - Timing errors (rebates claimed outside contractual windows)
+
+  This oracle creates an **autonomous rebate entitlement and recovery engine**:
+
+  **Data Ingestion:**
+  - Claims data: NDC (National Drug Code), quantity, date of service, patient eligibility, pharmacy, prescriber
+  - Rebate contracts: all manufacturer agreements (parsed from PDF via specialized legal NLP)
+  - Formulary data: tier assignments, PA requirements, step therapy rules
+  - Rebate payment records: actual payments received from manufacturers (277CA, custom formats)
+  - Market data: WAC (Wholesale Acquisition Cost), AWP, AMP for rebate calculations
+
+  **Autonomous Agent Workflow:**
+  1. **Contract Parsing:** Extract rebate terms from contracts: base rebates, tier differentials, volume thresholds, market-share bonuses, exclusivity requirements, inflation protection clauses.
+  2. **Entitlement Calculation:** For every claim, compute expected rebate based on contract terms, NDC classification, and applicable thresholds.
+  3. **Payment Reconciliation:** Match expected rebates against actual manufacturer payments. Identify underpayments, missed payments, and classification errors.
+  4. **Root Cause Analysis:** Classify each shortfall: contract interpretation issue, PBM error, manufacturer error, data quality issue.
+  5. **Recovery Claim Generation:** Generate documented recovery claims with supporting evidence (contract citations, claims detail, calculation methodology).
+  6. **Negotiation Support:** Provide audit-ready packages for manufacturer discussions. Track recovery outcomes.
+
+  **Revenue Model:** Pure contingency — 25-30% of recovered rebate leakage. Plans pay nothing unless money is recovered.
+
+  **Why "WOW":** Every health plan CFO suspects they're leaving money on the table but has no way to audit the black box of PBM rebate accounting. This oracle shines a light into the darkness — automatically calculating what you're owed vs. what you received. The first plan to deploy this will recover millions; word spreads fast in the benefits community.
+
+  The moat deepens over time: as the oracle processes more contracts, it builds proprietary intelligence on manufacturer rebate strategies and PBM pass-through practices.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~9 months (contract parsing engine, claims-to-rebate matching, reconciliation platform, recovery workflow)
+  - Cash Out: Contingency revenue from first recovery. Typical recovery cycles are 60-90 days from claim submission.
+
+  **First Year Projections:**
+  - Total Rebate Pool: $180,000,000,000
+  - Estimated Leakage (6%): $10,800,000,000
+  - Recoverable Subset (45% — some leakage is uncollectable): $4,860,000,000
+  - Platform Market Share (25%): $1,215,000,000 in recoveries
+  - Contingency Fee (28%): **$340,200,000**
+  - Additional Analytics Subscription Revenue: **$860,000,000** (from PBMs and plans wanting proactive monitoring)
+  - **Total Estimated Earnings: $1,200,200,000**
+
+  **Feasibility Score:** 8.2/10 — Claims data is readily available to plans. Contract parsing is challenging but tractable with legal AI. Rebate reconciliation logic is deterministic once contracts are parsed. Regulatory: no barriers — plans have the right to audit their rebate entitlements.
+
+  **Risk Analysis:**
+  - High: PBM resistance — PBMs benefit from opacity and may resist providing data; mitigated by positioning as plan-side tool (plans own their claims data) and regulatory pressure from DOL/HHS on PBM transparency
+  - Medium: Manufacturer pushback on recovery claims; mitigated by airtight documentation and willingness to escalate to legal arbitration
+  - Medium: Contract interpretation disputes; mitigated by building case law database as recoveries succeed
+  - Low: HIPAA — all data is aggregated rebate calculations, not individual PHI
+
+  **Legal & Ethical:** Helps health plans recover money legitimately owed under contract. Increases transparency in the opaque PBM ecosystem. Supports employer fiduciary duties under ERISA. Does not involve any improper access or data misuse.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

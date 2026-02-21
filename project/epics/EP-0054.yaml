@@ -1,0 +1,39 @@
+id: EP-0054
+title: Autonomous Refund Abuse Suppression & Recovery Fabric
+description: |
+  **Idea:** E-commerce platforms and marketplaces lose large margins to coordinated refund abuse (wardrobing, empty-box returns, serial refunders, policy gaming). This service ingests return center scans, parcel weight anomalies, device/account graphs, payment telemetry, support transcripts, and product risk signals to autonomously score refund legitimacy before payout.
+
+  Agents route low-risk refunds instantly (customer experience preserved), hold suspicious cases, trigger evidence requests, and auto-generate merchant-safe denial or partial-compensation outcomes. For approved abuse cases, agents recover value via inventory relisting, account-level controls, and policy tuning loops.
+
+  **Why "WOW":** Merchants reduce refund leakage without hurting honest customers — profit recovery and customer trust improve simultaneously.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~6 months (returns-intel graph, logistics evidence connectors, policy decision engine).
+  - Cash Out: per-order risk API + performance fee on prevented abuse.
+
+  **First Year Projections:**
+  - Merchants Onboarded: 6,500
+  - Orders Assessed: 2,100,000,000
+  - API Revenue: $9,450,000
+  - Prevented-Abuse Share Revenue: $11,300,000
+  - Total Estimated Earnings: $20,750,000
+
+  **Feasibility Score:** 8.4/10
+
+  **Risk Analysis:**
+  - Medium: False-positive denial risk; mitigated with conservative thresholds and customer-friendly fallback policies.
+  - Medium: Cross-border return-policy variation; mitigated with merchant-specific policy engines and jurisdiction profiles.
+
+  **Legal & Ethical:** Uses transparent, explainable risk controls and avoids discriminatory attributes; all decisions are auditable and appealable.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.3-codex
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

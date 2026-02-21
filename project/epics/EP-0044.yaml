@@ -1,0 +1,34 @@
+id: EP-0044
+title: Autonomous Cross-Border Digital Entity Tax Optimization Engine
+description: |
+  **Idea:** Digital-native companies (SaaS, creator platforms, digital agencies) operating across multiple jurisdictions systematically overpay corporate tax because manually optimizing entity structures, transfer pricing, and VAT registration thresholds across 30+ jurisdictions is beyond most CFO teams. This system maintains a continuously-updated graph of global tax treaties, permanent-establishment rules, and digital services tax thresholds. An autonomous optimization agent analyzes the company's revenue flows (via accounting API integrations: Xero, QuickBooks, Stripe) and generates a ranked set of restructuring recommendations with projected savings. A secondary agent monitors for regulatory changes and proactively alerts when the optimization structure is at risk.
+
+  **Why "WOW":** A $5M ARR SaaS company typically leaves $300k-$800k on the table annually through suboptimal tax structure. This pays for itself 50x over. CFOs will mandate this tool the same week they see the first report.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~6 months (Tax treaty graph database, accounting API integrations, optimization model).
+  - Cash Out: $1,500-$8,000/month subscription tiered by company revenue.
+
+  **First Year Projections:**
+  - Paying Companies: 4,500
+  - Average Plan: $3,500/month
+  - Estimated Earnings: $14,175,000
+
+  **Feasibility Score:** 8/10 (Tax data is public; accounting APIs (Stripe, Xero) are excellent. Challenge is maintaining high-quality treaty graph.)
+
+  **Risk Analysis:**
+  - Medium: Tax law changes rapidly; requires continuous data pipeline maintenance.
+  - Medium: Liability if incorrect recommendations cause audit — mitigated by "informational, not advice" framing + CPA review handoff.
+  - Low: Technical complexity of API integrations.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

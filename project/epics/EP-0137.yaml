@@ -1,0 +1,65 @@
+id: EP-0137
+title: "Autonomous Insurance Distribution & Real-Time Risk Aggregation Network"
+description: |
+  **Idea:** Global insurance premiums exceed **$7 trillion annually**, with **$1+ trillion** flowing to distribution — brokers, agents, and intermediaries who earn 10-20% commissions. The distribution layer is **almost entirely human**: brokers meet with clients, assess needs, shop carriers, present quotes, bind policies, and handle renewals.
+
+  For personal lines (auto, home) and small commercial (BOP, WC), the economics barely work: $1,000 premium × 15% commission = $150, minus acquisition cost, servicing, and human time. Millions of underserved consumers and small businesses can't get adequate coverage because no human will spend time on them.
+
+  This network creates a **fully autonomous insurance distribution layer**:
+
+  **Data Ingestion:**
+  - Risk intake: API-based data collection (for embedded insurance) or conversational UI. Auto-enrich from public sources (property data, business registrations, vehicle databases).
+  - Carrier APIs: real-time rating and quoting from carriers (Travelers, Hartford, AmTrust, Markel, Next) and MGA aggregators (Pathpoint, Bold Penguin, Tarmika)
+  - Coverage comparison: policy-form database for apples-to-apples coverage analysis
+  - Customer data: CRM integration for existing client renewal and cross-sell
+  - Claims data: loss-run aggregation for commercial risks
+
+  **Autonomous Agent Workflow:**
+  1. **Risk Qualification:** Collect minimum data to determine eligibility. Use enrichment APIs to auto-fill (Verisk, LexisNexis, Dun & Bradstreet).
+  2. **Multi-Carrier Rating:** Simultaneously quote all eligible carriers. Compare premiums, coverage terms, exclusions, deductibles.
+  3. **Recommendation Engine:** ML-based recommendation balancing price, coverage quality, claims reputation, and customer preferences.
+  4. **Bind & Issue:** Direct policy issuance via carrier APIs. Generate certificates, dec pages, policy documents.
+  5. **Ongoing Servicing:** Automated endorsements, certificate fulfillment, audit responses (for WC), and renewal quoting.
+  6. **Claims Assistance:** First-notice-of-loss intake, claims tracking, settlement support.
+  7. **Cross-Sell & Upsell:** Identify coverage gaps. Proactively offer additional products (umbrella, cyber, EPLI) at renewal or based on triggering events.
+
+  **Revenue Model:** Commission share — 8-15% of premium, same as human brokers but at near-zero marginal cost per policy.
+
+  **Why "WOW":** Insurance distribution is a trillion-dollar toll booth run by humans who can only handle so many clients. This network removes the human bottleneck. Suddenly, every small business can get a quote in 30 seconds. Every embedded checkout (travel, e-commerce, gig) can offer insurance at point of purchase. Every renewal is automatically re-quoted for best price.
+
+  The aggregation effect is powerful: as the network sees more risk, it builds proprietary data on loss experience, pricing trends, and coverage gaps — intelligence that carriers covet.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~9 months (carrier API integrations, rating engine, bind automation, servicing workflows)
+  - Cash Out: Commission revenue from first bound policy. Revenue compounds with renewals (85%+ retention typical).
+
+  **First Year Projections:**
+  - Total Addressable Premium (SMB commercial + personal lines): $2,000,000,000,000
+  - Platform-Intermediated Premium (0.6%): $12,000,000,000
+  - Average Commission Rate: 10%
+  - Commission Revenue: $1,200,000,000
+  - Policy Fees (embedded, certificates): $52,000,000
+  - Data Licensing (anonymized risk insights to carriers): $25,000,000
+  - **Total Estimated Earnings: $1,277,000,000**
+
+  **Feasibility Score:** 8.4/10 — Carrier APIs are increasingly available (IVANS, ACORD standards). Aggregator platforms (Bold Penguin, Tarmika) enable multi-carrier quoting. Binding authority is obtainable via agency or MGA licensing. Servicing workflows are well-defined. Main challenge is achieving premium volume for negotiating leverage with carriers.
+
+  **Risk Analysis:**
+  - High: Carrier dependency — carriers control commission rates and API access; mitigated by multi-carrier diversification and MGA authority (direct binding rights)
+  - Medium: E&O (errors and omissions) liability for coverage gaps or misrepresentation; mitigated by comprehensive disclosure, E&O insurance, and human escalation for complex risks
+  - Medium: Regulatory licensing — insurance distribution requires licenses in every state/country; mitigated by partnering with licensed agency rollups or phased state-by-state licensing
+  - Low: Customer adoption — businesses and consumers want cheaper, faster insurance; value prop is clear
+
+  **Legal & Ethical:** Provides insurance access to underserved segments. Transparent pricing (shows multiple carrier options). No incentive to push inferior coverage — recommendation engine optimizes for customer outcomes. Fully licensed and compliant.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

@@ -1,0 +1,34 @@
+id: EP-0103
+title: Autonomous Freight & Customs Clearance API
+description: |
+  **Idea:** Moving goods internationally requires a human Customs Broker to read a digital Bill of Lading (BOL), classify each item into a Harmonized System (HS) code (a 10-digit number out of 200,000+ possibilities), calculate duties, and file it with border agencies. This system wholly replaces the broker. It ingests the manufacturer's raw invoice or BOL via API or email parser. Using multi-modal LLMs trained specifically on the World Customs Organization (WCO) database and historical rulings, it accurately classifies the entire shipping manifest in seconds. It calculates the precise duties using real-time tariff APIs and auto-files the import declaration to the local CBP (Customs & Border Protection) system via EDI.
+
+  **Why "WOW":** A mid-sized importer pays $100-$250 per shipment to a human broker, and clearance takes 24-48 hours. This API clears the shipment in 5 seconds for $35. Importers save millions in fees and eliminate port demurrage delays entirely.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~8 months (Ingesting WCO databases, fine-tuning classification models, mapping local customs EDI endpoints [e.g., US ACE system], securing brokerage licensing).
+  - Cash Out: $35 flat fee per clearance + SaaS subscription for the dashboard.
+
+  **First Year Projections:**
+  - Active Importers: 300
+  - Shipments Cleared: 1,200,000
+  - Estimated Earnings: $42,000,000
+
+  **Feasibility Score:** 7/10 (The AI classification is robust and highly viable. The blocker is regulatory: the software provider often needs an active Customs Broker License to legally submit the EDI on the client's behalf, or it must operate strictly as "drafting software" for the client's own compliance team to click 'submit'.)
+
+  **Risk Analysis:**
+  - High: Regulatory friction; submitting an incorrect HS code can result in massive fines for the importer.
+  - Medium: Legal structure regarding who holds the liability for the declaration.
+  - Low: Technical execution of the NLP classification (it's significantly better than humans at the long-tail edge cases).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

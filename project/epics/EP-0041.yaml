@@ -1,0 +1,35 @@
+id: EP-0041
+title: Autonomous Clinical Trial Patient Matching Engine
+description: |
+  **Idea:** The global clinical trial recruitment crisis costs pharma $8B/year in delays. This platform autonomously ingests de-identified patient records from consenting health systems (via HL7 FHIR APIs), applies multi-dimensional eligibility criteria matching using structured EHR data, and surfaces pre-qualified patient cohorts to trial sponsors. A background agent continuously monitors new trials as they register on ClinicalTrials.gov, triggers cohort analysis, and delivers ranked match reports to pharma procurement departments — all without human intervention.
+
+  **Why "WOW":** It takes pharma 26 months on average to recruit a single trial. This cuts it to weeks. The moment a health system signs on, it creates an immediate, recurring ROI for both sides.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~6 months to build FHIR ingestion pipelines, NLP eligibility parsers, and sponsor API.
+  - Cash Out: $150k-$500k per trial cohort delivered + SaaS subscription per health system.
+
+  **First Year Projections:**
+  - Pharmaceutical Sponsors: 35
+  - Health System Partners: 20
+  - Trials Matched: 120
+  - Estimated Earnings: $18,000,000
+
+  **Feasibility Score:** 8.5/10 (FHIR is a mature standard; the regulatory risk of de-identification is well-understood and solvable.)
+
+  **Risk Analysis:**
+  - High: HIPAA/GDPR compliance for patient data; mitigated by de-identification standards and BAA agreements.
+  - Medium: Health system data quality variance.
+  - Low: Technical complexity of FHIR ingestion (well-documented APIs).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

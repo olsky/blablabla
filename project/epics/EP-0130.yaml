@@ -1,0 +1,61 @@
+id: EP-0130
+title: "Autonomous Healthcare Claims Denial Auto-Appeal & Recovery Mesh"
+description: |
+  **Idea:** The US healthcare system generates **$4.3 trillion** in annual spending, processed through billions of claims. Insurers deny approximately **$262 billion** in claims annually — and they know exactly what they're doing. Denial is a cash-flow strategy: if 40% of denials are never appealed, that's $105 billion in avoided payouts. For providers, appealing is expensive: medical coders, billers, clinical staff, and sometimes attorneys — all for a 60% success rate and a 90-day turnaround.
+
+  This mesh creates a **fully autonomous claims denial appeal engine**:
+
+  **Data Ingestion:**
+  - EDI 835 (remittance advice) and 837 (claims) transaction streams from clearinghouses and payer portals
+  - Denial reason codes (CARC/RARC taxonomies): CO-4 (procedure not covered), PR-1 (deductible), CO-97 (bundling), PI-204 (medical necessity), etc.
+  - Clinical documentation from EHR systems via FHIR R4 APIs (Epic, Cerner, Meditech, Athena)
+  - Payer-specific appeal requirements (letter formats, documentation checklists, filing deadlines)
+  - Historical appeal outcomes by payer, denial code, procedure code, and diagnosis
+
+  **Autonomous Agent Workflow:**
+  1. **Denial Ingestion:** Real-time capture of denied claims via EDI or direct payer-portal scraping
+  2. **Root Cause Classification:** NLP-driven analysis of denial reason codes → categorize as: coding error, missing documentation, medical necessity dispute, timely filing, coordination of benefits
+  3. **Evidence Assembly:** Auto-retrieve relevant clinical notes, lab results, imaging reports, prior authorizations from EHR
+  4. **Appeal Generation:** Generate payer-specific appeal letters with cited medical necessity evidence, CPT/ICD justification, and regulatory references (Medicare LCD/NCD, payer policy bulletins)
+  5. **Submission & Tracking:** Submit appeals via payer portals, EDI, or fax (automated). Track status, escalate to external review if initial appeal fails
+  6. **Outcome Learning:** Capture win/loss outcomes, update models, optimize future appeals
+
+  **Revenue Model:** Pure contingency — 20-25% of recovered dollars. Providers pay nothing unless the appeal succeeds and money is collected. Zero risk, pure upside.
+
+  **Why "WOW":** Every hospital CFO in America is hemorrhaging money to denied claims. The current "solution" is hiring more billers (expensive, slow, error-prone) or writing off denials (profitable for insurers). This mesh flips the economics: now every denial is automatically contested, 24/7, with machine-perfect consistency. Payers will suddenly find their denial-as-strategy approach much less profitable.
+
+  The network effect is transformational: as the mesh processes millions of appeals, it learns which arguments win against which payers for which procedures — proprietary intelligence that compounds over time.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~10 months (EDI integrations, EHR FHIR connectors, appeal-generation LLM, payer-portal automation, outcome tracking)
+  - Cash Out: Contingency revenue from day one of production appeals. No sales cycle — providers see zero-risk upside immediately.
+
+  **First Year Projections:**
+  - Total Addressable Denied Claims: $262,000,000,000
+  - Appealable Subset (60%): $157,200,000,000
+  - Recovery Rate (50%): $78,600,000,000
+  - Platform Market Share (10%): $7,860,000,000 in recoveries
+  - Contingency Fee (20%): **$1,572,000,000**
+  - **Total Estimated Earnings: $1,572,000,000**
+
+  **Feasibility Score:** 8.5/10 — EDI 835/837 is standardized and widely supported. FHIR R4 adoption is accelerating (ONC mandates). Payer portal automation is tractable. The LLM appeal-generation task is well-suited to current capabilities. Regulatory: appeals are the provider's legal right — no barriers to automation.
+
+  **Risk Analysis:**
+  - High: Payer retaliation — insurers could slow-walk appeals or change portal interfaces; mitigated by multi-payer diversification and regulatory complaint escalation (state insurance commissioners, CMS)
+  - Medium: EHR integration complexity — some providers have legacy systems; mitigated by starting with Epic/Cerner (70%+ of acute-care market) and manual document upload fallback
+  - Medium: Medical necessity disputes require nuanced clinical argumentation; mitigated by fine-tuned models trained on millions of historical successful appeals
+  - Low: Legal — appealing claims is a fundamental provider right; no novel legal exposure
+
+  **Legal & Ethical:** Helps providers recover legitimately owed payments for services rendered. Increases healthcare system efficiency. Does not manufacture false claims — only appeals genuine denials with supporting clinical evidence. Fully HIPAA-compliant with BAA coverage.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

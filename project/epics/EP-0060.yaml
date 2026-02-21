@@ -1,0 +1,39 @@
+id: EP-0060
+title: Autonomous Construction Change-Order Recovery Intelligence Engine
+description: |
+  **Idea:** General contractors and specialty subcontractors lose margin when valid change orders are delayed, underpriced, or never recovered. This engine ingests BIM revisions, site logs, RFI streams, schedule deltas, labor/material cost curves, and contract clauses to autonomously detect billable scope drift.
+
+  Agents generate quantified change-order packages, simulate entitlement strength, route submissions, and monitor approval/collection cycles.
+
+  **Why "WOW":** Hidden margin is surfaced from project execution exhaust data without manual forensic review.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~7 months (BIM and PM-system integrations, entitlement model, package generator).
+  - Cash Out: percentage of approved recovery + project SaaS.
+
+  **First Year Projections:**
+  - Contractor Organizations: 1,150
+  - Average Annual Approved Recovery per Customer: $310,000
+  - Performance Revenue (10%): $35,650,000
+  - SaaS Revenue: $3,220,000
+  - Total Estimated Earnings: $38,870,000
+
+  **Feasibility Score:** 8.0/10
+
+  **Risk Analysis:**
+  - Medium: Contract language variability; mitigated by clause libraries and jurisdiction-aware templates.
+  - Medium: Source log completeness; mitigated by evidentiary confidence scores and ingestion quality diagnostics.
+
+  **Legal & Ethical:** Supports contractual entitlement workflows only, with transparent evidence provenance and no adversarial fabrication.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.3-codex
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

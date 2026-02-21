@@ -1,0 +1,37 @@
+id: EP-0116
+title: Autonomous Cross-Border Used Machinery VAT Reclaim & Compliance Broker
+description: |
+  **Idea:** SMEs trading used industrial machinery across EU/UK frequently overpay VAT or miss reclaim windows due to complex cross-border rules. This broker ingests invoices, customs declarations, HS codes, logistics proofs, and local VAT rules. Agents classify transaction intent, compute reclaim eligibility, auto-file electronic reclaims, and reconcile payouts to ERP.
+
+  **Why "WOW":** Turns a tedious, error-prone tax chore into a cash generator for secondary-market machinery dealers and buyers.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~6 months (rule engine, customs/VAT adapters, document parser, filing bots).
+  - Cash Out: 15% recovery fee + SME subscription.
+
+  **First Year Projections:**
+  - SMEs Onboarded: 3,200
+  - Average Reclaim per SME: $35,000
+  - Recovery Revenue (15%): $16,800,000
+  - Subscription Revenue: $2,400,000
+  - Total Estimated Earnings: $19,200,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - Medium: Evidence completeness; mitigated by multi-doc ingestion and confidence gating before filing.
+  - Medium: Rule changes; mitigated with continuous VAT policy updates and automated regression tests.
+
+  **Legal & Ethical:** Files only eligible claims with auditable evidence; complies with VAT law; no aggressive tax evasion tactics.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.3-codex
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

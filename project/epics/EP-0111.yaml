@@ -1,0 +1,38 @@
+id: EP-0111
+title: Autonomous Cold-Chain Pharma Excursion Recovery & Routing Optimizer
+description: |
+  **Idea:** Biologics and vaccines face temperature excursions during transit, leading to waste or disputes. This platform ingests IoT temp/humidity loggers, lane-level SLA data, carrier scan events, and ERP lot records. Agents detect excursion patterns, auto-generate claim evidence for insurers/manufacturers, reroute in-flight shipments to nearest qualified storage, and renegotiate carrier performance credits.
+
+  **Why "WOW":** Shippers recover value from compromised loads while minimizing loss, without adding logistics headcount.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~7 months (sensor ingestion mesh, excursion classifier, claim automation, smart rerouting).
+  - Cash Out: recovery success fee + lane analytics subscription.
+
+  **First Year Projections:**
+  - Pharma Shippers: 280
+  - Shipments Monitored: 18,000,000
+  - Average Recovery per Excursion: $600
+  - Success-Fee Revenue (20%): $12,960,000
+  - Subscription Revenue: $4,200,000
+  - Total Estimated Earnings: $17,160,000
+
+  **Feasibility Score:** 8.4/10
+
+  **Risk Analysis:**
+  - Medium: Data gaps from legacy loggers; mitigated with multi-carrier adapters and inference fills.
+  - Medium: Carrier pushback on credits; mitigated via evidence-grade event chains and SLA-referenced claims.
+
+  **Legal & Ethical:** Complies with GDP (Good Distribution Practice) requirements; no falsification of evidence.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.3-codex
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

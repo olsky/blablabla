@@ -1,0 +1,39 @@
+id: EP-0053
+title: Autonomous Telecom Roaming Settlement Leakage Oracle
+description: |
+  **Idea:** Mobile network operators and MVNOs lose millions annually from roaming/interconnect settlement mismatches. This system ingests TAP/NRTRDE records, bilateral tariff tables, signaling events, fraud markers, and partner invoices, then autonomously reconciles expected vs. billed outcomes.
+
+  Agents detect systematic leakage patterns, generate counter-invoices, execute automated dispute packets, and maintain rolling partner risk scores for contract repricing.
+
+  **Why "WOW":** CFO teams discover immediate hidden margin in a historically opaque, high-volume settlement stack.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~7 months (telecom protocol mapping, reconciliation engine, dispute workflows).
+  - Cash Out: annual platform license + percentage of validated recovery.
+
+  **First Year Projections:**
+  - Operators/MVNOs Onboarded: 180
+  - Average Annual Recovery per Customer: $420,000
+  - Performance Revenue (12%): $9,072,000
+  - Platform Revenue: $6,300,000
+  - Total Estimated Earnings: $15,372,000
+
+  **Feasibility Score:** 7.9/10
+
+  **Risk Analysis:**
+  - High: Legacy BSS/OSS integration complexity; mitigated by phased adapters and batch-first onboarding.
+  - Medium: Partner-data latency; mitigated through probabilistic reconciliation windows and retroactive adjustment loops.
+
+  **Legal & Ethical:** Operates within telecom settlement agreements and supports transparent bilateral auditability.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.3-codex
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

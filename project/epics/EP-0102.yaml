@@ -1,0 +1,33 @@
+id: EP-0102
+title: Autonomous B2B Deep-Intel Harvester & Hyper-Personalization Engine
+description: |
+  **Idea:** Cold outbound email is dying because it's generic. This engine completely replaces the "Sales Development Representative" (SDR) research phase. Given a target list of 10,000 companies, autonomous agents: (1) scour the web for the target's recent 10-K filings, earnings call transcripts, podcast interviews featuring their executives, and recent job postings; (2) synthesize the exact strategic initiatives the company is currently struggling with; (3) identify the precise buyer persona via LinkedIn/ZoomInfo APIs; (4) autonomously draft a hyperspecific, 3-sentence outreach email referencing a quote the executive made on a podcast 3 weeks ago, tying it directly to the seller's value proposition. It queues the drafts for human approval or sends them via a cold email infra API (e.g., Smartlead).
+
+  **Why "WOW":** A human SDR takes 45 minutes to research and write an email of this caliber, allowing maybe 10 per day. This engine does 10,000 in an hour at the exact same quality level. The positive reply rate jumps from 0.5% to 8-12% overnight. It scales "founder-led sales" infinitely.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~5 months (Deep web scraping suite, audio-to-text podcast ingester, multi-agent LLM reasoning pipeline [researcher -> strategist -> copywriter -> editor]).
+  - Cash Out: $1,500/mo base for 2,000 credits, plus enterprise tiers up to $15k/month.
+
+  **First Year Projections:**
+  - Active Sales Teams: 850
+  - Average Monthly Sub: $2,500
+  - Estimated Earnings: $25,500,000
+
+  **Feasibility Score:** 8.5/10 (APIs for data enrichment exist [Apollo, ZoomInfo], transcription is a commodity [Whisper], the moat is the chained multi-agent reasoning to ensure the output sounds like a thoughtful human, not an LLM hallucination.)
+
+  **Risk Analysis:**
+  - Medium: LLM hallucination stating an executive said something they didn't; mitigated by strict RAG (Retrieval-Augmented Generation) citing verifiable source links.
+  - Low: Anti-spam and email deliverability issues; mitigated because the platform generates drafts but relies on the client's own sending infrastructure.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true
