@@ -1,0 +1,30 @@
+id: EP-0034
+title: AI-Driven Autonomous "Probate & Estate" Liquidation Agent
+description: |
+  **Idea:** A fully autonomous agentic service that assists in the complex process of identifying, valuating, and liquidating the assets of an estate. The system connects to digital accounts (via legal executor permissions), scans property records, and uses specialized valuation agents (for art, collectibles, real estate, and crypto). It then automatically generates listing drafts for global marketplaces and coordinates with legal-notary APIs to settle the inheritance tax and distribution.
+  
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~5 months (Developing valuation model connectors + Legal API integration mesh).
+  - Cash Out: Success fee (2-5%) from the total liquidated value of the estate.
+  
+  **Projections:**
+  - First-Year Earnings: $550,000 (Targeting high-net-worth digital-native estates).
+  - First-Year Users: 1,500 Estate Executors.
+  
+  **Feasibility Score:** 8/10 (Execution permissioning is the main hurdle; valuation APIs are robust).
+  
+  **Risk Analysis:**
+  - Medium: Legal disputes among heirs over valuation accuracy.
+  - Low: Technical complexity of cross-platform account discovery.
+  
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.8
+  require_blocking_clearance: true

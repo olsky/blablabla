@@ -1,0 +1,32 @@
+id: EP-0030
+title: Autonomous AI‑Powered Micro‑Loan Issuance Platform
+description: |
+  **Idea:** A fully automated micro‑loan service that evaluates applicants using alternative data (transaction history, social signals, device telemetry) via AI models. The platform issues loans, disburses funds, and collects repayments through integrated fintech APIs, all without human underwriting.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~5 months to build data pipelines, risk models, and payment automation.
+  - Cash Out: Interest on loans plus origination fees. Break‑even after month 6.
+
+  **First Year Projections:**
+  - Active Borrowers: 30,000
+  - Average Loan Size: $500
+  - Average Interest Rate: 12% APR
+  - Estimated Earnings: $1,800,000
+
+  **Feasibility Score:** 7/10 (Regulatory compliance (KYC/AML) required, but technically feasible with fintech partners.)
+
+  **Risk Analysis:**
+  - Medium Risk: Credit default risk; mitigated by AI risk scoring and diversified portfolio.
+  - Low Risk: Technical complexity manageable.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

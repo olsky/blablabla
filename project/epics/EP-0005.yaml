@@ -1,0 +1,30 @@
+id: EP-0005
+title: AI-Driven Government RFP/Tender Bid Generator
+description: |
+  **Idea:** A fully automated business-development engine. The system scrapes federal clearinghouses (e.g., SAM.gov) for active RFPs (Requests for Proposal) in a highly specific, repeatable niche (e.g., 'Bulk IT Hardware Procurement', 'Translation Services'). It ingests the user's corporate profile, past performance history, and pricing schemas. Upon finding a matching RFP, the system autonomously generates a fully compliant, highly persuasive 50-page PDF bid proposal tailored to the exact requirements and evaluation criteria of the government RFP, ready for instant submission.
+  
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~6 weeks. Government PDFs are complex, and the LLM must perfectly adhere to formatting and compliance checklists.
+  - Cash Out: B2B SaaS charging per generated bid, or a flat monthly retainer for continuous RFP monitoring and generation.
+  
+  **First Year Projections:**
+  - Active SaaS Clients: 50
+  - Bids Generated autonomously: 1,500
+  - Estimated Earnings: $250,000
+  
+  **Feasibility Score:** 8/10 (RFP formats are structured enough that LLM contextualization works brilliantly for this).
+  
+  **Risk Analysis:** 
+  - Medium Risk: Failure to strictly adhere to government formatting or missing a mandatory compliance checkbox invalidates the user's bid.
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+  temperature: 0.7
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

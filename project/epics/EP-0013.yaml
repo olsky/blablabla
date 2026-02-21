@@ -1,0 +1,32 @@
+id: EP-0013
+title: Automated Scientific Grant Application Generator
+description: |
+  **Idea:** NIH/NSF/EU Horizon grants fund the majority of academic research in the world, yet researchers spend 40-60% of their time writing applications rather than doing science. This system ingests a researcher's publication corpus (PubMed, arXiv), their institution's indirect cost rates, open grant databases (Grants.gov, CORDIS), and grant scoring rubrics. Agents match researchers to highly compatible open grants they don't know exist, then auto-draft the full ~30-page application following the exact structure, preliminary results section, and specific aims format each agency requires — delivered as editable .docx within 48 hours.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~10 weeks to build the grant-scoring compatibility model and the multi-section structured document generation pipeline calibrated per agency.
+  - Cash Out: Success-fee model — charged only when a grant is awarded. No risk to the researcher.
+
+  **First Year Projections:**
+  - Grant Applications Generated: 500
+  - Grant Award Rate (realistic): 25%
+  - Average Grant Size Awarded: $300,000
+  - Estimated Earnings (5% success fee): $750,000 potential; realized ~$187,000
+
+  **Feasibility Score:** 7/10 (Grant formats are structured; the hardest part is making the preliminary results section scientifically coherent from publication data alone.)
+
+  **Risk Analysis:**
+  - Low Legal Risk: Writing assistance is standard academic practice.
+  - Ethical caveat: Must clearly position the output as a draft scaffold for the researcher to own and refine, not a ghost-written submission.
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.0-flash
+  provider: google
+  temperature: 0.7
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

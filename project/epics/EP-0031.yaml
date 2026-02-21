@@ -1,0 +1,30 @@
+id: EP-0031
+title: Autonomous Precision-Bio "Enzyme Discovery" Oracle
+description: |
+  **Idea:** A sophisticated computational biology engine that autonomously identifies and optimizes novel enzymes for industrial use-cases (e.g., plastic degradation, carbon capture, or bioremediation). The system continuously pulls genomic data from public repositories and runs high-fidelity molecular dynamics simulations via folding-agent sub-processes. It identifies high-probability "hits" and offers them as licensed IP to chemical and energy conglomerates.
+  
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~8 months of intensive agentic R&D (simulation tuning, bio-data indexing).
+  - Cash Out: Single license fee per enzyme family ($200k - $5M) plus performance royalties.
+  
+  **Projections:**
+  - First-Year Earnings: $650,000 (Initial proof-of-concept licenses).
+  - First-Year Users: 5-10 Enterprise R&D partners.
+  
+  **Feasibility Score:** 7.5/10 (High compute requirements, but biologically principled).
+  
+  **Risk Analysis:**
+  - High: Laboratory validation of "hits" required by partners (outside our software scope).
+  - Medium: Computational errors in folding predictions.
+  
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.8
+  require_blocking_clearance: true

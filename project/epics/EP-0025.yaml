@@ -1,0 +1,31 @@
+id: EP-0025
+title: Autonomous Market Sentiment Index Generator
+description: |
+  **Idea:** An AI‑driven service that continuously ingests news, social media, and financial filings to compute a real‑time market sentiment index for specific sectors. The index is delivered via API to hedge funds and trading bots. All data collection, NLP analysis, and index calculation are performed by autonomous agents.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months to build data pipelines, sentiment models, and API.
+  - Cash Out: Subscription per sector index. Break‑even by month 5.
+
+  **First Year Projections:**
+  - Subscribing Funds: 60
+  - Monthly Revenue per Fund: $1,200
+  - Estimated Earnings: $864,000
+
+  **Feasibility Score:** 8/10 (Requires robust data sources and NLP, but feasible with existing APIs.)
+
+  **Risk Analysis:**
+  - Medium Risk: Data licensing compliance.
+  - Low Risk: Technical complexity manageable.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

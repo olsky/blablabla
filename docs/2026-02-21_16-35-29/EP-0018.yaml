@@ -1,0 +1,30 @@
+id: EP-0018
+title: Automated API Contract Drift Detection Service (B2B DevOps SaaS)
+description: |
+  **Idea:** In microservice architectures, API contracts (the agreed-upon shape of requests and responses between services) drift silently as teams evolve independently. This produces runtime breakages that only surface in production. This system hooks into CI pipelines as a GitHub App. On every PR, it automatically extracts the inferred OpenAPI/GraphQL schema from the new code changes using static analysis, compares it against the published contract registry, calculates a semantic diff (distinguishing additive/non-breaking from destructive/breaking changes), and blocks the merge if a breaking change is introduced without an explicit version bump and downstream consumer notification.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~8 weeks. Multi-language AST-to-schema inference is the hard technical part (Python/Go/TS/Java). GitHubApp integration is well-documented.
+  - Cash Out: Per-seat engineering organization subscription.
+
+  **First Year Projections:**
+  - Engineering Organizations: 30
+  - Estimated Earnings: $180,000 ($500/mo average per org)
+
+  **Feasibility Score:** 8/10 (Schema inference tools like Pydantic and OpenAPI generators already exist per language; the integration layer is the main engineering investment.)
+
+  **Risk Analysis:**
+  - Low Risk: Purely defensive developer tooling.
+  - Adoption Risk: Developers resist tools that block their PRs. Onboarding UX and false-positive rate on the "breaking" classification are critical to adoption.
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.0-flash
+  provider: google
+  temperature: 0.7
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

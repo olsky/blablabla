@@ -1,0 +1,30 @@
+id: EP-0003
+title: Autonomous Real Estate Zoning & Variance Arbitrage Engine
+description: |
+  **Idea:** An automated intelligence layer that scrapes hundreds of localized municipal zoning codes, city council meeting minutes (via transcribed audio or PDFs), and GIS mapping systems. The agent looks for "zoning anomalies"—for example, a commercially zoned plot of land mistakenly priced as residential due to outdated MLS data, or new high-density variances approved in city council minutes before they hit public tax records. When a high-profit anomaly is found, it automatically compiles a data packet and sells the "lead" via a private API feed to institutional real estate developers.
+  
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~12 weeks. Local government websites are notoriously chaotic and unstandardized. This requires very sophisticated, self-healing web scraping and NLP parsing.
+  - Cash Out: Subscription access to the anomaly data feed.
+  
+  **First Year Projections:**
+  - Institutional Developer Subscriptions: 10 
+  - Estimated Earnings: $120,000 ($1,000/mo per seat)
+  
+  **Feasibility Score:** 4/10 (Extremely difficult to parse non-standardized government records at scale).
+  
+  **Risk Analysis:** 
+  - Low Legal Risk: All data is public.
+  - High Business Risk: If the anomaly calculations are wrong, developers lose trust immediately.
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+  temperature: 0.7
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

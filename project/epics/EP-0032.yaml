@@ -1,0 +1,30 @@
+id: EP-0032
+title: Programmatic "Digital Forensic" Insurance Underwriter
+description: |
+  **Idea:** An autonomous system that provides "instant" cyber-insurance payouts for Small/Medium Enterprises (SMEs). When an incident occurs, the system's forensic agents automatically connect to the user's infrastructure (via pre-integrated EDR/Cloud APIs), analyze logs to verify the breach/ransomware signature, cross-reference with dark-web leak data to confirm data exfiltration, and trigger a parametric payout immediately.
+  
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~5 months (Developing forensic signature engines + Dark-web API integrations).
+  - Cash Out: Transactional fee per claim processed (1.5% of claim value) + platform subscription from insurance carriers.
+  
+  **Projections:**
+  - First-Year Earnings: $480,000 (Based on high-volume SME claims).
+  - First-Year Users: 40-50 Boutique Insurance Carriers.
+  
+  **Feasibility Score:** 8.5/10 (Forensic logic is well-understood; success depends on integration density).
+  
+  **Risk Analysis:**
+  - Medium: Fraudulent "self-hacks" designed to fool forensic agents.
+  - Low: Technical complexity of log analysis.
+  
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.9
+  require_blocking_clearance: true

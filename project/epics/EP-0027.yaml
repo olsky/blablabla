@@ -1,0 +1,31 @@
+id: EP-0027
+title: Autonomous AI‑Driven Patent Valuation & Licensing Service
+description: |
+  **Idea:** An AI platform that continuously scans global patent databases, extracts technical claims, and evaluates commercial value using market‑trend models, citation analysis, and licensing potential. The system auto‑generates licensing offers and royalty contracts via smart‑contract templates, all without human intervention.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~5 months to build crawlers, valuation models, and contract automation.
+  - Cash Out: Subscription per evaluated patent plus a percentage of royalties collected. Break‑even expected by month 4.
+
+  **First Year Projections:**
+  - Patents Valued: 1,200
+  - Average License Revenue per Patent: $1,800
+  - Estimated Earnings: $2,160,000
+
+  **Feasibility Score:** 8/10 (Requires robust IP data pipelines and legal compliance.)
+
+  **Risk Analysis:**
+  - Medium Risk: Legal challenges around valuation accuracy; mitigated with disclaimer and audit trails.
+  - Low Risk: Technical complexity manageable with existing NLP tools.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

@@ -1,0 +1,31 @@
+id: EP-0021
+title: Decentralized AI Model Marketplace with Revenue Sharing
+description: |
+  **Idea:** A fully autonomous platform where AI model creators can upload models, and downstream users can query them via API. The platform automatically handles licensing, usage metering, and revenue split via smart contracts. All onboarding, pricing, and billing are performed by autonomous agents.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months to build the marketplace infrastructure, smart contract integration, and onboarding bots.
+  - Cash Out: Subscription fees + per‑call usage fees. Projected break‑even at month 6, with scaling revenue thereafter.
+
+  **First Year Projections:**
+  - Active Model Providers: 150
+  - API Calls: 12 M
+  - Estimated Earnings: $420,000
+
+  **Feasibility Score:** 8/10 (Requires blockchain integration and robust monitoring, but leverages existing LLM APIs.)
+
+  **Risk Analysis:**
+  - Medium Risk: Regulatory uncertainty around AI model licensing.
+  - Low Risk: Technical complexity mitigated by using existing smart‑contract frameworks.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

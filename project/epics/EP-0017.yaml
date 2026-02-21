@@ -1,0 +1,30 @@
+id: EP-0017
+title: Autonomous Open-Source Project Commercial Viability Underwriter
+description: |
+  **Idea:** A service that acts as an autonomous investment analyst specifically for open-source software ecosystems. It monitors all new GitHub repositories above a certain popularity threshold. Agents score each project across a proprietary multi-dimensional model: number of Fortune-500 companies depending on this package (derived from public package-lock.json files), committer bus-factor, licensing compatibility with commercial use, and how many open issues request features only a commercial offering could sustain. Projects hitting a threshold receive an auto-generated "Commercial Readiness Score" report. These reports are sold as a data subscription to venture capital funds that invest in open-source-derived startups.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~6 weeks. GitHub data access via BigQuery public datasets. The scoring model construction is the intellectual challenge.
+  - Cash Out: VC and PE fund data subscriptions.
+
+  **First Year Projections:**
+  - Fund Subscribers: 20
+  - Estimated Earnings: $200,000 ($833/mo/fund)
+
+  **Feasibility Score:** 8/10 (All underlying data is public; the scoring model itself is the durable competitive moat.)
+
+  **Risk Analysis:**
+  - Low Risk: Publishing analytical scores on public repositories carries no legal exposure.
+  - Reputational Risk: A low score on an OSS project that then becomes a unicorn startup destroys credibility. Scoring methodology must be transparently documented.
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.0-flash
+  provider: google
+  temperature: 0.7
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

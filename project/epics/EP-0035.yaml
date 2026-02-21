@@ -1,0 +1,30 @@
+id: EP-0035
+title: Programmatic "Spectrum Arbitrage" Engine for Satellite IoT
+description: |
+  **Idea:** A high-frequency arbitrage platform that trades unused satellite radio-frequency (RF) bandwidth for Massive IoT deployments. Autonomous agents monitor constellation load in real-time across multiple providers (Starlink, Kuiper, and boutique IoT satellites) and buy sub-millisecond slices of spectrum to resell to low-power sensor networks that only need intermittent connectivity.
+  
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~7 months (Extreme RF demand forecasting models + satellite API bridgeheads).
+  - Cash Out: The "Spread" between bulk bandwidth purchase and micro-slice resale.
+  
+  **Projections:**
+  - First-Year Earnings: $920,000 (Hyper-scale potential as satellite IoT explodes).
+  - First-Year Users: 200 Industrial IoT operators.
+  
+  **Feasibility Score:** 7/10 (Requires specialized agreements with satellite operators and low-latency pricing agents).
+  
+  **Risk Analysis:**
+  - High: Regulatory changes in orbital spectrum allocation.
+  - Medium: Technical challenge of real-time constellation handoffs.
+  
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.8
+  require_blocking_clearance: true

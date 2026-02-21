@@ -1,0 +1,30 @@
+id: EP-0010
+title: Programmatic Satellite Imagery Crop-Yield Data Feeds
+description: |
+  **Idea:** A fully automated data pipeline targeting agricultural commodities traders. The system connects to public multi-spectral satellite imagery APIs (like Sentinel-2 or Landsat). It autonomously pulls daily images of major global crop-belts (e.g., soybeans in Brazil, wheat in Ukraine). It runs specialized computer vision models (NDVI - Normalized Difference Vegetation Index) to assess crop health and mathematically predict yield variances weeks before official government agricultural reports are released. This predictive JSON data is sold to hedge funds.
+  
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~12 weeks to build the geospatial data ingestion pipeline and tune the computer vision models to account for cloud cover and seasonal variances.
+  - Cash Out: Extremely high-value data subscriptions for financial institutions.
+  
+  **First Year Projections:**
+  - Hedge Fund Data Subscribers: 5
+  - Estimated Earnings: $300,000+ ($5k/mo per fund)
+  
+  **Feasibility Score:** 6/10 (Geospatial data is famously massive, expensive to process, and requires specialized GIS data engineers).
+  
+  **Risk Analysis:** 
+  - Low Legal Risk: Satellite data is public.
+  - High Commercial Risk: If the yield predictions are statistically flawed, hedge funds will cancel subscriptions immediately. Accuracy is paramount.
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+  temperature: 0.7
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

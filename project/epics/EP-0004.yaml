@@ -1,0 +1,29 @@
+id: EP-0004
+title: Programmatic Bio-Informatics Drug Repurposing Dataset Generator
+description: |
+  **Idea:** A headless intelligence engine that cross-references FDA adverse event databases, public genome-wide association studies (GWAS), and open-source chemical property libraries (like PubChem). The system employs an LLM to automatically look for non-obvious correlations (e.g., heavily identifying that an off-patent blood pressure medication is showing statistically significant side-effects that correlate with inhibiting a specific protein found in a rare autoimmune disease). It generates these theoretical "Repurposing Candidate Packets" and sells them via an API ecosystem to mid-tier biotech research firms who lack massive internal data-science teams.
+  
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~8 weeks. Requires deep knowledge of bio-informatics data structures and API integrations with NCBI/PubChem.
+  - Cash Out: Selling premium datasets.
+  
+  **First Year Projections:**
+  - Biotech / Academic Subscriptions: 20
+  - Estimated Earnings: $100,000
+  
+  **Feasibility Score:** 7/10 (The data exists and is public; the value is entirely in the automated cross-referencing and statistical weighting).
+  
+  **Risk Analysis:** 
+  - Medium Risk: The system produces hypotheses, not facts. Severe disclaimers must be embedded asserting this is mathematical data, not medical advice.
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+  temperature: 0.7
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

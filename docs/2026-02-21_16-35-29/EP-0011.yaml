@@ -1,0 +1,30 @@
+id: EP-0011
+title: Adversarial Red-Teaming-as-a-Service for AI Products
+description: |
+  **Idea:** Every company shipping an LLM-powered product legally needs to know it will not produce harmful, biased, or out-of-policy outputs. This system is a continuous, automated adversarial red-team agent. B2B clients expose their LLM endpoint. The system autonomously generates thousands of semantically distinct adversarial prompts, jailbreak sequences, persona injection attempts, and out-of-distribution edge cases — organized by OWASP LLM risk taxonomy. It produces a weekly structured safety report (JSON + PDF) with severity scores, regressing it against the previous week, catching regressions after model updates.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~6 weeks to build the adversarial prompt generation taxonomy and automated regression scoring pipeline.
+  - Cash Out: Monthly recurring SaaS subscription per AI product endpoint monitored.
+
+  **First Year Projections:**
+  - Active AI Product Subscriptions: 40
+  - Estimated Earnings: $240,000 ($500/mo average)
+
+  **Feasibility Score:** 9/10 (Adversarial prompt generation is well-understood; building the automated regression loop is the only significant engineering lift).
+
+  **Risk Analysis:**
+  - Low Legal Risk: This is a defensive security tool, legally equivalent to a penetration tester.
+  - Medium Reputational Risk: If the system generates a genuinely harmful prompt and the client's AI executes it in an uncontrolled environment during testing, there could be PR damage.
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.0-flash
+  provider: google
+  temperature: 0.7
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

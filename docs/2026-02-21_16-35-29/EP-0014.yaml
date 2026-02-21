@@ -1,0 +1,31 @@
+id: EP-0014
+title: Parametric Micro-Insurance Trigger Engine for SMBs
+description: |
+  **Idea:** Traditional claims-based insurance is expensive, slow, and adversarial. Parametric insurance pays out automatically when a measurable real-world trigger event occurs — no claims adjuster, no dispute. This system creates, sells, and executes parametric micro-insurance products for SMBs using public data streams as oracles: NOAA weather APIs (frost event for a restaurant's outdoor event), USGS earthquake sensors, national grid status APIs (power outage for a cold-storage business). When a trigger fires, the smart contract or payment rail executes the payout immediately — zero human processing.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~12 weeks. The core engineering is the trigger oracle pipeline and a bulletproof payout state machine. Requires obtaining a surplus-lines insurance license or white-labeling through an existing licensed carrier.
+  - Cash Out: Monthly premiums minus reinsurance and payout costs.
+
+  **First Year Projections:**
+  - Active SMB Policy Holders: 300
+  - Estimated Gross Premiums: $180,000
+  - Net Earnings after reinsurance/payouts: $45,000
+
+  **Feasibility Score:** 5/10 (Technical architecture is clear, but obtaining or white-labeling an insurance license creates a significant regulatory and capital barrier.)
+
+  **Risk Analysis:**
+  - High Regulatory Risk: Operating as an insurer without a license is illegal. Partnership with a licensed fronting carrier is mandatory and adds complexity and cost.
+  - Correlated Event Risk: A single major weather event could trigger thousands of payouts simultaneously, requiring robust reinsurance.
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.0-flash
+  provider: google
+  temperature: 0.7
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

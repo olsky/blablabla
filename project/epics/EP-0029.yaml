@@ -1,0 +1,31 @@
+id: EP-0029
+title: Autonomous Decentralized Advertising Exchange
+description: |
+  **Idea:** A blockchain‑based marketplace where advertisers and publishers automatically match via smart contracts. Autonomous agents handle ad inventory discovery, bidding, placement, and payment settlement without human mediation. The system continuously optimizes ad relevance using AI models.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months to build blockchain layer, AI bidding engine, and integration SDKs.
+  - Cash Out: Transaction fees per ad impression and subscription for premium analytics. Break‑even by month 5.
+
+  **First Year Projections:**
+  - Active Publishers: 150
+  - Daily Impressions: 200 M
+  - Estimated Earnings: $1,200,000
+
+  **Feasibility Score:** 7/10 (Requires blockchain expertise and ad‑tech integration.)
+
+  **Risk Analysis:**
+  - Medium Risk: Regulatory compliance for ad data privacy.
+  - Low Risk: Technical complexity manageable with existing frameworks.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

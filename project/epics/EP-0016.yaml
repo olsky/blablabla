@@ -1,0 +1,30 @@
+id: EP-0016
+title: Automated Institutional Options Flow Reconstruction Engine
+description: |
+  **Idea:** Every options trade on major US exchanges gets printed to the public CBOE/OCC tape within minutes. Large institutional actors (hedge funds, market makers) reveal their directional conviction through unusual options activity — massive out-of-the-money puts, or deeply dated LEAPS calls — before it shows up in stock price. This system autonomously ingests the full public options tape, normalizes and disambiguates the flow into structured conviction signals (bullish/bearish/hedging), and delivers real-time, machine-readable JSON signals to quantitative traders via a low-latency WebSocket API.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~8 weeks. The dataset is massive; achieving sub-60-second latency from tape print to structured signal delivery requires highly optimized stream processing.
+  - Cash Out: Premium tiered API subscriptions ($500-$2,000/mo) to systematic traders.
+
+  **First Year Projections:**
+  - Systematic Trader Subscribers: 60
+  - Estimated Earnings: $480,000
+
+  **Feasibility Score:** 7/10 (The CBOE data is public; the latency engineering and signal disambiguation models are the significant challenge.)
+
+  **Risk Analysis:**
+  - Low Legal Risk: Processing and re-selling publicly available market data is standard financial information services.
+  - Commercial Risk: Must not make predictive claims. Sold strictly as a data feed, not investment advice.
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.0-flash
+  provider: google
+  temperature: 0.7
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

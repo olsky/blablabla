@@ -1,0 +1,30 @@
+id: EP-0037
+title: AI-Driven Autonomous "Geological Carbon-Sink" Surveyor
+description: |
+  **Idea:** A high-precision exploration engine that identifies non-obvious geological formations (e.g., specific basaltic or peridotite rock layers) suitable for large-scale carbon sequestration via mineralization. The system autonomously ingests seismic surveys, satellite magnetic data, and historical mining logs to build 3D geological "digital twins" and simulate CO2 injection scenarios. It the produces "Carbon Storage Readiness" reports that are sold or leased as digital mineral rights.
+  
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~8 months (Geological physics simulation engine + multi-spectral data integration).
+  - Cash Out: Finder's fee from carbon-capture project developers ($50k - $1M per verified site).
+  
+  **Projections:**
+  - First-Year Earnings: $450,000 (Initial site verification contracts).
+  - First-Year Users: 15 Carbon-Credit Infrastructure Developers.
+  
+  **Feasibility Score:** 7.5/10 (Seismic data is expensive/rare, but simulation logic is solid).
+  
+  **Risk Analysis:**
+  - Medium: Regulatory shifts in carbon-crediting protocols for mineralization.
+  - Medium: Technical challenge of data sparsity in deep-crust exploration.
+  
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.8
+  require_blocking_clearance: true

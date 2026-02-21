@@ -1,0 +1,29 @@
+id: EP-0012
+title: Autonomous Enterprise Knowledge Decay Engine
+description: |
+  **Idea:** Internal enterprise Confluence/Notion/SharePoint wikis suffer catastrophic "knowledge decay" — documentation referencing decommissioned systems, disbanded teams, or deprecated APIs that engineers still act on, causing outages. This system connects to corporate wikis via read/write APIs. An agent continuously reads pages, embeds them, and cross-references content against the live codebase (GitHub), HR org charts (Workday API), and infrastructure-as-code manifests (Terraform state). When it finds a page that references something no longer true, it automatically submits a targeted edit PR against the wiki with the correction, or archives it, attaching a structured justification.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~8 weeks. Semantic diffing between documentation and live system state across heterogeneous APIs is non-trivial. Requires careful embeddings and reference resolution.
+  - Cash Out: Enterprise per-seat licensing.
+
+  **First Year Projections:**
+  - Enterprise Engineering Org Clients: 20
+  - Estimated Earnings: $200,000 ($833/seat/mo average)
+
+  **Feasibility Score:** 7/10 (APIs for Confluence and GitHub are mature; the precise semantic cross-referencing logic is genuinely hard to make reliable.)
+
+  **Risk Analysis:**
+  - Medium Risk: Auto-editing live documentation in regulated industries (banking, health) without a human approval gate could delete critical procedure docs. Must default to "propose" mode, not "commit" mode.
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.0-flash
+  provider: google
+  temperature: 0.7
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

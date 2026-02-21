@@ -1,0 +1,30 @@
+id: EP-0040
+title: AI-Driven Autonomous "Rare-Earth" Supply Chain Oracle
+description: |
+  **Idea:** A strategic intelligence platform that monitors the global Rare-Earth Elements (REE) supply chain, predicting price volatility, geopolitical choke-points, and alternative sourcing opportunities. The system's agents autonomously ingest satellite imagery of mines, international trade data, and local-language news from production regions. It doesn't just provide data; it offers "Tradeable Insights" and automatically triggers hedging contracts or sourcing-diversification workflows for manufacturing clients.
+  
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~9 months (Developing the multi-modal geopolitical impact model + trade-execution connectors).
+  - Cash Out: High-value enterprise SaaS (Multi-million dollar annual contracts) + % of procurement savings.
+  
+  **Projections:**
+  - First-Year Earnings: $3,500,000 (Targeting Tier-1 EV and Defense manufacturers).
+  - First-Year Users: 12 Global Industrial Giants.
+  
+  **Feasibility Score:** 7/10 (Data access in certain regions is restricted; requires extreme NLP sophistication).
+  
+  **Risk Analysis:**
+  - High: Geopolitical uncertainty (state actors might block data).
+  - Medium: Model sensitivity to "black-swan" political events.
+  
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 5
+  approval_threshold: 0.95
+  require_blocking_clearance: true

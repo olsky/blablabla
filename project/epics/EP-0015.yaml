@@ -1,0 +1,29 @@
+id: EP-0015
+title: Autonomous Regulatory Conflict Graph Engine
+description: |
+  **Idea:** Multi-national SaaS companies face an ever-expanding, mutually contradictory web of data regulations (GDPR, CCPA, Brazil LGPD, India DPDP, China PIPL). A single feature — say, a user activity log — can simultaneously be legally required in one jurisdiction and legally prohibited in another. This system maintains a continuously-updating semantic knowledge graph of global regulations, cross-linked with product feature definitions extracted from engineering changelogs. When a new regulation is published or a product feature is committed, the agent autonomously runs a multi-jurisdictional conflict analysis and raises structured Jira/Linear tickets flagging the legal tension before the feature ships.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~10 weeks to build and seed the knowledge graph schema and integrate GitHub/Jira webhooks for event-driven conflict checking.
+  - Cash Out: High-ticket Enterprise compliance SaaS subscription.
+
+  **First Year Projections:**
+  - Enterprise SaaS Clients (Multi-national): 15
+  - Estimated Earnings: $300,000 ($1,667/mo/client average)
+
+  **Feasibility Score:** 7/10 (Knowledge graph construction and regulatory NLP parsing are solved problems independently; the combination and automatic conflict-detection logic is the hard, novel part.)
+
+  **Risk Analysis:**
+  - High Stakes Risk: If the engine misses a conflict, the client ships an illegal feature. The system must be positioned as an advisory layer, never a legal opinion, with clear TOC liability disclaimers.
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.0-flash
+  provider: google
+  temperature: 0.7
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

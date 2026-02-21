@@ -1,0 +1,29 @@
+id: EP-0006
+title: Supply Chain Disruption Predictor & Sourcing Oracle
+description: |
+  **Idea:** An intelligence oracle that monitors hyper-local global news (translating regional newspapers in real-time), AIS satellite ship-tracking data, and global weather anomaly APIs. When it detects a highly localized disruption (e.g., a specific rare-earth mine strike in South America, or a port micro-climate anomaly), the system mathematically identifies which downstream electronics or manufacturing components will face a sudden supply shock in 3-4 weeks. It autonomously alerts subscribed B2B enterprise procurement teams and simultaneously API-queries alternative global suppliers with current spot prices.
+  
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~12 weeks. Synthesizing unstructured multi-lingual news data with physical shipping manifests and mapping it to generic component graphs is a massive data engineering undertaking.
+  - Cash Out: High-ticket Enterprise Data Subscriptions ($2,000+ per month/seat).
+  
+  **First Year Projections:**
+  - Active Enterprise Subscriptions: 15
+  - Estimated Earnings: $360,000
+  
+  **Feasibility Score:** 5/10 (Modeling macro-supply chains accurately from stochastic local news events is extremely difficult).
+  
+  **Risk Analysis:** 
+  - Medium Risk: False positives could cause procurement teams to buy unnecessary stock at high spot prices, destroying trust in the oracle.
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+  temperature: 0.7
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

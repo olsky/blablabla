@@ -1,0 +1,31 @@
+id: EP-0001
+title: Automated Patent & Prior-Art Mapping Oracle
+description: |
+  **Idea:** A system that ingests global patent filings databases (USPTO, WIPO) and millions of academic papers (arXiv, PubMed). Using advanced vector search and LLM contextualization, it clusters newly granted patents against vast repositories of "forgotten" prior art or unpatented academic approaches. It automatically generates detailed, pre-compiled "invalidity reports" for patents that are likely highly vulnerable to being struck down. It then autonomously identifies the patent holder's primary corporate competitors and cold-emails their General Counsel offering to sell the verified invalidation dossier for $5k-$10k a pop.
+  
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~8-12 weeks for building a massively parallel vector database indexing pipeline and specialized legal LLM prompts.
+  - Cash Out: High-ticket B2B sales to enterprise legal departments.
+  
+  **First Year Projections:**
+  - Active Legal/Corporate Buyers: 15
+  - Reports Sold: 40
+  - Estimated Earnings: $200,000
+  
+  **Feasibility Score:** 5/10 (Extremely technically challenging to reach the required accuracy threshold for legal teams, but theoretically possible with current embedding technologies).
+  
+  **Risk Analysis:** 
+  - Low Legal Risk: Prior art discovery is public and legal.
+  - High Operations Risk: Vector database costs at the scale of all global academic papers will be extraordinarily high.
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-4o
+  provider: openai
+  temperature: 0.7
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true

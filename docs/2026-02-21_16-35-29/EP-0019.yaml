@@ -1,0 +1,30 @@
+id: EP-0019
+title: Autonomous LLM-Powered Expert Witness Deposition Preparation Engine
+description: |
+  **Idea:** Expert witnesses in litigation (engineers, physicians, accountants) are deposed by opposing counsel who specifically tries to surface contradictions between their current testimony and prior published work, prior depositions, or public statements. This system, given an expert witness's identity, automatically aggregates their entire public corpus — every paper, prior deposition transcript (court records), conference talk transcript, patent, and public interview. It then simulates adversarial deposition questioning using an LLM tuned to adversarial legal reasoning, proactively surfacing every potential contradiction before the actual deposition occurs. Sold to litigation support firms.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~6 weeks. Corpus aggregation pipeline and adversarial simulation prompt engineering.
+  - Cash Out: Per-engagement flat fee to litigation support firms ($1,500–$5,000 per deposition prepared).
+
+  **First Year Projections:**
+  - Engagements Completed: 80
+  - Estimated Earnings: $200,000
+
+  **Feasibility Score:** 8/10 (All technical components are available today; the value is entirely in the workflow automation of a highly repetitive, expensive legal task.)
+
+  **Risk Analysis:**
+  - Medium Legal Risk: Must be positioned as litigation support preparation, not legal advice. Attorney-client privilege must be clearly maintained by the law firm, not the tool.
+  - Ethical clarity: The tool helps experts give more accurate, consistent testimony — which serves justice, not obstructs it.
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.0-flash
+  provider: google
+  temperature: 0.7
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.75
+  require_blocking_clearance: true
