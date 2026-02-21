@@ -1,0 +1,84 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "UserStory",
+    "type": "object",
+    "required": [
+        "id",
+        "epic",
+        "title",
+        "layer",
+        "acceptance_criteria",
+        "created_at",
+        "created_by",
+        "status"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "pattern": "^US-[0-9]{4}$"
+        },
+        "epic": {
+            "type": "string",
+            "pattern": "^EP-[0-9]{4}$"
+        },
+        "title": {
+            "type": "string"
+        },
+        "layer": {
+            "type": "string",
+            "enum": [
+                "backend",
+                "ui",
+                "gateway"
+            ]
+        },
+        "stack": {
+            "type": "string"
+        },
+        "acceptance_criteria": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "string"
+            }
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date"
+        },
+        "created_by": {
+            "$ref": "#/$defs/agentMeta"
+        },
+        "status": {
+            "type": "string",
+            "enum": [
+                "draft",
+                "approved",
+                "in_progress",
+                "implemented",
+                "blocked"
+            ]
+        }
+    },
+    "$defs": {
+        "agentMeta": {
+            "type": "object",
+            "required": [
+                "agent",
+                "model",
+                "provider"
+            ],
+            "properties": {
+                "agent": {
+                    "type": "string"
+                },
+                "model": {
+                    "type": "string"
+                },
+                "provider": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

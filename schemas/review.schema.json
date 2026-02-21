@@ -1,0 +1,110 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Review",
+    "type": "object",
+    "required": [
+        "id",
+        "epic",
+        "created_at",
+        "created_by",
+        "review_class",
+        "summary",
+        "confidence"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "pattern": "^RV-EP-[0-9]{4}-[0-9]{3}$"
+        },
+        "epic": {
+            "type": "string",
+            "pattern": "^EP-[0-9]{4}$"
+        },
+        "review_class": {
+            "type": "string",
+            "enum": [
+                "advisory",
+                "blocking",
+                "scoring"
+            ]
+        },
+        "summary": {
+            "type": "string"
+        },
+        "analysis": {
+            "type": "object",
+            "properties": {
+                "strengths": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "weaknesses": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "risks": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "recommendations": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "scores": {
+            "type": "object",
+            "patternProperties": {
+                "^[a-zA-Z_]+$": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                }
+            }
+        },
+        "weight": {
+            "type": "number"
+        },
+        "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date"
+        },
+        "created_by": {
+            "$ref": "#/$defs/agentMeta"
+        }
+    },
+    "$defs": {
+        "agentMeta": {
+            "type": "object",
+            "required": [
+                "agent",
+                "model",
+                "provider"
+            ],
+            "properties": {
+                "agent": {
+                    "type": "string"
+                },
+                "model": {
+                    "type": "string"
+                },
+                "provider": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

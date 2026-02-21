@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Epic",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "description",
+    "created_at",
+    "created_by",
+    "status",
+    "review_policy"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^EP-[0-9]{4}$"
+    },
+    "title": { "type": "string", "minLength": 5 },
+    "description": { "type": "string", "minLength": 10 },
+    "created_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "created_by": {
+      "$ref": "#/$defs/agentMeta"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "in_review",
+        "needs_revision",
+        "approved",
+        "rejected",
+        "overridden",
+        "implemented"
+      ]
+    },
+    "linked_stories": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^US-[0-9]{4}$"
+      }
+    },
+    "review_policy": {
+      "type": "object",
+      "required": [
+        "min_reviews",
+        "approval_threshold",
+        "require_blocking_clearance"
+      ],
+      "properties": {
+        "min_reviews": { "type": "integer", "minimum": 1 },
+        "approval_threshold": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "require_blocking_clearance": { "type": "boolean" }
+      }
+    },
+    "review_summary": {
+      "type": "object",
+      "properties": {
+        "aggregated_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "blocking_issues": { "type": "boolean" },
+        "advisory_count": { "type": "integer" }
+      }
+    }
+  },
+  "$defs": {
+    "agentMeta": {
+      "type": "object",
+      "required": ["agent", "model", "provider"],
+      "properties": {
+        "agent": { "type": "string" },
+        "model": { "type": "string" },
+        "provider": { "type": "string" },
+        "temperature": { "type": "number" }
+      }
+    }
+  }
+}
