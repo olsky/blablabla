@@ -1,0 +1,53 @@
+id: EP-0178
+title: "Autonomous Port Emissions, Congestion & Green-Corridor Incentive Marketplace"
+description: |
+  **Idea:** Ports face mounting pressure to reduce **air emissions, congestion, and noise**. Some are experimenting with "green corridors" — preferential treatment and incentives for low-emission, high-reliability calls. But most initiatives are static pilot programs with hand-calculated metrics.
+
+  This marketplace ingests:
+  - AIS and port-call data (arrival/departure times, speed profiles)
+  - Engine and fuel characteristics of visiting vessels
+  - Berth, tug, and yard equipment usage per call
+  - Local environmental sensor data (NOx, SOx, PM, CO2 proxies)
+  - Congestion and dwell metrics around port approaches and gates
+
+  Agents then:
+  - Compute **per-call emissions and congestion scores**
+  - Generate performance baselines per corridor, carrier, and service
+  - Enable ports to publish **dynamic incentives and tariffs**: discounts for low-emission, low-congestion behaviors; surcharges for dirtier, disruptive calls
+  - Clear a marketplace where carriers can bid for premium green slots, backed by measurable performance
+
+  **Why "WOW":** Everyone talks about green corridors but almost nobody can measure and settle them granularly. This engine becomes the **accounting and pricing brain** behind green port products, turning ESG rhetoric into hard cash.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~10 months (per-call emissions modelling, pricing engine, settlement layer)
+  - Cash Out: Take-rate on incentives and surcharges transacted through the marketplace.
+
+  **First Year Projections:**
+  - Ports Participating: 15
+  - Annual Port Calls on Green-Corridor Products: 80,000
+  - Average Green Incentive/Surcharge Volume per Call: $2,000
+  - Total Incentive/Surcharge Volume: $160,000,000
+  - Marketplace Take Rate: 35%
+  - **Total Estimated Earnings: $56,000,000**
+
+  With expansion to 30 ports and 160,000 calls, earnings exceed **$110M**.
+
+  **Feasibility Score:** 8.1/10 — Per-call emissions modelling builds on established research. AIS and equipment usage data are available. Pricing logic is straightforward.
+
+  **Risk Analysis:**
+  - Medium: Disputes over emissions/congestion scores; mitigated by transparent methodologies and third-party verification
+  - Low: Regulatory; ports already levy environmental fees and rebates
+
+  **Legal & Ethical:** Incentivizes cleaner operations and less congestion. Methodology is transparent and aligned with environmental goals. No manipulation — carriers can improve scores by changing behavior.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.1
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

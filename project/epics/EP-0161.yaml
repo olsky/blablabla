@@ -1,0 +1,35 @@
+id: EP-0161
+title: Autonomous AI-Driven Legal Discovery & Litigation Funding Platform
+description: |
+  **Idea:** Large law firms and corporate legal departments spend billions on e‑discovery, manually reviewing terabytes of documents to find relevant evidence. This service automates the entire discovery pipeline: it ingests raw data (emails, PDFs, cloud storage), uses LLM‑powered semantic search and classification to surface relevant material, and then matches cases with a network of institutional investors willing to fund high‑potential lawsuits on a non‑recourse basis. The platform provides instant, data‑driven risk assessments and offers funding contracts that are executed via smart‑contracts, delivering capital to plaintiffs within days.
+
+  **Why "WOW":** Reduces discovery costs by >80% and accelerates funding timelines from months to weeks, unlocking $200B of under‑funded litigation opportunities.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~15 months (building secure ingestion pipelines, LLM fine‑tuning on legal corpora, compliance with GDPR/CCPA, integrating with funding marketplace APIs).
+  - Cash Out: 5% of the funded settlement amount (average settlement $20M).
+
+  **First Year Projections:**
+  - Cases Funded: 250
+  - Average Settlement Size: $20,000,000
+  - Total Settlement Volume: $5,000,000,000
+  - Estimated Earnings (5% fee): $250,000,000
+
+  **Feasibility Score:** 7/10 (LLM accuracy for legal relevance is high; regulatory compliance and investor onboarding are the main challenges).
+
+  **Risk Analysis:**
+  - High: Regulatory scrutiny over AI‑generated legal advice and potential liability.
+  - Medium: Investor risk appetite fluctuations.
+  - Low: Technical scalability; cloud infrastructure can handle large data volumes.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

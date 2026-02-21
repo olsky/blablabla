@@ -1,0 +1,60 @@
+id: EP-0142
+title: "Autonomous Automotive Warranty & Recall Reimbursement Optimization Engine"
+description: |
+  **Idea:** Automotive OEMs reimburse dealerships and authorized repair networks for **warranty repairs and recall work**. These flows represent **tens of billions of dollars annually**. Yet coding a single repair order (RO) correctly against OEM warranty manuals is a nightmare: labor op codes, flat-rate times, parts allocations, diagnostic allowances, shop supplies, and goodwill policies.
+
+  Dealers routinely **under-bill** (leaving money on the table) or **mis-bill** (leading to rejected claims and chargebacks). OEMs publish complex manuals and bulletins that humans simply cannot keep up with. The result: 3-7% revenue leakage for dealers and friction with OEMs.
+
+  This engine becomes an **autonomous coding, optimization, and compliance layer** between dealer DMS systems and OEM warranty/recall portals:
+
+  **Data Ingestion:**
+  - Dealer Management System (DMS) data: repair orders, technician notes, VIN, mileage, complaint/cause/correction narratives
+  - OEM warranty manuals, labor-time guides, TSBs, and recall bulletins
+  - OEM warranty claim-history and adjudication results (approvals, denials, downgrades)
+  - Parts catalogs and pricing (OEM and approved aftermarket)
+
+  **Autonomous Agent Workflow:**
+  1. **RO Understanding:** NLP over technician notes and RO lines to determine work actually performed and relevant symptoms.
+  2. **Coverage Determination:** Determine if work is eligible under base warranty, extended warranty, recall, goodwill, or customer-pay.
+  3. **Optimal Coding:** Select best-fitting labor-op codes, times, and parts combinations per OEM manuals, maximizing compliant reimbursement.
+  4. **Claim Submission:** Auto-assemble and submit claims to OEM portals with all required documentation and photos.
+  5. **Adjudication Learning:** Continuously learn from OEM responses to refine coding and avoid future denials.
+  6. **Analytics:** Provide dealers with dashboards on recovery uplift, denial rates, and tech/service-writer performance.
+
+  **Revenue Model:** Contingency-based uplift — 20% of incremental warranty/recall reimbursement vs. dealer baseline, plus subscription fee for analytics.
+
+  **Why "WOW":** Dealers operate on thin margins; service departments are their profit centers. An engine that **finds 5-10% more reimbursement** in work they already did — while **reducing denials** — is immediate money. OEMs also benefit from cleaner, more consistent claims.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~8 months (DMS connectors, OEM manual ingestion, coding engine, claim submission bots)
+  - Cash Out: Uplift-based revenue from first integrated dealer group; no need to wait for massive scale.
+
+  **First Year Projections:**
+  - Dealership Rooftops Onboarded: 3,000 (mix of groups and independents)
+  - Average Annual Warranty/Recall Reimbursement per Rooftop: $3,000,000
+  - Total Warranty/Recall Flow: $9,000,000,000
+  - Uplift Achieved (5%): $450,000,000
+  - Contingency Fee (22%): $99,000,000
+  - Analytics Subscription ($1,500/month/rooftop): $54,000,000
+  - **Total Estimated Earnings: $153,000,000**
+
+  **Feasibility Score:** 8.0/10 — DMS integrations are common (CDK, Reynolds, Dealertrack). OEM manuals and bulletins are structured documents. Claim portals can be automated via RPA/robots initially, then via direct integrations where offered.
+
+  **Risk Analysis:**
+  - Medium: OEM scrutiny of higher average claim values; mitigated by strict adherence to manuals and documented work
+  - Medium: Dealer IT complexity; mitigated by packaged connectors for top DMSs
+  - Low: Regulatory — this is contract compliance tooling, not financial advice
+
+  **Legal & Ethical:** Helps dealers receive accurate reimbursement for legitimate work. Does not fabricate work or inflate times beyond OEM rules. All optimization is within contractual and policy boundaries. Maintains full audit trails.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

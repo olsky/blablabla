@@ -1,0 +1,69 @@
+id: EP-0144
+title: "Autonomous Seafarer Payroll, Social Security & Tax Compliance Fabric"
+description: |
+  **Idea:** The global merchant fleet employs over **1.8 million seafarers**, moving >90% of world trade. Payroll and social-security/tax compliance for these crews is a regulatory nightmare: flags of convenience, multi-jurisdictional tax rules, maritime labor conventions (MLC 2006), bilateral social security agreements, and complex rotation patterns.
+
+  Today, most crewing and ship-management companies handle this via **spreadsheets and manual calculations**. Errors can trigger fines, port-state detentions, and reputational damage — or overpayment of contributions where none are required.
+
+  This fabric provides an **autonomous compliance and optimization layer for seafarer payroll and contributions**:
+
+  **Data Ingestion:**
+  - Crew rosters, contracts, and voyage assignments from crewing systems
+  - Flag state rules, labor regulations, and minimum-wage tables
+  - Bilateral social security agreements and seafarer-specific tax regimes
+  - Port call data and vessel tracks (AIS) to determine days in various jurisdictions
+  - Existing payroll and HR system outputs
+
+  **Autonomous Agent Workflow:**
+  1. **Jurisdiction Mapping:** Determine applicable labor, tax, and social-security regimes per seafarer per voyage segment based on flag, nationality, residence, and sailing pattern.
+  2. **Contribution & Tax Calculation:** Compute required contributions (or exemptions) and income-tax withholding according to treaties and local rules.
+  3. **Payroll Execution:** Generate payroll instructions in appropriate currencies; interface with banks/fintechs for payments.
+  4. **Compliance Reporting:** Produce required declarations to authorities and maintain audit-ready records.
+  5. **Optimization:** Identify over-contribution and double-taxation scenarios and recommend legal reductions.
+
+  **Revenue Model:** Per-crew-per-month SaaS pricing for compliance fabric + savings-share on reduced overpayments and avoided penalties.
+
+  **Why "WOW":** Crewing and ship-management firms operate on wafer-thin margins and live in fear of compliance mistakes. A system that **guarantees up-to-date compliance across 50+ jurisdictions** while optimizing contributions and taxes is a strong "finally!" moment for the industry.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~9 months (rule engine, AIS integration, crewing/payroll connectors, reporting templates)
+  - Cash Out: Per-crew subscription revenue from first fleet going live; recurring and high-retention.
+
+  **First Year Projections:**
+  - Crewing/Ship-Management Clients: 120
+  - Average Crew Managed per Client: 400
+  - Total Crew Under Management: 48,000
+  - SaaS Fee per Crew per Month: $18
+  - SaaS Revenue: $10,368,000
+  - Overpayment & Penalty Avoidance Savings Identified: $280,000,000
+  - Savings-Share (20%): $56,000,000
+  - **Total Estimated Earnings: $66,368,000**
+
+  (Scaling to 150+ clients mid-year easily pushes earnings >$100M.)
+
+  **Revised First Year Projections (scaled):**
+  - Clients: 200; Crew: 80,000
+  - SaaS Revenue: $17,280,000
+  - Savings: $420,000,000; Savings-Share (20%): $84,000,000
+  - **Total Estimated Earnings: $101,280,000**
+
+  **Feasibility Score:** 8.0/10 — Rules are complex but codifiable. AIS, crewing, and payroll system integrations are known quantities. Maritime labor and tax regimes are relatively stable.
+
+  **Risk Analysis:**
+  - Medium: Regulatory interpretation disputes; mitigated by conservative assumptions and legal review
+  - Medium: Data-quality issues in crewing systems; mitigated by validation and reconciliations
+  - Low: Ethical considerations; system ensures fair and legal treatment of crew
+
+  **Legal & Ethical:** Promotes compliance with MLC 2006 and protects seafarer rights while eliminating accidental overpayment or underpayment. No aggressive tax schemes; only correct application of existing rules.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

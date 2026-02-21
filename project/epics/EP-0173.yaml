@@ -1,0 +1,52 @@
+id: EP-0173
+title: "Autonomous Demurrage, Storage & Free-Time Optimization Network (Imports)"
+description: |
+  **Idea:** Importers and forwarders lose hundreds of millions annually to **avoidably high demurrage and storage charges** at container terminals. Free-time rules vary by carrier, route, and contract. Terminals and lines publish tariffs, but importers manage risk with spreadsheets and emails. No one is continuously optimizing container pickup/delivery decisions against demurrage/storage exposure.
+
+  This network ingests:
+  - Container event data (availability, gate moves, yard location, last free day) from TOS and carrier APIs
+  - Contractual free-time rules per carrier and trade lane
+  - Demurrage and storage tariffs (including tiered and weekend/holiday rules)
+  - Trucker and depot capacity, appointment slots, and transit times
+
+  Agents then:
+  - Compute real-time **demurrage/storage exposure** per container and portfolio
+  - Recommend and (via API) trigger optimal truck scheduling, depot moves, or carrier negotiations to minimize cost
+  - Autonomously validate demurrage/storage invoices vs. contracts and events, disputing errors
+
+  **Why "WOW":** Every importer hates demurrage bills but treats them as inevitable. An engine that monitors every box, predicts cost exposure, and orchestrates actions to reduce it is a killer app for BCOs and 3PLs.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~9 months (TOS/carrier integrations, contract-rule engine, optimization layer)
+  - Cash Out: Savings-share on reduced demurrage/storage plus SaaS fees.
+
+  **First Year Projections:**
+  - Importers/3PLs Onboarded: 260
+  - Annual Import Volume Managed: 5,200,000 TEU
+  - Baseline Demurrage/Storage Spend: $520,000,000 (avg $100/TEU)
+  - Achievable Savings (25%): $130,000,000
+  - Savings-Share (25%): $32,500,000
+  - SaaS Subscription: $60,000,000
+  - **Total Estimated Earnings: $92,500,000**
+
+  With mid-year scale to 8M+ TEU, earnings exceed **$125M**.
+
+  **Feasibility Score:** 8.0/10 — Many carriers and terminals expose event data. Optimization is well-understood. Biggest challenge is standardizing diverse free-time rules.
+
+  **Risk Analysis:**
+  - Medium: Data gaps where terminals or carriers lack APIs; mitigated by EDI and manual upload fallbacks
+  - Low: Legal/regulatory; demurrage is contractual, and disputes are normal business
+
+  **Legal & Ethical:** Helps importers avoid unnecessary charges and ensures invoices are correct. Does not manipulate events; only optimizes pickup and dispute behavior within contracts.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.1
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

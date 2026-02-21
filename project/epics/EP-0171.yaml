@@ -1,0 +1,63 @@
+id: EP-0171
+title: "Autonomous Crane & Yard Asset Uptime Monetization & Penalty Recovery Fabric"
+description: |
+  **Idea:** STS cranes, yard cranes, and key terminal equipment are governed by **complex SLA contracts** with OEMs and maintenance providers (uptime guarantees, response times, MTBF/MTTR targets). When a crane goes down, terminals lose moves per hour, delay vessels, and sometimes owe carriers penalties. Yet SLA enforcement is mostly manual — if it happens at all.
+
+  Terminals under-claim SLA credits from OEMs and over-absorb costs when equipment failures trigger contractual penalties to carriers.
+
+  This fabric ingests:
+  - Real-time crane telemetry (status codes, faults, cycles, hoist/spread operations)
+  - TOS event logs (moves, delays, reassignments)
+  - Maintenance contracts and OEM SLAs
+  - Carrier service-level agreements (productivity guarantees, window commitments)
+
+  Agents then:
+  - Compute true uptime/availability metrics per asset vs. contractual thresholds
+  - Identify all moments where OEM/maintenance SLAs were breached
+  - Quantify owed credits or liquidated damages
+  - Map equipment failures that cascade into carrier penalties, and attribute cost correctly
+  - Autonomously generate and submit SLA credit claims to OEMs/maintainers
+
+  **Why "WOW":** Every terminal knows they should be enforcing equipment SLAs, but the telemetry-to-contract linkage is too hard for humans. This engine turns raw crane fault codes into **cash claims** and avoids double-paying for downtime (once to OEM via maintenance fees and again to carriers via penalties).
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~8 months (telemetry ingestion, contract-logic engine, claim-generation workflow)
+  - Cash Out: OEM SLA credits and avoided penalties at the first terminal group; pure upside for terminals.
+
+  **First Year Projections:**
+  - Terminal Operators Onboarded: 6 global/regional groups
+  - Terminals Covered: 40
+  - Annual Maintenance Spend Monitored: $420,000,000
+  - SLA Credit Opportunity (5% of spend): $21,000,000
+  - Realized Credits (70% of opportunity): $14,700,000
+  - Platform Share (35%): $5,145,000
+  - Avoided Carrier Penalties: $180,000,000
+  - Avoidance Savings Share (20%): $36,000,000
+  - **Total Estimated Earnings: $41,145,000**
+
+  Scaling over the year to 80+ terminals and higher maintenance spend doubles this easily.
+
+  **Scaled First Year Projection:**
+  - Doubled Coverage: Earnings ≈ **$82,000,000**
+  - Add Subscription Fees (monitoring): $22,000,000
+  - **Total Estimated Earnings: $104,000,000**
+
+  **Feasibility Score:** 8.4/10 — Crane OEMs already expose telemetry; TOS logs are structured. The main work is mapping event semantics to contract logic.
+
+  **Risk Analysis:**
+  - Medium: OEM relationship tension when enforcing SLAs more aggressively; mitigated by data transparency and long-term partnership framing
+  - Low: Data rights; terminals own their telemetry and contracts
+
+  **Legal & Ethical:** Enforces existing contracts fairly and consistently. No fabricated outages — all claims are backed by hard telemetry and event logs. Aligns incentives for better maintenance and safer operations.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.1
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

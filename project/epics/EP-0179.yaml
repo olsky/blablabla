@@ -1,0 +1,58 @@
+id: EP-0179
+title: "Autonomous Infrastructure Concession Performance & Revenue-Share Optimization Oracle"
+description: |
+  **Idea:** Many ports operate under **landlord-tenant models**: public port authorities grant long-term concessions to private terminal operators, with complex contracts covering:
+  - Minimum throughput guarantees
+  - Revenue-share tiers and floors
+  - CAPEX obligations and timelines
+  - Performance KPIs (turnaround times, crane productivity, environmental metrics)
+
+  Settlements between landlord and operator are often based on **self-reported throughput and financials**. KPI penalties and bonuses are negotiated manually. Significant value can leak through under-reported volumes, misinterpreted contract formulas, or untriggered penalties/bonuses.
+
+  This oracle ingests:
+  - Detailed concession contracts and amendments
+  - TOS and gate data (throughput, dwell, productivity)
+  - Port authority financials and operator-reported statements
+  - CAPEX project milestones and asset-commissioning events
+
+  Agents then:
+  - Model expected revenue-share and minimum-guarantee payments per contract clause
+  - Compare to actual cash flows and booked amounts
+  - Identify under- or over-payments and untriggered KPI penalties/bonuses
+  - Generate settlement adjustment proposals for both landlord and operator
+  - Provide scenario tools for renegotiation and rebalancing
+
+  **Why "WOW":** Concession contracts are multi-hundred-page beasts. Even sophisticated authorities and operators misapply formulas. An oracle that continuously checks **“what should be paid” vs. “what is actually paid”** is powerful for both sides.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~11 months (contract-logic modelling, throughput/revenue reconciliation, settlement engine)
+  - Cash Out: Contingency share on recovered underpayments and optimization fees from both landlords and operators.
+
+  **First Year Projections:**
+  - Concessions Under Management: 40
+  - Annual Concession Revenue & Fees: $3,200,000,000
+  - Misapplied / Unoptimized Portion (3%): $96,000,000
+  - Recoverable/Optimizable in Y1 (70%): $67,200,000
+  - Platform Share (40%): $26,880,000
+  - Ongoing Analytics & Scenario-Planning SaaS: $80,000,000
+  - **Total Estimated Earnings: $106,880,000**
+
+  **Feasibility Score:** 8.2/10 — Port concessions are complex but static contracts. TOS and financials provide hard data for reconciliation. The main work is accurate contract encoding and change management.
+
+  **Risk Analysis:**
+  - Medium: Political sensitivity around revealing underpayments; mitigated by offering value to both sides (find overpayments too, suggest win–win renegotiations)
+  - Low: Data access; requires NDAs and trust but no new sensors
+
+  **Legal & Ethical:** Applies existing concession terms fairly and transparently. Does not advocate unilateral changes, only correct settlements and mutually beneficial optimizations.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.1
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

@@ -1,0 +1,58 @@
+id: EP-0175
+title: "Autonomous Tug, Pilotage & Mooring Service Capacity & Routing Optimizer"
+description: |
+  **Idea:** Every port call requires a choreography of **tugs, pilots, and mooring gangs**. These services are supplied by a mix of port-owned, private, and cooperative providers. Dispatching is often done via phone and radio, based on planner intuition. Result: idle tugs, crews on overtime, missed windows when one constrained asset is in the wrong place, and under-utilized capacity across nearby ports.
+
+  This optimizer ingests:
+  - Vessel schedules and port-call lineups (ETA/ETD, LOA, beam, draft, maneuver complexity)
+  - Tug, pilot, and mooring asset positions, capabilities, and crew rosters
+  - Safety and operating constraints (weather, currents, max towage loads, crew rest rules)
+  - Contractual tariffs and SLA terms with terminals and carriers
+
+  Agents then:
+  - Predict service demand per time block across a port or port cluster
+  - Generate optimal assignment and routing plans for tugs, pilots, and mooring gangs
+  - Dynamically re-optimize as delays, weather, or cancellations occur
+  - Surface premium options (guaranteed-time escort, green-corridor support) at higher tariffs
+
+  **Why "WOW":** Tug and pilotage companies leave money on the table via suboptimal asset use and lost opportunities to sell reliability as a premium. Terminals and carriers suffer when under-resourced windows cause missed berths. An autonomous optimizer increases moves per asset, cuts overtime, and enables **chargeable premium services**.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~10 months (demand forecasting, constraint-based routing engine, integrations to dispatch systems)
+  - Cash Out: Efficiency gains and premium-service revenue share from the first service cluster.
+
+  **First Year Projections:**
+  - Port Clusters Onboarded: 6
+  - Annual Port Calls Covered: 160,000
+  - Average Towage + Pilotage Revenue per Call: $18,000
+  - Revenue Under Optimization: $2,880,000,000
+  - Yield Uplift via Better Utilization & Premium Offers (5%): $144,000,000
+  - Platform Share: 55%
+  - **Total Estimated Earnings: $79,200,000**
+
+  With mid-year expansion to 10 clusters (≈260,000 calls), earnings exceed **$128M**.
+
+  **Scaled First Year Projection:**
+  - Revenue Under Optimization: $4,680,000,000
+  - Uplift (5%): $234,000,000
+  - Platform Share (55%): **$128,700,000**
+
+  **Feasibility Score:** 8.3/10 — Dispatch optimization and crew-rostering problems are classic OR domains. AIS and local dispatch systems already track key events.
+
+  **Risk Analysis:**
+  - Medium: Safety culture concerns about algorithmic dispatch; mitigated by embedding conservative safety rules and human override
+  - Low: Data availability; providers already operate digital logs or dispatch software
+
+  **Legal & Ethical:** Keeps all safety and rest regulations as hard constraints. Optimizes within, not around, those rules. Improves crew welfare by reducing unpredictable overtime.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.1
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

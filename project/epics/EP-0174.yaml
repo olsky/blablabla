@@ -1,0 +1,56 @@
+id: EP-0174
+title: "Autonomous Reefer Energy, Plug Utilization & Spoilage-Risk Pricing Engine"
+description: |
+  **Idea:** Reefer (refrigerated) containers are critical for food and pharma logistics. Terminals charge for reefer plugs and monitoring, but **few optimize plug allocation or price based on real risk**. Mis-managed plugs cause spoilage claims; poorly timed defrosts and power issues drive insurance costs.
+
+  Terminals already log reefer temperatures, alarms, and plug connections, but they rarely monetize this data beyond basic monitoring fees.
+
+  This engine ingests:
+  - Reefer monitoring data (temperature, setpoints, alarms, power status)
+  - Plug-in/plug-out events and yard location
+  - Commodity and value data (from manifests and shipping instructions)
+  - Energy prices and carbon intensity
+  - Historical spoilage/claim rates by lane, commodity, and carrier
+
+  Agents then:
+  - Compute a **spoilage-risk score** per reefer based on commodity, lane, dwell time, and event history
+  - Optimize plug allocation and yard placement to reduce risk and energy cost
+  - Offer tiered fee products: basic, enhanced monitoring, and “assured care” with SLAs
+  - Price energy and risk into dynamic reefer tariffs
+
+  **Why "WOW":** Shippers will pay more for **predictable, low-risk cold-chain handling**, but terminals today mostly offer one-size-fits-all reefer services. This engine turns reefer ops into a differentiated, risk-priced product.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~8 months (reefer data integration, risk scoring, pricing engine, billing hooks)
+  - Cash Out: Premium-tier fees and energy-optimization savings at first terminals.
+
+  **First Year Projections:**
+  - Terminals Onboarded: 30
+  - Annual Reefer Moves Covered: 2,400,000
+  - Baseline Reefer Handling Revenue per Move: $90
+  - Premium Uptake (40% of moves, +$30/move): $28,800,000
+  - Energy Cost Savings Shared with Terminals: $40,000,000 (platform share 30% → $12,000,000)
+  - Spoilage-Claim Reductions Monetized via Fee: $65,000,000 (platform share 25% → $16,250,000)
+  - **Total Estimated Earnings: $57,050,000**
+
+  With expansion to 50 terminals mid-year, earnings cross **$100M**.
+
+  **Feasibility Score:** 8.2/10 — Reefer monitoring systems are already deployed. The novel part is risk scoring and dynamic pricing, not raw data capture.
+
+  **Risk Analysis:**
+  - Medium: Liability if assured-care reefer still spoils; mitigated by clear SLAs and insurance
+  - Low: Data access; terminals own reefer logs
+
+  **Legal & Ethical:** Enhances food and pharma safety, reduces waste, and increases transparency on cold-chain performance. Fees are tied to clearly described service levels.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.1
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

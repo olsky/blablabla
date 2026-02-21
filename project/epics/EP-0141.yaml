@@ -1,0 +1,61 @@
+id: EP-0141
+title: "Autonomous Commercial Real Estate CAM & Opex Overcharge Recovery Network"
+description: |
+  **Idea:** In commercial real estate (office, retail, industrial), tenants typically pay **CAM (Common Area Maintenance)** and other operating expenses on a pass-through basis. Landlords and property managers bundle utilities, repairs, security, landscaping, taxes, insurance, and admin fees into opaque reconciliations. Studies estimate **3-8% of annual CAM charges are overbilled** due to errors, misclassifications, or aggressive interpretations.
+
+  Today, tenants rely on manual audits performed by niche consultancies. Audits are expensive, confrontational, and infrequent (often only when a large discrepancy is suspected). The majority of overcharges are never contested.
+
+  This network creates an **autonomous CAM and operating-expense audit and recovery engine** for tenants and tenant-rep firms:
+
+  **Data Ingestion:**
+  - Lease documents and amendments (PDFs, scans) with CAM clauses, caps, exclusions, gross-up rules
+  - Annual CAM/opex reconciliation statements and monthly invoices
+  - Building-level data: occupancy rates, square footage, multi-tenant allocation keys
+  - Benchmark datasets for typical expense levels by asset type and geography
+
+  **Autonomous Agent Workflow:**
+  1. **Lease Parsing:** Legal-NLP engine extracts CAM-related provisions: chargeable categories, carve-outs, caps, admin fee limits, gross-up methodology, audit rights.
+  2. **Expense Classification:** Ingest and classify line items from landlord statements into standardized categories. Flag items that violate lease exclusions (e.g., capital improvements booked as maintenance).
+  3. **Allocation Check:** Recompute tenant share based on actual occupancy and agreed allocation methods. Detect misapplied gross-ups or miscalculated pro-rata shares.
+  4. **Benchmarking:** Compare expense levels vs. market benchmarks to flag outliers (red flags for deeper review).
+  5. **Overcharge Quantification:** Calculate precise overcharge amounts per category per year.
+  6. **Recovery Package Generation:** Produce landlord-ready claim packets citing lease provisions, calculations, and requested credits or refunds.
+
+  **Revenue Model:** Contingency-based — 25-30% of recovered CAM/opex overcharges, plus SaaS subscription for ongoing monitoring across portfolios.
+
+  **Why "WOW":** Tenants know CAM is a black box but lack the tools to fight it. A fully automated engine that continuously monitors reconciliations, compares them to leases, and presents recovery claims is a game-changer. Large occupiers (Fortune 1000, big-box retailers) with hundreds of leases can uncover millions in annual savings.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~9 months (lease-parsing engine, expense classifier, allocation calculator, benchmarking model)
+  - Cash Out: Recovery fees from first audited portfolio; no need for multi-year build-out before value.
+
+  **First Year Projections:**
+  - Enterprise Tenants Onboarded: 220 (global retailers, logistics operators, office occupiers)
+  - Average Annual CAM Spend per Tenant: $18,000,000
+  - Total CAM Under Management: $3,960,000,000
+  - Overcharge Rate (4%): $158,400,000
+  - Recovery Rate in Year 1 (70% of overcharges): $110,880,000
+  - Contingency Fee (28%): $31,046,400
+  - SaaS Monitoring Fees: $92,000,000
+  - **Total Estimated Earnings: $123,046,400**
+
+  **Feasibility Score:** 8.4/10 — Lease parsing and invoice classification are well-suited to current NLP. Benchmark data is obtainable via partnerships and public records. Most large tenants already digitize leases centrally.
+
+  **Risk Analysis:**
+  - Medium: Landlord pushback and relationship sensitivity; mitigated by giving tenants control over when/how to assert claims and by starting with clearly documented errors
+  - Medium: Variability in lease language; mitigated by continuous model training and human-in-the-loop review for edge cases
+  - Low: Data access — tenants already possess leases and statements
+
+  **Legal & Ethical:** Operates strictly within contractual rights. Helps enforce agreed terms and reduce billing errors. Uses tenant-owned data; no unauthorized access to landlord systems. Encourages transparency, not opportunistic disputes.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

@@ -1,0 +1,33 @@
+id: EP-0165
+title: Autonomous AI-Powered Climate Risk Insurance Underwriting Engine
+description: |
+  **Idea:** Climate‑related insurance (flood, wildfire, hurricane) suffers from slow, manual risk assessment and inaccurate pricing. This service ingests satellite imagery, weather forecasts, IoT sensor data, and historical claim records. An AI model quantifies climate risk at granular geographic levels and automatically generates insurance policies with dynamic premiums. Smart contracts enforce coverage and trigger payouts based on verified sensor data, eliminating claims processing delays.
+
+  **Why "WOW":** Provides insurers with real‑time, data‑driven underwriting, reducing loss ratios by up to 20% and enabling on‑demand coverage for businesses in high‑risk zones.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~15 months (satellite data pipelines, AI risk models, regulatory compliance, smart‑contract integration).
+  - Cash Out: 3% of total premium volume.
+
+  **First Year Projections:**
+  - Premium Volume Underwritten: $3,000,000,000
+  - Estimated Earnings (3% fee): $90,000,000
+
+  **Feasibility Score:** 7/10 (Data availability high; regulatory approval for AI‑driven underwriting is moderate challenge).
+
+  **Risk Analysis:**
+  - High: Regulatory scrutiny on AI‑based insurance pricing.
+  - Medium: Model bias leading to mispriced risk.
+  - Low: Technical scalability.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

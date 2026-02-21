@@ -1,0 +1,62 @@
+id: EP-0170
+title: "Autonomous Berth & Arrival Reliability Risk-Pricing Engine"
+description: |
+  **Idea:** Container ports sell berths and time windows, but **they do not price reliability**. Carriers routinely arrive hours or days off-window, bunching calls and causing congestion, overtime, and knock-on delays. Terminals absorb the chaos and recover cost through blunt tariffs — not behavior-linked pricing.
+
+  Yet ports sit on a goldmine of data: AIS vessel tracks, historical ETA vs ATA deviations, crane productivity by carrier, weather impacts, and yard congestion patterns. No one is turning this into **granular reliability scores and dynamic port-call pricing**.
+
+  This engine ingests:
+  - AIS and port-call logs (ETA/ATA/ATD, berth assignments)
+  - Terminal Operating System (TOS) events (crane moves, gang assignments, yard congestion)
+  - Carrier schedules and service strings
+  - Weather, tide, and nautical constraints
+
+  Agents compute a **reliability score per carrier, per service, per time-of-day** and use that to:
+  - Offer premium "green lanes" and on-time incentives to punctual carriers
+  - Apply congestion and unreliability surcharges to chronically late/bunching services
+  - Optimize berth allocation to reduce knock-on delays and idle crane time
+
+  Ports can then move from flat pricing to **risk-adjusted port-call tariffs** that directly monetize reliability.
+
+  **Why "WOW":** Today, everyone in liner shipping complains about schedule reliability, but nobody prices it. This engine lets ports say: "If you behave predictably, we’ll give you cheaper, greener, faster calls; if you constantly bunch and disrupt, you’ll pay more." It directly converts behavior into cash and service differentiation.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~9 months (data pipelines from AIS/TOS, reliability scoring models, dynamic pricing engine, billing integration)
+  - Cash Out: new surcharges and premium-lane fees from the first port cluster; no sales into shippers needed — only port authorities and terminal operators.
+
+  **First Year Projections:**
+  - Ports Onboarded: 8 major hubs/gateways
+  - Annual Container Throughput Covered: 65,000,000 TEU
+  - Average Port Revenue per TEU: $120
+  - Targeted Reliability-Linked Uplift: +2% of port revenues
+  - Incremental Revenue Pool: $156,000,000
+  - Platform Take Rate: 60%
+  - **Total Estimated Earnings: $93,600,000**
+
+  Scaling to 12 ports mid-year raises the uplift to **$140M+**.
+
+  **Revised First Year Projections (with expansion):**
+  - Ports Onboarded: 12; Throughput: 100,000,000 TEU
+  - Incremental Revenue Pool: $240,000,000
+  - Platform Take Rate (55% blended): **$132,000,000**
+
+  **Feasibility Score:** 8.3/10 — AIS and port-call data are already collected. TOS integrations exist for most global operators. Reliability scoring and dynamic pricing are classic analytics/optimization problems.
+
+  **Risk Analysis:**
+  - Medium: Carrier pushback on new surcharges; mitigated by offering discounts for high reliability and transparency in scoring
+  - Medium: Political concerns about perceived discrimination; mitigated by using objective, auditable metrics
+  - Low: Data availability; most major terminals already have the necessary feeds
+
+  **Legal & Ethical:** Ports already have full latitude to set tariffs. Pricing based on objective, published reliability metrics is fair and non-discriminatory when applied consistently. Improves network efficiency and reduces congestion/emissions.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.1
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

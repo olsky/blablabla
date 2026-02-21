@@ -1,0 +1,35 @@
+id: EP-0163
+title: Autonomous AI-Driven Real Estate Title & Deed Verification Service
+description: |
+  **Idea:** Real estate transactions involve costly title searches and deed verification, often requiring lawyers and manual record checks. This autonomous service ingests public land registry data, satellite imagery, and historical transaction records, uses AI to verify chain of title, detect liens, and confirm deed authenticity. It then issues a cryptographically signed title certificate on a blockchain, enabling instant, trustless property transfers.
+
+  **Why "WOW":** Reduces closing times from weeks to minutes and eliminates $5‑$10K legal fees per transaction. With $30T of global real estate transactions annually, even a 0.1% capture yields $30B in volume.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~13 months (data integration from registries worldwide, AI model training, legal compliance, blockchain issuance).
+  - Cash Out: 0.5% fee on transaction value.
+
+  **First Year Projections:**
+  - Transactions Processed: 200,000
+  - Average Transaction Value: $500,000
+  - Gross Transaction Volume: $100,000,000,000
+  - Estimated Earnings (0.5% fee): $500,000,000
+
+  **Feasibility Score:** 7/10 (Data availability varies by jurisdiction; legal acceptance of blockchain titles is the main hurdle).
+
+  **Risk Analysis:**
+  - High: Regulatory resistance in jurisdictions that do not recognize digital title records.
+  - Medium: Data quality inconsistencies across registries.
+  - Low: Technical scalability – cloud infrastructure can handle volume.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

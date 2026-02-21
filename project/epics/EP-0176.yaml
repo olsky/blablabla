@@ -1,0 +1,53 @@
+id: EP-0176
+title: "Autonomous Gate & Hinterland Appointment Optimization Fabric"
+description: |
+  **Idea:** Terminal gates and nearby roads frequently gridlock when trucks arrive in spikes unrelated to yard and berth capacity. Appointment systems exist but are poorly used, and they’re often static. Rail flows add another layer of complexity. Everyone — shippers, truckers, terminals, cities — pays the price in congestion, demurrage, and emissions.
+
+  This fabric ingests:
+  - Gate event data (in/out, lane usage, wait times)
+  - Appointment bookings and no-show patterns
+  - Yard plans and stack occupancy
+  - Berth plans and crane work schedules
+  - Local traffic and environmental data
+
+  Agents then:
+  - Forecast gate demand by hour and direction
+  - Dynamically shape appointment slots and quotas per time window based on true capacity and vessel work
+  - Offer "priority" and "green" slots at premium or discount pricing to shape demand
+  - Nudge truckers and BCOs toward cost-optimal choices via API and TMS integrations
+
+  **Why "WOW":** No one globally is doing **joint optimization** of yard, berth, and hinterland gates with pricing signals. This engine essentially creates a **market for scarce, congestion-free gate capacity**, improving throughput while monetizing reliability.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~9 months (gate/TOS integrations, demand-forecasting, dynamic slot pricing)
+  - Cash Out: Premium slot fees, efficiency-sharing deals with terminals, and congestion-mitigation contracts with cities.
+
+  **First Year Projections:**
+  - Terminals Onboarded: 35
+  - Annual Truck Gate Moves Managed: 32,000,000
+  - Share of Moves Choosing Priced Slots: 25%
+  - Average Premium/Discount Spread Captured per Priced Move: $6
+  - Revenue from Slot Pricing: $48,000,000
+  - Terminal Throughput/Cost Savings Pool: $120,000,000 (platform share 25% → $30,000,000)
+  - City/Region Congestion-Mitigation Contracts: $30,000,000
+  - **Total Estimated Earnings: $108,000,000**
+
+  **Feasibility Score:** 8.0/10 — Gate and TOS event streams exist. Traffic APIs are mature. The main shift is convincing terminals and truckers to respond to price/slot signals, which prior pilots suggest is realistic.
+
+  **Risk Analysis:**
+  - Medium: Perceived unfairness from small truckers if large players buy all premium slots; mitigated by allocation rules and caps
+  - Low: Data privacy; only aggregate demand shaping is needed
+
+  **Legal & Ethical:** Reduces congestion, emissions, and driver wait times. Pricing is transparent and optional; basic access remains available.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.1
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

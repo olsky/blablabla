@@ -1,0 +1,65 @@
+id: EP-0140
+title: "Autonomous Mining Royalty & Production Under-Reporting Detection Fabric"
+description: |
+  **Idea:** Global mining operations (iron ore, copper, coal, gold, rare earths) generate **trillions of dollars in annual output** and hundreds of billions in royalties and taxes for governments and private mineral-rights owners. Yet reported production volumes are often **self-declared by operators**, reconciled via spreadsheets and paper forms. Under-reporting of ore grades, volumes, and off-take shipments can quietly divert billions away from rightful owners.
+
+  Today, most resource ministries and private royalty holders lack the data and tooling to validate what should have been paid. Audits are rare, slow, and highly manual. Satellite imagery, AIS shipping data, and customs filings exist — but no one is fusing them into an always-on royalty entitlement engine.
+
+  This fabric builds an **autonomous mining royalty and production verification network**:
+
+  **Data Ingestion:**
+  - Satellite imagery (optical + SAR) for open-pit mine activity, stockpile volumes, and tailings changes
+  - Nighttime lights and heat signatures for underground and processing operations
+  - AIS/VTIS shipping data for bulk carriers loading at specific ports and berths
+  - Port, rail, and trucking manifests (where digitized), plus customs export declarations
+  - Reported production and grade data from operator filings and royalty statements
+  - Contract data: royalty agreements, sliding-scale schedules, price-linked formulas
+
+  **Autonomous Agent Workflow:**
+  1. **Mine Mapping:** Identify and continuously monitor all active pits, stockpiles, and processing plants per concession.
+  2. **Activity Estimation:** Use multi-temporal imagery to estimate ore moved and processed (bench advance, haul-road traffic, stockpile changes).
+  3. **Shipment Correlation:** Match estimated production with observed vessel loadings and customs-export declarations.
+  4. **Royalty Entitlement Calculation:** Apply contract terms and statutory royalty rules to estimated true production.
+  5. **Under-Reporting Detection:** Compare expected royalties vs. reported and paid amounts. Flag discrepancies with confidence scores.
+  6. **Recovery Package Generation:** Produce audit-ready reports and evidence bundles governments and rightsholders can use to recover underpaid amounts.
+
+  **Revenue Model:** Contingency-based — 15-20% of recovered underpaid royalties and taxes, plus subscription fees for continuous monitoring dashboards.
+
+  **Why "WOW":** Resource-rich countries and landowners have long suspected they're being short-changed but lack proof. This fabric turns diffuse, hard-to-use data (satellites, AIS, customs) into **actionable, courtroom-grade evidence**. A single large mine underpaying by 3-5% can represent tens of millions per year; across a national portfolio, the upside is enormous.
+
+  It also creates a deterrent: once operators know entitlements are independently monitored, under-reporting becomes much riskier.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~12 months (imagery pipelines, concession mapping, production-estimation models, contract-logic engine)
+  - Cash Out: Recovery fees from first audited assets; early adopters can be one or two pilot countries or major royalty funds.
+
+  **First Year Projections:**
+  - Countries / Rightsholders Onboarded: 8 (mix of governments and private royalty companies)
+  - Aggregate Annual Reported Royalty Base: $12,000,000,000
+  - Estimated Under-Reporting (5%): $600,000,000
+  - Recovery Rate in Year 1 (50% of under-reporting): $300,000,000
+  - Platform Contingency Fee (18%): $54,000,000
+  - Subscription & Analytics Licenses: $68,000,000
+  - **Total Estimated Earnings: $122,000,000**
+
+  **Feasibility Score:** 8.1/10 — Satellite and AIS data are mature and commercially accessible. Volume-estimation models for open-pit mines are well-studied. Customs and port data access is uneven but feasible in pilot countries. Contract logic is complex but deterministic.
+
+  **Risk Analysis:**
+  - High: Political risk — operators may lobby against adoption; mitigated by starting with reform-minded governments and private royalty funds
+  - Medium: Data-quality limitations in heavily forested / covered operations; mitigated by SAR and multi-sensor fusion
+  - Medium: Legal pushback from operators contesting estimates; mitigated by conservative methodology and transparent models
+  - Low: Ethical concerns; system promotes transparency and fair payment of agreed royalties
+
+  **Legal & Ethical:** Aligns with anti-corruption and transparency efforts (EITI, OECD). Supports governments and landowners in collecting what contracts already stipulate. Does **not** encourage expropriation or retroactive rule changes — only accurate application of existing agreements.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

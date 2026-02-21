@@ -1,0 +1,54 @@
+id: EP-0172
+title: "Autonomous Port Call Documentation, Clearance & Fee Orchestration Mesh"
+description: |
+  **Idea:** A single port call requires **dozens of documents** and interactions: port authority notifications, pilotage requests, tug bookings, berth applications, cargo manifests, dangerous-goods declarations, customs filings, immigration lists, port dues, and service invoices. Today, agents manage this via **email, fax, and manually updated port-community systems**, differing at each port.
+
+  This mesh becomes an **autonomous documentation and fee-orchestration layer** for port calls:
+
+  It ingests:
+  - Vessel, voyage, and cargo data from carriers/agents (EDIFACT, APIs, spreadsheet uploads)
+  - Port and authority requirements per call type (arrival/departure, bunkering, crew change, cargo ops)
+  - Tariff books and fee schedules (port dues, light dues, environmental levies, ISPS, pilotage, towage, mooring)
+  - Customs and immigration templates per jurisdiction
+
+  Agents then:
+  - Generate all required pre-arrival and arrival documentation for authorities
+  - Orchestrate booking and confirmation with tugs, pilots, and moorers
+  - Auto-calculate expected port dues and service fees
+  - Submit all forms via APIs, EDI, or portal automation where necessary
+  - Reconcile actual invoices vs. expected charges and flag overbilling
+
+  **Why "WOW":** Port agents and operators waste thousands of hours per year on repetitive documentation that machines can do better. A single mesh that “just knows” what documents, notifications, and payments are needed for each call at each port — and executes them — is a huge friction remover.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~10 months (requirements knowledge base, integration with major port-community systems, document-generation engine)
+  - Cash Out: Per-call orchestration fees and savings-share on detected overbilling.
+
+  **First Year Projections:**
+  - Ports Integrated: 25 (mixture of major hubs and regional ports)
+  - Annual Port Calls Handled: 180,000
+  - Orchestration Fee per Call: $350
+  - Orchestration Revenue: $63,000,000
+  - Overbilling/Waste Savings Identified: $220,000,000
+  - Savings-Share (20%): $44,000,000
+  - **Total Estimated Earnings: $107,000,000**
+
+  **Feasibility Score:** 8.1/10 — Port requirements are complex but codifiable; many ports expose APIs or structured portal flows. EDIFACT and carrier systems are standard.
+
+  **Risk Analysis:**
+  - Medium: Heterogeneity in port processes; mitigated by starting with high-traffic, API-friendly ports and incrementally adding others
+  - Low: Regulatory concerns; system improves compliance and record-keeping
+
+  **Legal & Ethical:** Facilitates timely, accurate regulatory filings and fee payments. Reduces human error, improves safety and compliance. No gaming of fees — just correct application of published tariffs.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.1
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

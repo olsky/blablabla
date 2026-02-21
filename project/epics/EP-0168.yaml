@@ -1,0 +1,35 @@
+id: EP-0168
+title: Autonomous Agricultural Satellite Data Marketplace & Precision Farming Engine
+description: |
+  **Idea:** Farmers and agribusinesses need hyper‑local, real‑time data (soil moisture, NDVI, weather forecasts) to maximize yields. This service continuously ingests high‑resolution satellite imagery, drone feeds, and IoT sensor data, processes it with AI to generate actionable insights (optimal irrigation, fertilizer dosing, pest alerts). The insights are tokenized and sold on an automated marketplace where agritech platforms, insurance companies, and commodity traders purchase data streams via API. Smart contracts handle licensing, payment, and data provenance.
+
+  **Why "WOW":** Enables a 15% yield increase on average, translating to billions in additional agricultural output. The global precision‑farming market is projected to reach $12B; capturing 10% yields $1.2B annual transaction volume.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~14 months (satellite data contracts, AI model development, tokenization framework, regulatory compliance for data privacy).
+  - Cash Out: 2% transaction fee on total data sales.
+
+  **First Year Projections:**
+  - Data Subscriptions Sold: 500,000
+  - Average Monthly Subscription: $20
+  - Gross Transaction Volume: $120,000,000
+  - Estimated Earnings (2% fee): $2,400,000
+
+  **Feasibility Score:** 8/10 (Satellite data pipelines exist; AI models for agronomy are mature. Regulatory hurdles minimal.)
+
+  **Risk Analysis:**
+  - High: Data privacy concerns in regions with strict agronomic data regulations.
+  - Medium: Dependence on satellite availability (cloud cover).
+  - Low: Market demand – farmers are eager for yield‑boosting tools.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

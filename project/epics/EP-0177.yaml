@@ -1,0 +1,50 @@
+id: EP-0177
+title: "Autonomous Terminal Tariff Compliance & Under-Billing Leakage Recovery Engine"
+description: |
+  **Idea:** Terminal tariffs are intricate books covering stevedoring, storage, reefer care, hazardous surcharges, extra lifts, special handling, and more. Every box generates a constellation of chargeable events — but billing engines and human clerks routinely **miss or mis-rate** events. Industry insiders estimate 2–5% of potential revenue is never invoiced or is under-billed.
+
+  This engine ingests:
+  - Full terminal event stream from TOS (move events, work instructions, yard actions, special services)
+  - Tariff books and customer-specific contract overrides
+  - Existing invoices and credit-note history
+
+  Agents then:
+  - Reconstruct what *should* have been billed for each box and call
+  - Compare against what was actually invoiced
+  - Identify missed and under-billed charges with exact references to tariff clauses
+  - Generate supplemental invoices and recommended contract clean-ups
+
+  **Why "WOW":** Terminals run on thin margins and invest billions in hardware. Quietly leaking a few percent of top line to invoicing misses is insane, but common. An autonomous engine that plugs that leak is **pure found money**.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~8 months (event-to-tariff mapping logic, contract-override engine, billing integrations)
+  - Cash Out: Recovery-share on newly detected revenue and reduction of chronic mis-billing.
+
+  **First Year Projections:**
+  - Terminals Onboarded: 60
+  - Aggregate Annual Revenue Under Audit: $5,400,000,000
+  - Under-Billing Rate (conservative 2.5%): $135,000,000
+  - Recoverable Portion in Y1 (70%): $94,500,000
+  - Platform Share (40%): $37,800,000
+  - Forward-Looking Leakage Prevention Fee (fixed SaaS): $80,000,000
+  - **Total Estimated Earnings: $117,800,000**
+
+  **Feasibility Score:** 8.6/10 — TOS events and tariffs are structured. The challenge is careful handling of customer-specific deals — but those are contractually documented.
+
+  **Risk Analysis:**
+  - Medium: Customer relationship sensitivity around back-billing; mitigated by focusing first on clearly missed standard charges and offering amnesties for historical periods
+  - Low: Data rights; terminals own TOS and billing events
+
+  **Legal & Ethical:** Ensures customers are billed per the contracts and public tariffs they agreed to. No hidden or retroactive fees beyond contractual rights.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gpt-5.1
+  provider: openai
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true

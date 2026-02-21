@@ -1,0 +1,63 @@
+id: EP-0143
+title: "Autonomous Timber Concession Compliance & Yield Optimization Mesh"
+description: |
+  **Idea:** Timber concessions and forest licenses cover hundreds of millions of hectares globally and represent **hundreds of billions in long-term asset value**. Governments and landowners grant harvesting rights to operators under complex management plans: allowable-cut volumes, species mix, buffer zones, replanting obligations, road-building rules, and conservation set-asides.
+
+  Enforcement today is weak: field inspectors with clipboards, sporadic flyovers, and self-reported harvest volumes. This allows **illegal logging, over-harvesting, and underpayment of stumpage/royalties**. At the same time, legitimate operators struggle to prove compliance to regulators and ESG-conscious buyers.
+
+  This mesh creates an **always-on compliance and yield-optimization layer** for timber concessions:
+
+  **Data Ingestion:**
+  - Satellite imagery (optical + radar) for canopy changes, road building, and harvest patterns
+  - High-resolution elevation models and forest inventories
+  - Concession boundaries, management plans, and harvest schedules
+  - On-the-ground data from mobile apps and harvester telemetry (where available)
+  - Market price data for log grades and species
+  - Royalty/stumpage contracts and statutory rules
+
+  **Autonomous Agent Workflow:**
+  1. **Concession Monitoring:** Map and continuously track canopy loss, new roads, and harvesting blocks vs. approved plans.
+  2. **Compliance Assessment:** Detect harvesting outside approved compartments, encroachment into riparian buffers, and excessive road density.
+  3. **Volume & Yield Estimation:** Estimate harvested volumes and species mix from canopy change and inventory models.
+  4. **Royalty Calculation:** Apply contract terms and statutory stumpage rates to estimated harvest volumes.
+  5. **Underpayment Detection:** Compare expected royalties vs. reported/paid amounts.
+  6. **Optimization Suggestions:** Recommend optimal harvest sequencing and species mix within sustainability limits to maximize NPV.
+
+  **Revenue Model:** Subscription fees from governments/landowners and concessionaires + contingency share (10-15%) of recovered unpaid royalties and verified legal harvest premiums in ESG supply chains.
+
+  **Why "WOW":** Forestry has lagged behind agriculture and mining in digital oversight. A single platform that gives governments confidence in concession compliance **and** gives operators a way to prove legality (unlocking green premiums) is a breakthrough.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~11 months (imagery pipelines, concession-plan ingestion, volume/yield models, royalty logic)
+  - Cash Out: Subscription and recovery-share from first country/landowner rollouts.
+
+  **First Year Projections:**
+  - Countries / Large Landowners Onboarded: 6
+  - Concession Area Covered: 45,000,000 hectares
+  - Annual Harvest Value Monitored: $5,000,000,000
+  - Estimated Underpaid Royalties (3%): $150,000,000
+  - Recovery Rate in Y1 (50%): $75,000,000
+  - Recovery Share (12%): $9,000,000
+  - Platform Subscriptions and ESG Data Licensing: $118,000,000
+  - **Total Estimated Earnings: $127,000,000**
+
+  **Feasibility Score:** 8.2/10 — Deforestation-detection tech is proven (e.g., Global Forest Watch). Extending it to concession-plan compliance and royalty logic is complex but achievable.
+
+  **Risk Analysis:**
+  - High: Political and local industry resistance; mitigated by aligning with international finance (development banks, ESG-linked loans) that require such monitoring
+  - Medium: Cloud cover in tropical regions; mitigated by radar imagery and temporal compositing
+  - Low: Ethical risks; the platform discourages illegal logging and over-harvesting
+
+  **Legal & Ethical:** Supports legal, sustainable forestry and fair royalty payments. Helps reduce illegal logging and associated human-rights abuses. Does not promote land grabs or retroactive contract changes.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: claude-opus-4
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 4
+  approval_threshold: 0.90
+  require_blocking_clearance: true
