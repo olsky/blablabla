@@ -1,0 +1,55 @@
+id: EP-0922
+title: Instant Real Estate Appraisal Engine (Data-Driven + Human-Co-Sign)
+description: Real estate appraisals cost $300–$1,200 (average $650) and take 2–4 weeks. Appraisers undersupplied ($30B+ in delayed mortgages annually). But appraisals are 70% comparable sales analysis (data work) + 30% expert judgment. This AI system ingests comp sales data (public MLS, Zillow, tax records, permits), analyzes 50–100 comps (location, size, condition, sales date, prices), applies hedonic regression (price = f(location, sqft, beds, baths, age, condition)), generates draft appraisal (estimated value, confidence, comp analysis, writeup), human appraiser reviews (customizes for quirks/trends; signs off in 15 min vs. 4 hours), delivers instantly vs. 2–4 week wait. Result appraisal <24 hours ($150–$300 vs. $650), humans handle exceptions, lenders reduce closing delays.
+
+value_proposition: Obtain appraisals in <24 hours (vs. 2–4 weeks). Reduce costs 50% ($300 vs. $650). Streamline appraiser workflows (focus judgment not data). Eliminate mortgage closing delays. Provide instant valuations to real estate professionals.
+
+target_customer: Mortgage lenders (residential, commercial); mortgage brokers (faster closings); real estate agents (instant CMAs); title companies (quick valuations); real estate investors (fast acquisition decisions).
+
+business_case:
+  problem_statement: 'Appraisal bottleneck choking mortgage market: Volume ~6M residential mortgages/year; each needs appraisal. Turnaround 2–4 weeks average; some markets 6–8 weeks (shortage). Cost $500–$1200 per appraisal ($650 avg); non-refundable if deal fails. Appraiser shortage ~50K appraisers in US; undersupply impossible meet demand. Delay impact 2-week appraisal = 2-week closing delay = major friction. Data part easy 50–100 comps public (MLS, tax records, Zillow); regression standard; analysis deterministic. Human part hard appraiser judgment (water damage, corner lot, neighborhood trend, school district) but fast 15–30 min review vs. 4–6 hours currently.'
+  
+  solution_approach: '1) Data ingest (MLS partnerships, public tax records, Zillow, Google Maps, building permits). 2) Comparable analysis (find 30–50 recent sales within 0.5–1 mi, match size±500sqft/type/age±10yr/condition±1grade, download price+date+details). 3) Hedonic regression (features location/size/beds/baths/lot/age/condition, target inflation-adjusted price, train on 5K–10K historical sales city-specific). 4) Report generation (auto-populate URAR forms, comp table, analysis charts, explanation). 5) Appraiser review <30 min (can override, customize refinement). 6) Delivery via API+web digital signature.'
+  
+  target_metrics: 'Turnaround <24 hours (vs. 2–4 weeks). Cost 50% reduction ($300 vs. $650). Appraiser productivity 3–5x (15 min vs. 4 hrs). Model accuracy 95%+ confidence interval captures true market value. Appraiser satisfaction >80%.'
+  
+  assumptions: Comparable sales data available accessible. Appraisers willing work faster. Lenders accept AI-drafted appraisals with human sign-off. Hedonic models work well residential (85% variance explained). Market relatively stable.'
+  
+  revenue_model: 'Per-appraisal SaaS: Appraiser subscription $199/mo unlimited (appraiser upside—faster work, higher income); Lender subscription $50/appraisal (saves $300+); Real estate agent $29/mo unlimited CMAs. OR white-label (lender rebrand, pay $20–$40/appraisal, mark up $200–$400). OR freemium (1/mo free) + premium ($99–$299/mo unlimited). Recommended Model 1 (per-appraiser) + Model 3 (freemium).'
+  
+  product_roadmap: 'Phase 1 Weeks 1–8: MVP single market Austin TX (MLS pipeline weeks 1–2, hedonic model training weeks 3–4, report generation weeks 5–6, appraiser workflow weeks 7–8). Phase 2 Weeks 9–12: Scale (3–5 more markets weeks 9–10, mobile app weeks 11–12). Phase 3 Months 4–6: AI enhancements (computer vision street photos, NLP public records, API lenders, white-label major lenders).'
+  
+  feasibility_score_narrative: 'High technical: Appraisal well-studied ML problem. Comps data public. Hedonic models standard. Straightforward implementation. Sufficient accuracy production. Business medium risk (appraisers may resist; needs lender partnerships). Regulatory medium (appraisals regulated; some states limit licensing; but AI-assisted increasingly accepted).'
+  
+  deployment_model: 'SaaS web + mobile appraisers; API lenders.'
+  
+  success_criteria: 'Turnaround <24 hours 90%+ appraisals. Cost drops $650→$300–$400 Year 2. Appraiser adoption 2K–5K Year 1. Lender adoption 20–50 lenders/brokers Year 1. Model accuracy within 5% market value 95%. NPS >60.'
+  
+  first_year_revenue_usd: 8200000
+  first_year_user_count: 1200
+  users_acquisition_target: 1200 to 2500
+  user_segment_distribution: 'Appraisers primary 1K–2K @ $200/mo = $2.4M–$4.8M. Lenders volume 25–50 @ $50K–$200K/yr = $1.25M–$10M. Real estate agents 200–400 @ $400/yr = $80K–$160K. Title companies 50–100 @ $500/yr = $25K–$50K. Conservative 500 appraisers @ $200/mo + 15 lenders @ $100K = $2.7M. Realistic 1K @ $200/mo + 35 @ $150K = $7.65M. Optimistic 1500 @ $240/mo + 50 @ $180K = $13.32M.'
+  
+  revenue_trajectory: 'Month 1–2 MVP; Month 3 Austin launch 50–100 appraisers + 2 brokers $20K; Month 4 word-of-mouth 150 appraisers proven 24-hour turnaround; Month 5–6 400–500 appraisers 5–8 lenders/brokers $150K–$250K/mo; Month 7–9 expand 5 markets 800 appraisers 15–20 lenders $400K–$600K/mo ARR; Month 10–12 1200 appraisers 40–50 lenders $800K–$1M/mo ARR.'
+  
+  roi_time_in_months: 4
+  roi_rationale: 'Development $250K, sales $200K, infrastructure $100K = $550K. Month 3 $20K revenue. Month 4–5 cumulative >$550K breakeven (fast adoption appraiser community). Monthly revenue compounds (appraisers tell appraisers). True ROI Month 4.'
+  
+  implementation_timeline: 'Weeks 1–8 MVP Austin. Weeks 9–12 broker integration + 3 more markets. Month 4–5 national scale + 10–15 lenders. Month 6–12 mobile app + computer vision + commercial appraisals + integrations.'
+  
+  dependencies: MLS partnerships (varies by market; straightforward). Public records/tax data (free online). Appraisal form standards (public). Optional Zillow API.'
+
+feasibility_score: 8.6
+
+risk_analysis: 'Technical (hedonic models don''t capture local nuances; mitigation per-market models, wider intervals). Business (appraisers resist change income threat; mitigation position productivity boost, focus young appraisers). Market (Zillow/Redfin/CoreLogic could build; mitigation focus appraiser workflow + lender integration, move fast). Regulatory (appraisal regulated, appraiser signature requirements; mitigation appraiser-assisted positioning, work regulators). Ethical (inaccurate appraisal harms; mitigation confidence intervals + sign-off + insurance).'
+
+created_at: '2026-02-22T14:35:00Z'
+created_by:
+  agent_type: epic_generator
+  model: claude-haiku-4.5
+  provider: anthropic
+status: draft
+review_policy:
+  min_reviews: 1
+  approval_threshold: 1
+  require_blocking_clearance: false

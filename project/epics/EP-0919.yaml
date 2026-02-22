@@ -1,0 +1,55 @@
+id: EP-0919
+title: Government Procurement Intelligence & Proposal Automation
+description: US government spends $600B/year on contracts. 80% goes to 30K incumbents; SMBs miss 95% of opportunities ($40–$60B/year). This AI system ingests SAM.gov + state procurement portals, matches opportunities to company capability, auto-generates compliant proposals (80% of proposal work), tracks submissions, optimizes recommendations. Result SMBs find 5–20 qualified bids/month (vs. 1–3), win rate improves 3–5x, proposals done in hours not weeks.
+
+value_proposition: Discover government contract opportunities matching your capabilities. Auto-generate compliant proposals in minutes. Track wins/losses. Improve bid success rate 3–5x in 6 months. Eliminate hiring expensive capture managers.
+
+target_customer: Small government contractors ($5M–$500M revenue); minority/women-owned businesses (MWBEs); veteran-owned small businesses (VOSBs); manufacturers with excess capacity; services firms (IT, consulting, logistics, security).
+
+business_case:
+  problem_statement: Federal market $600B total; SMB addressable $200B–$250B; actual SMB capture $50–$60B (25% penetration). SMBs don't know about 95% of bids they could win. Manual SAM.gov search (2–4 hours/day). Capture manager spends 20–40 hours per proposal ($150K+/year salary). Multi-month sales cycles. Win rate 5–15%. Opportunity matching is data problem (100K+ bids/year; find the 5–10 YOU can win) → ML solves. Proposal generation is language problem (create compliant text fast) → LLMs excel.
+  
+  solution_approach: 1) Daily pulls from SAM.gov, state procurement portals, GSA schedules (all free public APIs). 2) Opportunity matching (score 1–100 for fit; keyword match, financial viability, past performance alignment). 3) Proposal automation (customer provides company summary + past performance once; auto-generate NAICS narrative, pricing, technical approach, compliance language). 4) Submission tracking (calendar alerts, outcome tracking). 5) Learning loop (after 10 submissions model learns win patterns; recommend best opportunities).
+  
+  target_metrics: Bid opportunity discovery 10–50 qualified/month (vs. 1–3). Proposal turnaround 2–4 hours (vs. 20–40). Win rate improvement 3–5x in 6 months. Revenue per customer $500K–$5M/year additional government.
+  
+  assumptions: Government customers highly motivated. SAM.gov APIs usable. Proposal templates learnable. SMBs provide past-performance examples.
+  
+  revenue_model: 'SaaS tiered: Tier 1 $249/mo (5 opportunities, 2 proposals) → Tier 2 $999/mo (unlimited) → Tier 3 $4,999/mo (premium coaching). OR success-based 5–10% of contract value. OR hybrid freemium + premium. Recommended Tier 1 + success-based if >$500K contract.'
+  
+  product_roadmap: 'Phase 1 Weeks 1–8: MVP opportunity matching (SAM API, matching algorithm, dashboard). Phase 2 Weeks 9–12: Proposal AI (template library, LLM integration). Phase 3 Months 4–6: Learning + expansion (outcome tracking, state/local procurement, past-perf analysis).'
+  
+  feasibility_score_narrative: SAM APIs stable. NLP/LLM for proposals proven. Matching straightforward classification. Low technical risk. COTS APIs + standard ML.
+  
+  deployment_model: SaaS only (minimal IT integration; easy signup).
+  
+  success_criteria: Customer acquisition 500–1000 SMBs Year 1. ARPU $3K–$6K. Contract win rate >20%. Retention >80%.
+  
+  first_year_revenue_usd: 9200000
+  first_year_user_count: 1850
+  users_acquisition_target: 1850 to 3500
+  user_segment_distribution: 'Small contractors ($5M–$50M) 800–1500 @ $500/year freemium + $2K premium = $2.8M–$5M. Growth-stage ($50M–$200M) 200–400 @ $5K–$10K = $1M–$4M. Enterprise gov ($200M+) 50–100 @ $20K = $1M–$2M. Conservative Year 1 800 SMBs @ $2K + 100 mid-tier @ $7K = $2.3M. Realistic 1200 @ $2.5K + 300 @ $8K = $5.4M. Optimistic 1850 @ $3K + 500 @ $8K = $9.55M.'
+  
+  revenue_trajectory: 'Month 1–2 MVP; Month 3 launch beta 20–50 early adopters $50K–$100K; Month 4 word-of-mouth from wins; Month 5–6 100–200 customers $200K–$500K/mo; Month 7–9 500 customers $800K–$1.5M/mo ARR; Month 10–12 1200–1500 customers $4M–$6M ARR.'
+  
+  roi_time_in_months: 3
+  roi_rationale: Development $300K, marketing $150K, infrastructure $50K = $500K breakeven. Month 3 $50K–$100K revenue; Month 6 $500K cumulative; Month 3 forward compounds. True ROI Month 3–3.5.
+  
+  implementation_timeline: 'Weeks 1–8 MVP matching. Weeks 9–12 proposal AI. Month 4–5 scale + refinement. Month 6–12 growth + state/local expansion.'
+  
+  dependencies: SAM.gov API access. State procurement portal APIs. LLM API access. Optional SBA partnership.
+
+feasibility_score: 9.1
+
+risk_analysis: 'Technical (SAM API changes/rate limits; mitigation cache daily). Business (customers need hand-holding; mitigation freemium + onboarding videos). Market (larger competitors; mitigation undercut price, focus SMB, feature speed). Government win conversion low (mitigation focus realistic bids only).'
+
+created_at: '2026-02-22T14:35:00Z'
+created_by:
+  agent_type: epic_generator
+  model: claude-haiku-4.5
+  provider: anthropic
+status: draft
+review_policy:
+  min_reviews: 1
+  approval_threshold: 1
+  require_blocking_clearance: false

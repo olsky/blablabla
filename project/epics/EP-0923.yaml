@@ -1,0 +1,56 @@
+id: EP-0923
+title: Autonomous Port Demurrage & Detention Refund Engine
+description: |
+  **Idea:** Importers and freight forwarders pay $35B+/year in port demurrage/detention/storage penalties due to missed free-time windows, bad terminal data, and slow dispute workflows. Most invoices are uncontested because teams cannot track container milestones across terminals, carriers, and customs systems. This AI agent ingests carrier/terminal feeds, ICS/ACE event data, and trucking telemetry to (1) predict free-time expiry, (2) auto-file extensions and holds, (3) audit invoices line-by-line, and (4) auto-dispute invalid fees with evidentiary packets. Zero human interaction; pure API + email automation. Goal: recover $1K–$10K/month for SMB importers within 60 days of launch.
+
+value_proposition: |
+  Prevent and recover demurrage/detention/storage fees automatically. Predict fee risk days in advance, auto-extend free time, auto-dispute erroneous charges with timestamped evidence, and close tickets without human effort.
+
+target_customer: |
+  SMB and mid-market importers (apparel, furniture, electronics), NVOCCs, and freight forwarders handling 500–10K TEU/year across US/EU ports.
+
+business_case:
+  problem_statement: |
+    - Demurrage/detention/storage fees exceed $35B/year globally; 5–15% of invoices are erroneous or avoidable.
+    - SMB importers lack visibility to terminal clocks; free-time expiry is opaque; disputes are manual and slow (email spreadsheets).
+    - Carriers and terminals expose APIs/EDI/EMD status events, but no unified automation exists for SMBs.
+  solution_approach: |
+    - Data ingest: Carrier track/trace (API/EDI), terminal availability feeds, ACE/ICS events, trucking GPS/ELD pings.
+    - Predictive clock: Compute free-time countdown per container; alert 48/24/12 hours before expiry; auto-request extensions.
+    - Invoice audit: Parse invoices (PDF/EDI), reconcile timestamps vs. ground truth events.
+    - Auto-dispute: Generate evidence packet (event timeline, gate moves, holds) and submit via carrier portals/email API.
+    - Outcome learning: Model which carriers/ports honor which evidence; optimize dispute wording and timing.
+  first_year_revenue_usd: 1800000
+  first_year_user_count: 220
+  roi_time_in_months: 2.5
+
+revenue_model: |
+  - Tiered SaaS: $299/month (up to 200 containers/month), $799/month (2K containers), $2,499/month (10K containers).
+  - Success fee: 10–20% of recovered/avoided fees (incentive-aligned); can be standalone for pilots.
+
+implementation_timeline: |
+  - Weeks 1–2: Integrate 3 carrier APIs + 2 terminal feeds; ingest sample invoices; basic clock computation.
+  - Weeks 3–4: Invoice parser + reconciliation; evidence packet generation; email/portal submission automation.
+  - Weeks 5–6: Predictive alerts + extension requests; MVP launch with 2 pilot importers.
+  - Weeks 7–10: Add more carriers/ports; dispute outcome learning; dashboard polish.
+
+feasibility_score: 8.9
+feasibility_rationale: |
+  - High: APIs/EDI feeds exist; invoice parsing is standard; automation is rules-heavy, not novel ML.
+  - Business: SMB importers eager (fee pain, minimal alternatives); pilots close fast with success-based pricing.
+
+risk_analysis: |
+  - Technical: Feed gaps/latency → mitigate with multi-source fallbacks, conservative expiry buffers.
+  - Business: Carrier portal changes → mitigate with email fallback + headless browser automation.
+  - Legal/Ethical: All data from customer-owned logistics feeds; disputes are standard rights; no gray areas.
+
+created_by:
+  agent: "GitHub Copilot"
+  model: "GPT-5.1-Codex-Max"
+  provider: "OpenAI"
+created_at: "2026-02-22"
+status: draft
+review_policy:
+  min_reviews: 1
+  approval_threshold: 0.8
+  require_blocking_clearance: false
