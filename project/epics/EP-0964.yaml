@@ -1,0 +1,45 @@
+id: EP-0964
+title: "Factory Floor Yield Optimization Engine"
+description: |
+  ML system for semiconductor, pharmaceutical, and advanced manufacturing that predicts
+  yield loss mechanisms in real-time and recommends process interventions. Uses process
+  parameters, equipment telemetry, wafer/batch metadata. Increases yield by 3-8% (worth
+  $50M-$200M+ annually for semiconductor fabs).
+problem_statement: |
+  Semiconductor manufacturing yield losses cost $200B+ globally annually (3-8% yield
+  variance across fabs). Each percent yield improvement is worth $50-200M for large
+  fab. Most optimization is offline (statistical process control); real-time prediction
+  doesn't exist at scale.
+solution:
+  approach: |
+    Process data ingest (equipment parameters: temperature, pressure, gas flows) +
+    Metrology data (wafer metrics) + Yield outcomes → Feature engineering (process
+    signatures) → Yield prediction model → Anomaly detection (process drift) →
+    Intervention recommendations (adjust parameters, stop batch, maintenance alert)
+  technical_stack:
+    - Data: MES (Manufacturing Execution Systems), equipment sensors (Cali), metrology tools
+    - ML: Gradient boosting for yield prediction, process drift detection
+    - Integration: FDC (Fault Detection & Classification) systems, equipment controllers
+  revenue_model: "SaaS per fabrication line ($20K-50K/month) + % of recovered yield (2-5%)"
+business_case:
+  first_year_revenue_usd: 3100000
+  roi_time_in_months: 0.8
+  target_users_estimate: 35
+  average_customer_value_usd_per_month: 7381
+feasibility_score: 8.1
+status: draft
+implementation_timeline: "10 weeks (MES/equipment sensor integration → feature engineering → yield prediction → closed-loop automation)"
+risk_analysis: |
+  Technical: Manufacturing process parameterization is domain-specific; mitigation = hire fab physicist.
+  Business: Only applies to high-yield manufacturing; mitigation = focus on semicon/pharma initially.
+  Regulatory: Pharma manufacturing regulated (GMP); mitigation = compliance by design.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T22:05:00Z"

@@ -1,0 +1,45 @@
+id: EP-0966
+title: "Loan Servicing Collections Optimization Engine"
+description: |
+  ML system for mortgage servicers and lenders that optimizes collections strategies
+  for delinquent loans. Predicts which borrowers will cure, which will default, and
+  recommends intervention strategy (modification, forbearance, reinstatement). Increases
+  recovery rates by 15-25%.
+problem_statement: |
+  $10T+ mortgage market; $500B+ in delinquent loans. Lenders use reactive strategies
+  (phone calls, letters); no predictive optimization. Borrower response to intervention
+  is variable; no personalization. Modification/forbearance programs are under-utilized
+  prior to foreclosure.
+solution:
+  approach: |
+    Loan & borrower data ingest (payment history, income, property value, credit score,
+    prior modifications) → Cure/default prediction → Intervention optimization (which
+    strategy for which borrower) → Communication orchestration (email, SMS, phone) →
+    Outcome tracking (cure, default, loss mitigation success)
+  technical_stack:
+    - Data: LMS (loan servicing systems), credit bureaus, property records, employment data
+    - ML: Cure likelihood prediction, intervention targeting
+    - Agents: Communication orchestration, modification workflows
+  revenue_model: "SaaS per servicer ($10K-30K/month) + % of avoided defaults (5-15%)"
+business_case:
+  first_year_revenue_usd: 2500000
+  roi_time_in_months: 1.2
+  target_users_estimate: 30
+  average_customer_value_usd_per_month: 6944
+feasibility_score: 8.3
+status: draft
+implementation_timeline: "9 weeks (LMS integration → cure/default prediction → intervention orchestration)"
+risk_analysis: |
+  Legal: Fair Lending compliance; mitigation = algorithm auditing + no protected attribute usage.
+  Regulatory: Mortgage servicing is regulated (Dodd-Frank); mitigation = compliance review.
+  Operational: Servicers conservative; mitigation = pilot with enlightened players.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T22:15:00Z"

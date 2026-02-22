@@ -1,0 +1,46 @@
+id: EP-0952
+title: "Compliance Training Effectiveness Intelligence"
+description: |
+  ML system that predicts which employees are at highest risk of non-compliance violations
+  based on training history, assessment scores, role behavior, and demographics. Recommends
+  targeted retraining and monitors compliance incidents post-training. Reduces compliance
+  violations by 40-60%. HIPAA, SOX, SOC2 focused initially.
+problem_statement: |
+  $150B+ annual compliance violations/fines; most are preventable via better training.
+  Annual compliance training is checkbox exercise; no assessment of true behavioral change.
+  High-risk employees (new hires, contractors) receive uniform training (no personalization).
+problem_statement: |
+  Real, quantifiable risk: Each compliance violation ($10K-$10M in fines) plus reputational damage.
+solution:
+  approach: |
+    Employee data ingest (training history, assessment scores, role, department, tenure) →
+    Risk profiling (behavioral patterns, violation history) → Personalized training pathway
+    recommendations → Post-training outcome tracking (incident reduction, improvement in
+    assessments) → Continuous model refinement
+  technical_stack:
+    - Data: LMS APIs (Cornerstone, SAP SuccessFactors), incident tracking systems
+    - ML: Risk prediction, causal inference for training effectiveness
+    - Agents: Training recommendations, outcome monitoring
+  revenue_model: "SaaS per employee ($0.50-2.00/employee/month) + outcome-based fees"
+business_case:
+  first_year_revenue_usd: 1900000
+  roi_time_in_months: 1.3
+  target_users_estimate: 180
+  average_customer_value_usd_per_month: 879
+feasibility_score: 8.5
+status: draft
+implementation_timeline: "8 weeks (LMS integration → risk modeling → training optimization → outcome tracking)"
+risk_analysis: |
+  Legal: Potential discrimination if targeting by protected attributes; mitigation = bias audits.
+  Adoption: L&D team skepticism; mitigation = transparent methodology + pilot evidence.
+  Data: Employee privacy concerns; mitigation = aggregate reporting only.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T21:05:00Z"

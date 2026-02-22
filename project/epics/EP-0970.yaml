@@ -1,0 +1,44 @@
+id: EP-0970
+title: "Tax Return & Audit Risk Intelligence Engine"
+description: |
+  ML system for accountants and tax preparers that analyzes tax returns to identify high
+  audit risk items and red flags BEFORE filing. Recommends documentation improvements
+  and substantiation strategies. Reduces audit rates by 40-60% and audit burden by 70%+.
+  Integrates with tax software (TurboTax, CCH Axcess, Thomson Reuters).
+problem_statement: |
+  IRS conducts 500K+ audits annually; businesses fear disproportionate audit targeting.
+  CPAs prepare returns blindly (no audit risk assessment). 80% of tax disputes are
+  documentation-related (preventable). Audit defense is expensive ($10K-$50K+).
+solution:
+  approach: |
+    Tax return data ingest (income sources, deductions, credits, demographics) → IRS audit
+    risk scoring (using ML trained on audit outcome data) → Red flag identification →
+    Substantiation recommendations (what documentation strengthens each claim) → Filing
+    optimization → Post-filing monitoring for statute of limitations
+  technical_stack:
+    - Data: Tax form data (1040, 1120, schedules), historical audit outcomes, IRS guidance
+    - ML: Audit risk prediction (gradient boosting on audit patterns)
+    - Integration: Tax software APIs, CPA workflow tools
+  revenue_model: "SaaS per firm ($1K-5K/month) + per-return fees ($10-50)"
+business_case:
+  first_year_revenue_usd: 1500000
+  roi_time_in_months: 1.4
+  target_users_estimate: 240
+  average_customer_value_usd_per_month: 521
+feasibility_score: 8.3
+status: draft
+implementation_timeline: "9 weeks (Tax software API integration → audit risk modeling → recommendations engine)"
+risk_analysis: |
+  Legal: Tax advice restrictions (CPA licensing); mitigation = position as risk assessment tool not advice.
+  Accuracy: IRS audit patterns change; mitigation = continuous model retraining with audit outcome feedback.
+  Adoption: CPAs protective of autonomy; mitigation = augment (not replace) CPA judgment.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T22:35:00Z"

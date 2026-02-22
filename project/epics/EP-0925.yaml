@@ -1,0 +1,61 @@
+id: EP-0925
+title: Email Deliverability Recovery & Inbox Placement Intelligence
+description: |
+  **Idea:** Email marketers lose $8B+/year to spam filter / inbox placement issues. 15–25% of legitimate emails land in spam folders (not bounced—invisible failures nobody notices). This autonomous system monitors delivery metrics (open rates, spam complaint rates, ISP feedback loops), detects reputation damage early, auto-generates authentication fixes (DKIM/SPF/DMARC records), and predicts inbox placement for each email provider. Zero human interaction; pure API + DNS automation. Revenue model: % of recovered revenue from re-engagement (if email lands in inbox instead of spam, open rates increase 3–5x → customer revenue increases → we capture 1–5% of uplift = $2K–$15K/month per customer).
+
+value_proposition: |
+  Recover emails landing in spam. Auto-fix authentication issues. Predict inbox placement per ISP. Improve email revenue 10–30% via deliverability optimization (vs. standard 0–5% from copy/design optimization).
+
+target_customer: |
+  Email marketing agencies (50+ clients), ecommerce (customer re-engagement), SaaS (onboarding/retention emails), media/publishers (newsletters with ad revenue), fintech (transactional + marketing mail).
+
+business_case:
+  problem_statement: |
+    - Silent inbox failures: 15–25% of emails never reach inbox (not bounce—silent failure).
+    - ISP filtering tightens: Gmail, Outlook, Yahoo constantly tune filters → legitimacy bar rising.
+    - Reputation damage: One spike in complaint rate tanks sender reputation for months.
+    - No visibility: Marketers measure opens/clicks from inbox; don't see spam folder performance.
+    - Authentication chaos: DKIM/SPF/DMARC misconfigured at ~40% of senders; low DMARC policy adoption.
+  solution_approach: |
+    1. Data ingest: Email Service Provider (ESP) metrics (SendGrid, Mailchimp, AWS SES, custom servers).
+    2. Delivery health: Monitor bounce rate, complaint rate, FBL (feedback loop) signals; detect anomalies.
+    3. Authentication audit: Check sender DKIM/SPF/DMARC records; flag misconfigurations; suggest fixes; auto-generate corrected DNS records.
+    4. Inbox prediction: ML model (trained on public + proprietary data) predicts likelihood of landing in inbox vs. spam for each ISP.
+    5. Recovery campaign: Auto-trigger re-sending to spam-detected email addresses via alternative pathway (ESP relay, lower volume sender, ew IP, warmed sender reputation).
+    6. Reputation monitoring: ISP-specific feedback; alert when complaint rate spikes; auto-pause sends to protect reputation.
+  first_year_revenue_usd: 1200000
+  first_year_user_count: 85
+  roi_time_in_months: 1.5
+
+revenue_model: |
+  - % of recovered revenue: Customer gains 5–15% email revenue recovery → we capture 1–5% = $2K–$10K/month per $1M email revenue customer.
+  - Tiered SaaS: $399/month (up to 1M emails/month), $1,999/month (10M), $4,999/month (100M+).
+  - API licensing: $500–$2K/month for agencies running campaigns for multiple clients.
+
+implementation_timeline: |
+  - Weeks 1–2: ESP webhook ingest (SendGrid, Mailchimp, SES APIs); parse bounce/complaint/open events.
+  - Weeks 3–4: Delivery health scoring; authentication audit (DKIM/SPF/DMARC DNS lookup); flag issues.
+  - Weeks 5–6: Inbox prediction model (logistic regression on authentication + reputation + content features); test on holdout data.
+  - Weeks 7–8: Recovery campaign automation; DNS record generation; alternative send pathway routing.
+
+feasibility_score: 9.0
+feasibility_rationale: |
+  - High: Email standards (DKIM/SPF/DMARC) are open; ISP feedback is available via FBL; ESP APIs are mature.
+  - Fast: No novel algorithms; logistic regression on email reputation features achieves 75%+ accuracy.
+  - Business: Marketers desperate for email ROI; easy to measure ROI (revenue per email); pilots close fast.
+
+risk_analysis: |
+  - Technical: ISP filtering behavior opaque; recovery campaigns may have limited effect → mitigate with A/B testing + outcome feedback loop.
+  - Business: Some ESPs limit retry/resend APIs → coordinate with ESP product teams + build white-label partnerships.
+  - Legal/Ethical: Ensure no spam proliferation; only retry legitimate senders with good reputation; include unsubscribe links.
+
+created_by:
+  agent: "GitHub Copilot"
+  model: "Claude Haiku 4.5"
+  provider: "Anthropic"
+created_at: "2026-02-22"
+status: draft
+review_policy:
+  min_reviews: 1
+  approval_threshold: 0.8
+  require_blocking_clearance: false

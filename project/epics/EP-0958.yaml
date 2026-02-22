@@ -1,0 +1,44 @@
+id: EP-0958
+title: "Commercial Insurance Claims Optimization Engine"
+description: |
+  ML system for insurance companies and adjusters that predicts claims severity/complexity
+  early, routes to appropriate adjusters, and identifies fraud indicators. Reduces claims
+  cycle time 30-40% and fraud by 20-30%. Integrates with claims management systems.
+problem_statement: |
+  Commercial insurance claims processing costs insurers $40B+ annually. Average claims
+  cycle is 45-120 days; customer satisfaction is low (30% churn due to delays). Fraud
+  costs insurers $30B+ (5-10% of claims are fraudulent). Routing to wrong adjuster
+  delays resolution.
+solution:
+  approach: |
+    Claims data ingest (loss description, claimant info, coverage, prior claims) →
+    Severity/complexity scoring → Fraud risk assessment (inconsistencies, pattern matching,
+    soft indicators) → Optimal adjuster matching (expertise, capacity, prior success rate) →
+    Outcome tracking (cycle time, resolution rate)
+  technical_stack:
+    - Data: Claims systems APIs, external data sources (court records, social media, background checks with consent), historical claim outcomes
+    - ML: Claims triage (risk scoring), fraud detection, adjuster matching
+    - Agents: Auto-routing, priority flagging
+  revenue_model: "SaaS per insurer ($10K-50K/month) + % of avoided fraud losses (5-10%)"
+business_case:
+  first_year_revenue_usd: 2400000
+  roi_time_in_months: 1.1
+  target_users_estimate: 40
+  average_customer_value_usd_per_month: 5000
+status: draft
+feasibility_score: 8.5
+implementation_timeline: "9 weeks (Claims system integration → severity/fraud models → adjuster optimization)"
+risk_analysis: |
+  Legal: Privacy/data source concerns; mitigation = transparent data usage + opt-in.
+  Regulatory: Insurance regulations on claims handling; mitigation = compliance review.
+  Business: Requires insurer buy-in; mitigation = target top 20 insurers first.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T21:35:00Z"

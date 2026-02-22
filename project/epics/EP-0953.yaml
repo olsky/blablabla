@@ -1,0 +1,43 @@
+id: EP-0953
+title: "Preventive Maintenance Optimization for Industrial Equipment"
+description: |
+  ML system that optimizes preventive maintenance schedules for industrial equipment
+  (pumps, motors, compressors, bearings) by predicting remaining useful life (RUL)
+  and optimal maintenance windows. Reduces unplanned downtime by 60-75% and maintenance
+  costs by 30-40%. Integrates with CMMS (Computerized Maintenance Management Systems).
+problem_statement: |
+  Industrial downtime costs manufacturers $50B+ annually. 40-60% of maintenance is
+  reactive (emergency repairs); preventive maintenance is schedule-based (inefficient).
+  Equipment RUL prediction doesn't exist at scale; most companies over-maintain.
+solution:
+  approach: |
+    Equipment telemetry ingest (vibration, temperature, pressure, electrical signature
+    analysis) → Prognostics algorithm (bearing wear progression, motor degradation patterns) →
+    RUL prediction → Optimal maintenance window recommendation → Spare parts planning
+  technical_stack:
+    - Data: Industrial IoT sensors, CMMS APIs (SAP PM, Maximo)
+    - ML: RUL prediction (neural networks, survival analysis)
+    - Agents: Maintenance scheduling, spare parts optimization, cost-benefit analysis
+  revenue_model: "SaaS ($3K-15K/month) + % of avoided downtime costs (5-15%)"
+business_case:
+  first_year_revenue_usd: 2700000
+  roi_time_in_months: 1.1
+  target_users_estimate: 75
+  average_customer_value_usd_per_month: 3600
+feasibility_score: 8.6
+status: draft
+implementation_timeline: "9 weeks (Sensor integration → RUL modeling → CMMS integration → scheduling optimization)"
+risk_analysis: |
+  Technical: Legacy equipment without sensors; mitigation = retrofit IoT sensors.
+  Operational: Conservative maintenance culture; mitigation = start with monitoring-only mode.
+  Implementation: Requires domain expertise in equipment types; mitigation = hire experienced engineer.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T21:10:00Z"

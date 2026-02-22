@@ -1,0 +1,44 @@
+id: EP-0936
+title: "Commercial Software License Optimization Engine"
+description: |
+  ML agent that analyzes software license usage patterns across enterprises using
+  system telemetry, logs, and billing data. Identifies underutilized licenses,
+  consolidation opportunities, and negotiates volume discounts. Integrates with
+  Flexera, IBM License Optimization, and cloud cost platforms. Saves $100K-$5M annually.
+problem_statement: |
+  Enterprises waste $20B+ annually on unused or redundant software licenses. License
+  management is fragmented across business units; no centralized optimization. True
+  utilization patterns require cross-system visibility (on-premise + cloud + SaaS).
+  Vendor negotiations lack data ammunition.
+solution:
+  approach: |
+    Telemetry aggregation (Windows, Mac, Linux system logs) → License usage inference →
+    Cost allocation by department/cost center → Benchmarking (industry averages) →
+    Consolidation recommendations → Vendor negotiation playbooks + ROI models
+  technical_stack:
+    - Data: System telemetry (WMI, SNMP), cloud API usage logs, vendor billing APIs
+    - ML: Usage pattern clustering, cost optimization
+    - Agents: License audit automation, benchmarking, negotiation scoring
+  revenue_model: "% of recovered savings (10-15% first year, then 5% ongoing) + platform fees ($3K-15K/yr)"
+business_case:
+  first_year_revenue_usd: 1900000
+  roi_time_in_months: 1.1
+  target_users_estimate: 45
+  average_customer_value_usd_per_month: 3519
+feasibility_score: 8.5
+status: draft
+implementation_timeline: "8 weeks (Telemetry collection → usage inference → benchmarking engine → negotiation tools)"
+risk_analysis: |
+  Technical: System telemetry variability across enterprise; mitigation = modular data collectors.
+  Business: License vendors resist transparency; mitigation = position as customer retention tool.
+  Privacy: Employee activity monitoring concerns; mitigation = aggregate-only + no user tracking.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T19:45:00Z"

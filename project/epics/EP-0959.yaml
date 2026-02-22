@@ -1,0 +1,45 @@
+id: EP-0959
+title: "Logistics Route & Load Optimization for 3PLs"
+description: |
+  Real-time optimization engine for third-party logistics (3PLs) that optimizes truck
+  loads, routes, and drop sequence to minimize fuel costs and delivery time. Handles
+  constraints (vehicle capacity, delivery windows, regulations). Reduces logistics costs
+  by 20-30% and improves on-time delivery 40-60%.
+problem_statement: |
+  Logistics costs account for 8-12% of GDP ($1.6T+ annually in U.S.). Routing/load
+  optimization is handled primarily by manual planning; computational optimization is
+  underutilized except at mega-carriers. 3PLs lack margin to invest in tech; left with
+  legacy software.
+solution:
+  approach: |
+    Order ingest (weight, dimensions, pickup/delivery locations/windows) + Vehicle
+    inventory + Traffic/weather data → Constraint optimization (capacity, time windows,
+    regulations, cost) → Route generation (traveling salesman variants) → Load assignment
+    → Real-time adjustments for new orders
+  technical_stack:
+    - Data: Order management systems, vehicle telemetry, traffic APIs, weather
+    - Optimization: Constraint programming, genetic algorithms, heuristics
+    - Real-time: Streaming order processing, live route updates
+  revenue_model: "SaaS per 3PL ($2K-10K/month) + % of cost savings (5-10%)"
+business_case:
+  first_year_revenue_usd: 2800000
+  roi_time_in_months: 0.9
+  target_users_estimate: 95
+  average_customer_value_usd_per_month: 2456
+feasibility_score: 8.6
+status: draft
+implementation_timeline: "9 weeks (Order system integration → optimization engine → load planning → real-time updates)"
+risk_analysis: |
+  Technical: Optimization performance at scale; mitigation = pre-computed heuristics for speed.
+  Business: 3PLs cost-sensitive; mitigation = rapid payback (days to weeks).
+  Operational: Driver autonomy concerns; mitigation = recommendations vs. mandates.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T21:40:00Z"

@@ -1,0 +1,45 @@
+id: EP-0949
+title: "Warehouse Inventory Optimization & Shrinkage Detection"
+description: |
+  ML system for retail/logistics that predicts optimal inventory levels by location,
+  predicts demand, and detects shrinkage anomalies (theft, damage, counting errors).
+  Integrates with WMS (Warehouse Management Systems) like SAP Extended Warehouse Management,
+  Oracle WMS. Reduces excess inventory by 20-30% and shrinkage by 40-60%.
+problem_statement: |
+  U.S. retail inventory shrinkage costs $100B+ annually (theft, damage, accounting errors).
+  Most retailers can't pinpoint loss drivers; inventory is optimized for safety stock.
+  Overstocking ties up $50B+ in excess working capital. No system-wide visibility into
+  inventory movements across distribution network.
+solution:
+  approach: |
+    WMS data ingest (inventory transactions, receipts, sales, adjustments) → Demand forecasting
+    by SKU/location → Anomaly detection on inventory movements → Shrinkage clustering
+    (by cause: theft pattern, seasonal damage, processing errors) → Recommendations for
+    stock level optimization and loss prevention
+  technical_stack:
+    - Data: WMS APIs, POS feeds, receiving system data
+    - ML: Demand forecasting (Prophet), anomaly detection (isolation forests)
+    - Agents: Inventory rebalancing, shrinkage alerts
+  revenue_model: "SaaS ($2K-8K/month) + % of shrinkage reduction (10% of savings)"
+business_case:
+  first_year_revenue_usd: 2600000
+  roi_time_in_months: 1.1
+  target_users_estimate: 95
+  average_customer_value_usd_per_month: 2281
+feasibility_score: 8.8
+status: draft
+implementation_timeline: "8 weeks (WMS integration → demand forecasting → shrinkage detection → optimization)"
+risk_analysis: |
+  Technical: WMS system fragmentation; mitigation = target top 50% (SAP, Oracle).
+  Business: Retail margin pressure; mitigation = quick payoff story (weeks not months).
+  Operational: Requires buy-in from supply chain teams; mitigation = pilot test.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T20:50:00Z"

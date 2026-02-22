@@ -1,0 +1,45 @@
+id: EP-0943
+title: "Commercial Lending Underwriting Automation"
+description: |
+  AI system for commercial lenders and banks that autonomously underwriters small-to-mid
+  market business loans by analyzing financials, credit fundamentals, industry risk,
+  and cash flow projections. Auto-approves low-risk loans in <24 hours; accelerates
+  approval 10x vs. manual process.
+problem_statement: |
+  $1.5T+ in small business lending annually; average approval takes 30-60 days. Manual
+  underwriting costs $2K-5K per loan. Alternative lenders use automated underwriting,
+  disrupting traditional banks. Community banks lack scale for automation; lose SME deals
+  to faster fintech competitors.
+solution:
+  approach: |
+    Financial doc ingest (tax returns, P&Ls, balance sheets via OCR) → Data extraction →
+    Baseline financials normalization → Credit scoring + industry risk adjustment →
+    Cash flow analysis + debt service coverage ratio → Rule-based approval engine with
+    condition generation
+  technical_stack:
+    - Data: PDF/image processing (OCR), CRE/Dun & Bradstreet APIs for industry data
+    - ML: Credit scoring models, cash flow forecasting
+    - Workflows: Approval routing, document collection, loan documentation generation
+  revenue_model: "SaaS ($1K-3K per lender/month) + origination fees ($50-200 per approved loan)"
+business_case:
+  first_year_revenue_usd: 2800000
+  roi_time_in_months: 1.3
+  target_users_estimate: 85
+  average_customer_value_usd_per_month: 2745
+feasibility_score: 8.4
+status: draft
+implementation_timeline: "9 weeks (Financial doc processing → data extraction → credit models → approval workflow)"
+risk_analysis: |
+  Legal: Banking regulation (Fair Lending, Truth in Lending); mitigation = compliance audits + human override.
+  Credit: Model risk of underwriting; mitigation = conservative defaults, losses tracked for continuous improvement.
+  Adoption: Requires bank buy-in on automation; mitigation = target fintech/online lenders first.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T20:20:00Z"

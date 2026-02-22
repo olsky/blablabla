@@ -1,0 +1,61 @@
+id: EP-0926
+title: Online Course Completion Analytics & Dropout Prevention Engine
+description: |
+  **Idea:** Online education market is $250B+/year; completion rates are 5–15% (terrible). Course creators lose millions to refund requests from dropouts. This autonomous system analyzes learner engagement (time-on-page, video watch %, quiz attempts, forum activity) to predict dropouts 48–72 hours before they happen, and auto-triggers personalized interventions (reminder email, surprise bonus video, live chat offer, refund option). Zero human interaction; integrates with LMS APIs (Canvas, Moodle, Teachable, Kajabi). Revenue model: % of prevented refunds (if we prevent 10–20% of refund requests, creator saves $1K–$5K per 100-student course → we take 5–15% = $50–$750/month per course).
+
+value_proposition: |
+  Predict course dropouts 48–72 hours in advance. Auto-send personalized rescue interventions. Reduce refund/churn rate by 15–25%. Increase lifetime course value per student by 10–30%.
+
+target_customer: |
+  Course creators (Udemy, Skillshare, Maven, independent instructors), online schools (bootcamps, coding schools), corporate training (employee onboarding, compliance certification), community platforms (Discord communities with paid tiers).
+
+business_case:
+  problem_statement: |
+    - Completion crisis: 85–95% of students drop out (course completion = 5–15%); refund requests spike.
+    - Revenue leakage: $50K–$500K course revenue lost annually per creator due to refunds + negative reviews.
+    - Blind engagement: Creators can't see real-time struggle signals until it's too late (student already uninvolved).
+    - Manual intervention: Course creators respond to support requests manually; no proactive outreach.
+    - Attribution gap: No data on what interventions work (does email help? bonus content? refund?).
+  solution_approach: |
+    1. Data ingest: LMS events (login, video watch, quiz submit, page load duration); student metadata (cohort, first-time learner, mobile/desktop).
+    2. Engagement scoring: Feature engineering (watch duration vs. video length, time between lessons, quiz pass rate, forum posts).
+    3. Dropout prediction: ML model (gradient boosting on engagement features); output probability of dropout in next 48/72 hours.
+    4. Intervention trigger: When dropout probability >70%, auto-send rescue campaign (template-based; personalizable).
+    5. Intervention options: reminder email, bonus content unlock (live session, bonus video, cheat sheet), concierge support offer, auto-refund (for unsalvageable students).
+    6. Outcome tracking: Did intervention prevent dropout? Track refund request, re-engagement, course completion; feed back into model.
+  first_year_revenue_usd: 1600000
+  first_year_user_count: 200
+  roi_time_in_months: 1.5
+
+revenue_model: |
+  - % of prevented refunds: Creator saves $100–$500 per prevented refund (course cost × refund probability) → we capture 5–15% = $5–$75 per prevention; typical course creator sees 10–20 preventions/month = $50–$1.5K/month.
+  - Flat SaaS: $99/month (1–5 courses), $499/month (10–50 courses), $1,999+/month (enterprise).
+  - Revenue share: 5–10% of course revenue (if using our dropout prevention + personalization).
+
+implementation_timeline: |
+  - Weeks 1–2: Integrate LMS APIs (Canvas, Moodle, Teachable webhooks); ingest student events + engagement metrics.
+  - Weeks 3–4: Feature engineering; build dropout prediction model (gradient boosting on labeled historical data).
+  - Weeks 5–6: Test model accuracy; fine-tune threshold; build intervention messaging templates.
+  - Weeks 7–8: Auto-trigger logic; email/SMS dispatch; outcome tracking; dashboard prototype.
+
+feasibility_score: 8.8
+feasibility_rationale: |
+  - High: LMS APIs are mature; engagement data is abundant and structured; dropout prediction is supervised learning with clear labels (completed/refunded).
+  - Fast: Standard ML pipeline (feature engineering → gradient boosting → threshold tuning); no novel algorithms.
+  - Business: Course creators eager to reduce refunds; easy to measure ROI (refund %); low friction pilots.
+
+risk_analysis: |
+  - Technical: LMS API inconsistencies across platforms → mitigate with adapter layer + fallback events parsing.
+  - Business: Some instructors may block interventions or see them as pushy → mitigate with opt-in, transparent messaging, customizable templates.
+  - Ethical: Don't spam; respect student preferences; offer real value (bonus content, live support) not just refund pressure.
+
+created_by:
+  agent: "GitHub Copilot"
+  model: "Claude Haiku 4.5"
+  provider: "Anthropic"
+created_at: "2026-02-22"
+status: draft
+review_policy:
+  min_reviews: 1
+  approval_threshold: 0.8
+  require_blocking_clearance: false

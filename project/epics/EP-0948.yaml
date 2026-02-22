@@ -1,0 +1,45 @@
+id: EP-0948
+title: "Water Utility Pipe Failure Prediction & Preventive Maintenance"
+description: |
+  ML system for water utilities that predicts pipe failures (breaks, leaks) 6-12 months
+  in advance using soil conditions, pipe age, material composition, break history, and
+  system pressure data. Optimizes maintenance scheduling to prevent catastrophic failures
+  and reduce water loss. Integrates with SCADA systems and GIS databases.
+problem_statement: |
+  U.S. water loss costs $40B+ annually (30-50% of water in distribution systems lost
+  to breaks). Pipes break reactively (emergency repairs cost 10x preventive); no prediction
+  capability. Aging infrastructure (average pipe age 45+ years); replacement rates are
+  inadequate. Cities lack maintenance budget visibility.
+solution:
+  approach: |
+    Ingest system data (pipe inventory from GIS, pressure monitors, soil maps, break history) →
+    Feature engineering (pipe age, soil corrosivity, historical breaks, depth, material) →
+    Survival analysis + gradient boosting for failure prediction → Maintenance scheduling
+    optimization → Asset prioritization
+  technical_stack:
+    - Data: GIS APIs, SCADA systems, soil databases (USGS), weather data
+    - ML: Survival analysis, gradient boosting for time-to-failure prediction
+    - Agents: Maintenance scheduling, risk ranking
+  revenue_model: "SaaS ($3K-15K/month) + % of avoided emergency repair costs (5-10%)"
+business_case:
+  first_year_revenue_usd: 1500000
+  roi_time_in_months: 1.3
+  target_users_estimate: 35
+  average_customer_value_usd_per_month: 3571
+feasibility_score: 8.3
+status: draft
+implementation_timeline: "9 weeks (GIS/SCADA integration → failure prediction model → maintenance optimization)"
+risk_analysis: |
+  Technical: Legacy water system IT infrastructure; mitigation = support multiple protocols.
+  Operational: Conservative infrastructure operators; mitigation = pilot program with proofs.
+  Market: Tight municipal budgets; mitigation = show ROI on deferred replacement.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T20:45:00Z"

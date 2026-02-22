@@ -1,0 +1,44 @@
+id: EP-0969
+title: "Freight Insurance Claim Prediction & Optimization"
+description: |
+  ML system for freight carriers and logistics that predicts shipment damage/loss risk
+  based on route, cargo, carrier, weather, and historical patterns. Recommends insurance
+  optimization (which shipments to insure, coverage levels). Reduces insurance costs 15-25%
+  while improving claim coverage accuracy.
+problem_statement: |
+  $400B+ annual freight/logistics market; damage/loss claims exceed $10B (2-3% of shipment
+  value). Insurance is one-size-fits-all (% of value); no risk-based pricing. Carriers
+  self-insure optimally but lack data tools. Claims are reactive; no prevention strategy.
+solution:
+  approach: |
+    Shipment data ingest (origin/destination, cargo type/value, carrier, mode, weather) →
+    Damage/loss risk prediction → Insurance recommendation (coverage type, deductible,
+    exclusions) → Claims analysis (validate claim legitimacy, identify root cause) →
+    Prevention recommendations (improved packaging, carrier selection, route optimization)
+  technical_stack:
+    - Data: Logistics APIs, weather data, historical claims, cargo databases
+    - ML: Damage risk prediction, insurance optimization
+    - Agents: Risk alerts, insurance recommendations, claim support
+  revenue_model: "SaaS per carrier ($2K-10K/month) + % of insurance premium savings (5-15%)"
+business_case:
+  first_year_revenue_usd: 1700000
+  roi_time_in_months: 1.3
+  target_users_estimate: 65
+  average_customer_value_usd_per_month: 2154
+feasibility_score: 8.5
+status: draft
+implementation_timeline: "8 weeks (Logistics API integration → damage prediction → insurance optimization)"
+risk_analysis: |
+  Technical: Carrier data integration; mitigation = work with industry platforms (Descartes, Fourkites).
+  Business: Requires carrier data sharing; mitigation = aggregated/anonymized insights.
+  Insurance: Insurance companies resistant to transparency; mitigation = sell to carriers not insurers.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T22:30:00Z"

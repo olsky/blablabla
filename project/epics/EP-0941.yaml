@@ -1,0 +1,45 @@
+id: EP-0941
+title: "Restaurant Food Waste Prediction & Inventory Optimization"
+description: |
+  ML system for quick-service and fine dining restaurants that predicts demand by
+  daypart/weather/events and optimizes prep quantities to minimize waste while
+  maintaining service levels. Predicts spoilage risk for inventory items. Integrates
+  with POS systems (Square, Toast, Lightspeed) and supplier delivery APIs.
+problem_statement: |
+  U.S. restaurants throw away $162B+ annually (30-40% of food purchased). Waste is
+  due to overpreparing (safety margin) for unpredictable demand. Labor costs are
+  2nd largest expense; inefficient prep wastes both food and labor. Supply chain
+  volatility (post-COVID) increased demand uncertainty.
+solution:
+  approach: |
+    POS ingest (historical sales by item, time, daypart) + External signals (weather,
+    local events, holidays) → Demand forecast (ML models per daypart/item) → Prep
+    recommendation system considering storage capacity + shelf life + cost of waste
+    vs. stockout → Inventory tracking agents → Spoilage alerts
+  technical_stack:
+    - Data: SQLI integration (Square, Toast, Lightspeed POS APIs), weather API, events API
+    - ML: Demand forecasting (Prophet, gradient boosting), spoilage prediction
+    - Agents: Prep recommendations, inventory monitoring, supplier optimization
+  revenue_model: "SaaS ($500-2K/month per location) + % of waste reduction (10-15%)"
+business_case:
+  first_year_revenue_usd: 1400000
+  roi_time_in_months: 1.2
+  target_users_estimate: 350
+  average_customer_value_usd_per_month: 333
+feasibility_score: 8.9
+status: draft
+implementation_timeline: "8 weeks (POS integration → demand forecasting → prep recommendation engine → inventory agents)"
+risk_analysis: |
+  Technical: POS system fragmentation; mitigation = prioritize top 50% (Toast, Square).
+  Business: High churn (restaurant closures); mitigation = simple pricing + quick payback.
+  Operational: Staff adoption requires UX; mitigation = mobile app + voice alerts.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T20:10:00Z"

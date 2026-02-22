@@ -1,0 +1,43 @@
+id: EP-0950
+title: "Mortgage Underwriting Fraud Detection Engine"
+description: |
+  ML system for mortgage lenders that detects fraud (income misrepresentation, asset fraud,
+  appraisal manipulation, application falsification) in mortgage applications. Analyzes bank
+  statements, tax returns, property appraisals, and credit reports. Blocks 95%+ fraud while
+  maintaining <5% false positive rate.
+problem_statement: |
+  $2T+ annual U.S. mortgage market; mortgage fraud costs lenders $5-10B annually
+  (undetected losses). Manual fraud review is labor-intensive; most fraud goes
+  undetected until default or foreclosure. Post-2008 regulations require better fraud detection.
+solution:
+  approach: |
+    Loan application data ingest → Multiple source validation (bank statements, tax
+    returns, credit bureaus, property records, appraisal comps) → Inconsistency detection
+    → Income verification model → Appraisal validation → Fraud risk scoring
+  technical_stack:
+    - Data: Bank APIs, IRS transcript data, credit bureaus, property records, appraisals
+    - ML: Inconsistency detection, fraud risk scoring (gradient boosting)
+    - Integration: Loan origination systems (LOS)
+  revenue_model: "Per-loan fee ($50-150) + monthly SaaS for platform access"
+business_case:
+  first_year_revenue_usd: 3100000
+  roi_time_in_months: 1.2
+  target_users_estimate: 65
+  average_customer_value_usd_per_month: 3974
+feasibility_score: 8.6
+status: draft
+implementation_timeline: "9 weeks (Data source integration → fraud detection model → LOS integration)"
+risk_analysis: |
+  Legal: Fair Lending compliance (no discrimination); mitigation = algorithmic audits.
+  Operational: Lender workflow integration complexity; mitigation = white-glove onboarding.
+  Regulatory: Mortgage lending is heavily regulated; mitigation = compliance team required.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T20:55:00Z"
