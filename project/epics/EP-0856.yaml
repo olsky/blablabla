@@ -1,0 +1,33 @@
+id: EP-0856
+title: AI-Driven Parametric Flight-Delay Payout Bot
+description: |
+  **Idea:** Millons of travelers are eligible for compensation (EU261, etc.) but 90% never claim it. This AI agent monitors global flight-tracking APIs and the user's calendar. When a delay of >3 hours occurs, the AI autonomously generates the legal claim and submits it to the airline's settlement API, releasing the cash to the user's wallet instantly.
+
+  **Why "WOW":** It is 'Automatic Justice' for travelers. It turns airlines' 'Unclaimed Compensation' liabilities into a massive, passive cashflow engine.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2 months (Pipelining flight-radar APIs and building the automated legal-claim bots for 500+ airlines).
+  - Cash Out: 30% contingency fee on the successfully recovered cash.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Eligible Claims Identified/Recovered: $500,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 9.5/10
+
+  **Risk Analysis:**
+  - High: Airlines lobbying to restrict API access or using 'anti-bot' laws to stop the autonomous claims.
+  - Medium: Inaccurate flight-data (e.g. a flight being marked as 'On Time' when it actually diverted).
+  - Low: Passenger Demand (Every traveler hates airlines and wants their $250-600 back).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

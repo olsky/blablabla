@@ -1,0 +1,33 @@
+id: EP-0811
+title: Autonomous Chassis Management & Routing for Intermodal Logistics
+description: |
+  **Idea:** Moving containers from ships to trucks requires 'chassis' (trailers), which are notoriously mismanaged and sit idle for months. This AI agent monitors ELD (Electronic Logging Device) data and chassis IoT transponders. It algorithmically predicts exactly where a chassis will be needed in 48 hours and autonomously 'summons' truck drivers via a gig-economy app to reposition they trailers, maximizing utilization from 40% to 90%.
+
+  **Why "WOW":** It builds a 'Uber for Intermodal Steel' without owning a single trailer. It solves the last-mile bottleneck of global trade algorithmically.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (ELD API integrations and spatial predictive load-balancing math).
+  - Cash Out: SaaS license fee of $50 per chassis per month + 20% of repositioning efficiency gains.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Chassis under Management: 200,000
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Physical failure of outdated IoT trackers on old chassis.
+  - Medium: Trucking unions resisting the algorithmic dispatching model.
+  - Low: Logistics necessity (Chassis shortages frequently paralyze ports).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,33 @@
+id: EP-0823
+title: Generative 'Proof-of-Life' Smart Escrow for Inheritance
+description: |
+  **Idea:** Trillions of dollars in digital assets (Crypto, Stock accounts) are lost because the owner dies without sharing keys. This autonomous system is a 'Dead-Man's Switch' protocol. It monitors the owner's digital activity (OAuth logins, bank movements). If inactivity is detected, it triggers an AI-driven 'Proof-of-Life' sequence. If no response, it autonomously executes a series of smart-contract legal instructions and notifies the pre-verified heirs, releasing the assets in escrow.
+
+  **Why "WOW":** It ensures the continuity of digital wealth across generations without a middleman. It acts as an immortal, un-bribable digital executor.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Creating the secure, non-custodial 'check-in' protocol and the legal-wrapper inheritance contracts).
+  - Cash Out: Annual subscription fee ($500/yr) + 0.1% final distribution toll.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Active Subscriptions: 500,000\n  - Asset Volume in Escrow: $50B
+  - Estimated Revenue: $300,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: The system 'releasing' wealth to heirs while the owner is merely in a coma or incommunicado (e.g., in prison).
+  - Medium: Hackers compromising the 'check-in' API to trigger a premature release.
+  - Low: Hedge fund/Whale demand (They are terrified of their wealth vanishing).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

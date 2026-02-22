@@ -1,0 +1,33 @@
+id: EP-0511
+title: Sovereign Mineral Origin Traceability Network
+description: |
+  **Idea:** Western auto-manufacturers and tech giants face massive fines and consumer backlash if EV battery minerals (Cobalt, Lithium, Nickel) are sourced from conflict zones or utilize child labor. Current compliance relies on easily forgeable paper certificates. This system integrates massive multi-modal data: satellite imagery of specific mining pits, local logistics IoT tracking, and hyperspectral material signatures. It autonomously establishes an immutable algorithmic chain-of-custody. A multi-agent system continuously cross-references shipping manifests against orbital data to mathematically prove that a specific batch of Cobalt physically originated from an approved corporate pit, not an artisanal conflict zone 5 miles away.
+
+  **Why "WOW":** Perfect, provable, mathematical compliance for the entire $500B energy transition mineral supply chain without relying on corruptible human inspectors on the ground.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Ingesting commercial satellite APIs (Planet/Maxar), building the geographical correlation ML models, and API integrations with major industrial ERPs).
+  - Cash Out: Licensing the traceability API on a per-tonnage volume basis to Tesla, Apple, VW, etc.
+
+  **First Year Projections:**
+  - Tonnage Certified: 10,000,000 metric tons.
+  - Estimated Revenue: $100,000,000.
+
+  **Feasibility Score:** 7.5/10 (High reliance on the quality and update frequency of commercial satellite data; challenging but possible).
+
+  **Risk Analysis:**
+  - High: Data spoofing or localized GPS jamming by malicious actors in the supply chain.
+  - Medium: Integrating with fragmented, often analog downstream logistics providers in developing nations.
+  - Low: Market demand (Strict new EU battery passports and US IRA origin requirements make this mandatory overnight).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,33 @@
+id: EP-0893
+title: Predictive 'Sovereign-Downgrade' Capital Hedger
+description: |
+  **Idea:** When a country's bond-rating is downgraded (e.g. from A to BBB), its currency crashes. This AI agent monitors the nation's high-frequency budget-velocity and social policy changes via API. It algorithmically predicts a rating-agency downgrade 48 hours before the S&P/Moody's announcement and autonomously shorts the currency and sovereign-bonds via institutional API.
+
+  **Why "WOW":** It serves as the 'Anti-Agency'. It identifies national insolvency before the human analysts at Moody's even finish their report.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Sovereign budget-tracking ML and high-speed FX/Bond trading bots).
+  - Cash Out: Pure arbitrage profit.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Downgrade Events Predicted/traded: 15\n  - Avg Profit: $10M
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Rating agencies making a 'Surprise' political decision to NOT downgrade even when the data is poor, causing a massive short-squeeze loss.
+  - Medium: Latency. Being slower than the major 'Global Macro' hedge fund bots.
+  - Low: Data Transparency (National budgets and social unrest are highly public signals).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,33 @@
+id: EP-0710
+title: Autonomous Tokenized Real Estate Rent Sweeper & Compounder
+description: |
+  **Idea:** Real estate is being tokenized into $50 fractions globally on systems like RealT. However, collecting $0.14 daily rent across 5,000 fragmented global properties is computationally exhausting. This AI protocol aggregates fragmented real-estate token portfolios. It tracks the daily on-chain rent yields across massive commercial/residential portfolios, batches the millions of micro-transactions to save gas fees via Layer-2 rollups, and instantly auto-compounds the rent back into high-yield DeFi lending protocols or buys more fractional real estate.
+
+  **Why "WOW":** The ultimate micro-capital allocator. It acts as an autonomous global landlord, sweeping and compounding millions of digital pennies into massive algorithmic fortunes.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2 months (Building the cross-protocol wallet sweeping architecture and gas-optimization AI routes).
+  - Cash Out: A 2% AUM (Assets Under Management) fee on the compounded properties.
+
+  **First Year Projections:**
+  - Fractional RWA Assets Under Management: $5,000,000,000
+  - Estimated Revenue: $100,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: Global regulatory crackdowns classifying fragmented real estate tokens as illegal security offerings.
+  - Medium: Gas fee spikes on Ethereum rendering the micro-sweeping uneconomical (mitigated heavily by L2s like Base).
+  - Low: Adoption (Investors demand auto-compounding out of simple laziness).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,33 @@
+id: EP-0556
+title: Automated B2B Debt Collection & Factoring Engine
+description: |
+  **Idea:** B2B companies write off billions in unpaid invoices because human lawyers are too expensive for small claims. This system acts as a relentless, polite, multi-modal LLM debt collector. It ingests unpaid invoices from the client's accounting software. It algorithmically factors (buys) the debt at a 20% discount. It then launches an automated, highly-tailored sequence of emails, SMS, and AI-voice calls directly to the debtor's accounts payable department, leveraging local contract law citations to force payment.
+
+  **Why "WOW":** The ultimate algorithmic collections agency. It scales polite but legally-threatening persistence to infinity.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2 months (Accounting platform APIs, LLM prompt engineering for legal persistence, automated dialers).
+  - Cash Out: Collecting 100% of the invoice value after buying it algorithmically at an 80% discount.
+
+  **First Year Projections:**
+  - Invoice Volume Factored & Collected: $1,000,000,000
+  - Estimated Revenue: $200,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Aggressive consumer protection laws (e.g. FDCPA in the US) though B2B debt is usually less regulated.
+  - Medium: LLM hallucinations making incorrect legal threats, causing liability.
+  - Low: Corporate Demand (Everyone wants their money).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

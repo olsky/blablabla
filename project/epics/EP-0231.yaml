@@ -1,0 +1,27 @@
+id: EP-0231
+title: Autonomous LC Amendment Negotiation Agent
+description: Parses amendment requests, proposes compliant alternatives, and auto-negotiates acceptance paths between issuing banks and counterparties.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 112000000
+  first_year_users: 1300
+  roi_time_in_months: 3
+  roi_cash_out_usd: 58000000
+  pricing_model: per-amendment automation fee
+feasibility_score: 8.0
+risk_analysis:
+  technical: clause-level semantic normalization across banks is non-trivial
+  market: legal teams may demand human spot checks initially
+  legal: amendment acceptances must respect local enforceability rules
+ethical_legal_guardrails:
+  - require confidence thresholds before autonomous counteroffers
+  - preserve full conversational and clause-change provenance

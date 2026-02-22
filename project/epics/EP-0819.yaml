@@ -1,0 +1,33 @@
+id: EP-0819
+title: Autonomous Tariff Clawback Auditor for Mega-Retailers
+description: |
+  **Idea:** Retailers like Walmart/Amazon overpay millions in tariffs due to incorrect 'Country of Origin' or 'Composition' data submitted by overseas suppliers. This AI agent ingests millions of historical customs entries and cross-references them against updated court rulings and supplier engineering data. When it finds an overpayment, it autonomously generates the required 19 CFR 18.1 protest and submits it to the Customs API for a direct cash refund.
+
+  **Why "WOW":** It acts as a relentless, autonomous tax-refund bounty hunter for global trade. It turns historical customs 'accidents' into millions in pure cash recoveries.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2.5 months (NLP classification for historical document audit and customs refund API integration).
+  - Cash Out: 30% contingency fee on all successfully recovered tariff checks.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Tariff Overpayments Identified: $400,000,000
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: Customs authorities becoming aggressive and retaliatory toward retailers using 'automated protest' systems.
+  - Medium: Incomplete historical data from legacy customs brokers.
+  - Low: CFO Demand (It is pure profit with zero upfront cost).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,33 @@
+id: EP-0582
+title: Autonomous Gene Therapy Outcome Pricing Engine
+description: |
+  **Idea:** New gene therapies (like Zolgensma) cost $2M+ per dose, threatening to bankrupt healthcare systems. This platform establishes 'Value-Based Agreements' algorithmically. The hospital administers the $2M drug. The system then continuously ingests the patient's secure biomarker lab results over 5 years. If the patient's bloodwork shows the disease returning, the smart contract automatically claws back a fractional refund from the Pharma company's escrow and returns it to the insurer.
+
+  **Why "WOW":** Forces pharmaceutical companies to put their money where their science is. Algorithmic money-back guarantees for human DNA editing.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Integrating strictly HIPAA-compliant biomarker lab APIs with financial escrow ledgers).
+  - Cash Out: 2% administration fee on the billions of dollars held in these long-term outcome escrows.
+
+  **First Year Projections:**
+  - Value of Therapies Escrowed: $5,000,000,000
+  - Estimated Revenue: $100,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Pharma companies ferociously resisting any system that automatically claws back their booked revenue.
+  - Medium: Patient privacy regarding continuous lab data streaming.
+  - Low: Insurer demand (They refuse to pay $2M unconditionally anymore).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

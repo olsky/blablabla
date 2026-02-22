@@ -1,0 +1,33 @@
+id: EP-0861
+title: Generative 'Subrogation-as-an-API' Recovery Agent
+description: |
+  **Idea:** Insurance companies have $200B in 'Subrogation' (claims they paid, but someone else was at fault). 40% is never recovered because it's too expensive to hire lawyers for $5,000 cases. This AI agent ingests the accident report, identifies the third-party insurer at-fault, and autonomously generates and submits the subrogation claim via API, pursuing it through the automated litigation system.
+
+  **Why "WOW":** It is the 'Clawback Master' for the insurance world. It recovers billions in lost capital for carriers with zero human lawyers.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the accident-logic NLP and the automated subrogation-API submission rails).
+  - Cash Out: 20% cut of all successfully 'clawed back' subrogation funds.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Subrogation Funds Recovered: $1,000,000,000
+  - Estimated Revenue: $200,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: Automated subrogation claims being easily blocked by similar AI-driven 'rejection bots' at the other insurance company.
+  - Medium: Legal jurisdiction variability in how subrogation is handled for micro-claims.
+  - Low: Carrier Demand (They are desperate to improve their 'Combined Ratio').
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

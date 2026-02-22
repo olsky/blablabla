@@ -1,0 +1,33 @@
+id: EP-0578
+title: Predictive Corporate M&A Cultural Attrition Oracle
+description: |
+  **Idea:** 70% of mega-mergers fail due to 'culture clash' and massive executive flight. This system is deployed strictly during M&A due diligence. It anonymizes and ingests billions of internal Slack messages, Jira tickets, and calendar metadata from both companies. Using NLP graph-theory, it mathematically models the informal power hierarchies and predicts exactly which key 5% of engineers/executives will quit within 6 months post-merger due to structural friction.
+
+  **Why "WOW":** Brings rigorous, predictive mathematics to the squishiest, most expensive failure point in finance: human culture.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2 months (Building highly secure, anonymized NLP social-graph models).
+  - Cash Out: B2B Consulting SaaS: $500k per M&A transaction analyzed.
+
+  **First Year Projections:**
+  - M&A Deals Analyzed: 250
+  - Estimated Revenue: $125,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Labor privacy laws (GDPR/EU worker councils) blocking the ingestion of metadata.
+  - Medium: Target companies refusing to grant API access during intense due diligence phases.
+  - Low: PE/IB Demand (They desperately want quantitative data on culture).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

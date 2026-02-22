@@ -1,0 +1,33 @@
+id: EP-0596
+title: Autonomous Smart-Contract Escrow for Code Bounties
+description: |
+  **Idea:** Open-source projects and enterprises struggle to incentivize bug fixes because developers don't trust they will be paid. This platform bridges GitHub and decentralized finance. An enterprise posts a $50,000 bounty to optimize a specific Rust database query by 20%. Developers submit pull requests. The system automatically benchmarks the code against a hidden test-suite. If the 20% threshold is mathematically proven, the smart contract instantly releases the $50k crypto payload to the dev.
+
+  **Why "WOW":** Zero-trust, automated employment based solely on verifiable mathematical output. The gig economy for elite hackers.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2 months (Building the secure containerized code-benchmarking environment and smart contract triggers).
+  - Cash Out: 10% platform fee on all bounties paid.
+
+  **First Year Projections:**
+  - Bounty Value Distributed: $1,500,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: Hackers 'gaming' the test suite (finding a loophole to make the code run fast but corrupting the data) to steal the bounty.
+  - Medium: Defining subjective code bounties (e.g., 'Make the UI better') which cannot be algorithmically verified.
+  - Low: Developer adoption (Guaranteed payment for code).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

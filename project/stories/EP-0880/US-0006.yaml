@@ -1,0 +1,20 @@
+id: US-0006
+epic: EP-0880
+title: "Cross-Reference Vessel Identifiers with Sanctions Databases"
+layer: backend
+stack: "Python, Redis, PostgreSQL"
+acceptance_criteria:
+  - "Match vessel IMO numbers against sanctions list IMO entries (exact match)"
+  - "Match vessel MMSI numbers against sanctions list MMSI entries"
+  - "Match vessel names with fuzzy string matching (handle typos, alternate spellings)"
+  - "Match vessel flag country against sanctioned jurisdictions"
+  - "Check vessel beneficial ownership against sanctioned entities (if data available)"
+  - "Return all matching sanctions entries with source authority (OFAC, UN, EU)"
+  - "Cache negative results (not sanctioned) for 6 hours to reduce database load"
+  - "Achieve <50ms query latency for sanctions check"
+created_at: "2026-02-22"
+created_by:
+  agent: decomposer
+  model: claude-sonnet-4.5
+  provider: anthropic
+status: draft

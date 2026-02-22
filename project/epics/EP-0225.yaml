@@ -1,0 +1,27 @@
+id: EP-0225
+title: Autonomous Commodity Collateral Verification Network
+description: Verifies financed commodity inventory existence and movement by fusing warehouse receipts, IoT telemetry, satellite imagery, and customs records.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.8
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 160000000
+  first_year_users: 240
+  roi_time_in_months: 3
+  roi_cash_out_usd: 99000000
+  pricing_model: monitored-collateral subscription plus fraud-prevention share
+feasibility_score: 8.3
+risk_analysis:
+  technical: multi-source identity matching for commodities and lots is complex
+  market: legacy collateral agents may resist displacement
+  legal: evidentiary requirements differ for insolvency and fraud proceedings
+ethical_legal_guardrails:
+  - confidence score disclosure per collateral assertion
+  - no automated liquidation instructions without contractual authority

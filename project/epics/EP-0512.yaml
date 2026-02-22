@@ -1,0 +1,33 @@
+id: EP-0512
+title: Algorithmic Media Bias & Brand Safety Dynamic Shield
+description: |
+  **Idea:** Programmatic advertising (a $500B+ market) constantly places blue-chip brands (Disney, Coca-Cola) next to toxic, polarizing, or fake news content because legacy keyword blockers are dumb and easily bypassed. This system sits between ad-exchanges (DSP/SSP) and publishers. It uses high-speed, localized LLMs to autonomously parse the sentiment, core narrative, political slant, and factuality of a webpage in milliseconds *before* an ad bid is placed. If a page violates a brand's highly specific ethical matrix (e.g., "Exclude all content promoting unverified health supplements or geopolitically aggressive rhetoric"), the agent silently blocks the bid. 
+
+  **Why "WOW":** It enables absolute, granular brand safety at the speed of high-frequency trading. It doesn't rely on domain blocklists (which kill good journalism); it relies on deep semantic understanding of individual articles in real-time. 
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2 months (Optimizing extremely low-latency LLM inference pipelines, integrating directly via OpenRTB standard APIs into major ad exchanges).
+  - Cash Out: Micro-cents per algorithmic impression scan charged to the advertiser.
+
+  **First Year Projections:**
+  - Impressions Scanned Daily: 5,000,000,000.
+  - Estimated Revenue: $180,000,000.
+
+  **Feasibility Score:** 8.5/10 (The core challenge is entirely latency. Semantic analysis must occur within a 50ms programmatic bidding window, requiring heavy optimization).
+
+  **Risk Analysis:**
+  - High: Achieving the sub-50ms latency globally across disparate server locations to participate in OpenRTB.
+  - Medium: False positives blocking legitimate traffic (Requires continuous self-healing feedback loops).
+  - Low: Selling to agencies (Brand safety is the absolute #1 priority for CMOs).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

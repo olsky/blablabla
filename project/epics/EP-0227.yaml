@@ -1,0 +1,27 @@
+id: EP-0227
+title: Autonomous Cross-Border Duty Drawback Recovery Oracle
+description: Maps import and export records to recover eligible duty drawbacks automatically, generating compliant filing packets and tracking payout lifecycles.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 140000000
+  first_year_users: 2600
+  roi_time_in_months: 3
+  roi_cash_out_usd: 85000000
+  pricing_model: recovered-value contingency plus filing fee
+feasibility_score: 8.8
+risk_analysis:
+  technical: incomplete customs references can reduce claim match rates
+  market: finance teams may underestimate recoverable drawback pools
+  legal: strict filing deadlines and documentary requirements must be enforced
+ethical_legal_guardrails:
+  - jurisdiction-specific rule packs with versioned updates
+  - immutable filing audit logs and traceable evidence chains

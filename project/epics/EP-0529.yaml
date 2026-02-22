@@ -1,0 +1,33 @@
+id: EP-0529
+title: Algorithmic Crop-Yield Futures & Parametric Hedging
+description: |
+  **Idea:** Global food supply is volatile due to climate change. This autonomous hedge fund aggregates specific hyperspectral satellite imagery over massive crop yields (corn, wheat) continuously. It mathematically predicts national harvest yields months before the USDA. It then autonomously executes futures trades on the Chicago Mercantile Exchange (CME) based on this superior asymmetric data advantage, requiring zero human trading.
+
+  **Why "WOW":** Pure orbital arbitrage. Out-trading the global commodities market using light bouncing off leaves.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the spectral index models and CME trade execution engines).
+  - Cash Out: Trading profit (Alpha).
+
+  **First Year Projections:**
+  - AUM: $250,000,000\n  - Projected Yield (Alpha): 40%
+  - Estimated Revenue: $100,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Commodity market irrationality uncoupled from yield reality.
+  - Medium: Cloud cover temporarily blinding satellite inputs.
+  - Low: Technical execution (Quantitative trading on alternative data is well proven).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

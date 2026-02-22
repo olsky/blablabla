@@ -1,0 +1,33 @@
+id: EP-0564
+title: Generative Architecture Permitting Auto-Corrector
+description: |
+  **Idea:** Commercial real estate developers wait 18 months for humans at city hall to review building plans for code violations. This system ingests the raw BIM (Building Information Model) or CAD files via API. It cross-references millions of vectors against the hyper-specific, constantly changing PDF fire/zoning codes of that exact municipality using spatial LLMs. It autonomously highlights violations and procedurally re-routes the CAD plumbing/HVAC layouts to be 100% compliant before submission.
+
+  **Why "WOW":** Turns a year-long bureaucratic nightmare into a 10-second API call. It algorithmically guarantees building code compliance.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the spatial/geometry translation engines and RAG pipelines for local municipal codes).
+  - Cash Out: $5,000 per commercial building scan/correction.
+
+  **First Year Projections:**
+  - Buildings Processed: 30,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: Hallucinations in the LLM's understanding of obscure, badly written municipal zoning text.
+  - Medium: City inspectors rejecting the plans anyway due to human caprice.
+  - Low: Architect adoption (They despise manual code review).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

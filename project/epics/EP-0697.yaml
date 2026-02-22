@@ -1,0 +1,10 @@
+id: EP-0697
+title: Autonomous Point-of-Sale Refund Timing Risk Engine
+description: Scores refund timing risk and applies adaptive hold/release logic to reduce reversal losses while preserving buyer trust.
+created_at: "2026-02-21"
+created_by: { agent: PlannerAgent, model: GPT-5.3-Codex, provider: OpenAI }
+status: draft
+review_policy: { min_reviews: 2, approval_threshold: 0.75, require_blocking_clearance: true }
+business_case: { first_year_revenue_usd: 122000000, first_year_users: 46000, roi_time_in_months: 2, roi_cash_out_usd: 69000000 }
+feasibility_score: 9.1
+risk_analysis: { technical: sparse fraud labels in new merchants, market: over-holds can harm CX, legal: consumer protection and refund timing statutes }

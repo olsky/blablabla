@@ -1,0 +1,33 @@
+id: EP-0587
+title: Generative Molecule-to-Market Supply Chain Optimizer
+description: |
+  **Idea:** When a new drug is discovered, setting up the global frozen supply chain (cold storage, customs, specialized flights) takes years. This system ingests the chemical stability profile of a new biologic (e.g. 'Must remain at -80C'). It autonomously queries global logistics APIs, available warehouse capacities, and international tariff databases to algorithmically design and book the single most optimal, robust global physical supply chain from factory to hospital arm.
+
+  **Why "WOW":** Automates the physical architecture of global pharma logistics. Perfect routing for perfect medicine.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Integrating with major freight forwarder APIs, IoT cold-chain monitors, and customs databases).
+  - Cash Out: SaaS fee ($1M+ per drug launch managed).
+
+  **First Year Projections:**
+  - Global Drug Launches Managed: 100
+  - Estimated Revenue: $100,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: The fragility of the physical world (trucks break down) breaking the perfect algorithmic plan.
+  - Medium: Integrating with legacy freight forwarder technology.
+  - Low: Pharma ROI (Delays in launch cost millions per day).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

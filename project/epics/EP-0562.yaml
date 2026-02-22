@@ -1,0 +1,33 @@
+id: EP-0562
+title: Algorithmic Battery Storage Farm Aggregator
+description: |
+  **Idea:** Millions of residential home batteries (Tesla Powerwalls) sit idle 90% of the day. This system aggregates 100,000 decentralized batteries into a single, massive API-controlled Virtual Power Plant. When the grid faces a blackout and spot energy prices spike 10,000%, the algorithm autonomously drains 5% from every home battery simultaneously, selling massive megawatt blocks back to the grid in milliseconds, and splitting the millions in profit with the homeowners.
+
+  **Why "WOW":** Transforms decentralized consumer hardware into a multi-billion dollar algorithmic power plant trading on Wall Street.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Integrating with home battery OEM APIs and establishing high-frequency grid market execution).
+  - Cash Out: 30% of the trading profit generated during grid spikes.
+
+  **First Year Projections:**
+  - Aggregated Capacity: 2 Gigawatts\n  - Trading Events: 50/year
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Grid operator API latency causing missed trading windows during multi-second spikes.
+  - Medium: Consumer backlash if the system drains their battery right before a local blackout.
+  - Low: Regulatory approval (FERC Order 2222 legally permits exactly this).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

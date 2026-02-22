@@ -1,0 +1,33 @@
+id: EP-0602
+title: Generative Weather Modification Targeting & Routing API
+description: |
+  **Idea:** Cloud seeding (injecting silver iodide to force rain) is a $10B industry, but it's wildly inaccurate, mostly done by pilots eyeballing storm clouds. This software sits above the industry. It ingests live Nexrad Doppler radar, high-altitude atmospheric pressure APIs, and hyperspectral satellite data. It uses fluid-dynamic generative AI to mathematically pinpoint the exact cubic kilometer of a storm system that requires seeding to yield the maximum rainfall over a specific drought-stricken agricultural zone. It then autonomously dictates the GPS flight path and payload drop-timing directly to fleets of autonomous seeding drones.
+
+  **Why "WOW":** Turns chaotic weather modification into a precise, targeted, software-controlled outcome. The API that controls the rain.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months (Building the massive fluid dynamic prediction models and the drone AP dispatch system).
+  - Cash Out: SaaS royalty. Charging drought-stricken municipalities or agricultural mega-corps $1M per targeted mega-liter of rain generated.
+
+  **First Year Projections (US$1B Scale):**
+  - Acre-Feet of Water Gen-Targeted: 1,500,000
+  - Estimated Revenue: $1,050,000,000
+
+  **Feasibility Score:** 7/10
+
+  **Risk Analysis:**
+  - High: Legal liability. If the system over-seeds and causes catastrophic flooding downwind, the algorithmic liability is massive.
+  - Medium: The sheer physics chaos of predicting micro-weather accurately enough to guarantee rainfall yields.
+  - Low: Municipal desperation (Governments will pay anything for water).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

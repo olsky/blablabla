@@ -1,0 +1,33 @@
+id: EP-0837
+title: Algorithmic Secondary Market for Industrial Raw Material Egress
+description: |
+  **Idea:** Large manufacturers have huge 'off-cuts' and waste streams of high-value materials (Titanium, Carbon Fiber, specialized polymers). This AI agent monitors the factory's inventory scrap-bins via Computer Vision. It algorithmically detects the material grade, batches it, and autonomously auctions it on a secondary market to 'Long-Tail' buyers who need small amounts of specialized material for R&D.
+
+  **Why "WOW":** It turns the factory's 'Scrap Heap' into a high-margin algorithmic revenue stream. It monetizes the waste-profile of global industry.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the material-grade detection CV and the secondary-market auction ledger).
+  - Cash Out: 20% cut of the 'Found Money' recovered from the secondary material sales.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Value of Materials Recovered: $750,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Incorrect material classification by the CV causing failure in the buyer's high-stress R&D application (Liability).
+  - Medium: Logistics of moving fragmented, low-volume scrap profitably.
+  - Low: ESG value (Corporations love 'Zero Waste' stories for their annual reports).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

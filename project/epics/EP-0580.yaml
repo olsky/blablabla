@@ -1,0 +1,33 @@
+id: EP-0580
+title: Autonomous Suborbital Spaceflight Insurance Underwriter
+description: |
+  **Idea:** Commercial spaceflight (SpaceX, Blue Origin) lacks dynamic insurance markets. Actuaries cannot price the risk of a new rocket manually. This AI underwriter ingests the CAD files of the rocket, the historical Github commits of its flight software, and live launch-pad weather telemetry. It runs millions of Monte Carlo physics simulations to generate a precise failure probability, issuing a multi-million-dollar digital insurance policy via API 10 seconds before liftoff.
+
+  **Why "WOW":** The first actuarial engine designed entirely for the mechanics of off-world travel.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months (Heavy aerospace engineering / physics simulation models combined with financial structuring).
+  - Cash Out: Taking a 5% risk premium on the policy underwritten (re-syndicated to Lloyd's of London).
+
+  **First Year Projections:**
+  - Total Payload Value Insured: $5,000,000,000
+  - Estimated Revenue: $250,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: A catastrophic explosion (e.g., SpaceX Starship) triggering a massive, correlated smart-contract payout.
+  - Medium: Space companies severely restricting access to their proprietary CAD/telemetry data.
+  - Low: Need for capital (Rockets cannot launch without insurance).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,33 @@
+id: EP-0553
+title: Algorithmic Spot Market for Commercial Trucking Freight Pricing
+description: |
+  **Idea:** The $800B US trucking industry relies heavily on human freight brokers who charge 15-20% to connect a shipper with a truck driver via phone calls. This system eliminates the broker. It links directly to corporate shipping ERPs and driver ELDs (Electronic Logging Devices). It uses geospatial algorithms to predict exactly when an empty truck will pass a warehouse needing a shipment. It issues a binding algorithmic price and clears the transaction instantly, dropping the friction to 2%.
+
+  **Why "WOW":** Turns long-haul logistics into a frictionless, high-speed algorithmic exchange. Eradicates the massive human broker layer.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Integrating with major ERPs and driver telematics, building the matching algorithm).
+  - Cash Out: 2% platform fee on billions of dollars of raw freight volume.
+
+  **First Year Projections:**
+  - Freight Volume Cleared: $8,000,000,000
+  - Estimated Revenue: $160,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Breaking the entrenched relationships between old-school shippers and human brokers.
+  - Medium: Handling exceptions algorithmically (e.g., a truck breaks down mid-route).
+  - Low: Driver adoption (They hate brokers and want more money).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

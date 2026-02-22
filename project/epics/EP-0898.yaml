@@ -1,0 +1,33 @@
+id: EP-0898
+title: Predictive 'Climate-Migration' Yield-Arbitrage Agent
+description: |
+  **Idea:** Billions of people will migrate due to climate over 30 years. This AI agent uses satellite soil-moisture and temperature-drift models to predict exactly which geographic 'Secondary Cities' will see a 500% population boom in 5 years. it autonomously acquires long-term 'Commercial Options' on land and infrastructure in these future-hubs and re-sells the options to developers.
+
+  **Why "WOW":** It is the 'Real-Estate Agent for the Anthropocene'. It monetizes the greatest physical shift in human history via predictive climatology.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months (Long-term climate-drift models and cross-border land-option legal wrappers).
+  - Cash Out: 30% cut of the value uplift on the exercised options.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Gross Land-Value Uplift Identified/Owned: $500,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 7/10
+
+  **Risk Analysis:**
+  - High: Total political collapse in the target migration city, rendering 'Land Options' legally worthless despite the population boom.
+  - Medium: Ethical backlash against 'Profiting from Climate Refugees' causing brand damage.
+  - Low: Investment Magnitude (This is the single biggest physical trend on earth; alpha is almost guaranteed).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

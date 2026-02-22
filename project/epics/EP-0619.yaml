@@ -1,0 +1,23 @@
+id: EP-0619
+title: Autonomous Prepaid Top-Up Fraud Suppression and Recovery
+description: Detects synthetic recharge abuse and bonus exploitation, then auto-adjusts policy and recovers avoidable incentive leakage.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 126000000
+  first_year_users: 9100
+  roi_time_in_months: 2
+  roi_cash_out_usd: 72000000
+feasibility_score: 9.1
+risk_analysis:
+  technical: adversaries adapt quickly to static detection rules
+  market: customer experience impact from false blocks must be minimized
+  legal: consumer protection and disclosure rules vary by market

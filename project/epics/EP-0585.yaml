@@ -1,0 +1,33 @@
+id: EP-0585
+title: Predictive Utility Pole & Grid Degeneration Tracker
+description: |
+  **Idea:** Failing power lines cause catastrophic wildfires (PG&E). Sending humans to inspect 5 million poles is impossible. This system commands a fleet of autonomous, beyond-visual-line-of-sight (BVLOS) drones. The drones use hyperspectral and thermal cameras to scan transmission lines. The edge-AI detects microscopic thermal anomalies (corroded splices) and acoustic arcing, mathematically predicting a line snap weeks in advance and automatically dispatching repair crews.
+
+  **Why "WOW":** Prevents billion-dollar wildfires via autonomous aerial robotics and edge-predictive maintenance.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Deploying CV models onto edge-compute drone hardware and integrating with utility dispatch APIs).
+  - Cash Out: SaaS: $200/mile inspected per year.
+
+  **First Year Projections:**
+  - Miles of Transmission Line Monitored: 750,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: FAA regulations regarding continuous BVLOS drone operations spanning entire states.
+  - Medium: Battery endurance / physical operation of drone fleets in harsh weather.
+  - Low: Utility adoption (Wildfire liabilities are bankrupting them).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

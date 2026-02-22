@@ -1,0 +1,33 @@
+id: EP-0566
+title: Predictive Corporate Jet Empty-Leg Arbitrage
+description: |
+  **Idea:** Private jets fly empty ('empty legs') 40% of the time to pick up their billionaire owners, burning massive fuel and capital. This system aggregates global FAA flight plan APIs, predicts exactly when and where these empty jets will occur hours in advance, and algorithmically buys the route at a 90% discount. It dynamically repacks the flight and sells the seats instantly at a premium to high-end travel APIs (Uber Black/Heli).
+
+  **Why "WOW":** Algorithmically monetizes the ultimate luxury waste. Turns multi-million dollar empty carbon emissions into a high-margin algorithmic airline.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2.5 months (Ingesting global radar/flight-plan APIs, building the high-speed pricing engine and dynamic charter CRM).
+  - Cash Out: Capturing the massive arbitrage spread (Buying a jet route for $2k, selling it for $15k).
+
+  **First Year Projections:**
+  - Empty Legs Arbitraged: 20,000
+  - Estimated Revenue: $100,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Fleet operators constantly canceling the empty leg at the last second due to owner whims.
+  - Medium: Integrating fragmented, outdated scheduling software from hundreds of boutique jet companies.
+  - Low: Consumer demand (Flying private for commercial prices).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

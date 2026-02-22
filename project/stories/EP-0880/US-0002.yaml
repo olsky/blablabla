@@ -1,0 +1,18 @@
+id: US-0002
+epic: EP-0880
+title: "Store Vessel Tracking Data in Time-Series Database"
+layer: backend
+stack: "PostgreSQL TimescaleDB, Python SQLAlchemy"
+acceptance_criteria:
+  - "Create hypertable schema for vessel positions (timestamp, IMO, MMSI, lat, lon, speed, heading)"
+  - "Consume AIS messages from Kafka and insert into TimescaleDB with <500ms latency"
+  - "Index on vessel identifiers (IMO, MMSI) and geospatial coordinates for fast queries"
+  - "Implement data retention policy (14 days high-res, 1 year aggregated hourly)"
+  - "Handle duplicate AIS messages (idempotent writes using message_id)"
+  - "Achieve 10k+ inserts per second throughput"
+created_at: "2026-02-22"
+created_by:
+  agent: decomposer
+  model: claude-sonnet-4.5
+  provider: anthropic
+status: draft

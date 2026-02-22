@@ -1,0 +1,33 @@
+id: EP-0857
+title: Autonomous Marine 'Hull & Machinery' Yield-Arbitrage Agent
+description: |
+  **Idea:** Marine insurance is archaic. This AI agent monitors the live maintenance records and engine-telemetry of cargo ships via API. If the telemetry shows the ship is 'Over-maintained' and in perfect health, the AI autonomously bids a lower insurance premium to 'Poach' the customer from their legacy insurer, capturing a higher yield-on-risk.
+
+  **Why "WOW":** It is an 'Aggressive Algorithmic Poacher' for the $30B marine insurance market. It uses telemetry-superiority to steal the highest-quality, lowest-risk clients.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Building the ship-health predictive models and the automated insurance-bidding bot).
+  - Cash Out: Net spread on the underwritten marine policies.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Total Hull Value Insured: $50,000,000,000\n  - Net Yield: 0.3%
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Hidden structural issues (e.g. hull fatigue) that telemetry sensors can't see, leading to a total loss of a mega-ship.
+  - Medium: Shipping companies' reluctance to share raw 'Engine Health' data with an algorithmic bidder.
+  - Low: Shipping Owner Demand (They are extremely cost-sensitive on insurance).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

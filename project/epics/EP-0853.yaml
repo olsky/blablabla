@@ -1,0 +1,33 @@
+id: EP-0853
+title: Predictive Wildfire-Risk Underwriting API for Real Estate
+description: |
+  **Idea:** Insurers are fleeing California/Australia due to wildfire risk. This AI agent uses hyper-spectral satellite data and soil-moisture APIs to provide a 'Daily Wildfire Risk' score for every single home. it offers a dynamic, daily-priced insurance product that only charges the homeowner when the local risk exceeds a specific threshold, making insurance affordable again.
+
+  **Why "WOW":** It is the 'Real-Time Actuary' for a burning world. It solves the un-insurability crisis via high-frequency, satellite-driven dynamic pricing.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Ingesting satellite moisture data and building the wildfire-spread GNN).
+  - Cash Out: Daily premium float + 15% underwriting spread.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Homes Under Protection: 1,000,000\n  - Avg Daily Premium: $0.80
+  - Estimated Revenue: $200,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: A 'Firestorm' event that leaps across all predictive containment models, causing catastrophic loss.
+  - Medium: Homeowners forgetting to 'Enable' the daily insurance when the AI flags high risk.
+  - Low: Desperate Demand (People cannot get mortgages without insurance; they need this solution).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

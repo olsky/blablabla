@@ -1,0 +1,27 @@
+id: EP-0224
+title: Autonomous Sanctions-Safe Payment Routing Mesh
+description: Screens counterparties, vessels, banks, and beneficial owners in real time, then routes payments through compliant corridors with minimal delay and fees.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 210000000
+  first_year_users: 900
+  roi_time_in_months: 3
+  roi_cash_out_usd: 138000000
+  pricing_model: per-payment screening fee plus routing spread share
+feasibility_score: 8.1
+risk_analysis:
+  technical: near-real-time sanctions updates require resilient low-latency ingestion
+  market: treasury teams may require staged confidence calibration
+  legal: strict AML/KYC and sanctions obligations across multiple jurisdictions
+ethical_legal_guardrails:
+  - deterministic explanation for every blocked or rerouted payment
+  - strict data retention and access controls for compliance artifacts

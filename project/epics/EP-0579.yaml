@@ -1,0 +1,33 @@
+id: EP-0579
+title: Algorithmic B2B Debt Syndication API
+description: |
+  **Idea:** A mid-sized logistics company needs a $20M loan for new trucks. A single small bank can't hold that risk alone, and traditional syndication takes lawyers weeks. This system ingests the borrower's financials and creates an automated shadow-banking syndicate. It algorithmically carves the $20M note into 1,000 algorithmic tranches and instantly sells them to a network of 50 regional banks and credit funds via API, funding the loan in 2 hours.
+
+  **Why "WOW":** It builds a decentralized, high-speed Wall Street investment bank for the middle market.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the underwriting ML and the multi-party ledger settlement API).
+  - Cash Out: 1% syndication fee on the total loan volume cleared.
+
+  **First Year Projections:**
+  - Loan Volume Syndicated: $12,000,000,000
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: A wave of middle-market defaults breaking the algorithmic trust of the fragmented syndicate buyers.
+  - Medium: Regulatory scrutiny on algorithmic shadow-banking platforms.
+  - Low: Borrower demand (They just want the money fast).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

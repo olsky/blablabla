@@ -1,0 +1,27 @@
+id: EP-0245
+title: Autonomous Warehouse Receipt Authenticity Ledger
+description: Verifies and token-tracks warehouse receipt authenticity to prevent forged collateral claims and duplicate pledge events.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 123000000
+  first_year_users: 700
+  roi_time_in_months: 3
+  roi_cash_out_usd: 69000000
+  pricing_model: per-receipt verification fee
+feasibility_score: 8.6
+risk_analysis:
+  technical: interoperability with non-digital receipt issuers is uneven
+  market: trust in shared ledger governance is critical to adoption
+  legal: evidentiary standing of digital records varies by jurisdiction
+ethical_legal_guardrails:
+  - tamper-evident receipt history with signer verification
+  - governance controls for participant onboarding and revocation

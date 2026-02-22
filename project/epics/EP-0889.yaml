@@ -1,0 +1,33 @@
+id: EP-0889
+title: Autonomous 'Beneficial-Ownership' Graph Discovery API
+description: |
+  **Idea:** Finding the 'True Owner' of a shell company takes weeks of human detective work. This AI agent monitors every global corporate register simultaneously. It uses OCR/NLP to parse messy ownership logs and builds a real-time 'Graph' of control. It exposes 'Hidden' owners via indirect relationship analysis (e.g. common lawyers/addresses) and sells the graph to law enforcement and banks.
+
+  **Why "WOW":** It provides a 'X-Ray View' into global shell companies. It identifies the puppet-masters of global capital in milliseconds.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the global corporate-register crawler and the GNN-based graph discovery engine).
+  - Cash Out: $100 per 'True-Owner' graph generated.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Graphs Generated/Sold: 1,500,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: Data Privacy (GDPR) or 'National Security' laws in tax-havens blocking the monitoring of ownership registers.
+  - Medium: Obfuscate ownership layers (e.g. 50 nested shells) becoming too computationally expensive to traverse in real-time.
+  - Low: Mandatory Requirement (Banks MUST find the beneficial owner to comply with AML laws).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

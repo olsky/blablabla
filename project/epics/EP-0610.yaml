@@ -1,0 +1,23 @@
+id: EP-0610
+title: Autonomous Wholesale Voice Fraud Margin Protector
+description: Detects and blocks wholesale voice fraud patterns in-flight while auto-routing clean traffic to preserve margin.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 149000000
+  first_year_users: 1400
+  roi_time_in_months: 2
+  roi_cash_out_usd: 88000000
+feasibility_score: 9.0
+risk_analysis:
+  technical: false positives can reduce legitimate completion rates
+  market: carriers may need side-by-side confidence period
+  legal: call interception and retention rules vary globally

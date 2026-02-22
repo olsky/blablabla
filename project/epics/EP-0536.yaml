@@ -1,0 +1,33 @@
+id: EP-0536
+title: AI-Directed Orbital Debris Salvage Bounty Oracle
+description: |
+  **Idea:** Low Earth Orbit is cluttered with deadly, multi-million dollar dead satellites. This system ingests US Space Command orbital trajectories and builds a highly liquid bounty marketplace. Space salvage startups (like Astroscale) view the algorithmic bounties (e.g., $15M to de-orbit Cosmos 1408). The system algorithmically verifies the de-orbit via radar APIs and instantly clears the payment from the stakeholder (governments/telcos) to the salvage startup.
+
+  **Why "WOW":** The first automated financial clearinghouse for space janitors. Creates the economic incentive to clean orbit.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Integrating orbital mechanics verification and smart contract bounties).
+  - Cash Out: 5% clearing fee on all salvaged orbital mass.
+
+  **First Year Projections:**
+  - Bounties Cleared: $2,500,000,000
+  - Estimated Revenue: $125,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Securing the initial upfront bounty capital from governments.
+  - Medium: Verification via public radar data.
+  - Low: Startup participation (They need the revenue).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

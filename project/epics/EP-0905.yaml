@@ -1,0 +1,33 @@
+id: EP-0905
+title: Autonomous Medical Coding Denial Appeal Agent
+description: |
+  Autonomously generates and submits medical coding appeals for denied healthcare claims. The system ingests denied claims from hospital payer feeds, retrieves supporting clinical documentation from EHR APIs (Epic, Cerner), cross-references denial reasons against CMS LCD/NCD policies, and generates legally-compliant appeal letters with evidence citations. Appeals are submitted via secure payer portals or EDI channels.
+
+  **Why "WOW":** Addresses $15B annual gap where valid claims are incorrectly denied. Hospital CFOs recover margin immediately (Day 1 of production). No endocompetitor exists in provider-side automated appeals (health plans' systems are internal only).
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (EHR integration, policy database normalization, LLM training on appeal precedents)
+  - Cash Out: 25-35% contingency fee on appeal recovery
+
+  **First Year Projections:**
+  - Hospital systems: 1-2 pilots = $2.8M-$5.6M annual revenue per hospital
+  - Total portfolio: $140-180M (scaling to 10-15 hospitals by Year 2)
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: 5-10% of cases require manual medical coder escalation for ambiguous medical necessity
+  - Medium: HIPAA compliance requirements; PHI data handling must meet BAA standards
+  - Low: Market demand (hospitals are desperate for margin recovery post-pandemic)
+
+created_at: "2026-02-22T01:21:34Z"
+created_by:
+  agent: session_agent
+  model: claude-haiku-4.5
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

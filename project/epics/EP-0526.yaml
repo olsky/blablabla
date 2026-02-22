@@ -1,0 +1,33 @@
+id: EP-0526
+title: Generative Synthetic Voice Rights & Royalty Engine
+description: |
+  **Idea:** Voice actors and celebrities are having their voice cloned illegally. This system autonomously scrapes the entire web (TikTok, YouTube, podcasts) analyzing audio spectrograms. When it detects an unlicensed synthetic clone of a signed creator, it automatically files a DMCA, while simultaneously sending an algorithmic settlement offer to retroactive-license the voice for a fee, turning piracy into immediate booked revenue.
+
+  **Why "WOW":** Monetizes deepfakes automatically. It's an automated bounty hunter and licensing agent for phonetic IP.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2.5 months (Building high-speed audio fingerprinting and legal RPA pipelines).
+  - Cash Out: 30% cut of the generated settlement/license fees.
+
+  **First Year Projections:**
+  - Scraped Audio Hours: 50M+\n  - Automated Settlements: 100,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Determining 'fair use' vs commercial infringement in synthetic audio.
+  - Medium: RPA breakage on new social platforms.
+  - Low: Creator opt-in (Free money for them).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

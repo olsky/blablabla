@@ -1,0 +1,33 @@
+id: EP-0807
+title: Autonomous Export Control & Dual-Use Technology Guardian
+description: |
+  **Idea:** Tech companies face billion-dollar fines for accidentally exporting 'Dual-Use' technology (chips, lasers, software) to restricted countries. This AI agent monitors every outbound shipping manifesting ERP. It uses semantic analysis on technical specs to determine if a component falls under EAR (Export Administration Regulations). It autonomously blocks the shipment, generates the required license application, and submits it to the Bureau of Industry and Security (BIS) API.
+
+  **Why "WOW":** Automated, super-human insurance against the single biggest legal threat to the tech industry. It turns a nightmare of legal paperwork into a 100% autonomous guardrail.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Training the semantic legal model on EAR/ITAR regulations and integrating with enterprise SAP/Oracle ERPs).
+  - Cash Out: Enterprise SaaS: $250k/year per major tech exporter.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Enterprise Clients: 600
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: A 'Hallucination' in the model missing a restricted high-performance chip and triggering a DOJ investigation.
+  - Medium: The complexity of mapping vague regulatory text to precise hardware engineering CAD files.
+  - Low: The fear factor (Executives go to jail for export violations; they will buy this guardrail).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

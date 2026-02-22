@@ -1,0 +1,33 @@
+id: EP-0524
+title: Autonomous Deep-Sea Mineral Prospecting Oracle
+description: |
+  **Idea:** Deep-sea mining is the next frontier for EV battery metals, but ocean floor mapping is wildly expensive. This engine ingests legacy sonar logs, global seismic data, and oceanographic current models into a deep neural net to autonomously predict polymetallic nodule densities down to a square meter entirely in silico. It automatically generates exact coordinate maps and files preliminary international seabed mining claims via UN ISBA APIs.
+
+  **Why "WOW":** Eliminates $50M exploratory ship voyages with pure predictive physics and ML. Claims the seabed algorithmically before human ships even leave port.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Ingesting raw oceanographic/sonar datasets and training spatial prediction models).
+  - Cash Out: Selling the exact map coordinates to mining conglomerates for $10M+ per high-density grid.
+
+  **First Year Projections:**
+  - Seabed Grid Claims Automatically Filed: 50\n  - High-Density Maps Sold: 12
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: International seabed regulatory gridlock.
+  - Medium: Accuracy of legacy sonar data.
+  - Low: Corporate Demand (Miners are starved for targets).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

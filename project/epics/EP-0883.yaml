@@ -1,0 +1,33 @@
+id: EP-0883
+title: Predictive 'Social-Unrest' Global Manufacturing Hedge
+description: |
+  **Idea:** Supply chains are crushed by sudden labor strikes or political protests. This AI agent monitors 50,000 global local-news APIs and employee sentiment firehoses. It algorithmically predicts a 'Strike' or 'Unrest' 14 days in advance and autonomously shifts the manufacturing production to an alternative global site and re-routes the maritime fleet.
+
+  **Why "WOW":** It provides 'Political Immunity' for the supply chain. It identifies the mathematical signature of impending social-unrest before the humans even take to the streets.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Building the local NLP sentiment-analysis and the global production-pivot API).
+  - Cash Out: Saving $5,000 per container-day of delay avoided.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Container-Days of Interruption Avoided: 40,000\n  - Admin Cut: 50%
+  - Estimated Revenue: $100,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: A 'Black Swan' revolution that happens with zero digital-trace/pre-sentiment.
+  - Medium: Physical inability of the 'Alternative' factory to handle the sudden surge in volume.
+  - Low: Enterprise Demand (Supply chain resilience is a CEO-level priority).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

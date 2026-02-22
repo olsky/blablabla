@@ -1,0 +1,33 @@
+id: EP-0595
+title: Algorithmic Wholesale Timber & Forestry Yield Predictor
+description: |
+  **Idea:** Valuing a forest currently requires humans walking through woods with measuring tape. This system aggregates orbital LiDAR, synthetic aperture radar (SAR), and local rainfall data. It applies spatial ML to count every single tree, categorize the species, and mathematically predict the exact board-foot yield of lumber. It connects this real-time biological inventory to global lumber futures markets, allowing algorithmic trading of living forests before they are cut.
+
+  **Why "WOW":** Turns nature into a perfectly quantified, liquid financial asset using photonics and orbital math.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Heavy integration of satellite SAR/LiDAR and training deep learning models on tree canopy recognition).
+  - Cash Out: 2% fee on the massive timber portfolios transacted through the platform.
+
+  **First Year Projections:**
+  - Timber Value Quantified and Traded: $6,000,000,000
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Wildfires or pests destroying the algorithmic inventory before physical harvest, requiring complex insurance wrappers.
+  - Medium: Ground-truth calibration (Ensuring the AI differentiates a valuable Pine from a worthless weed tree).
+  - Low: REIT Demand (Timber funds operate in the dark, they crave data).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

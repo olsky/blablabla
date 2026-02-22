@@ -1,0 +1,38 @@
+id: RV-EP-0744-001
+epic: EP-0744
+created_at: "2026-02-22"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: scoring
+summary: >-
+  Strong, practical queueing product for EV charging with clear monetization and high short-term buildability;
+  execution risk is mainly competitive intensity and station integration depth.
+analysis:
+  strengths:
+    - "Directly solves visible user pain: uncertainty and waiting at charging stations."
+    - "Fast path to value with reservation and queue prediction primitives."
+    - "Business model can layer bookings, premium slots, and partner fees."
+  weaknesses:
+    - "Feature overlap with existing charging-network apps may compress margins."
+    - "Network effects depend on broad station inventory coverage."
+    - "Throughput spikes can hurt UX if infra auto-scaling is weak."
+  risks:
+    - "Technical: low-latency reservation correctness under heavy concurrency."
+    - "Market: users may resist paid reservations without clear reliability gains."
+    - "Legal: fairness and anti-discrimination policies must be explicit in queue prioritization."
+  recommendations:
+    - "Start with dense metro corridors where queue pain is acute and measurable."
+    - "Implement deterministic reservation conflict resolution and refunds policy from day one."
+    - "Instrument conversion metrics per station to optimize paid-slot economics."
+scores:
+  novelty: 0.74
+  software_only_fit: 0.90
+  three_month_feasibility: 0.91
+  revenue_realism_year1: 0.64
+  adoption_friction: 0.78
+  legal_ethical_clarity: 0.74
+  overall: 0.79
+weight: 1.0
+confidence: 0.84

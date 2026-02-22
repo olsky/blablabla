@@ -1,0 +1,33 @@
+id: EP-0577
+title: Autonomous Commercial Fishing Quota Management API
+description: |
+  **Idea:** Global commercial fishing operates on rigid, slow government quotas (Catch Shares) leading to massive waste (bycatch). This system creates an algorithmic spot market for fishing rights. It links to vessel VMS (Vessel Monitoring Systems) and electronic catch logs. If a boat accidentally nets 10 tons of Tuna it doesn't have the quota for, the algorithm instantly buys the required quota from another boat globally via API before the ship reaches port, ensuring 100% legal compliance and zero wasted fish.
+
+  **Why "WOW":** Digital trading of living biological assets in real-time on the open ocean.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Connecting messy satellite vessel tracking with sovereign fishery database APIs).
+  - Cash Out: 3% clearing fee on the quota rights traded.
+
+  **First Year Projections:**
+  - Quota Value Traded: $3,500,000,000
+  - Estimated Revenue: $105,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: International maritime law heavily restricting the borderless trading of sovereign catch shares.
+  - Medium: Vessels spoofing their GPS or catch logs to cheat the algorithm.
+  - Low: Fisherman adoption (They hate throwing dead, valuable fish overboard due to bureaucracy).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

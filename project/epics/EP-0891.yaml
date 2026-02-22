@@ -1,0 +1,33 @@
+id: EP-0891
+title: Algorithmic Secondary Market for Future Government Subsidies
+description: |
+  **Idea:** Companies (Green Tech, Chips) are promised billions in 'Chips Act' or 'Green' subsidies, but they wait 3 years for the cash. This platform tokenizes the 'Future Subsidy'. The AI underwriters the 'Government Payout Risk' and buys the subsidy rights for $0.80 on the dollar, providing instant capex to the builder.
+
+  **Why "WOW":** It treats 'Government Promises' as a high-yield institutional debt asset. It provides the capex bridge for the entire hardware revolution.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Building the 'Sovereign-Default' subsidy underwriting model and the tokenization ledger).
+  - Cash Out: 3% origination fee on every subsidy tokenized.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Total Subsidy Value Tokenized: $5,000,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: A change in government (Election) leading to the cancellation of the pre-promised subsidy programs.
+  - Medium: Complex legal assignment rules for government payouts varying by country.
+  - Low: Founder Demand (They need money to build the factory NOW, not in 2029).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

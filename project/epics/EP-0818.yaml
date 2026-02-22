@@ -1,0 +1,33 @@
+id: EP-0818
+title: Predictive Empty-Container Repositioning Agent
+description: |
+  **Idea:** Shipping lines lose $20B/year moving empty containers from 'import hubs' back to 'export hubs' (e.g. from US back to China). This AI agent analyzes global trade imbalances via customs export data. It algorithmically identifies 'Ghost Demand' (small shippers who have outbound cargo but no containers). It autonomously matches empty containers with these micro-shippers for 'one-way' rentals, turning an expensive empty-move into a revenue-generating trip.
+
+  **Why "WOW":** It solves the 'Empty Box' problem of global trade. Converting a billion-dollar waste stream into a decentralized revenue engine.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the global trade-balance temporal model and the micro-shipper matching CRM).
+  - Cash Out: 20% of the newly generated revenue per one-way container rental.
+
+  **First Year Projections (Solo Founder Scale):**
+  - One-Way Rentals Executed: 1,000,000\n  - Avg Rental Fee: $600
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Containers being 'lost' or abandoned by micro-shippers in remote rural locations.
+  - Medium: Shipping line branding (they often don't want their logos on second-tier shipper trailers).
+  - Low: Shipping line demand (Empty repositioning is a massive loss-leader).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,33 @@
+id: EP-0572
+title: Predictive Healthcare Intensive Care Unit (ICU) Triage Oracle
+description: |
+  **Idea:** Hospitals suffer terrible patient outcomes because nurses cannot monitor 20 complex ICU data streams simultaneously. This system ingests high-frequency, millisecond-level telemetry from every physical machine connected to every patient (ventilators, continuous blood pressure, EKG). It runs deep learning anomaly detection to mathematically predict rapid patient deterioration (e.g., Sepsis or Cardiac Arrest) up to 6 hours before a human doctor could notice the subtle pattern, triggering an automated rapid response team.
+
+  **Why "WOW":** Literal life-saving mathematics. Turns reactive crisis medicine into predictive, algorithmic prevention.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Deep integration into archaic hospital IT systems (Epic/Cerner) and secure FDA-level validation).
+  - Cash Out: Software-as-a-Service ($25,000/bed/year) to major hospital networks.
+
+  **First Year Projections:**
+  - ICU Beds Monitored: 5,000
+  - Estimated Revenue: $125,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: FDA regulatory approval for a Class II/III medical device algorithm that dictates bedside interventions.
+  - Medium: False positive alarms causing severe "alarm fatigue" in exhausted nursing staff.
+  - Low: Hospital ROI (One saved ICU stay or avoided malpractice suit pays for the system instantly).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

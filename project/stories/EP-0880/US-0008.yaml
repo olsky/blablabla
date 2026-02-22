@@ -1,0 +1,20 @@
+id: US-0008
+epic: EP-0880
+title: "Create REST API for Vessel Risk Score Queries"
+layer: gateway
+stack: "Python FastAPI, JWT Authentication"
+acceptance_criteria:
+  - "Implement GET /api/v1/vessel/{imo}/risk endpoint returning current risk score and factors"
+  - "Implement GET /api/v1/vessel/{imo}/history endpoint returning 90-day risk score timeline"
+  - "Implement POST /api/v1/vessel/batch endpoint for bulk risk queries (up to 1000 vessels)"
+  - "Return JSON response with vessel details, risk score, sanctions matches, recent gaps"
+  - "Implement query parameter filters (min_risk_score, sanctioned_only, date_range)"
+  - "Add pagination for list endpoints (default 100 items, max 1000 per page)"
+  - "Return HTTP 404 for unknown vessels, 200 with empty risk for vessels with no data"
+  - "Achieve <100ms p95 latency for single vessel queries"
+created_at: "2026-02-22"
+created_by:
+  agent: decomposer
+  model: claude-sonnet-4.5
+  provider: anthropic
+status: draft

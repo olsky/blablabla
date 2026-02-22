@@ -1,0 +1,27 @@
+id: EP-0247
+title: Autonomous Event-Escrow Settlement Rail
+description: Executes dispute-minimized settlements by releasing funds automatically when independently verified shipment and document milestones are met.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.8
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 280000000
+  first_year_users: 18000
+  roi_time_in_months: 3
+  roi_cash_out_usd: 185000000
+  pricing_model: per-settlement transaction fee
+feasibility_score: 8.3
+risk_analysis:
+  technical: event-oracle reliability is critical for trustworthy releases
+  market: counterparties may demand hybrid mode before full autonomy
+  legal: escrow and money-transmission obligations must be licensed correctly
+ethical_legal_guardrails:
+  - dual-source milestone verification before release
+  - robust dispute freeze mechanism and reversible hold policies

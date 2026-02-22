@@ -1,0 +1,20 @@
+id: US-0004
+epic: EP-0880
+title: "Integrate Sanctions List Data (OFAC, UN, EU)"
+layer: backend
+stack: "Python, PostgreSQL, Redis"
+acceptance_criteria:
+  - "Ingest OFAC SDN (Specially Designated Nationals) list via automated download"
+  - "Ingest UN Security Council consolidated sanctions list"
+  - "Ingest EU sanctions list (vessels, entities, individuals)"
+  - "Parse vessel identifiers (IMO, MMSI, vessel name, flag) from sanctions lists"
+  - "Update sanctions data daily with automated refresh pipeline"
+  - "Cache sanctions data in Redis for <10ms lookup latency"
+  - "Maintain audit trail of sanctions list versions and updates"
+  - "Support fuzzy matching on vessel names (Levenshtein distance <3)"
+created_at: "2026-02-22"
+created_by:
+  agent: decomposer
+  model: claude-sonnet-4.5
+  provider: anthropic
+status: draft

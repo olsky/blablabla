@@ -1,0 +1,33 @@
+id: EP-0802
+title: Algorithmic Secondary Market for Freight Forwarding Yield
+description: |
+  **Idea:** Freight forwarders buy massive shipping container capacity in bulk but often have 20% spoilage (empty slots). This platform tokenizes individual container slots on major trade lanes. An AI monitors real-time cargo demand and port congestion. It algorithmically buys up distressed, empty slots from forwarders at a 60% discount and instantly re-sells them at market spot rates to small-cap exporters via API.
+
+  **Why "WOW":** It treats shipping container volume like high-frequency airline seating arbitrage. Creating liquidity in the rigid freight forwarding market.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Integrating with freight forwarder ERPs and building the high-frequency matching engine).
+  - Cash Out: 15% platform clearing fee on every micro-arbitrage transaction.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Container Slots Traded: 2,500,000\n  - Gross Value Traded: $800M
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Global shipping giants (Maersk) launching their own verticalized spot markets and shutting down external API access.
+  - Medium: Physical logistics delays (ships missing ports) breaking the secondary contract validity.
+  - Low: Forwarder demand (Anything to recover cost on empty slots).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

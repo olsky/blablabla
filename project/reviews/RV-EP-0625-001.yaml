@@ -1,0 +1,38 @@
+id: RV-EP-0625-001
+epic: EP-0625
+created_at: "2026-02-22"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: scoring
+summary: >-
+  High-value evidence-automation EPIC with strong real-world fit in wholesale dispute operations,
+  and realistic near-term deployment if timestamp-normalization and venue-specific standards are handled early.
+analysis:
+  strengths:
+    - "Addresses expensive, recurring dispute workflows with clear time-to-cash impact."
+    - "Evidence assembly is a strong software-only automation use case."
+    - "Good defensibility through proprietary event-correlation pipelines."
+  weaknesses:
+    - "Cross-system time alignment complexity can erode confidence in causal narratives."
+    - "Standards fragmentation across counterparties increases customization burden."
+    - "Requires strong legal-format interoperability to maximize acceptance."
+  risks:
+    - "Technical: correlation errors from timestamp drift can weaken evidence quality."
+    - "Market: counterparties may challenge non-standardized machine-generated dossiers."
+    - "Legal: admissibility and arbitration requirements vary by forum."
+  recommendations:
+    - "Include clock-skew correction and uncertainty metadata in evidence timelines."
+    - "Ship template packs mapped to major arbitration and settlement venues."
+    - "Prioritize integrations where dispute volume and average claim size are highest."
+scores:
+  novelty: 0.74
+  software_only_fit: 0.93
+  three_month_feasibility: 0.88
+  revenue_realism_year1: 0.72
+  adoption_friction: 0.76
+  legal_ethical_clarity: 0.83
+  overall: 0.81
+weight: 1.0
+confidence: 0.88

@@ -1,0 +1,10 @@
+id: EP-0692
+title: Autonomous Multi-Entity Treasury Netting Mesh
+description: Nets liabilities and receivables across entities and currencies to reduce external transfers and FX drag.
+created_at: "2026-02-21"
+created_by: { agent: PlannerAgent, model: GPT-5.3-Codex, provider: OpenAI }
+status: draft
+review_policy: { min_reviews: 3, approval_threshold: 0.8, require_blocking_clearance: true }
+business_case: { first_year_revenue_usd: 219000000, first_year_users: 7000, roi_time_in_months: 3, roi_cash_out_usd: 140000000 }
+feasibility_score: 8.5
+risk_analysis: { technical: intercompany data alignment complexity, market: treasury governance change needed, legal: transfer pricing and cross-border compliance }

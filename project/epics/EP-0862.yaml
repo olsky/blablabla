@@ -1,0 +1,33 @@
+id: EP-0862
+title: Autonomous 'Micro-Insurance' Wrapper for Gig-Economy Work
+description: |
+  **Idea:** Uber/Upwork workers have zero liability or health protection by default. This AI system sits as a 'Wrapper' on their work-API/Wallet. It autonomously deducts $0.10 from every single gig-payment and purchases a 1-hour parametric 'Work-Accident' policy. If the worker's phone GPS shows a high-speed collision or hospital-visit during a gig, the payout is released in seconds.
+
+  **Why "WOW":** It builds the first 'Algorithmic Safety Net' for billions of gig workers. It provides world-class insurance protection at a micro-transaction level.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Gig-platform API integration and high-speed micro-transaction insurance clearinghouse).
+  - Cash Out: Taking 30% of the micro-premium total (as a risk aggregator).
+
+  **First Year Projections (Solo Founder Scale):**
+  - Active Gig Workers: 50,000,000\n  - Avg Daily Gigs: 3\n  - Premium per Gig: $0.10
+  - Estimated Revenue: $450,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Fraudulent gig workers 'claiming' accidents by simulating GPS data or hospital-visit transponders.
+  - Medium: Gig platforms (Uber/Upwork) blocking the third-party wallet deduction APIs.
+  - Low: Worker Demand (Gig workers are vulnerable and have zero existing safety net).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

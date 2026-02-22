@@ -1,0 +1,33 @@
+id: EP-0601
+title: Autonomous Global Carbon Sink Aggregation & Forward Market
+description: |
+  **Idea:** The world needs to remove billions of tons of CO2, but buying high-quality carbon credits is a manual, low-trust nightmare. This platform operates purely in software. It integrates via API with thousands of disparate, IoT-enabled environmental projects globally (direct air capture plants, biochar facilities, verifiable reforestation drones). The system autonomously aggregates these micro-tons of verified carbon removal into massive, standardized 'Megaton Blocks'. It then acts as an automated forward-clearinghouse, letting Fortune 500 companies (Microsoft, Delta Airlines) algorithmically hedge their 2030 ESG liabilities today by buying these standardized future carbon blocks.
+
+  **Why "WOW":** Becomes the ICE (Intercontinental Exchange) for the trillion-dollar decarbonization economy. Replaces human brokers with verified, physics-backed smart contracts at absolute global scale.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~5 months (Pipelining the global IoT environmental verification APIs and building the tier-1 financial matching engine).
+  - Cash Out: A 10% clearing premium on all Megaton Blocks traded.
+
+  **First Year Projections (US$1B Scale):**
+  - Carbon Volume Forward-Cleared: 250,000,000 Tons
+  - Estimated Revenue: $1,100,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Physical failure of the underlying carbon projects to actually sink the carbon by 2030, triggering massive default clauses.
+  - Medium: Global standards bodies (Verra, Gold Standard) altering their API verification rules suddenly.
+  - Low: Corporate Demand (Fortune 500s are legally mandated to buy this, they are begging for a trusted exchange).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

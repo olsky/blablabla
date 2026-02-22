@@ -1,0 +1,33 @@
+id: EP-0843
+title: Algorithmic Secondary Market for Spare Industrial Tooling
+description: |
+  **Idea:** Factories have billions in specialized 'tooling' (molds, dies, spare motors) that they will never use again. This platform acts as a high-liquidity secondary exchange. An AI agent monitors the factory's tooling inventory and matches it with other factories globally who need exactly that mold/part to keep their old lines running. It handles the escrow and legal IP clearance for the tooling transfer.
+
+  **Why "WOW":** It creates the 'Ebay for Heavy Industry' but with algorithmic matching specialized for technical engineering compatibility.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Spec-matching NLP for industrial parts and build-out of the escrow matching engine).
+  - Cash Out: 25% commission on the secondary tooling sales.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Gross Value of Tooling Traded: $600,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Physical failure of 'second-hand' specialized tooling causing a catastrophic failure at the buyer's factory (Liability).
+  - Medium: IP restrictions on 'Proprietary Molds' being traded between competitors.
+  - Low: Warehouse space (Factories want the dead weight off their floors).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

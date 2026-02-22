@@ -1,0 +1,38 @@
+id: RV-EP-0748-001
+epic: EP-0748
+created_at: "2026-02-22"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: scoring
+summary: >-
+  High-interest and highly feasible EV charging planner with strong API-first distribution potential,
+  fast MVP path, and compelling user value around time/cost optimization.
+analysis:
+  strengths:
+    - "Clear user painkiller: route + charging optimization in one flow."
+    - "Excellent adoption path through navigation API integrations."
+    - "Strong software-only fit with near-term MVP feasibility."
+  weaknesses:
+    - "Differentiation pressure from incumbent map providers."
+    - "Prediction quality depends on continuous multi-source data quality."
+    - "Route liability posture needs explicit guardrails."
+  risks:
+    - "Technical: data drift across traffic/weather/station feeds can degrade route quality."
+    - "Market: platform dependency risk if major navigation partners change API terms."
+    - "Legal: incorrect routing outcomes may trigger dispute and liability exposure."
+  recommendations:
+    - "Ship with transparent confidence scores and fallback routing logic."
+    - "Prioritize B2B API licensing with fleet and mobility apps before direct consumer spend."
+    - "Add robust SLA and incident audit trails for enterprise buyers."
+scores:
+  novelty: 0.80
+  software_only_fit: 0.92
+  three_month_feasibility: 0.90
+  revenue_realism_year1: 0.70
+  adoption_friction: 0.82
+  legal_ethical_clarity: 0.72
+  overall: 0.81
+weight: 1.0
+confidence: 0.85

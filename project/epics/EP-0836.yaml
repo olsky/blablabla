@@ -1,0 +1,33 @@
+id: EP-0836
+title: Autonomous Manufacturing-as-a-Service (MaaS) Clearinghouse
+description: |
+  **Idea:** Global manufacturing is 20% idle at any given millisecond. This system is a high-frequency matching engine for industrial capacity. An AI monitors idle time on CNC machines and 3D printers globally. When a hardware startup uploads a CAD file to the platform, the AI autonomously splits the job, routes it to the most efficient idle factory, manages the logistics, and clears the payment via smart contract.
+
+  **Why "WOW":** It builds a 'Global Factory' without owning a single machine. It turns rigid industrial infrastructure into a liquid, on-demand cloud commodity.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (CAD parsing AI and the high-frequency industrial capacity-matching ledger).
+  - Cash Out: 15% platform clearing fee on every MaaS transaction.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Gross Value of Goods Manufactured: $1,000,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: IP theft—factories on the network 'borrowing' CAD designs for their own clones.
+  - Medium: Consistent quality control across 1,000 disparate decentralized factories.
+  - Low: Factory owner demand (They hate idle machines; they want to monetize every second of spindle-time).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

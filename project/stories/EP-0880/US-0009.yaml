@@ -1,0 +1,20 @@
+id: US-0009
+epic: EP-0880
+title: "Implement API Authentication and Rate Limiting"
+layer: gateway
+stack: "Python FastAPI, Redis, JWT"
+acceptance_criteria:
+  - "Implement API key-based authentication (X-API-Key header)"
+  - "Generate secure API keys (256-bit random, prefixed with 'sk_live_' or 'sk_test_')"
+  - "Store API key hashes (bcrypt) in PostgreSQL with customer ID mapping"
+  - "Implement JWT tokens for session-based access (1-hour expiry, refresh token support)"
+  - "Rate limit by API key (tier-based: 100 req/min free, 1000 req/min paid, unlimited enterprise)"
+  - "Return HTTP 429 with Retry-After header when rate limit exceeded"
+  - "Track API usage metrics per customer (requests, data transfer, unique vessels queried)"
+  - "Implement IP-based rate limiting as fallback (1000 req/hour per IP for unauthenticated)"
+created_at: "2026-02-22"
+created_by:
+  agent: decomposer
+  model: claude-sonnet-4.5
+  provider: anthropic
+status: draft

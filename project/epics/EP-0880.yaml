@@ -1,0 +1,48 @@
+id: EP-0880
+title: AI-Directed Global Sanctions-Evasion Detection Oracle
+description: |
+  **Idea:** Sanctioned entities use 'Dark Fleets' and shell-companies to move billions. This AI agent monitors global shipping transponders, satellite sonar-drifts (to find ships with transponders off), and the 'Social Graph' of corporate ownership across 200 jurisdictions. It autonomously flags a transaction as 'Evasion-Risk' and prevents the settlement via institutional banking API.
+
+  **Why "WOW":** It serves as the 'Global Eye' for compliance. It identifies the invisible, dark patterns of global evasion that human auditors miss 99% of the time.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Building the cross-data satellite/transponder GNN and the global entity-graph analyzer).
+  - Cash Out: Annual license: $1M+ per Tier-1 Global Bank.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Tier-1 Banks Onboarded: 150
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Diplomatic/Legal pressure—sanctioned nations launch cyber-attacks against the platform to disable the 'Global Eye'.
+  - Medium: False Positives causing legitimate humanitarian trade to be blocked incorrectly.
+  - Low: Mandatory Compliance (Banks MUST stop sanctions evasion or face billion-dollar fines).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories:
+  - US-0001
+  - US-0002
+  - US-0003
+  - US-0004
+  - US-0005
+  - US-0006
+  - US-0007
+  - US-0008
+  - US-0009
+  - US-0010
+  - US-0011
+  - US-0012
+  - US-0013
+  - US-0014
+  - US-0015
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

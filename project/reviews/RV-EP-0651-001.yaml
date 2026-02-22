@@ -1,0 +1,38 @@
+id: RV-EP-0651-001
+epic: EP-0651
+created_at: "2026-02-22"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: scoring
+summary: >-
+  Excellent fintech operations EPIC with clear cashflow impact, strong automation fit,
+  and realistic deployment path for a focused startup team.
+analysis:
+  strengths:
+    - "Direct revenue recovery from failed ACH attempts is measurable and immediate."
+    - "High software leverage through retry strategy optimization and rail selection."
+    - "Low adoption friction where recovery economics are already understood."
+  weaknesses:
+    - "Return-code heterogeneity across banks increases edge-case complexity."
+    - "Aggressive retries can harm customer trust if communications are weak."
+    - "Authorization scope boundaries vary across merchants and geographies."
+  risks:
+    - "Technical: misclassification of failure causes can reduce net recovery rates."
+    - "Market: merchants may fear churn from over-automation in collections."
+    - "Legal: authorization and payment compliance failures can trigger penalties."
+  recommendations:
+    - "Deploy policy engine with merchant-specific retry limits and timing controls."
+    - "Integrate customer-communication hooks into retry workflows by default."
+    - "Track recovery uplift net of churn and dispute externalities for true ROI."
+scores:
+  novelty: 0.78
+  software_only_fit: 0.95
+  three_month_feasibility: 0.90
+  revenue_realism_year1: 0.75
+  adoption_friction: 0.84
+  legal_ethical_clarity: 0.80
+  overall: 0.85
+weight: 1.0
+confidence: 0.89

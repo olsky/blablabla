@@ -1,0 +1,48 @@
+id: RV-EP-0718-001
+epic: EP-0718
+created_at: "2026-02-22"
+created_by:
+  agent: "reviewer"
+  model: "claude-sonnet-4.5"
+  provider: "anthropic"
+review_class: "scoring"
+summary: |
+  EP-0718 (Carbon Offset Charging Scheduler) is HIGHEST REVENUE POTENTIAL ($210M Year 1) in this cohort, tapping into exploding ESG/carbon credit markets. Concept: Schedule EV charging during renewable energy peaks (solar midday, wind at night), generate carbon credits, split revenue with users (60/40 or 70/30). Carbon credits trade at $40-$120/ton (voluntary markets), EV charging shifted to renewables generates 0.5-1.5 tons/vehicle/year = $20-$180 per user annually. With 6M users, aggregated credits = $120M-$1B market value. APPROVE with HIGH EXCITEMENT but also HIGH SKEPTICISM on execution (carbon credit verification is bureaucratic nightmare).
+
+analysis:
+  strengths:
+    - "ESG tailwinds: Corporations MUST buy carbon offsets (Net Zero 2030 commitments). Demand for verified credits exceeds supply 3:1. Pricing power is enormous ($80-$120/ton for premium credits)."
+    - "User incentive alignment: EV drivers get paid $5-$15/month for flexible charging (charge overnight when wind is high vs peak demand). Win-win: users save money, grid gets cleaner, platform earns credits."
+    - "Regulatory support: EPA/CARB/EU ETS recognize 'demand shifting' as valid carbon reduction methodology. Platform can generate monetizable credits (not just feel-good greenwashing)."
+    - "B2B carbon credit sales: Corporate buyers (Apple, Google, Amazon ironically) pay premium for 'mobility decarbonization' credits ($100-$120/ton vs $40-$60 for forestry offsets)."
+    - "API-driven carbon tracking: Integrate with grid APIs (WattTime, ElectricityMap) for real-time carbon intensity. ML schedules charging during lowest-carbon hours (renewable surplus)."
+    - "Scalability: Once integrated with 1 charging network, adding more networks is marginal cost. 6M users generating 9M tons annually = $360M-$1B carbon credit value (platform takes 10-30%)."
+  weaknesses:
+    - "Carbon credit verification is SLOW: Verra/Gold Standard require 6-12 month audits before credits are issued. Platform must front-load $50M-$100M to users before credit sales (cashflow nightmare)."
+    - "User adoption friction: Flexible charging requires giving platform control over when car charges (creepy for some users). Must offer override option (reduces carbon reduction effectiveness 40%)."
+    - "Carbon credit price volatility: Voluntary markets can swing 50-70% annually. If price drops to $20/ton (2023 levels), economics collapse. Need hedging strategy (futures contracts)."
+    - "Grid API data quality: Carbon intensity APIs (WattTime) are modeled estimates, not real-time measurements. 10-20% error margins undermine carbon credit verification (auditors reject claims)."
+  risks:
+    - "High: Carbon credit market fraud. Recent scandals (rainforest credits, phantom offsets) have made auditors hyper-skeptical. Proving 'additionality' (EV would NOT have charged at low-carbon times w/o platform) is legally complex."
+    - "High: Regulatory changes. If EU ETS or California Cap-and-Trade restrict 'demand shifting' credits (new rules under discussion), revenue model evaporates overnight."
+    - "Medium: Competition from utilities. PG&E, ConEd already offer 'time-of-use' rates that incentivize off-peak charging. Why use third-party app? Need differentiation (carbon credit sharing)."
+    - "Low: Technical execution. ML scheduling is proven tech (Google Nest does this for thermostats). API integrations are REST-based."
+  recommendations:
+    - "Start with corporate fleet pilots (Amazon, FedEx, UPS). They NEED carbon offsets, control 200K+ vehicles, can mandate flexible charging (no consumer adoption friction). $50M-$80M contracts in Year 1."
+    - "Partner with Verra/Gold Standard early: Co-develop 'EV Demand Response' methodology (preapproved carbon credit verification protocol). Reduces audit time from 12 months to 3 months."
+    - "Offer guaranteed minimum payout: Users earn $10/month even if carbon credits don't sell (platform absorbs risk). De-risks user adoption. Use working capital line ($20M-$40M) to cover float."
+    - "Hedge carbon price risk: Buy futures contracts (lock in $60-$80/ton for 24 months). Protects revenue model from market volatility. Cost: 5-10% of credit value (but eliminates downside risk)."
+    - "White-label for utilities: License platform to PG&E, ConEd as 'premium carbon tracking tier' for their EV rate programs. Revenue share 50/50. Expands distribution to 20M+ utility customers instantly."
+    - "Add blockchain verification (controversial but effective): Immutable ledger of charging sessions + grid carbon intensity = auditor-friendly proof. Reduces verification time 70%, costs 50%."
+
+scores:
+  technical_feasibility: 0.87
+  business_viability: 0.82
+  market_timing: 0.94
+  monetization_speed: 0.76
+  competitive_defensibility: 0.81
+  scalability: 0.91
+  risk_adjusted_return: 0.84
+
+weight: 1.0
+confidence: 0.81

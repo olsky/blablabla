@@ -1,0 +1,33 @@
+id: EP-0820
+title: AI-Directed Elder Financial Abuse Guardian (B2B for Banks)
+description: |
+  **Idea:** Trillions in wealth belong to the elderly, and billions are lost annually to phone scams and predatory relatives. This AI agent sits as a 'Silent Guardian' inside the bank's transaction stream. It ingests thousands of behavioral markers: sudden changes in typing cadence on mobile apps, unusual late-night wire transfers, and emotional NLP sentiment in customer service calls. It autonomously freezes the transaction and initiates a cryptographically-secure 'Trusted Circle' verification before the money leaves.
+
+  **Why "WOW":** It provides military-grade defense for the world's most vulnerable capital. It identifies the 'emotional state' of a transaction to stop theft before it happens.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Building the behavioral biometric models and integrating with banking core transaction firehoses).
+  - Cash Out: SaaS license fee ($10/month per 'Golden Year' account protected).
+
+  **First Year Projections (Solo Founder Scale):**
+  - Protected Accounts: 2,500,000\n  - Attempted Fraud Stopped: $1.2B
+  - Estimated Revenue: $300,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Privacy concerns from relatives being 'blocked' by an algorithm from accessing family funds.
+  - Medium: False positives preventing an elderly person from buying something they actually want, causing frustration.
+  - Low: Bank Demand (Elderly wealth is their most profitable and high-liability segment).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

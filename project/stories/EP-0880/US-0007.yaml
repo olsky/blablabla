@@ -1,0 +1,20 @@
+id: US-0007
+epic: EP-0880
+title: "Generate Risk Alerts for Suspicious Vessel Patterns"
+layer: backend
+stack: "Python, PostgreSQL, RabbitMQ"
+acceptance_criteria:
+  - "Trigger critical alert when vessel risk score exceeds 80/100"
+  - "Trigger high alert when sanctioned vessel detected via IMO/MMSI match"
+  - "Trigger medium alert when vessel enters sanctioned zone with transponder on"
+  - "Trigger low alert when vessel exhibits 3+ transponder gaps in 30 days"
+  - "Include alert payload (vessel ID, risk score, triggering factors, recommended action)"
+  - "Deduplicate alerts (no repeat alert for same vessel within 24 hours unless score increases)"
+  - "Publish alerts to RabbitMQ message queue for downstream consumption"
+  - "Store alert history in PostgreSQL with full audit trail"
+created_at: "2026-02-22"
+created_by:
+  agent: decomposer
+  model: claude-sonnet-4.5
+  provider: anthropic
+status: draft

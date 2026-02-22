@@ -1,0 +1,38 @@
+id: RV-EP-0729-001
+epic: EP-0729
+created_at: "2026-02-22"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: scoring
+summary: >-
+  High-quality and realistic security wedge with clear buyer urgency, low adoption friction,
+  and strong path to enterprise subscriptions in EV payment ecosystems.
+analysis:
+  strengths:
+    - "Security/fraud prevention is a budget-protected category with clear urgency."
+    - "Strong software-only architecture and fast pilotability."
+    - "Value can be quantified directly in prevented loss and chargeback reduction."
+  weaknesses:
+    - "Model quality depends on transaction-scale diversity and high-quality labels."
+    - "False positives can degrade user experience and merchant acceptance."
+    - "Initial integration with payment processors can slow first deployments."
+  risks:
+    - "Technical: adversarial behavior evolves rapidly and demands continuous retraining."
+    - "Market: buyer trust requires demonstrated precision/recall under production traffic."
+    - "Legal: AML and privacy controls must be auditable and jurisdiction-aware."
+  recommendations:
+    - "Start with fraud-scoring API plus analyst review workflow, then automate actions gradually."
+    - "Publish calibration metrics and drift monitoring reports for enterprise confidence."
+    - "Prioritize integrations with one PSP and one major operator for fast reference wins."
+scores:
+  novelty: 0.76
+  software_only_fit: 0.93
+  three_month_feasibility: 0.87
+  revenue_realism_year1: 0.74
+  adoption_friction: 0.84
+  legal_ethical_clarity: 0.79
+  overall: 0.84
+weight: 1.0
+confidence: 0.88

@@ -1,0 +1,19 @@
+id: US-0003
+epic: EP-0880
+title: "Detect AIS Transponder Gaps (Vessels Going Dark)"
+layer: backend
+stack: "Python, Apache Flink/Spark Streaming"
+acceptance_criteria:
+  - "Monitor expected AIS transmission intervals per vessel class (cargo 10s, tanker 6s per IMO)"
+  - "Flag 'transponder gap' event when vessel stops transmitting for >30 minutes"
+  - "Calculate gap duration, last known position, and heading at gap start"
+  - "Distinguish intentional shutdown vs. technical failure using historical patterns"
+  - "Generate gap events with severity score (1-10 based on duration, location, vessel type)"
+  - "Store gap events in dedicated table with geospatial indexing"
+  - "Achieve <2 minute detection latency from actual gap start"
+created_at: "2026-02-22"
+created_by:
+  agent: decomposer
+  model: claude-sonnet-4.5
+  provider: anthropic
+status: draft

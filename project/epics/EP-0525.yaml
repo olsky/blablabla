@@ -1,0 +1,33 @@
+id: EP-0525
+title: Algorithmic Dark Pool for B2B API Compute
+description: |
+  **Idea:** Companies pay exorbitant spot rates to AWS/GCP for burst compute. Most enterprises over-provision. This is a stealth dark pool exchange for B2B Kubernetes clusters. If Company A has a cluster sitting idle at 30%, the system autonomously routes Company B's encrypted Docker workloads to Company A's cluster based on real-time micro-penny BGP pricing. Zero cloud lock-in, acting entirely outside hyperscaler view.
+
+  **Why "WOW":** Subverts AWS entirely. Turns the internet's scattered enterprise servers into a unified, massive, zero-margin dark pool supercomputer.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the peer-to-peer workload scheduler and secure enclave wrapper).
+  - Cash Out: 2% clearing fee on decentralized compute volume.
+
+  **First Year Projections:**
+  - Nodes Participated: 50,000\n  - Volume Traded: $8,000,000,000
+  - Estimated Revenue: $160,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Corporate InfoSec restricting external workloads.
+  - Medium: Latency guarantees over public internet.
+  - Low: Adoption (Massive cost savings guarantee usage).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

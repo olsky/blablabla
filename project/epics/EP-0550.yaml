@@ -1,0 +1,33 @@
+id: EP-0550
+title: Algorithmic Secondary Market for Construction Heavy Machinery
+description: |
+  **Idea:** Heavy machinery (Caterpillar, Komatsu) constantly sits idle on construction sites, depreciating rapidly. This system utilizes IoT telematics data from the machines themselves to establish a real-time, algorithmic B2B spot-rental market. When an excavator finishes its task early, the system immediately lists it for hourly rental to a neighboring site, clearing the payment and insurance dynamically via smart contracts before the operator even clocks out.
+
+  **Why "WOW":** Monetizes millions of tons of idle steel algorithmically. Turns frozen Capex into liquid, high-frequency rental yield.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Ingesting heavy equipment OEM telematics APIs, building the matching/insurance smart contracts).
+  - Cash Out: 15% platform clearing fee on every micro-rental.
+
+  **First Year Projections:**
+  - Machine Hours Rented: 10,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Physical logistics of moving heavy machinery between micro-rental sites.
+  - Medium: OEMs restricting access to their proprietary IoT telematics data.
+  - Low: Contractor demand (Renting is vastly cheaper than buying).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

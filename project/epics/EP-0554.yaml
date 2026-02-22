@@ -1,0 +1,33 @@
+id: EP-0554
+title: AI-Directed Mining Fleet Dispatch Oracle
+description: |
+  **Idea:** Global open-pit mines operate fleets of massive $5M autonomous dump trucks. However, dispatching them to the correct shovel to maintain perfect ore-grade blends at the processing plant is incredibly complex. This system sits above the fleet. It ingests laser-scanned geology data, real-time mill chemistry constraints, and truck telemetry. It completely algorithmically dictates the sub-second routing of every truck in the mine to perfectly balance the chemical feed going into the multi-billion dollar refinery.
+
+  **Why "WOW":** Algorithmically controls physical fleets weighing thousands of tons to optimize chemical extraction equations. Pure industrial robotics orchestration.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months (Deep integration into proprietary mining comms networks like Rajant and OEM APIs like Cat MineStar).
+  - Cash Out: Massive SaaS license ($5M/yr per Tier-1 mine site) plus a fraction of increased mineral yield.
+
+  **First Year Projections:**
+  - Tier-1 Mines Under Full Orchestration: 25
+  - Estimated Revenue: $125,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: Lethal danger of algorithmic errors routing 400-ton autonomous vehicles in a crowded physical space.
+  - Medium: OEMs resisting third-party software controlling their hardware.
+  - Low: Mining company budget (A 1% yield increase is worth tens of millions per year).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

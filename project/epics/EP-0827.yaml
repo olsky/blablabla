@@ -1,0 +1,33 @@
+id: EP-0827
+title: Predictive Payroll-Leakage & Ghost-Employee Auditor
+description: |
+  **Idea:** Fortune 500s lose 3% of their payroll to 'Ghost Employees' (fake identities) and unauthorized overtime 'leakage' where the human manager is in on the fraud. This AI monitors the corporate HR data and physical door-swipe/Slack activity metadata. It finds the mathematical 'Pulse' of every employee. It autonomously flags 'Flatline' employees (who get paid but show zero digital activity) and kills their payroll account instantly.
+
+  **Why "WOW":** It creates an invisible, un-bribable internal auditor that works 24/7. It finds and stops multi-million dollar internal fraud without ever needing a whistleblower.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (HR system API integrations and behavioral 'activity-pulse' models).
+  - Cash Out: 30% contingency fee on the payroll expenditures successfully clawed-back or stopped.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Payroll Leakage Identified/Stopped: $500,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Privacy regulations (GDPR) in EMEA blocking the monitoring of employee 'digital pulse' metadata.
+  - Medium: False positives firing legitimate, but very quiet, deep-focus employees.
+  - Low: C-Suite Demand (Payroll is the #1 expense; 3% leakage is billions of dollars).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

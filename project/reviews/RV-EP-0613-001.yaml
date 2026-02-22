@@ -1,0 +1,38 @@
+id: RV-EP-0613-001
+epic: EP-0613
+created_at: "2026-02-22"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: scoring
+summary: >-
+  Practical and realistic anomaly-detection EPIC for telecom infrastructure with clear loss-prevention economics,
+  strong feasibility, and manageable legal profile with proper evidence workflows.
+analysis:
+  strengths:
+    - "Targets a costly, under-digitized operational leak in tower operations."
+    - "Good data-fusion problem with clear autonomous monitoring architecture."
+    - "Value proposition is concrete: theft detection and billing anomaly reduction."
+  weaknesses:
+    - "Actionability depends on evidentiary quality acceptable to operations/legal teams."
+    - "Sensor tampering and spoofing can reduce confidence in automated findings."
+    - "May require organizational change to close loop from detection to enforcement."
+  risks:
+    - "Technical: adversarial spoofing may create false negatives without tamper-aware models."
+    - "Market: operators may require conservative rollouts before automating interventions."
+    - "Legal: evidence handling standards must support recovery/prosecution workflows."
+  recommendations:
+    - "Design a chain-of-evidence layer and forensic audit export in v1."
+    - "Combine anomaly scores with confidence classes to support graded responses."
+    - "Pilot on high-loss regions first to prove rapid payback."
+scores:
+  novelty: 0.72
+  software_only_fit: 0.93
+  three_month_feasibility: 0.87
+  revenue_realism_year1: 0.68
+  adoption_friction: 0.77
+  legal_ethical_clarity: 0.84
+  overall: 0.80
+weight: 1.0
+confidence: 0.87

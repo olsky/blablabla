@@ -1,0 +1,21 @@
+id: US-0010
+epic: EP-0880
+title: "Build Webhook System for Real-Time Risk Alerts"
+layer: gateway
+stack: "Python, RabbitMQ, Celery, PostgreSQL"
+acceptance_criteria:
+  - "Implement POST /api/v1/webhooks endpoint for customers to register webhook URLs"
+  - "Validate webhook URLs (HTTPS required, test delivery on registration)"
+  - "Allow customers to subscribe to alert severity levels (critical, high, medium, all)"
+  - "Consume alerts from RabbitMQ and deliver to registered webhooks asynchronously"
+  - "Implement webhook retry logic (exponential backoff: 1s, 5s, 30s, 5min, 1hour)"
+  - "Sign webhook payloads with HMAC-SHA256 for verification (customer secret key)"
+  - "Include alert metadata in webhook payload (vessel ID, risk score, timestamp, evidence)"
+  - "Track webhook delivery success rate and expose via API"
+  - "Disable webhooks after 5 consecutive failures, notify customer via email"
+created_at: "2026-02-22"
+created_by:
+  agent: decomposer
+  model: claude-sonnet-4.5
+  provider: anthropic
+status: draft

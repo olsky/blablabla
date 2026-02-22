@@ -1,0 +1,33 @@
+id: EP-0909
+title: Autonomous Supply Chain ESG & Sustainability Compliance Agent
+description: |
+  Autonomously calculates Scope 3 emissions across supply chains, generates regulatory disclosures (CSRD/CBAM/TCFD), and flags non-compliant suppliers. The system connects to procurement platforms (Ariba, Coupa), queries supplier carbon data (CDP, SCI, SASB), ingests emissions factor databases (GHG Protocol, EPA), and calculates Scope 3 = supplier_emissions + transport_emissions per transaction. Auto-generates CSRD reports, CBAM carbon passports, and supplier scorecards.
+
+  **Why "WOW":** Addresses $85B ESG compliance tax. CSRD compliance deadline = December 2025 (URGENT). CBAM carbon tariffs launch Q1 2026. Enterprises face $5M-$100M fines for non-compliance. Automation is existential, not optional.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Emissions DB normalization, procurement integration, report generation)
+  - Cash Out: $250k-500k SaaS subscription per enterprise + 10% of emissions reduction cost savings
+
+  **First Year Projections:**
+  - Enterprise customers: 2-3 pilots = $350k ACV = $700k-$1.05M annual revenue
+  - Total portfolio: $120-180M (scaling to 50 enterprises by Year 2)
+
+  **Feasibility Score:** 8.1/10
+
+  **Risk Analysis:**
+  - High: Supplier data quality is poor; many lack published carbon footprints
+  - Medium: Regulatory framework volatility (CSRD/CBAM rules still evolving)
+  - Low: Customer demand (CFOs have board mandates; urgent compliance deadlines)
+
+created_at: "2026-02-22T01:21:34Z"
+created_by:
+  agent: session_agent
+  model: claude-haiku-4.5
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 1
+  approval_threshold: 0.75
+  require_blocking_clearance: false

@@ -1,0 +1,33 @@
+id: EP-0850
+title: AI-Directed Parametric Hurricane Insurance Oracle
+description: |
+  **Idea:** Traditional hurricane insurance takes months to pay out. This system is 100% parametric. It ingests live NOAA and satellite wind-speed data. If a Category 4 hurricane's eye-wall crosses a specific GPS geofence, the smart contract autonomously releases funds to the policyholder's wallet in seconds, with zero human adjusters.
+
+  **Why "WOW":** It pays out before the storm is even over. It eliminates the 15% 'Claims Admin' cost of legacy insurance, passing the savings directly to the margin.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Developing the satellite/NOAA data ingestion pipelines and the secure escrow triggers).
+  - Cash Out: Keeping the 20% underwriting spread on the parametric risk pools.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Capital in Insurance Pools: $1,000,000,000\n  - Admin Overhead Saved: $150,000,000
+  - Estimated Revenue: $200,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: A 'Black Swan' storm hitting multiple high-density insured areas simultaneously, exceeding the re-insurance cap.
+  - Medium: Disputes over 'Wind Speed' data accuracy if NOAA sensors are damaged mid-storm.
+  - Low: Demand (Exporters and Coastal Real Estate owners need instant liquidity).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

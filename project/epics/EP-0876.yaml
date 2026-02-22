@@ -1,0 +1,33 @@
+id: EP-0876
+title: AI-Directed 'Dividend-Capture' Arbitrage across Global Ledgers
+description: |
+  **Idea:** Stock dividends and on-chain 'Yield Distributions' happen on different days in different timezones. This AI agent monitors 10,000+ global yields. It algorithmically moves its capital from 'Post-Dividend' assets to 'Pre-Dividend' assets every 24 hours, capturing the distribution 'Capture' efficiency that humans cannot execute at scale.
+
+  **Why "WOW":** It operates as a 'Yield Vampire'. It extracts the highest possible margin from the global capital pulse via sub-second movements.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Developing the global dividend-calendar oracle and the high-speed cross-ledger routing bots).
+  - Cash Out: Pure arbitrage profit (Targeting 30% annual yield on principal).
+
+  **First Year Projections (Solo Founder Scale):**
+  - Principal under Management: $500,000,000\n  - Annual Yield: 30%
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: The 'Dividend-Drop' (The price of a stock falling by the value of the dividend) being larger than the dividend itself, leading to a loss.
+  - Medium: High transaction taxes in specific countries (UK/France) killing the arbitrage margin.
+  - Low: Capital Efficiency (It is the ultimate hands-off growth machine).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

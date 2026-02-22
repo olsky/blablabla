@@ -1,0 +1,22 @@
+id: US-0015
+epic: EP-0880
+title: "Build Audit Trail and Export Functionality"
+layer: ui
+stack: "React, Python FastAPI"
+acceptance_criteria:
+  - "Display searchable audit log table (user, action, timestamp, affected entity, IP address)"
+  - "Include audit events (alert generated, transaction reviewed, sanctions list updated, user login)"
+  - "Implement full-text search across audit log (vessel name, IMO, user email, action type)"
+  - "Add date range filter for audit log queries (default: last 30 days)"
+  - "Export audit log to CSV/PDF with applied filters and search"
+  - "Generate compliance report PDF (monthly summary, alert statistics, transaction decisions)"
+  - "Include regulatory-ready formatting (timestamped, immutable, cryptographically signed)"
+  - "Support bulk export of vessel risk assessments for regulatory filing"
+  - "Implement role-based access control (only compliance officers can view full audit log)"
+  - "Retain audit log for 7 years per banking compliance requirements"
+created_at: "2026-02-22"
+created_by:
+  agent: decomposer
+  model: claude-sonnet-4.5
+  provider: anthropic
+status: draft

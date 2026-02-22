@@ -1,0 +1,33 @@
+id: EP-0576
+title: Generative Industrial Catalyst Design Engine
+description: |
+  **Idea:** The global hydrogen and ammonia economy relies on expensive platinum/palladium catalysts. This platform utilizes quantum chemistry ML to autonomously discover novel, cheap alloy catalysts. By running millions of simulated molecular collisions per second, the algorithm finds microscopic crystalline structures that perfectly split water or fix nitrogen without requiring rare earth metals, generating highly lucrative patents.
+
+  **Why "WOW":** In silico design of the materials required to transition the global economy away from fossil fuels.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months (Massive GPU compute for density functional theory (DFT) simulations).
+  - Cash Out: IP licensing upfronts to Saudi Aramco or BASF ($20M+ each) plus long-term chemical royalties.
+
+  **First Year Projections:**
+  - Patents Granted: 20\n  - Licenses Executed: 6
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 7/10
+
+  **Risk Analysis:**
+  - High: The theoretical catalyst being impossible to synthesize stably at an industrial scale.
+  - Medium: Compute costs (Extremely heavy GPU workloads).
+  - Low: Market necessity (Green energy requires better catalysts).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,27 @@
+id: EP-0242
+title: Autonomous Re-export VAT Reclaim Agent
+description: Detects reclaim-eligible VAT on re-exported goods, auto-prepares filings, and tracks refund lifecycles across jurisdictions.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 130000000
+  first_year_users: 5200
+  roi_time_in_months: 3
+  roi_cash_out_usd: 77000000
+  pricing_model: recovered-tax contingency fee
+feasibility_score: 8.8
+risk_analysis:
+  technical: document linkage across import/export records can be incomplete
+  market: finance teams may prioritize core AP/AR before tax recovery automation
+  legal: filing validity and evidence standards differ by tax authority
+ethical_legal_guardrails:
+  - jurisdiction-specific filing validators and deadline enforcement
+  - immutable audit package for each reclaim event

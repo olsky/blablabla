@@ -1,0 +1,33 @@
+id: EP-0552
+title: Autonomous Commercial Real Estate Tax Appeal Submitter
+description: |
+  **Idea:** Local municipalities routinely over-assess commercial real estate, forcing landlords to pay millions in excess property taxes. This system ingests county-level parcel data and recent closing-price APIs. It algorithmically detects when a skyscraper or mall is over-valued by the city tax assessor compared to comparable recent sales. It auto-generates a flawless, 40-page legal tax appeal document including all necessary localized comparables and submits it to the county via e-file API.
+
+  **Why "WOW":** Infinite robot tax attorneys fighting city hall at scale. Recovers millions for property owners with zero human effort.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Parsing messy, fragmented county assessor APIs and auto-generating legal PDFs).
+  - Cash Out: 30% contingency fee on the successfully abated tax amount for the landlord.
+
+  **First Year Projections:**
+  - Properties Appealed: 25,000\n  - Total Tax Value Appealed: $2,000,000,000
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Municipalities passing laws to explicitly block algorithmic/automated tax appeal filings.
+  - Medium: Accuracy of the 'comparable sales' algorithm in highly illiquid real estate markets.
+  - Low: Landlord demand (Pure found money).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

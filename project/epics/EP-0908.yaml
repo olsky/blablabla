@@ -1,0 +1,33 @@
+id: EP-0908
+title: Autonomous Government RFP Proposal Automation Factory
+description: |
+  Autonomously generates 50-page government proposal responses matching RFP requirements and evaluation criteria. The system ingests SAM.gov RFP feed in real-time, extracts requirements/evaluation criteria/FAR clauses, retrieves customer's past performance data from FPDS (Federal Procurement Data System), generates technical approach sections, cost estimates, compliance sections, and produces submission-ready PDFs. Human review = 2 hours instead of 100+ hours manual writing.
+
+  **Why "WOW":** Addresses $150B SMB government procurement gap. Federal spending rising (CHIPS Act, IRA, Defense). Zero endocompetitors in automated RFP space. SMBs desperate for automation; willingly pay $5k per proposal.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (RFP parser, FAR clause library, LLM training, FPDS integration)
+  - Cash Out: $5k flat fee per RFP proposal generated
+
+  **First Year Projections:**
+  - SMB customers: 5 pilots = $600k per SMB annually (3-4 proposals/month)
+  - Total portfolio: $25-50M (scaling to 500 SMBs × $50k/year by Year 2)
+
+  **Feasibility Score:** 8.6/10
+
+  **Risk Analysis:**
+  - High: SMB sales friction (fragmented market; long sales cycles)
+  - Medium: Government RFP format changes quarterly; requires template adaptation
+  - Low: Regulatory risk (FAR clauses are standardized; compliance is deterministic)
+
+created_at: "2026-02-22T01:21:34Z"
+created_by:
+  agent: session_agent
+  model: claude-haiku-4.5
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 1
+  approval_threshold: 0.75
+  require_blocking_clearance: false

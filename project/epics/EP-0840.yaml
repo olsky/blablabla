@@ -1,0 +1,33 @@
+id: EP-0840
+title: Generative Supply-Chain 'Safety-Stock' Optimizer
+description: |
+  **Idea:** Companies hold $1.5 Trillion in 'Safety Stock' to prevent outages, with 20% being overstock that eventually spoils or depreciates. This AI agent analyzes global port-dwell times, labor strikes, and consumer sentiment firehoses. It autonomously adjusts the company's 'Buffer Inventory' requirements daily. It triggers 'Sell-Off' calls to secondary markets for overstock and 'Rush-Order' calls for understock, keeping margin >99%.
+
+  **Why "WOW":** It is the first 'Autonomous Brain' for inventory. It turns the 'Fear of Running Out' into a precisely managed algorithmic margin.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Pipelining global macro-signals with corporate inventory ERPs).
+  - Cash Out: Saving the 10% 'Cost of Capital' on every dollar of overstock reduced.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Inventory Capital Unlocked: $2,000,000,000\n  - Admin Cut of Savings: 10%
+  - Estimated Revenue: $200,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: A 'Black Swan' supply chain collapse (e.g. Suez Canal) causing an outage when the AI had reduced safety stock to 1%.
+  - Medium: Inaccurate real-time inventory counts from poor warehouse hygiene.
+  - Low: Working Capital Demand (CFOs want cash-on-hand, not inventory-on-shelf).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

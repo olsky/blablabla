@@ -1,0 +1,33 @@
+id: EP-0864
+title: Autonomous Parametric 'Pandemic' Supply-Chain Insurance
+description: |
+  **Idea:** COVID-19 showed that supply chains have zero pandemic protection. This system monitors WHO health firehoses and local airport 'Febrile-Screening' data via API. When a disease-incidence score crosses a specific 'Epidemiological Threshold' in a manufacturing hub (e.g. Shenzhen), the smart-contract releases 'Interruption Funds' to the buyer to find alternative suppliers immediately.
+
+  **Why "WOW":** It serves as the 'Epidemiological Firewall' for global trade. It provides instant liquidity to pivot supply-chains *before* a city is locked down.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months (Pipelining global health-data and building the supply-chain-pivot re-insurance structures).
+  - Cash Out: 1.5% premium on the value of the supply-chain being protected.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Supply-Chain Value under Protection: $20,000,000,000
+  - Estimated Revenue: $300,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: WHO/Government health data being suppressed by the manufacturing country until it's too late for the AI to trigger the payout.
+  - Medium: Complexity of defining 'Epidemiological Thresholds' that are both sensitive and non-manipulatable.
+  - Low: Brand Demand (CEO's are haunted by the memory of the 2020 lockdowns).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

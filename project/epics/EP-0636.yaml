@@ -1,0 +1,23 @@
+id: EP-0636
+title: Autonomous Small-Cell Zoning Compliance Filer
+description: Automates permit packet assembly and jurisdiction-specific filing for small-cell deployments to reduce rollout delays.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 106000000
+  first_year_users: 7400
+  roi_time_in_months: 3
+  roi_cash_out_usd: 48000000
+feasibility_score: 8.8
+risk_analysis:
+  technical: permit form variance across cities requires robust template engine
+  market: legal teams may require approval checkpoints in early phase
+  legal: local procedural deadlines and posting rules are strict

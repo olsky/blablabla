@@ -1,0 +1,33 @@
+id: EP-0584
+title: Algorithmic Dark Pool for Enterprise Software Licenses
+description: |
+  **Idea:** Fortune 500s waste 30% of their B2B SaaS budget (Salesforce, Oracle) on 'shelfware'—seats no one uses. This exchange plugs into corporate Single Sign-On (Okta) APIs to precisely track active usage. It pools the unused, prepaid licenses across hundreds of non-competing enterprises. It then automatically re-routes and sub-leases those exact seats via API provisioning to startups at a 40% discount, arbitrating the spread.
+
+  **Why "WOW":** A secondary market for B2B user licenses. Turns bloated corporate IT budgets into a liquid commodity.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Deep API integrations into major SaaS provisioning engines and SSO providers).
+  - Cash Out: 20% platform fee on the recovered software value.
+
+  **First Year Projections:**
+  - SaaS Value Arbitraged: $1,000,000,000
+  - Estimated Revenue: $200,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: SaaS giants (Salesforce) viciously fighting the platform for violating 'non-transferable' Terms of Service.
+  - Medium: The technical complexity of dynamically mapping diverse corporate SSO tenants.
+  - Low: Startup demand (Half-price enterprise software).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

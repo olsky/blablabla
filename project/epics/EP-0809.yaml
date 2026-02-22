@@ -1,0 +1,33 @@
+id: EP-0809
+title: Algorithmic Carbon-Border Adjustment Mechanism (CBAM) Compliance Bot
+description: |
+  **Idea:** Beginning 2026, the EU will charge massive 'carbon tariffs' on imports (Steel, Cement, Aluminum). Every importer must provide a detailed 'Carbon Passport.' This system autonomously calculates the carbon footprint of an imported product by ingesting the overseas factory's energy bills and bill-of-materials from the ERP. It generates the legally required CBAM declaration and autonomously purchases the exact amount of EU-ETS carbon permits to clear the border.
+
+  **Why "WOW":** The ultimate solution for the 'Green Wall' around Europe. It automates the trillion-dollar intersection of global climate policy and trade logistics.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Building the carbon-accounting graph models and integrating with the EU-ETS carbon trading API).
+  - Cash Out: Toll of $500 per successfully generated and cleared CBAM Carbon Passport.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Carbon Passports Cleared: 250,000
+  - Estimated Revenue: $125,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: The EU changing the 'Emissions Factors' rules suddenly, making the AI's calculation medically inaccurate in a legal sense.
+  - Medium: Overseas factories refusing to provide the granular energy data required for the calculation.
+  - Low: Mandatory Regulation (You cannot sell into Europe without this; adoption is 100%).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

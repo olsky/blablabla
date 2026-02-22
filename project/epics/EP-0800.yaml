@@ -1,0 +1,33 @@
+id: EP-0800
+title: Autonomous Global HTS (Harmonized Tariff Schedule) Arbitrage Engine
+description: |
+  **Idea:** Importing goods requires assigning them to one of 200,000+ HTS codes. A single mistake can cost 20% in extra tariffs. This system uses multi-modal LLMs to ingest product engineering blueprints, CAD files, and descriptions. It then cross-references the latest customs rulings from 150+ countries. It finds 'legitimate classification loopholes' (e.g., classifying a 'tablet' as a 'educational tool' in specific jurisdictions) to algorithmically slash import duties for mega-shippers.
+
+  **Why "WOW":** It finds millions of dollars in 'hidden' tariff savings in seconds. It turns customs compliance from a cost center into a direct profit engine.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the multi-modal classification models and the global customs API connectors).
+  - Cash Out: 30% contingency fee on the verified tariff savings recovered.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Tariff Savings Recovered: $500,000,000\n  - Volume of Goods Classified: $10B+
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Customs authorities retroactively challenging the 'creative' classifications, triggering audits.
+  - Medium: Maintaining an up-to-date database of global customs rulings which vary by port.
+  - Low: Enterprise demand (CFOs love direct tariff reduction).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

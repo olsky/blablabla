@@ -1,0 +1,33 @@
+id: EP-0533
+title: Zero-Knowledge Consumer Credit Scoring Oracle
+description: |
+  **Idea:** Legacy credit scores (FICO) are racist, archaic, and rely on centralized data honey-pots (Equifax). This system issues a Zero-Knowledge Proof agent to a user's local phone. It securely parses their banking app history, utility bills, and SMS receipts physically on-device, generating a mathematically rigorous credit risk score. It outputs only a cryptographic "True/False" on whether they meet a loan threshold back to a bank API, revealing zero PII.
+
+  **Why "WOW":** Unlocks credit for billions of unbanked globally while guaranteeing absolute, mathematically provable privacy. Decentralized lending.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the mobile ZK-SNARK circuits and local parsing models).
+  - Cash Out: API call ($2 per ZK proof verified) charged to the lending bank.
+
+  **First Year Projections:**
+  - Proofs Verified: 75,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Banks trusting a decentralized, zero-knowledge algorithm over established FICO.
+  - Medium: On-device parsing breaking due to OS updates.
+  - Low: Consumer adoption (They retain total data control).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

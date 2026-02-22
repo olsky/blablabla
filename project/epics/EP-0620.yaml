@@ -1,0 +1,23 @@
+id: EP-0620
+title: Autonomous Enterprise SLA Risk Premium API
+description: Prices enterprise connectivity contracts based on real-time outage probability and remediation capacity.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.8
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 188000000
+  first_year_users: 6700
+  roi_time_in_months: 3
+  roi_cash_out_usd: 113000000
+feasibility_score: 8.5
+risk_analysis:
+  technical: model drift under correlated outages can misprice risk
+  market: enterprise buyers demand transparent pricing rationale
+  legal: contractual SLA definitions must align with premium logic

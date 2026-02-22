@@ -1,0 +1,33 @@
+id: EP-0704
+title: Predictive Autonomous Liquidation Protector for DeFi Whales
+description: |
+  **Idea:** High-net-worth individuals and crypto funds place $100M+ in collateral on lending protocols (Aave, MakerDAO) to borrow stablecoins. When the crypto market flash-crashes 20% in five minutes, they face total, catastrophic algorithmic liquidation. This AI acts as an absolute bodyguard. It monitors global exchange order book depth and social media panic APIs. If a crash is mathematically imminent, it uses Flash Loans to instantaneously draw $50M in stablecoins, repay the Whale's debt precisely seconds before the liquidation threshold is hit, shielding their collateral and charging a massive premium.
+
+  **Why "WOW":** It operates as an algorithmic shock-absorber for billionaire crypto traders. Saving them from catastrophic wipeouts via predictive microsecond execution.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2 months (Building ultra-fast market-depth predictors and secure flash-loan integration smart contracts).
+  - Cash Out: A 1.5% 'Rescue Fee' taken directly from the saved collateral.
+
+  **First Year Projections:**
+  - Client Collateral Protected: $10,000,000,000\n  - Rescue Events Triggered: 1,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: Predictive model misfiring (rescues an account too early during a false-crash, angering the client who loses the 1.5% fee).
+  - Medium: Gas wars (Failing to get the rescue transaction mined in the exact block before the liquidator bots hit).
+  - Low: Client acquisition (Whales are terrified of sleeping during crypto volatility).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

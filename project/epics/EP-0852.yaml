@@ -1,0 +1,33 @@
+id: EP-0852
+title: Algorithmic Secondary Market for Life Insurance Settlement
+description: |
+  **Idea:** Policyholders often surrender life insurance for 5% cash value. This AI agent monitors public policy-lapse data. It algorithmically underwriters the user's life expectancy via anonymized health-meta-data and social-graph health markers. It buys the policy from the user at a 20% premium (compared to surrender value) and holds it as a high-yield 'Death-Bond' asset.
+
+  **Why "WOW":** It builds a billion-dollar asset portfolio out of 'Lapsed Life' policies. It provides 4x more cash to the elderly while capturing massive institutional yield.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Developing the life-expectancy predictive models and the policy-transfer legal logic).
+  - Cash Out: Capturing the final policy payout minus the purchase cost.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Policies Underwritten/Purchased: $500,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Anti-fraud legislation (STOLI laws) restricting the secondary purchase of insurance policies.
+  - Medium: The AI underestimating life expectancy, leading to 'holding costs' that exceed the final payout.
+  - Low: Supply (Thousands of policies lapse every day; people want cash).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

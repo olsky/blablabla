@@ -1,0 +1,33 @@
+id: EP-0544
+title: Global B2B Contract Translation & Legal Concurrency API
+description: |
+  **Idea:** Multi-national corporations spend millions on legal teams ensuring a contract written in US Common Law holds up in Japanese Civil Law. This specialized LLM API autonomously ingests a complex B2B contract, translates not just the language, but the *legal precedents*. It autonomously rewrites clauses that are void in the target jurisdiction, ensuring perfect legal concurrency, and outputs bilingual, execution-ready PDFs.
+
+  **Why "WOW":** Replaces international law firms with a deterministic API call. Instant global business velocity.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Fine-tuning LLMs on international legal rulings and contract law constraints).
+  - Cash Out: $500 per enterprise contract processed.
+
+  **First Year Projections:**
+  - Contracts Processed: 300,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Liability if the algorithm hallucinated a clause that causes a multi-million dollar lawsuit loss.
+  - Medium: Constantly updating the models as international law shifts.
+  - Low: Adoption (In-house counsel will aggressively use this to cut outside legal spend).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,33 @@
+id: EP-0527
+title: Predictive Commercial Aviation Maintenance Arbiter
+description: |
+  **Idea:** Airlines lose billions to unexpected groundings (AOG - Aircraft on Ground). This system ingests live telemetry from thousands of IoT engine sensors (Rolls Royce/GE) mid-flight, correlates it with local weather/humidity data, and predicts part failure 72 hours out. It autonomously queries the global spot market for that specific part and routes it to the exact destination airport runway right before the plane lands, issuing a preemptive maintenance ticket to the local crew.
+
+  **Why "WOW":** Zero downtime for global logistics. It repairs planes before they are officially broken.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Telemetry ingestion and inventory/ERP API routing).
+  - Cash Out: SaaS fee ($10k/plane/year) + markup on parts sourcing.
+
+  **First Year Projections:**
+  - Aircraft Monitored: 8,000\n  - AOG Events Prevented: 2,500
+  - Estimated Revenue: $125,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: Airline API data silos blocking cross-fleet analysis.
+  - Medium: Inventory logistics routing failures.
+  - Low: ROI proof (AOG costs $150k/hour; the ROI is immediate).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

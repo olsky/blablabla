@@ -1,0 +1,33 @@
+id: EP-0865
+title: AI-Directed Secondary Market for Individual Patent Royalties
+description: |
+  **Idea:** Individual inventors have patents that sit idle because they can't afford the legal fees to license them. This AI agent monitors global product catalogs and 'patent infringement' signals on GitHub/Amazon. It identifies companies 'accidentally' using an idle patent, algorithmically underwriters the potential royalty yield, and buys the royalty rights from the inventor, then autonomously pursues a licensing agreement via API.
+
+  **Why "WOW":** It turns static IP paperwork into a liquid, high-yield financial asset. It acts as an autonomous 'Patent Troll' for the good of the inventor.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Building the cross-domain patent-to-product mapping AI and the legal licensing bots).
+  - Cash Out: Capturing 50% of the successfully negotiated licensing royalties.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Patent Portfolios Monetized: 5,000\n  - Royalty Revenue Recovered: $300,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: Legal challenges to the 'patent validity' requiring expensive human-lawyer intervention in court.
+  - Medium: Large tech companies declaring 'War' on the platform and blacklisting the licensing API.
+  - Low: Inventor Demand (They have zero other ways to monetize their idle filings).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

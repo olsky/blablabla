@@ -1,0 +1,33 @@
+id: EP-0604
+title: Algorithmic Global Supply Chain Routing via Climate Physics
+description: |
+  **Idea:** Trillions of dollars in global shipping (Maersk, MSC) are routed using static weather charts. They lose billions to fuel inefficiency and storm delays. This API ingests global marine weather APIs, ocean current telemetry, and vessel drag coefficients. It runs generative reinforcement learning to calculate the absolute perfect 'golden route' for 50,000 individual cargo ships simultaneously. The API updates the ship's autopilot every 5 minutes globally, riding favorable ocean currents and perfectly dodging storm systems to slash fuel burn by 15%.
+
+  **Why "WOW":** Optimizes the entire physical backbone of global trade using environmental physics. Turns a chaotic ocean into a perfectly predicted mathematical highway.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months (Building the global maritime routing algorithm and securing APIs to Tier-1 shipping SCADA systems).
+  - Cash Out: A 30% gain-share on the total bunker fuel saved per voyage.
+
+  **First Year Projections (US$1B Scale):**
+  - Vessels Routed: 25,000\n  - Bunker Fuel Saved: 10,000,000 Tons
+  - Estimated Revenue: $1,200,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Captains overriding the algorithmic route due to 'gut feeling' and blaming delays on the software.
+  - Medium: Latency in updating the autopilot causing ships to miss critical current micro-windows.
+  - Low: Shipping Company Adoption (Fuel is their #1 expense; a 15% saving is billions to the bottom line).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,33 @@
+id: EP-0594
+title: Automated Commercial Mortgage Backed Security (CMBS) Restructuring Engine
+description: |
+  **Idea:** The commercial real estate market is crashing, and trillions in skyscraper loans need to be renegotiated. Human lawyers take months. This system ingests the complex, 500-page CMBS trust documents. It uses LLMs to mathematically model the 'waterfall' payouts to different bondholders. It autonomously generates proposed restructuring term sheets (e.g., extending the loan 2 years at a higher rate) that legally maximize value for the highest-tier bondholders, bypassing investment bankers entirely.
+
+  **Why "WOW":** Algorithmically unwinds the most complex, toxic debt structures in the global economy.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Training LLMs on dense real estate finance law and complex bond waterfall mathematics).
+  - Cash Out: A $1M fixed fee per major skyscraper restructuring.
+
+  **First Year Projections:**
+  - Major Restructurings Executed: 150
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Hedge funds (subordinate bondholders) suing the algorithm's interpretation of the restructuring waterfall.
+  - Medium: Parsing incredibly poorly scanned PDF legacy mortgage documents.
+  - Low: Need (Trillions in CRE debt is maturing; there aren't enough humans to process the crash).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

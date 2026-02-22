@@ -1,0 +1,48 @@
+id: RV-EP-0716-001
+epic: EP-0716
+created_at: "2026-02-22"
+created_by:
+  agent: "reviewer"
+  model: "claude-sonnet-4.5"
+  provider: "anthropic"
+review_class: "scoring"
+summary: |
+  EP-0716 (Charging Behavior Analytics Engine) is the "Bloomberg Terminal for EV infrastructure"—sell anonymized behavioral data (when/where/how users charge) to urban planners, OEMs, utilities, and real estate developers. $170M Year 1 revenue assumes $50K-$500K per customer (tiered pricing: SMB cities $50K, Fortune 500 OEMs $3M-$5M). 15M users generating behavioral data = massive scale advantage (competitors have <1M users). APPROVE with strong conviction. This is data-as-a-service with 90%+ gross margins (marginal cost of serving 10th customer is near zero) and No Sales Team Required (API self-serve + data marketplace).
+
+analysis:
+  strengths:
+    - "Data moat: 15M users × 4-6 charging sessions/month = 900M data points annually. Competitors (PlugShare, ChargePoint) have 1-3M users. Scale = defensibility."
+    - "Multiple buyer personas: Urban planners ($50K-$200K for city-level heatmaps), OEMs ($2M-$5M for battery usage insights), utilities ($1M-$3M for load forecasting), real estate ($500K-$2M for site selection)."
+    - "API-driven distribution: Data marketplace (like Snowflake) where buyers purchase datasets via API. Zero sales team, 95% gross margins, instant global reach."
+    - "GDPR/CCPA gold standard: Strict anonymization (k-anonymity with k=100), no PII, user consent waterfall. Builds trust = more users = more data = bigger moat."
+    - "Predictive insights: Not just 'past behavior' reports. ML forecasts future demand (where to build new chargers, which stations will be congested). Premium pricing for predictions."
+    - "Low technical risk: Data pipeline engineering is mature. ETL (Fivetran/Airbyte), warehouse (Snowflake/BigQuery), BI layer (Tableau/Looker) are turnkey solutions."
+  weaknesses:
+    - "Chicken-egg: Need 15M users to have valuable data, but users won't join without killer app features. Current EPIC doesn't specify consumer value prop (just data extraction)."
+    - "Commoditization risk: If 5 competitors also have 10M+ users, data loses uniqueness. Differentiation must be analysis/insights, not raw data (higher-value but requires human analysts = opex)."
+    - "OEM data access: Tesla won't share charging data (proprietary). Ford/GM have partnerships with ChargePoint/EVgo (contractual limits on third-party data sharing). May only capture 40-60% of market."
+    - "Privacy backlash: Even anonymized data can be de-anonymized (location data + timestamps = tracking individuals with 80%+ accuracy per research). One lawsuit could tank business."
+  risks:
+    - "Medium: Regulatory restrictions on behavioral data sales. EU GDPR Article 9 could classify charging data as 'special category' (tied to location = sensitive). Would require explicit consent (kills opt-in rates)."
+    - "Medium: OEMs build competing data platforms. Ford has FordPass data (4M+ users), Tesla has Supercharger data (2M+ users). They could sell insights directly, undercutting third-party platforms."
+    - "Low: Market demand is proven. Urban planners already buy traffic data from Uber/Lyft, OEMs buy telematics from insurance companies. EV charging data is next logical category."
+    - "Low: Technical execution. Big data infrastructure is commoditized (AWS/Snowflake). ML insights are applied research (hire 3-5 PhDs, done)."
+  recommendations:
+    - "Build consumer app FIRST (not mentioned in EPIC): Free 'EV Insights' app showing users their own charging behavior (cost per kWh, carbon footprint, station ratings). 15M users need reason to opt-in."
+    - "Freemium data model: Cities <100K population get free heatmaps (builds goodwill, legal team reviews data quality). Cities >500K pay $200K-$500K for premium insights (predictive demand, site recommendations)."
+    - "Partner with PlugShare (25M users globally): White-label analytics platform for them, share data 50/50. Instant scale vs building user base from scratch (5 years vs 12 months)."
+    - "OEM pitch: 'Battery warranty cost reduction insights.' Aggregate data shows fast-charging abuse patterns, extreme temperature exposure, depth-of-discharge trends. Saves $200M-$500M annually on warranty claims = justifies $5M-$10M contract."
+    - "Add real estate vertical: Shopping malls, hotels, apartments want to know: 'Where should we install chargers to maximize utilization?' Charge $50K-$200K per site analysis (5K+ commercial properties = $250M-$1B TAM)."
+    - "Blockchain audit trail: Prove data provenance (where it came from, how anonymized). Builds trust with enterprise buyers, differentiates from sketchy data brokers."
+
+scores:
+  technical_feasibility: 0.94
+  business_viability: 0.88
+  market_timing: 0.90
+  monetization_speed: 0.80
+  competitive_defensibility: 0.85
+  scalability: 0.96
+  risk_adjusted_return: 0.89
+
+weight: 1.0
+confidence: 0.90

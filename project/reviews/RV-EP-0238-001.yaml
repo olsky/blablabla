@@ -1,0 +1,38 @@
+id: RV-EP-0238-001
+epic: EP-0238
+created_at: "2026-02-22"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: scoring
+summary: >-
+  Strong and realistic claim-automation EPIC with high operational value and feasible short-cycle delivery,
+  especially where evidence provenance and chain-of-custody controls are explicit.
+analysis:
+  strengths:
+    - "Clear value: faster, higher-quality insurance claim packet generation."
+    - "Software-only implementation is credible with existing sensor and event data."
+    - "Guardrails already align with legal evidentiary expectations."
+  weaknesses:
+    - "Normalization burden grows with heterogeneous data sources and carriers."
+    - "Insurer acceptance may vary by line of business and jurisdiction."
+    - "Initial onboarding may require template adaptation per claims workflow."
+  risks:
+    - "Technical: inconsistent data formats can reduce packet reliability."
+    - "Market: slower insurer process change may delay realized value."
+    - "Legal: venue-specific admissibility rules can require custom evidence framing."
+  recommendations:
+    - "Build standards adapters for top insurer packet formats first."
+    - "Expose immutable provenance graph in every generated dossier."
+    - "Prioritize cargo lanes with high claim frequency for rapid pilot proof."
+scores:
+  novelty: 0.75
+  software_only_fit: 0.92
+  three_month_feasibility: 0.88
+  revenue_realism_year1: 0.71
+  adoption_friction: 0.76
+  legal_ethical_clarity: 0.85
+  overall: 0.82
+weight: 1.0
+confidence: 0.88

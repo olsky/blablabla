@@ -1,0 +1,27 @@
+id: EP-0237
+title: Autonomous Receivables Factoring Spread Optimizer
+description: Routes receivables to the optimal funding source in real time based on spread, risk appetite, concentration limits, and covenant constraints.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.8
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 260000000
+  first_year_users: 2400
+  roi_time_in_months: 3
+  roi_cash_out_usd: 172000000
+  pricing_model: take-rate on funded notional
+feasibility_score: 8.4
+risk_analysis:
+  technical: real-time lender policy matching requires strict rule consistency
+  market: liquidity providers may tighten capacity during stress periods
+  legal: assignment notices and true-sale requirements vary by jurisdiction
+ethical_legal_guardrails:
+  - transparent routing logic and best-execution reports
+  - concentration caps to prevent predatory funding concentration

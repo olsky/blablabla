@@ -1,0 +1,33 @@
+id: EP-0600
+title: Algorithmic Global Real Estate Climate Risk Shorting Syndicate
+description: |
+  **Idea:** Trillions of dollars in coastal and wildfire-prone real estate are massively overvalued because local tax assessors and legacy insurers ignore hyper-local environmental data. This solo-founder hedge fund ingests billions of data points: raw satellite soil moisture vectors, NOAA oceanic heat content APIs, and local topographical 3D scans. The AI autonomously calculates the exact year a specific Zip Code becomes uninsurable. Armed with this asymmetric data, the system automatically shorts the municipal bonds of those specific counties and algorithmically buys Credit Default Swaps (CDS) against the mortgage-backed securities (MBS) of the exposed real estate.
+
+  **Why "WOW":** It executes the 'Big Short' for climate change autonomously. A one-man operation wielding god-tier environmental compute to mathematically break the housing market's denial of climate reality.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months (Building the hyper-local predictive climate risk models and establishing institutional ISDA trading agreements).
+  - Cash Out: Massive proprietary trading profits when the insurance markets collapse in poorly-modeled zones.
+
+  **First Year Projections (US$1B Scale):**
+  - Capital Deployed (Notional): $10,000,000,000 (Highly leveraged derivative positions)\n  - Alpha Generated: 1,500% Returns
+  - Estimated Revenue: $1,250,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: Systemic bailout of collapsing real estate markets by the federal government defeating the short position.
+  - Medium: Complexity of securing Tier-1 prime brokerage lines as a solo founder to execute the massive short derivatives.
+  - Low: Data Acquisition (NASA/NOAA data is pristine and free).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,38 @@
+id: RV-EP-0639-001
+epic: EP-0639
+created_at: "2026-02-22"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: scoring
+summary: >-
+  Highly compelling anti-fraud EPIC with clear demand and defensible value; realism is strong if false-positive
+  control and evidentiary due-process features are treated as first-class requirements.
+analysis:
+  strengths:
+    - "Large economic pain and high urgency in synthetic traffic suppression."
+    - "Strong fit for autonomous detection and enforcement workflows."
+    - "Revenue model is supported by loss-prevention economics."
+  weaknesses:
+    - "Adversarial adaptation requires continuous model hardening and fast response loops."
+    - "False positives can damage partner relationships quickly."
+    - "Cross-channel signal fusion quality can vary by integration depth."
+  risks:
+    - "Technical: attacker behavior evolves faster than static detection rules."
+    - "Market: trust depends on transparent precision/recall and appeal workflows."
+    - "Legal: enforcement actions need auditable evidence and procedural fairness."
+  recommendations:
+    - "Implement layered detection with confidence-based intervention levels."
+    - "Publish quality metrics and maintain reversible enforcement actions."
+    - "Prioritize segments with high fraud density for rapid ROI demonstration."
+scores:
+  novelty: 0.81
+  software_only_fit: 0.94
+  three_month_feasibility: 0.87
+  revenue_realism_year1: 0.74
+  adoption_friction: 0.80
+  legal_ethical_clarity: 0.81
+  overall: 0.85
+weight: 1.0
+confidence: 0.89

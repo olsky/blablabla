@@ -1,0 +1,33 @@
+id: EP-0875
+title: Autonomous 'Underwriter' for Satellite-Launch Insurance Debt
+description: |
+  **Idea:** SpaceX/Starlink launches are expensive and have 2% failure risk. This AI underwriters the 'Launch-Insurance-Debt'. It ingests the live 'Telemetry' of the pre-launch tests via API. It algorithmically prices the risk of a 'Kabloom' and issues the insurance bond in seconds. If the rocket launches successfully, it releases the yield to investors; if not, it settlers the claim via smart-contract.
+
+  **Why "WOW":** It builds an 'Algorithmic Lloyds of London' for the New-Space economy. It provides sub-second underwriting for rockets.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Space-industry telemetry API integrations and the 'Launch-Risk' physics models).
+  - Cash Out: Keeping the 10% underwriting premium.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Launches Insured/Bonded (Notional): $1,500,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: Total launch failure wipe out the investor pool (Requires heavy re-insurance layering).
+  - Medium: Access to high-fidelity 'Pre-Launch' telemetry from secretive companies like SpaceX.
+  - Low: Space-industry Demand (Launch insurance is currenty the #1 bottleneck for space startups).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

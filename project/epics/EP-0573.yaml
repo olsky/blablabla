@@ -1,0 +1,33 @@
+id: EP-0573
+title: Algorithmic Corporate Treasury Cash-Sweeping Engine
+description: |
+  **Idea:** Multi-national corporations leave billions in low-yield operational checking accounts globally. This system connects securely to the corporate Treasury APIs. Every night at 11:59PM, it algorithmically aggregates the global cash position, mathematically calculates the localized liquidity needed for the next day, and autonomously sweeps the remaining billions into the absolute highest-yielding global overnight repo-markets or short-term sovereign debt, returning the cash before 8:00AM.
+
+  **Why "WOW":** High-frequency macro-yield optimization for stagnant corporate cash. It prints money for CFOs while they sleep.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building flawless, secure API pathways to global Tier-1 banking systems and the logic to manage FX risk).
+  - Cash Out: 10% of the newly generated algorithmic interest yield.
+
+  **First Year Projections:**
+  - Corporate Cash Under Management: $50,000,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: A systemic banking freeze (e.g., 2008) locking up the swept corporate cash in overnight markets.
+  - Medium: Extreme InfoSec requirements to gain writing-access to Fortune 500 treasury APIs.
+  - Low: CFO Adoption (It's free yield on dead assets).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

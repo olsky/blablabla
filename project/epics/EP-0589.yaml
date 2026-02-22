@@ -1,0 +1,33 @@
+id: EP-0589
+title: Predictive Corporate Bankruptcy & Unwinding Oracle
+description: |
+  **Idea:** Distressed debt hedge funds rely on rumors and quarterly reports to predict corporate collapse. This engine ingests a target company's alternative data exhaustive exhaust: employee Glassdoor sentiment velocity, corporate jet flight logs (flying to bankruptcy lawyers?), and automated parsing of obscure UCC lien filings. It mathematically predicts Chapter 11 filings weeks before the market, autonomously buying credit default swaps or preparing distressed asset bids.
+
+  **Why "WOW":** Vulture capitalism optimized by deep learning. It detects corporate death before the CEO admits it.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the alternative data aggregation pipelines and the NLP sentiment models for financial distress).
+  - Cash Out: Proprietary trading (Alpha) or highly exclusive data subscriptions ($5M/yr to top distressed funds).
+
+  **First Year Projections:**
+  - Distressed Funds Subscribed: 30\n  - Proprietary Trading Gains: $100M+
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: The 'GameStop' effect—retail liquidity irrationally keeping a statistically bankrupt company alive, destroying the model.
+  - Medium: Sparse alternative data for private, non-public companies.
+  - Low: Hedge fund demand (They pay anything for an edge).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

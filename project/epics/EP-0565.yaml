@@ -1,0 +1,33 @@
+id: EP-0565
+title: Algorithmic Secondary Market for Telecom Tower Leases
+description: |
+  **Idea:** Telcos (AT&T, Verizon) pay monthly leases to thousands of rural farmers for putting cell towers on their land. This system creates a financial market to buy out those specific cash flows. It ingests public property records and FCC maps. It calculates the predictive churn (the chance the Telco will abandon the tower) using geospatial ML. It then autonomously sends binding cash-buyout offers via direct mail/API to the farmers, securitizing the acquired 20-year lease cash flows to Wall Street.
+
+  **Why "WOW":** Pioneers high-speed algorithmic acquisition of esoteric real-estate cash flows. Creating an automated bond fund out of steel towers.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2 months (Building the tower churn prediction ML and automated closing document generation).
+  - Cash Out: A 5% management fee on the securitized yield plus the arbitrage spread on the buyout.
+
+  **First Year Projections:**
+  - Leases Bought Out: 15,000\n  - Total Asset Value Acquired: $2,500,000,000
+  - Estimated Revenue: $125,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: A massive, sudden technological shift (like low-earth orbit Satellites completely displacing ground towers) destroying the underlying asset value.
+  - Medium: The conversion rate of rural landowners accepting the algorithmic buyout offer.
+  - Low: Institutional demand for the packaged yield (Massive).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

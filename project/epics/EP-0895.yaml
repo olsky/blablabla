@@ -1,0 +1,33 @@
+id: EP-0895
+title: Generative 'Corporate-Governance' Proxy-Voting Bot
+description: |
+  **Idea:** Institutions (Asset Managers) must vote on 10,000+ proxy-proposals (ESG, Board seats) every year. Humans can't read them all. This AI agent ingests the institution's 'Voting Policy' and every single 300-page proxy-statement. It autonomously generates the 'Recommended Vote' with 10-page justification and executes the vote via the Broadridge/ProxyEdge API.
+
+  **Why "WOW":** It acts as a 'Collective Brain' for institutional governance. It ensures 100% alignment with fiduciary duty without a single human analyst needing to read a proxy-statement.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Developing the fine-tuned legal-NLP for board-proxy analysis and integrating with voting APIs).
+  - Cash Out: $5k/year per portfolio-account managed.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Institutional Accounts: 30,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: A 'Black Swan' board-member scandal being missed by the AI but discovered by humans, leading to a fiduciary duty lawsuit against the asset manager.
+  - Medium: Regulators (SEC) demanding a 'Human in the Loop' for every single vote.
+  - Low: Cost Cutting (Asset managers are desperate to slash their proxy-research department costs).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

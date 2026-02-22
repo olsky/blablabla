@@ -1,0 +1,38 @@
+id: RV-EP-0732-001
+epic: EP-0732
+created_at: "2026-02-22"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: scoring
+summary: >-
+  Very strong commercial candidate: dynamic pricing for EV charging has immediate monetization,
+  high data leverage, and strong feasibility if pricing governance is robust.
+analysis:
+  strengths:
+    - "Direct, measurable margin uplift for operators."
+    - "High automation potential with mature demand/pricing optimization methods."
+    - "Distribution can piggyback existing charging and payment integrations."
+  weaknesses:
+    - "Risk of user backlash if pricing feels opaque or exploitative."
+    - "Requires careful reinforcement-learning safeguards in volatile demand conditions."
+    - "Competitive pressure from basic dynamic-pricing modules."
+  risks:
+    - "Technical: model instability during edge demand events can hurt trust."
+    - "Market: retention depends on consistent savings/value versus fixed pricing alternatives."
+    - "Legal: dynamic pricing must remain compliant with fairness and disclosure requirements."
+  recommendations:
+    - "Implement policy constraints and explainability layer before autonomous price actuation."
+    - "Run controlled A/B pilots with transparent user communication."
+    - "Expose operator override controls with audit trails for regulatory defensibility."
+scores:
+  novelty: 0.79
+  software_only_fit: 0.91
+  three_month_feasibility: 0.86
+  revenue_realism_year1: 0.72
+  adoption_friction: 0.80
+  legal_ethical_clarity: 0.74
+  overall: 0.82
+weight: 1.0
+confidence: 0.87

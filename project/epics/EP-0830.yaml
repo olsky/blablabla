@@ -1,0 +1,33 @@
+id: EP-0830
+title: Autonomous B2B Subscription 'Zombie' Killer
+description: |
+  **Idea:** Enterprises pay for thousands of SaaS subscriptions that no one is using ('Zombie SaaS'). This AI agent connects to the company's Okta (SSO) and Banking APIs. It identifies every SaaS license that has had zero login activity for >30 days. It autonomously fires the API call to the SaaS vendor (Salesforce, Slack, Zoom) to cancel or downgrade the seat, then presents the CFO with an 'Automated Savings' report.
+
+  **Why "WOW":** It is an 'Automatic Budget Cutter'. It pays for itself 10x over in the first hour. It turns enterprise software bloat into pure cash liquidity.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2.5 months (Connecting Okta/Stripe APIs and building the automated cancellation-webhook executors).
+  - Cash Out: 30% of the net savings identified and executed.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Subscription Waste Found: $1,000,000,000
+  - Estimated Revenue: $300,000,000
+
+  **Feasibility Score:** 9.5/10
+
+  **Risk Analysis:**
+  - High: Accidentally canceling a critical license (e.g., a CEO's personal email or a core dev tool) that was used but not via SSO.
+  - Medium: SaaS vendors making cancellation difficult or 'human-required' out of spite.
+  - Low: CFO Demand (Every CFO is under pressure to slash SaaS budgets).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

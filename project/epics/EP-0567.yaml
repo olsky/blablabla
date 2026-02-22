@@ -1,0 +1,33 @@
+id: EP-0567
+title: Automated Global VAT & Sales Tax Registration/Remittance Engine
+description: |
+  **Idea:** If a US software company sells an app to a user in Kenya or Poland, they instantly owe hyper-complex local digital taxes (VAT), facing massive fines if ignored. This autonomous API sits inside the payment stripe (e.g. Stripe/Paddle). It ingests every global transaction, algorithmically determines the specific tax liability across 15,000 global jurisdictions in milliseconds, auto-registers the SaaS company with the foreign government API, and remits the exact tax amount daily.
+
+  **Why "WOW":** Solves global compliance mathematics instantly. It abstracts away international tax borders for software companies.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Creating the massive, constantly updating global tax logic engine and integrating with sovereign revenue APIs).
+  - Cash Out: Taking a 0.5% clearance fee on all global digital cross-border revenue processed.
+
+  **First Year Projections:**
+  - Cross-border GMV processed: $30,000,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Sovereign nations changing their digital tax APIs without notice, breaking the remittance pipeline.
+  - Medium: Currency FX risks during the daily sweeping and remittance process.
+  - Low: Corporate desperation (CFOs are terrified of international tax audits).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

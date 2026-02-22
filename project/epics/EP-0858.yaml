@@ -1,0 +1,33 @@
+id: EP-0858
+title: Algorithmic Secondary Market for Future Insurance Premiums
+description: |
+  **Idea:** Insurance companies have billions in 'Future Premiums' (money customers will pay over 10 years) but need cash now for capex. This platform tokenizes the future cashflows of insurance policies. The AI agent underwriters the 'Lapse Risk' and sells the stream to institutional secondary buyers as a high-yield algorithmic bond.
+
+  **Why "WOW":** It treats future insurance payments like a mortgage-backed security. It unlocks billions in trapped liquidity for insurance companies.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Building the lapse-prediction ML and the secure secondary-market ledger).
+  - Cash Out: 3% origination fee on the total premium value tokenized.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Future Premium Value Tokenized: $10,000,000,000
+  - Estimated Revenue: $300,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: Massive macroeconomic shift (e.g. hyper-inflation) causing a wave of people to stop paying insurance premiums simultaneously.
+  - Medium: Complex legal cross-border hurdles in assigning future insurance contracts to a secondary entity.
+  - Low: Institutional Demand (They love long-term, predictable cashflows).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

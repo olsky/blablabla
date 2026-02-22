@@ -1,0 +1,33 @@
+id: EP-0841
+title: AI-Driven Multi-Tier Supplier Quality-Risk Oracle
+description: |
+  **Idea:** Manufacturers have 'Tier-2' or 'Tier-3' suppliers who fail suddenly, paralyzing the entire brand. This AI monitors the 'Digital Health' of the entire supply chain. It analyzes local court filings for the supplier's CEO, local power-outage maps at the factory location, and employee sentiment on glassdoor. It autonomously flags a 'Failure Risk' 30 days before the supplier goes bankrupt and suggests an alternative pre-vetted factory.
+
+  **Why "WOW":** It serves as the 'Early Warning System' for supply chains. It identifies impending supplier failure before the supplier even realizes they're in trouble.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the decentralized 'Health-Signal' crawler and the supplier-graph GNN).
+  - Cash Out: Enterprise SaaS subscription ($25k/mo per supply-chain protected).
+
+  **First Year Projections (Solo Founder Scale):**
+  - Corporate Brand Clients: 500
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: A 'Failure Signal' being a false positive, causing the brand to fire a healthy supplier and disrupting a long-term relationship.
+  - Medium: Gaining access to the 'Deep Tier' (Tier-3/4) data from opaque suppliers in emerging markets.
+  - Low: Risk-Compliance Demand (Resilience is THE post-COVID supply chain priority).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,33 @@
+id: EP-0884
+title: Autonomous 'Conflict-Mineral' Supply-Chain Auditor
+description: |
+  **Idea:** Consumer brands (Apple, Samsung) face massive scandals for using 'Conflict Minerals' from warzones. This AI agent monitors the satellite telemetry of industrial mines and the 'Chain-of-Custody' logbooks via local port APIs. it identifies minerals that 'Disappear and Reappear' in non-conflict countries and autonomously issues a 'Stop-Work' order to the brand's procurement API.
+
+  **Why "WOW":** It serves as the 'Global Morality Guardian' for hardware. It provides mathematically-verifiable ethical assurance for multi-billion dollar brands.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Satellite mine-telemetry monitoring and the cross-border chain-of-custody ML).
+  - Cash Out: SaaS Compliance Fee ($200k/year per major hardware brand).
+
+  **First Year Projections (Solo Founder Scale):**
+  - Global Brands Protected: 750
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Militias/Smugglers learning to 'spoof' the satellite-telemetry of mines via camouflage or signal jamming.
+  - Medium: Complexity of monitoring heterogeneous mineral types (Tantalum, Tin, Tungsten, Gold).
+  - Low: Brand Demand (ESG scandals drop stock prices by 10-20%; they will pay for this firewall).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

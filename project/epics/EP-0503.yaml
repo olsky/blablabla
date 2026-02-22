@@ -1,0 +1,33 @@
+id: EP-0503
+title: B2B Excess GPU Compute Arbitrage Aggregator
+description: |
+  **Idea:** Thousands of enterprises buy massive GPU clusters for AI training, but experience 40-60% idle time during non-peak hours or between model runs. This system deploys a lightweight, daemonized agent to enterprise clusters that monitors GPU utilization. When idle, the agent autonomously sub-leases the compute via an API to a global, decentralized compute market (like Akash or Render), acting as a silent, automated arbitrageur. It intercepts idle tensor cores, runs external micro-jobs, and sweeps the profit back to the enterprise (taking a cut), all transparently without human intervention.
+
+  **Why "WOW":** Free money for enterprises that already sunk CapEx into GPUs. It effectively creates AWS-scale spot instances out of fragmented, idle enterprise hardware globally.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2 months (Developing the secure containerization daemon, integrating with decentralized compute markets, automated payout pipelines).
+  - Cash Out: 15% override on all compute sub-leased.
+
+  **First Year Projections:**
+  - Aggregated Idle GPUs: 150,000 top-tier cards.
+  - Estimated Revenue: $165,000,000
+
+  **Feasibility Score:** 9/10 (Kubernetes and Docker orchestration makes secure, isolated workload execution on foreign hardware technically straightforward).
+
+  **Risk Analysis:**
+  - High: Enterprise InfoSec pushback regarding running external code on internal clusters (requires extreme sandboxing guarantees).
+  - Medium: Fluctuating market rates for spot GPU compute.
+  - Low: Agent deployment (can be shipped as a standard Helm chart).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

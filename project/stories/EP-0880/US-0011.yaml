@@ -1,0 +1,21 @@
+id: US-0011
+epic: EP-0880
+title: "Create Transaction Risk Assessment Endpoint"
+layer: gateway
+stack: "Python FastAPI, PostgreSQL"
+acceptance_criteria:
+  - "Implement POST /api/v1/transaction/assess endpoint accepting transaction payload"
+  - "Accept input fields (transaction_id, vessel_imo, cargo_type, origin_port, destination_port, counterparty_name)"
+  - "Query vessel current risk score and sanctions status"
+  - "Check if origin/destination ports are in sanctioned jurisdictions"
+  - "Score cargo type risk (oil, weapons, dual-use technology = high risk)"
+  - "Return composite transaction risk score (0-100) with breakdown by risk factor"
+  - "Return recommended action (approve, manual_review, block) based on risk thresholds"
+  - "Store transaction assessment history for audit trail (90-day retention)"
+  - "Achieve <200ms p95 latency for transaction risk assessment"
+created_at: "2026-02-22"
+created_by:
+  agent: decomposer
+  model: claude-sonnet-4.5
+  provider: anthropic
+status: draft

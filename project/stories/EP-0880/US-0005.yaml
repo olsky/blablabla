@@ -1,0 +1,20 @@
+id: US-0005
+epic: EP-0880
+title: "Calculate Vessel Risk Scores Based on AIS Gaps and Location"
+layer: backend
+stack: "Python, scikit-learn, PostGIS"
+acceptance_criteria:
+  - "Define sanctioned geographic zones (Iranian waters, North Korean EEZ, Syria ports, etc.)"
+  - "Score transponder gaps occurring in/near sanctioned zones (weight: 8-10/10)"
+  - "Score frequent transponder gaps (>3 per month) regardless of location (weight: 5-7/10)"
+  - "Score vessels with spoofed/inconsistent position data (weight: 6-8/10)"
+  - "Score vessels changing flag/name within 90 days (weight: 7-9/10)"
+  - "Combine risk factors into composite score 0-100 using weighted algorithm"
+  - "Recalculate risk scores hourly for all active vessels"
+  - "Store risk score history with timestamp for audit trail"
+created_at: "2026-02-22"
+created_by:
+  agent: decomposer
+  model: claude-sonnet-4.5
+  provider: anthropic
+status: draft

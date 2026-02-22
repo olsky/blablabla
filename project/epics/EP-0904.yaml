@@ -1,0 +1,34 @@
+id: EP-0904
+title: Brand-Protection "Logo-Halt" Bot
+description: |
+  **Idea:** Global brands lose control of their IP when their logos are used in unauthorized high-reach viral videos (Commercial Product Placement without a deal). This AI agent monitors every frame of global user-generated content (TikTok/YouTube). It identifies unauthorized high-reach placements and autonomously triggers a 'Micro-Ad-Revenue' share with the brand's treasury API.
+
+  **Why "WOW":** It converts 'Viral Noise' into 'Brand Equity'. It identifies the 'Accidental Influencer' and monetizes the brand exposure in real-time without the brand needing to hire an agency.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the high-speed Video-CV logo-detector and the social-platform revenue-split API).
+  - Cash Out: $0.10 per 1,000 views of the unauthorized logo-placement.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Viral Frames Analyzed daily: 100,000,000,000
+  - Brand Hits Identified: 1,500,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: Social platforms (TikTok) making it difficult to 'Force' an ad-revenue split for a non-creator brand.
+  - Medium: Distinguishing between 'Incidental Background' and 'Commercial Promotion'.
+  - Low: Brand Scale (Nike/Apple spend billions; they won't say no to 'Recovered' ad-value).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

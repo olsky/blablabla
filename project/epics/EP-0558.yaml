@@ -1,0 +1,33 @@
+id: EP-0558
+title: Autonomous Municipal Waste & Recycling Value Sorter
+description: |
+  **Idea:** Most recycling ends up in landfills because sorting mixed municipal waste is a hazardous, manual nightmare. This system hovers over massive conveyor belts. It uses high-speed hyperspectral computer vision to identify the chemical signature of every single item (PET plastic, aluminum, cardboard). It coordinates pneumatic air-jets to perfectly blast specific high-value recyclables into separate bins, turning raw trash into highly pure, globally tradable commodities.
+
+  **Why "WOW":** It algorithmically mines the city dump. Pure transformation of human waste into raw industrial capital using photons and code.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Training the hyperspectral models on deformed trash, connecting the CV outputs to high-speed pneumatic industrial controllers).
+  - Cash Out: Hardware-as-a-Service ($25k/mo per line) + 10% royalty on the premium pure commodity bales sold on the global market.
+
+  **First Year Projections:**
+  - Sorting Lines Installed: 1,500
+  - Estimated Revenue: $135,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: The physical harshness of the environment (dust, dirt, grime constantly clouding the optical lenses).
+  - Medium: Latency limits between the camera seeing the plastic and the air-jet firing.
+  - Low: Municipal/ESG funding (Governments are throwing billions at recycling optimization).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

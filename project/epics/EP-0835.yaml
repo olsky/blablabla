@@ -1,0 +1,33 @@
+id: EP-0835
+title: AI-Directed 'Zero-Downtime' Predictive Maintenance Oracle
+description: |
+  **Idea:** Unplanned downtime costs manufacturers $50B/year. This AI agent ingests vibration, heat, and acoustic data from 10,000+ factory sensors. It doesn't just predict failure; it autonomously purchases the replacement part via EDI and 'summons' the nearest certified freelance repair-tech before the machine breaks, guaranteeing 99.9% uptime as a Managed Service.
+
+  **Why "WOW":** It serves as the 'Ultimate Uptime Guard'. It turns a catastrophic physical failure into a 100% autonomous, background maintenance event that the factory owner never even notices.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Developing the failure-prediction CNNs and integrating with industrial EDI and ticketing APIs).
+  - Cash Out: Contingency fee: 20% of the calculated cost-of-downtime avoided.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Factories under Protection: 500\n  - Avoided Downtime Value: $1,000,000,000
+  - Estimated Revenue: $200,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: A 'Black Swan' mechanical failure that the acoustic sensors fail to pick up, leading to a massive downtime event and liability.
+  - Medium: Gaining trust from legacy factory managers to let an AI 'summon' repair techs autonomously.
+  - Low: Data availability (Modern PLC/SCADA systems emit huge amounts of telemetry).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

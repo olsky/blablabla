@@ -1,0 +1,33 @@
+id: EP-0593
+title: Predictive Maintenance for Global Wind Turbine Gearboxes
+description: |
+  **Idea:** When a wind turbine gearbox shatters mid-air, it costs $500k to replace. This software ingests high-frequency acoustic data and vibration telemetry natively from the turbine casing. Using edge-AI audio analytics, it hears the microscopic grinding of a failing ball-bearing months before the heat sensor detects it. It algorithmically throttles the turbine's max RPM to prevent shattering and auto-orders the specific replacement part to the exact GPS coordinate.
+
+  **Why "WOW":** Listening to machines algorithmically to predict their death. Saves millions in catastrophic mechanical failures.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Training audio-anomaly LLMs/transformers specifically on industrial rotational physics).
+  - Cash Out: SaaS fee: $5,000/turbine/year.
+
+  **First Year Projections:**
+  - Turbines Monitored: 25,000
+  - Estimated Revenue: $125,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Background environmental noise (storms) causing false-positive acoustic triggers, wasting maintenance trips.
+  - Medium: Deploying the heavy edge-compute models onto legacy, low-power turbine hardware.
+  - Low: Utility adoption (Immediate capital preservation).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

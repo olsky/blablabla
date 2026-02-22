@@ -1,0 +1,27 @@
+id: EP-0230
+title: Autonomous Cargo Delay Parametric Payout Engine
+description: Triggers instant compensation when validated shipment delay thresholds are breached, using multi-source vessel, terminal, and waybill events.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.8
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 170000000
+  first_year_users: 3100
+  roi_time_in_months: 3
+  roi_cash_out_usd: 104000000
+  pricing_model: premium margin plus payout processing fee
+feasibility_score: 8.5
+risk_analysis:
+  technical: trigger-source disagreements must be reconciled deterministically
+  market: buyers may compare against traditional claim models before switching
+  legal: policy wording and trigger definitions must be unambiguous
+ethical_legal_guardrails:
+  - independent data-source arbitration layer
+  - explicit disclosures on basis-risk edge cases

@@ -1,0 +1,38 @@
+id: RV-EP-0740-001
+epic: EP-0740
+created_at: "2026-02-22"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: scoring
+summary: >-
+  Solid EV charging orchestration EPIC with broad commercial relevance and good software feasibility,
+  though crowded market dynamics require sharper positioning and integration strategy.
+analysis:
+  strengths:
+    - "Clear multi-sided value: operators, grids, and end users all benefit."
+    - "Data-rich optimization problem suitable for autonomous control loops."
+    - "Revenue model supports both premium access and grid-incentive streams."
+  weaknesses:
+    - "Differentiation challenge versus existing charging platform incumbents."
+    - "Integration breadth across networks can slow early rollout."
+    - "Generic positioning risks commoditization without focused wedge."
+  risks:
+    - "Technical: real-time orchestration quality depends on feed reliability and latency."
+    - "Market: partnership dependency with OEMs/utilities may delay scale-up."
+    - "Legal: fairness, access, and privacy obligations must be explicitly managed."
+  recommendations:
+    - "Lead with one high-pain wedge such as congestion hotspots or fleet corridors."
+    - "Implement transparent allocation logic and customer-facing fairness policies."
+    - "Prioritize API-first integrations with measurable pilot economics."
+scores:
+  novelty: 0.76
+  software_only_fit: 0.90
+  three_month_feasibility: 0.84
+  revenue_realism_year1: 0.68
+  adoption_friction: 0.74
+  legal_ethical_clarity: 0.78
+  overall: 0.79
+weight: 1.0
+confidence: 0.86

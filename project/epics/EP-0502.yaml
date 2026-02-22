@@ -1,0 +1,33 @@
+id: EP-0502
+title: Private Market Liquidity Clearninghouse Engine
+description: |
+  **Idea:** Pre-IPO employee equity and private company shares are highly illiquid. Brokers charge 5-10% to manually match buyers and sellers over months. This system is a pure algorithm that acts as an automated market maker (AMM) for private equities. It continuously scrapes secondary data (funding rounds, 409a valuations, private tenders), establishes a synthetic algorithmic price oracle for private unicorns, and instantly clears trades between verified institutional buyers and startup employees using verifiable credentials and automated legal document generation (e-signatures). 
+
+  **Why "WOW":** Liquidity on demand for startup employees without the massive broker fees or waiting months. It turns the opaque private market into a highly liquid algorithmic exchange.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2.5 months (Building the pricing oracle, integrating digital identity/KYC APIs, and automated secure document signing pipelines).
+  - Cash Out: 2% flat clearing fee on transaction volume.
+
+  **First Year Projections:**
+  - Clearing Volume: $6,000,000,000
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 8.5/10 (Automated e-signing and KYC are well-established. The core IP is the algorithmic pricing oracle).
+
+  **Risk Analysis:**
+  - High: Startup Right of First Refusal (ROFR) blocking automated transfers (requires algorithmic flagging of ROFR-heavy companies).
+  - Medium: Securing initial institutional capital pools to act as the buy-side liquidity.
+  - Low: Technical execution of the matching engine.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

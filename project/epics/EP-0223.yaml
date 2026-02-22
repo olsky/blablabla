@@ -1,0 +1,27 @@
+id: EP-0223
+title: Autonomous Inland Intermodal Penalty Recovery Fabric
+description: Identifies and auto-recovers unjust inland rail and truck penalty charges by reconciling gate events, EDI feeds, contracts, and SLA timestamps.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 125000000
+  first_year_users: 1500
+  roi_time_in_months: 2
+  roi_cash_out_usd: 74000000
+  pricing_model: recovered-value contingency fee
+feasibility_score: 9.0
+risk_analysis:
+  technical: inconsistent EDI event quality can create false claims candidates
+  market: carriers may dispute algorithmic liability attribution initially
+  legal: contract-specific chargeback windows differ by jurisdiction and carrier
+ethical_legal_guardrails:
+  - evidence bundles generated before any claim submission
+  - conservative thresholds to reduce abusive recovery behavior

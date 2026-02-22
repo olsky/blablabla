@@ -1,0 +1,33 @@
+id: EP-0886
+title: AI-Driven 'High-Net-Worth' Global Tax-Oracle
+description: |
+  **Idea:** Hedge funds and billionaires pay millions for tax lawyers. This AI agent ingests every double-taxation-treaty and OECD 'BEPS' regulation. It monitors the user's global wealth-ledgers and autonomously identifies 24-hour 'Tax-Free Windows' for moving profits, executing the shifts via bank-API to ensure the absolute legally-lowest tax rate globally.
+
+  **Why "WOW":** It provides 'Global-Partner-Level' tax expertise at sub-second speed. It turns a static legal liability into a high-frequency profit engine.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months (Complex legal-NLP for tax-treaties and secure bank-movement API rails).
+  - Cash Out: 15% performance fee on the net-tax-savings identified.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Tax Savings Generated for Clients: $1,000,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 7/10
+
+  **Risk Analysis:**
+  - High: Governments passing 'General Anti-Avoidance Rules' (GAAR) to retroactively punish algorithmic treaty-hopping.
+  - Medium: Maintaining an up-to-the-second database of global tax-reulings which change daily.
+  - Low: Market Demand (The wealthy spend millions to save millions; adoption is seamless).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

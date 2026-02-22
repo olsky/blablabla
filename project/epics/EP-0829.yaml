@@ -1,0 +1,33 @@
+id: EP-0829
+title: Generative Loan-Underwriting via Social-Graph NLP
+description: |
+  **Idea:** Traditional credit checks (FICO) miss the 'unbanked' or 'new-to-credit' who are actually low-risk. This AI agent ingests the user's authorized social-graph (LinkedIn, professional recommendations) and applies NLP to a 'Behavioral Interview' conducted by an AI voice agent. It generates a 'Character-Risk-Score' that is 40% more predictive of repayment than a static credit score and sells the score to lenders via API.
+
+  **Why "WOW":** It builds the first algorithmic 'Character' score for the digital age. It unblocks billions in loans for 'invisible' high-quality borrowers.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the AI-voice interviewer and the social-graph risk-weighting models).
+  - Cash Out: $25 per 'Character-Score' sold to lenders.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Scores Generated/Sold: 6,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Algorithmic bias—the NLP inadvertently discriminating based on dialect or cultural speech patterns.
+  - Medium: Users 'gaming' the AI interview by following a script designed to trick the NLP into a high trust score.
+  - Low: Lender demand (They are desperate for high-yield, low-risk borrowers that FICO misses).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

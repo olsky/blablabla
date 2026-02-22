@@ -1,0 +1,33 @@
+id: EP-0530
+title: Autonomous Corporate Fraud & Embezzlement Detective
+description: |
+  **Idea:** Mid-market companies bleed 5% of revenue to internal fraud. Traditional audits only check 1% of transactions randomly. This agent connects to the corporate ERP, bank feeds, and Slack/Email NLP. It autonomously reconciles 100% of physical receipts against geolocation data, flags suspicious vendor invoice patterns (shell companies), and mathematically isolates embezzlers in real-time without human auditors.
+
+  **Why "WOW":** Infinite perfectly vigilant auditors working 24/7. Catches fraud the millisecond it’s entered into the ledger.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2 months (ERP integrations, NLP anomaly detection).
+  - Cash Out: $5k/month SaaS per enterprise.
+
+  **First Year Projections:**
+  - Enrolled Enterprises: 3,000
+  - Estimated Revenue: $180,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: False positives disrupting legitimate corporate spending.
+  - Medium: Data privacy hurdles for ingesting employee comms.
+  - Low: Sales motion (CFOs will mandate this).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

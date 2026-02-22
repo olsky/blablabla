@@ -1,0 +1,33 @@
+id: EP-0570
+title: Autonomous Supply Chain Disruption Predictor
+description: |
+  **Idea:** Global supply chains break constantly (Suez Canal blockage, factory fires). This system monitors alternative signals: shipping vessel AIS radar, local foreign language news sentiment, thermal satellite imagery of factories, and global union strike databases. It uses causal ML to mathematically predict a component shortage 4 weeks before the OEM realizes it. It is integrated into the OEM's ERP and autonomously executes purchase orders from secondary suppliers before the global shortage spikes the price.
+
+  **Why "WOW":** Predicts the future of global logistics and executes financial hedging instantly without humans.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Massive global API ingestion and complex causal graph neural network training).
+  - Cash Out: Enterprise SaaS ($1M/yr for Fortune 500 manufacturing).
+
+  **First Year Projections:**
+  - Enterprise Deployments: 120
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: The "Butterfly Effect"—global logistics are chaotic and highly prone to ML misprediction (false alarms).
+  - Medium: Enterprises refusing to let an algorithm automatically spend millions on alternative P.O.s without human sign-off.
+  - Low: Demand (Every supply chain manager is traumatized by COVID shortages).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

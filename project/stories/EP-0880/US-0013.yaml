@@ -1,0 +1,21 @@
+id: US-0013
+epic: EP-0880
+title: "Build Risk Alert Dashboard with Sortable Columns"
+layer: ui
+stack: "React, TanStack Table, WebSocket"
+acceptance_criteria:
+  - "Display table of risk alerts with columns (timestamp, vessel name, IMO, risk score, alert severity, triggering factors)"
+  - "Support sorting by any column (timestamp desc by default)"
+  - "Implement severity filter dropdowns (critical, high, medium, low, all)"
+  - "Add date range picker for filtering alerts (default: last 7 days)"
+  - "Stream new alerts in real-time via WebSocket (appear at top with highlight animation)"
+  - "Show alert count badges by severity (e.g., '12 Critical, 45 High, 203 Medium')"
+  - "Implement pagination (50 alerts per page, load more on scroll)"
+  - "Add 'Acknowledge' button per alert to mark as reviewed (updates audit trail)"
+  - "Export filtered alerts to CSV with all columns"
+created_at: "2026-02-22"
+created_by:
+  agent: decomposer
+  model: claude-sonnet-4.5
+  provider: anthropic
+status: draft

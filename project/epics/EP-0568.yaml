@@ -1,0 +1,33 @@
+id: EP-0568
+title: Generative Oil & Gas Seismic Drilling Optimizer
+description: |
+  **Idea:** Drilling a horizontal shale well costs $8M, and humans guess the optimal underground path. This system ingests terabytes of 3D seismic acoustic data and historical offset-well production logs into a generative spatial model. It mathematically plots the perfect 3-mile horizontal underground path to maximize natural gas pressure release while avoiding geological fault lines, feeding the exact auto-pilot instructions directly to the drill-bit API.
+
+  **Why "WOW":** Algorithmically drives drill bits miles underground using acoustic ML. Maximizes energy extraction while minimizing expensive dry holes.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Massive data pipelining for petabyte-scale 3D seismic cubes in the cloud).
+  - Cash Out: SaaS fee ($50,000 per well generated) or a tiny royalty on the first month's production flow.
+
+  **First Year Projections:**
+  - Wells Algorithmically Steered: 3,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: Unexpected subterranean lithology that acoustic data failed to resolve, causing drill bit loss.
+  - Medium: Integration resistance from old-school oilfield roughnecks.
+  - Low: Macro demand (Energy extraction efficiency is paramount).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

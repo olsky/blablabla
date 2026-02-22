@@ -1,0 +1,33 @@
+id: EP-0848
+title: AI-Directed 'Factory-in-a-Box' Leasing Underwriter
+description: |
+  **Idea:** Micro-factories (containerized production) are the future, but financing them is hard because banks don't understand the asset. This AI underwriters the lease of containerized factory units by ingesting real-time demand data for the product being made (e.g. 3D printed masks or drone parts). It provides 1-hour algorithmic leasing approval for $1M+ hardware units, taking a cut of the production as collateral.
+
+  **Why "WOW":** It is the 'Enabler of the Decentralized Industrial Revolution'. It provides high-speed capital to the world's first mobile, autonomous factories.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Building the product-demand predictive pricing and the hardware-collateral settlement logic).
+  - Cash Out: Lease origination fee (2%) + interest spread.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Units Underwritten: 5,000\n  - Asset Value Financed: $5,000,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: Sudden obsolescence of the containerized hardware leasing (e.g. a new machine comes out that is 10x better), making the collateral worthless.
+  - Medium: Difficulty in physically reposessing a 'Factory-in-a-Box' from a remote/hostile jurisdiction.
+  - Low: Hardware Startup Demand (They are starving for non-dilutive capex financing).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

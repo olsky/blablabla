@@ -1,0 +1,33 @@
+id: EP-0805
+title: Predictive Port Congestion Arbitrage Service
+description: |
+  **Idea:** Port congestion costs global trade $200B/year. This system acts as a predictive routing oracle. It ingests AIS ship transponders, satellite crane-activity scans, and local labor strike sentiment. It algorithmically predicts exactly which port (e.g., LA vs Long Beach vs Vancouver) will have the lowest 'dwell time' 30 days in advance. Shippers pay to have their vessels algorithmically rerouted to the future-least-congested port.
+
+  **Why "WOW":** It trades the commodity of 'Time' in global logistics. Using orbital physics and sentiment AI to dodge multi-million dollar port delays.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Ingesting huge AIS and satellite datasets into a temporal-spatial GNN (Graph Neural Network)).
+  - Cash Out: Performance-based fee of $15,000 per vessel-day saved.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Vessel-Days Saved: 8,000\n  - Shipping Lines Subscribed: 12
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Unexpected 'force majeure' events (e.g., a canal blockage) breaking all predictive temporal models.
+  - Medium: Vessel captains refusing to deviate from their pre-planned bunker-fuel routes.
+  - Low: Logistics cost (One day of delay for a mega-ship is $50k-$100k).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

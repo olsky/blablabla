@@ -1,0 +1,33 @@
+id: EP-0824
+title: AI-Driven Institutional 'Watchmen' Behavioral Multi-sig
+description: |
+  **Idea:** Institutional treasuries use multi-sig wallets, but what if all 3 signers are compromised simultaneously in a coordinated theft? This AI agent acts as the 'Third Signer' or 'Watchman'. It monitors the behavioral sentiment and geolocation of the human signers. If 3 signers suddenly approve a $500M transfer from a single IP address in a country they've never visited before, the AI autonomously vetoes the transaction and demands physical biometric verification.
+
+  **Why "WOW":** It provides a 'Sanity Check' for billion-dollar transactions. It prevents human-group-compromise via independent algorithmic behavioral analysis.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Integrating with institutional multi-sig APIs like Gnosis/Safe and building out the behavioral threat models).
+  - Cash Out: Insurance-backed SaaS fee ($250k/year per institutional vault).
+
+  **First Year Projections (Solo Founder Scale):**
+  - Institutional Vaults Protected: 600
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: False positives blocking critical, time-sensitive trades (e.g. during a margin call).
+  - Medium: Privacy of the human signers being monitored (Requires strict 'Metadata-only' analysis).
+  - Low: C-Suite Demand (Personal liability for treasury hacks is enormous).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

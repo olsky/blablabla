@@ -1,0 +1,38 @@
+id: RV-EP-0630-001
+epic: EP-0630
+created_at: "2026-02-22"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: scoring
+summary: >-
+  Practical infrastructure optimization EPIC with strong feasibility and realistic ROI,
+  though commercial velocity depends on overcoming maintenance-policy inertia.
+analysis:
+  strengths:
+    - "Clear uptime and cost objective tied to battery replacement timing."
+    - "Predictive planning architecture is mature and software-friendly."
+    - "Good fit for phased autonomy deployment in operations teams."
+  weaknesses:
+    - "Sparse failure labels can limit model confidence for edge assets."
+    - "Organizational reluctance may slow autonomous scheduling adoption."
+    - "Warranty constraints may cap optimization latitude."
+  risks:
+    - "Technical: rare-event prediction errors can misallocate maintenance spend."
+    - "Market: change management overhead may delay value realization."
+    - "Legal: replacement timing must align with supplier warranty obligations."
+  recommendations:
+    - "Use hybrid rules+ML strategy with conservative fallback thresholds."
+    - "Start with advisory mode and graduate to automatic scheduling by confidence band."
+    - "Quantify avoided outages and spend efficiency in pilot reporting."
+scores:
+  novelty: 0.70
+  software_only_fit: 0.91
+  three_month_feasibility: 0.88
+  revenue_realism_year1: 0.69
+  adoption_friction: 0.73
+  legal_ethical_clarity: 0.82
+  overall: 0.79
+weight: 1.0
+confidence: 0.87

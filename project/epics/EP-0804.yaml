@@ -1,0 +1,33 @@
+id: EP-0804
+title: Autonomous Cross-Border VAT/Tax Reclaim Bot for D2C
+description: |
+  **Idea:** Direct-to-Consumer (D2C) brands selling globally lose 5-10% of their margin to un-reclaimed VAT and duties in foreign countries because the paperwork is too complex. This AI agent connects to the brand's Shopify/Stripe. It autonomously tracks every international transaction, generates the perfect, port-specific tax reclaim documents, and submits them to the local sovereign customs API to claw back the duty.
+
+  **Why "WOW":** An invisible 'money recovery' bot for global e-commerce. It turns a massive compliance chore into a passive profit center with zero human touch.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2.5 months (Pipelining Stripe/Shopify data and building the sovereign tax API submission engines).
+  - Cash Out: 20% contingency fee on the tax and duty recovered.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Tax/Duty Recovered: $750,000,000\n  - D2C Brands on Platform: 5,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: Local tax authorities periodically changing their API protocols or requiring physical wet-signatures for reclaims.
+  - Medium: Currency FX volatility during the reclaim processing time.
+  - Low: Brand demand (It is pure found money for them).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

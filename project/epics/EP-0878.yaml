@@ -1,0 +1,33 @@
+id: EP-0878
+title: Predictive 'Bankruptcy-Yield' Sniping Engine (Legal)
+description: |
+  **Idea:** When large companies go bankrupt (Chapter 11), their claims trade for pennies on the dollar. This AI agent monitors global court dockets and social sentiment. It algorithmically predicts which companies will emerge from bankruptcy successfully and autonomously 'snipes' the debt-claims from retail holders before the institutional buyers move in.
+
+  **Why "WOW":** It serves as the 'Algorithmic Distressed-Debt King'. It finds billion-dollar recoveries in the graveyard of corporate failure via pure legal-data supremacy.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Building the legal-NLP court-docket parser and the distressed-debt underwriting models).
+  - Cash Out: Capturing the 100-300% yield on the recovered debt claims.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Debt Claims Purchased: $100,000,000\n  - Average Recovery Payout: 150%
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: The bankruptcy court ruling in a 'Cram-Down' that wipes out the specific debt-tier the AI purchased.
+  - Medium: Complexity of the legal paperwork for assigning bankruptcy claims to a digital entity.
+  - Low: Opportunity (Distressed-debt is the highest-margin niche in finance).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

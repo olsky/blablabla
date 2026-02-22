@@ -1,0 +1,27 @@
+id: EP-0249
+title: Autonomous Trade Working-Capital Command Center
+description: Continuously allocates payables, receivables, hedges, and insurance actions to maximize free cash flow across global trade operations.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.8
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 320000000
+  first_year_users: 2600
+  roi_time_in_months: 3
+  roi_cash_out_usd: 210000000
+  pricing_model: performance fee on verified free-cash-flow uplift
+feasibility_score: 8.2
+risk_analysis:
+  technical: orchestration across multiple financial systems increases failure modes
+  market: enterprise treasury trust must be earned via staged autonomy
+  legal: action automation must respect delegated authority and signing policies
+ethical_legal_guardrails:
+  - policy-based action limits with dual-approval in early rollout
+  - complete explainability and replay of optimization decisions

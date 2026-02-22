@@ -1,0 +1,38 @@
+id: RV-EP-0509-001
+epic: EP-0509
+created_at: "2026-02-22"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: blocking
+summary: >-
+  EP-0509 is conceptually strong but currently not review-safe as a single EPIC because the file appears to
+  contain two different concepts merged together, creating ambiguity in scope, business case, and feasibility claims.
+analysis:
+  strengths:
+    - "Both embedded concepts target large enterprise pain with data-native automation potential."
+    - "Sustainability/compliance angle can unlock high willingness-to-pay."
+    - "API-first integration thesis is generally sound."
+  weaknesses:
+    - "File integrity issue: duplicate id/title blocks with conflicting concept definitions."
+    - "Scope is too broad and mixes unrelated value chains in one EPIC artifact."
+    - "Current projections are not reliably attributable to one coherent product."
+  risks:
+    - "Execution: roadmap ambiguity can fragment engineering and go-to-market focus."
+    - "Market: unclear positioning reduces buyer trust and sales clarity."
+    - "Legal: compliance obligations differ sharply across the merged concepts."
+  recommendations:
+    - "Split into two separate EPICs with distinct IDs, business cases, and risk models."
+    - "Rebaseline feasibility and ROI per isolated concept before implementation planning."
+    - "Re-run schema/integrity checks after file normalization."
+scores:
+  novelty: 0.83
+  software_only_fit: 0.74
+  three_month_feasibility: 0.30
+  revenue_realism_year1: 0.40
+  adoption_friction: 0.48
+  legal_ethical_clarity: 0.34
+  overall: 0.52
+weight: 1.0
+confidence: 0.90

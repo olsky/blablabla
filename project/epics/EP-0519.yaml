@@ -1,0 +1,33 @@
+id: EP-0519
+title: Autonomous Global VAT & Digital Tax Recovery Engine
+description: |
+  **Idea:** Multi-national software and digital services companies lose billions annually because they misclassify digital product taxes across 190+ different global jurisdictions, leading to either massive overpayment or brutal audits. This API routes into Stripe, Adyen, and Shopify. On every cross-border transaction, it parses the exact SKU context via LLM, instantly cross-references the live tax code of the buyer's specific municipality, categorizes the digital good precisely (e.g., distinguishing between a SaaS subscription and a downloadable ebook), applies the exact fractional VAT/GST, and autonomously files the remittance returns directly into the foreign government's treasury portal via RPA or API.
+
+  **Why "WOW":** Perfect, stress-free, invisible global tax compliance. It completely replaces the massive corporate accounting departments needed to navigate the nightmare of international digital taxation.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2 months (Aggregating the global tax logic engine, building secure ERP/Payment gateway integrations, designing the automated filing RPA).
+  - Cash Out: A flat API fee (e.g., $0.50) per cross-border transaction routed, or a % of the tax recovered from historical overpayments.
+
+  **First Year Projections:**
+  - Transactions Processed: 350,000,000.
+  - Estimated Revenue: $175,000,000.
+
+  **Feasibility Score:** 9/10 (This is a massive logic-routing problem, perfectly suited for high-speed automated systems. The rules are complex but entirely deterministic).
+
+  **Risk Analysis:**
+  - High: Maintaining the connection to legacy, poorly built government treasury APIs.
+  - Medium: Assuming liability for the automated tax filing (Requires tight indemnification contracts).
+  - Low: Selling to CFOs (They are desperate to outsource global tax compliance risk).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

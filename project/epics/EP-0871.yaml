@@ -1,0 +1,33 @@
+id: EP-0871
+title: AI-Driven Institutional 'Repo-Market' Liquidity Oracle
+description: |
+  **Idea:** Banks lend to each other overnight in the $3T 'Repo' market. Liquidity dries up in milliseconds during a crash. This AI agent monitors global inter-bank transaction velocity and social sentiment for specific banks. It algorithmically predicts a 'Liquidity Crunch' and autonomously moves the user's cash reserves into the highest-yielding, safest 'Repo' windows before the general market realizes there's a problem.
+
+  **Why "WOW":** It provides 'Liquidity Supremacy' for institutional treasuries. It's the first 'AI Early Warning' for the world's most critical financial plumbing.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months (Building the high-frequency inter-bank liquidity models and the institutional movement rails).
+  - Cash Out: Keeping 10% of the yield-spread generated during a liquidity-crunch event.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Total Institutional Capital under Oracle: $50,000,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: The AI inadvertently 'Triggering' a bank-run by moving billions out of a bank that it incorrectly identified as risky.
+  - Medium: Getting access to the ultra-private inter-bank transaction firehose APIs.
+  - Low: Institutional Fear (They remember 2008 and 2023; they want protection).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,33 @@
+id: EP-0528
+title: Automated Geothermal Well Targeting API
+description: |
+  **Idea:** Geothermal energy is critical but exploration has a 40% failure rate (digging a $5M dry hole). This API processes raw satellite gravimetry, local seismology, and magnetic soil data through spatial ML to mathematically pinpoint the exact subsurface temperature gradients globally. Energy companies input a bounding box, and the API spits out a high-probability drill path and predicted gigawatt yield.
+
+  **Why "WOW":** Turns extremely risky physical prospecting into a definitive software query. De-risks global clean energy.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Heavy ML on geospatial/seismic datasets).
+  - Cash Out: $500k per confirmed target, or 1% royalty on the generated megawatts.
+
+  **First Year Projections:**
+  - Targets Sold: 200
+  - Estimated Revenue: $100,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Geological anomalies defeating the model.
+  - Medium: Processing costs for massive seismic vectors.
+  - Low: Market Need (Geothermal is booming).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

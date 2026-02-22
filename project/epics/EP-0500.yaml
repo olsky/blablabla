@@ -1,0 +1,33 @@
+id: EP-0500
+title: Autonomous Parametric Climate Insurance for Micro-Agriculture
+description: |
+  **Idea:** Traditional insurance is too slow and expensive for smallholder farmers or niche agriculture facing volatile climate events. This system ingests localized hyper-spectral satellite data, IoT soil sensors, and micro-weather APIs to algorithmically underwrite and issue parametric insurance policies. Policies trigger payouts automatically when explicit data thresholds are met (e.g., < 2cm rain over 30 days in a specific geo-fence). AI agents dynamically price risk, execute smart contracts on a high-speed ledger, and settle claims via mobile money with zero human claims adjusters.
+
+  **Why "WOW":** Eliminates the entire claims processing department. 100% automated payouts build massive trust instantly. It reaches the unbanked/underinsured $100B+ global agriculture market seamlessly.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2 months (Data ingestion pipelines for satellite/weather APIs, predictive pricing models, mobile money gateway integrations).
+  - Cash Out: Premium float investing + mathematical spread on underwritten risk.
+
+  **First Year Projections:**
+  - Active Policies: 2,500,000 (Micro-scale)
+  - Estimated Revenue (Premiums): $125,000,000
+
+  **Feasibility Score:** 8.5/10 (Weather and satellite data APIs exist and are highly accurate. Smart contract automation is a solved technical problem.)
+
+  **Risk Analysis:**
+  - High: Obtaining initial reinsurance or capital pooling to backstop the underwritten algorithms.
+  - Medium: Regulatory challenges in certain developing markets regarding digital insurance licenses.
+  - Low: Technical execution overhead (Highly deterministic API integrations).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

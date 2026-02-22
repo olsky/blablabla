@@ -1,0 +1,23 @@
+id: EP-0723
+title: Carbon Credit Monetization Platform
+description: Leverages data from charging sessions to calculate carbon emissions avoided by EVs versus traditional vehicles. The autonomous system aggregates credits, verifies them via blockchain, and sells them on carbon markets, generating revenue while incentivizing green charging behaviors through rewards.
+created_at: "2026-02-21"
+created_by:
+  agent: "EpicGenerator"
+  model: "Grok"
+  provider: "xAI"
+status: "draft"
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.8
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 180000000
+  first_year_users: 800000
+  roi_time_in_months: 2
+  roi_cash_out_usd: 60000000
+feasibility_score: 8
+risk_analysis:
+  technical: "Depends on accurate emission data models; AI ensures precision."
+  market: "Grows with carbon pricing policies; niche in EV ecosystem."
+  legal: "Compliant with international carbon trading standards; promotes environmental ethics."

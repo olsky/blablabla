@@ -1,0 +1,33 @@
+id: EP-0522
+title: Algorithmic Global Payroll Compliance & FX Arbitrage Router
+description: |
+  **Idea:** Enterprises hiring remote contractors globally (e.g., Deel, Remote.com) bleed massive capital on hidden FX (Foreign Exchange) spreads and complex local payroll tax penalties. This system sits behind HR platforms as a silent infrastructure routing engine. Mashing together live global FX spot rates, local tax code APIs, and crypto-liquidity rails, the system autonomously calculates the exact millisecond to route a payroll transaction through optimal currencies (e.g., USD -> USDC -> EUR) to guarantee the lowest possible spread, while simultaneously generating and filing the exact fractional local tax remittance via local treasury RPA. 
+
+  **Why "WOW":** It turns global payroll from a massive, analog banking fee center into a highly optimized, high-frequency currency routing algorithm. It captures the massive FX spread banks usually steal from global workers.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2 months (Integrating with legacy SWIFT/SEPA APIs, building the high-speed FX routing algorithmic engine, mapping global local tax remittance endpoints).
+  - Cash Out: Taking 50% of the FX spread *saved* on every transaction.
+
+  **First Year Projections:**
+  - Payroll Volume Routed: $10,000,000,000.
+  - Estimated Revenue: $100,000,000 (Assuming a 1% captured spread savings).
+
+  **Feasibility Score:** 8.5/10 (High-frequency currency routing is mature; the innovation is packaging it specifically as an invisible B2B infrastructure layer for the booming global remote work platforms).
+
+  **Risk Analysis:**
+  - High: Maintaining compliance across hundreds of fluid financial jurisdictions regarding cross-border currency flows.
+  - Medium: Establishing the initial liquidity pools required to execute the rapid FX swaps without slippage.
+  - Low: B2B adoption (HR platforms will integrate it instantly to increase their own margins).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

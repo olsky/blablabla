@@ -1,0 +1,38 @@
+id: RV-EP-0226-001
+epic: EP-0226
+created_at: "2026-02-22"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: scoring
+summary: >-
+  Compelling logistics optimization EPIC with strong ROI narrative and feasible autonomy progression,
+  provided contractual carriage constraints are encoded into booking decisions.
+analysis:
+  strengths:
+    - "Directly tackles congestion-driven penalty and working-capital losses."
+    - "Rebooking optimization can deliver measurable savings quickly."
+    - "Configurable autonomy levels improve practical adoption."
+  weaknesses:
+    - "Carrier and terminal event latency can degrade decision timing."
+    - "Operational teams may resist full booking autonomy initially."
+    - "Contract constraint variability can increase rule maintenance overhead."
+  risks:
+    - "Technical: stale event feeds can trigger suboptimal rebooking actions."
+    - "Market: human override frequency may suppress early automation gains."
+    - "Legal: unilateral changes may conflict with carriage terms if policy checks are weak."
+  recommendations:
+    - "Start with recommendation mode and escalate to auto-rebook by confidence level."
+    - "Embed contract-aware policy engine with hard no-violation guards."
+    - "Track avoided penalties and transit reliability as primary pilot KPIs."
+scores:
+  novelty: 0.77
+  software_only_fit: 0.92
+  three_month_feasibility: 0.89
+  revenue_realism_year1: 0.72
+  adoption_friction: 0.77
+  legal_ethical_clarity: 0.82
+  overall: 0.83
+weight: 1.0
+confidence: 0.88

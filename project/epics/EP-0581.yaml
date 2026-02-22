@@ -1,0 +1,33 @@
+id: EP-0581
+title: Algorithmic Secondary Market for Corporate Patent Portfolios
+description: |
+  **Idea:** Mega-corps hold billions in 'junk' or unused patents. This system ingests the global USPTO database. It uses NLP to trace the semantic boundaries of every claim and cross-references it against every active tech product on the market. It finds 'sleeping' IP that is actively being infringed upon but ignored. The system autonomously offers to buy the patent portfolio for a discount, and then algorithmically initiates licensing demands to the infringers.
+
+  **Why "WOW":** An automated, highly aggressive, math-driven patent monetization engine. Wall Street for intellectual property.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Massive NLP processing over dense, archaic legal patent claims).
+  - Cash Out: Buying undervalued IP, then keeping 100% of the subsequently forced licensing revenue.
+
+  **First Year Projections:**
+  - Capital Deployed on IP: $500,000,000\n  - Generated Licensing Revenue: $150,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Backlash from tech giants facing algorithmic 'patent troll' lawsuits.
+  - Medium: Courts invalidating the algorithmic interpretation of the patent claims.
+  - Low: Sellers of IP (Corps love monetizing 'dead' assets).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

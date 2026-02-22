@@ -1,0 +1,33 @@
+id: EP-0814
+title: Generative Marine Insurance Claims Adjuster
+description: |
+  **Idea:** When cargo is damaged at sea (e.g., in a storm), it takes 6-18 months for human adjusters to settle the claim. This agent uses CV to analyze photos of damaged pallets and NLP to ingest sensor data (tilt/temperature/humidity) from inside the container. It cross-references the marine insurance policy text and autonomously issues a legally binding settlement offer to the exporter via API in under 5 minutes.
+
+  **Why "WOW":** It eliminates the world's slowest financial process. It turns a year-long legal nightmare into a 5-minute payout.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Training the multi-modal CV models on sea-damage and the legal fine-tuning of policy text).
+  - Cash Out: Enterprise SaaS fee to the insurance carrier (Efficiency gains).
+
+  **First Year Projections (Solo Founder Scale):**
+  - Claims Processed: 100,000\n  - Admin Cost Saved per Claim: $1,200
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Exporters using Generative AI to 'fake' damage photos and defraud the algorithmic adjuster.
+  - Medium: Deep resistance from the entrenched marine lawyer lobby.
+  - Low: Carrier demand (They want to slash their 15% admin overhead).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

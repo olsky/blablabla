@@ -1,0 +1,33 @@
+id: EP-0557
+title: Generative Semiconductor Layout Optimizer
+description: |
+  **Idea:** Designing the physical layout of billions of transistors on a modern 3nm AI chip takes human engineers months of painful spatial routing (EDA). This system applies reinforcement learning to chip design. It treats the silicon layout as a massive game of Go. Given the logical schematics, the algorithm plays against itself millions of times to find the absolute mathematically optimal layout that minimizes heat generation and shortens electron transit time, outputting a finished GDSII file.
+
+  **Why "WOW":** Using AI to design better, faster AI chips. It turns a multi-month human engineering bottleneck into a week-long compute task.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months (Building the RL environments and integrating with legacy Cadence/Synopsys toolchains).
+  - Cash Out: Massive B2B licensing fee ($20M+/yr) to Nvidia, AMD, or Apple Silicon.
+
+  **First Year Projections:**
+  - Total Licensed Enterprise Seats: 50 (Mega-caps only)
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 7/10
+
+  **Risk Analysis:**
+  - High: The extreme physical/quantum constraints of 3nm fabrication breaking the simulated physics models.
+  - Medium: Entrenched monopoly power of existing legacy EDA tools.
+  - Low: Desperation for innovation in silicon design speeds.
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

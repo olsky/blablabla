@@ -1,0 +1,27 @@
+id: EP-0229
+title: Autonomous Invoice-to-Shipment Reconciliation Fabric
+description: Detects overbilling, quantity drift, and non-delivered invoicing by reconciling commercial invoices against shipment milestones and proof-of-delivery events.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 132000000
+  first_year_users: 8000
+  roi_time_in_months: 2
+  roi_cash_out_usd: 70000000
+  pricing_model: recovered-leakage contingency fee
+feasibility_score: 9.0
+risk_analysis:
+  technical: noisy proof-of-delivery data can cause reconciliation ambiguity
+  market: internal AP teams may require phased trust-building before full autonomy
+  legal: dispute workflows must respect contractually defined acceptance criteria
+ethical_legal_guardrails:
+  - explainable mismatch classification with source pointers
+  - conservative auto-withhold policy to avoid supplier harm

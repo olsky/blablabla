@@ -1,0 +1,33 @@
+id: EP-0859
+title: Predictive Crop-Failure Parametric Payout API (Global)
+description: |
+  **Idea:** Similar to the 500-series but scaled to the $100B institutional re-insurance level. This AI monitors global NDVI (Normalized Difference Vegetation Index) satellite data. If a province-level crop index falls below the 10-year mean by >30%, the re-insurance contract autonomously pays out to the local national insurer, preventing a sovereign credit default.
+
+  **Why "WOW":** It is the 'Algorithmic Safety Net' for global food security. It solves the national-level default risk of agriculture failures without a single human adjuster.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months ( NDVI satellite-data pipelines and sovereign re-insurance legal-wrappers).
+  - Cash Out: 1% performance fee on the national-level re-insurance pools clearanced.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Sovereign Insurance Volume Cleared: $15,000,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: A global 'Super-El-Nino' causing simultaneous crop failures on every continent, bankrupting the re-insurance pool.
+  - Medium: Political manipulation of local 'Ground Truth' crop-data to trigger a false payout (system must be satellite-only).
+  - Low: Sovereign Demand (Nations are desperate for predictable disaster-relief liquidity).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

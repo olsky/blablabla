@@ -1,0 +1,10 @@
+id: EP-0669
+title: Autonomous Micro-Merchant Insolvency Early Warning
+description: Flags insolvency risk early using transaction velocity, payout stress, and supplier payment drift signals.
+created_at: "2026-02-21"
+created_by: { agent: PlannerAgent, model: GPT-5.3-Codex, provider: OpenAI }
+status: draft
+review_policy: { min_reviews: 3, approval_threshold: 0.8, require_blocking_clearance: true }
+business_case: { first_year_revenue_usd: 109000000, first_year_users: 23000, roi_time_in_months: 3, roi_cash_out_usd: 56000000 }
+feasibility_score: 8.5
+risk_analysis: { technical: sparse signals in new merchants, market: sensitive messaging required, legal: adverse action notification obligations }

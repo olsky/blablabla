@@ -1,0 +1,33 @@
+id: EP-0842
+title: Autonomous CO2-Footprint-at-the-SKU-Level Ledger
+description: |
+  **Idea:** Global regulations (CBAM, CSRD) now require corporations to report the exact carbon footprint of every single product. Humans can't do this at scale. This AI agent ingests the factory's BOM (Bill of Materials), overseas factory energy data, and logistics shipping miles. It generates a verified 'Carbon Passport' for every individual SKU and autonomous hashes it to a ledger for regulatory compliance.
+
+  **Why "WOW":** It turns a trillion-dollar compliance nightmare into a background API process. It is the first 'Autonomous Carbon Accountant' for physical goods.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Building the carbon-emission factor models and ERP/Logistics data connectors).
+  - Cash Out: Billing $0.50 per SKU-Passport verified and cleared.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Individual SKU Passports Generated: 300,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Regulations changing the 'Carbon Math' (Emission factors) mid-year, requiring a massive re-hash of billions of SKUs.
+  - Medium: Suppliers in non-regulated countries refusing to share the energy-use data required for the passport.
+  - Low: Compliance Necessity (Adoption is mandatory to legal selling in Europe and US).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

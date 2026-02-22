@@ -1,0 +1,40 @@
+id: RV-EP-0536-001
+epic: EP-0536
+created_at: "2026-02-21"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: blocking
+summary: >-
+  EP-0536 has strong strategic vision and clear economic logic, but in current form it is not realistic
+  for a zero-stage startup to launch in <=3 months with minimal sales involvement. It depends on
+  complex sovereign procurement, high-trust escrow capital, and mission-critical verification/liability controls.
+analysis:
+  strengths:
+    - Targets a high-capital, globally visible problem with clear willingness-to-pay.
+    - Platform clearing-fee model can scale if liquidity and trust are established.
+    - Data-driven verification concept aligns with autonomous orchestration.
+  weaknesses:
+    - Customer acquisition requires long-cycle government/telco contracting, conflicting with low-sales preference.
+    - First-year bounty volume assumptions are aggressive for a new marketplace without anchor participants.
+    - Liability, adjudication, and dispute resolution architecture are underspecified for mission-critical payouts.
+  risks:
+    - "Execution: procurement and capital commitments from sovereign or regulated entities may take 12-24 months."
+    - "Technical: independent de-orbit verification from public radar feeds may be insufficient for automated settlement."
+    - "Legal: cross-border space law, sanctions, and liability allocation can block autonomous clearing without manual governance."
+  recommendations:
+    - Pivot MVP to a software-only orbital risk intelligence and bounty design API sold to insurers, operators, and brokers first.
+    - "Stage rollout: analytics -> simulation-backed pricing -> semi-automated clearing, instead of full instant settlement at launch."
+    - Add explicit governance layer for disputes and verification confidence thresholds before payout authorization.
+    - Rebase financial model to achievable pilot milestones with 2-3 anchor customers and measurable ARR targets.
+scores:
+  novelty: 0.91
+  software_only_fit: 0.66
+  three_month_feasibility: 0.25
+  revenue_realism_year1: 0.30
+  adoption_friction: 0.20
+  legal_ethical_clarity: 0.42
+  overall: 0.42
+weight: 1.0
+confidence: 0.87

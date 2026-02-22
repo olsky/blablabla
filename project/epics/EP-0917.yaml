@@ -1,0 +1,136 @@
+id: EP-0917
+title: E-Commerce Counterfeit Listing Detection API
+description: |
+  **Idea:** Amazon, eBay, Alibaba, and Shopee lose $350B+/year to counterfeit listings flooding their platforms. Buyers can't distinguish authentic from fake before purchase. Current solution: manual reporting (slow, reactive). This autonomous system uses computer vision + text analysis to identify likely counterfeits in real-time. Given product listing (images, title, description, seller history, price), system flags suspicious patterns (inconsistent product images, misspellings typical of fake listings, unrealistic pricing, seller red flags). Integrates as API for marketplaces + seller tools + buyer browser extension. Revenue: Per-scan API fees ($0.01–$0.05) + seller subscription tools ($50–$500/month). Expected: 100M+ scans/month possible; conservative estimate $1K–$30K/month revenue from first 1M users.
+  
+  **Why "WOW":** Every buyer wants to know "is this real?" System answers in seconds. Marketplaces (Amazon, eBay) are desperate to fight counterfeits (regulatory pressure, brand lawsuits). Seller subscription (e-commerce equivalent of Grammarly for authenticity).
+
+value_proposition: |
+  Instant counterfeit detection for e-commerce listings. Buyers gain confidence (is this real?). Sellers prove authenticity (anti-competitive advantage). Marketplaces reduce counterfeit burden (avoiding regulatory penalties, brand lawsuits).
+
+target_customer: |
+  E-commerce marketplaces (Amazon, eBay, Aliexpress, Shopee, Mercari); individual sellers (100K+); buyers (1M+). Geographic focus: US, EU, APAC marketplaces. Segment: luxury goods (watches, handbags), electronics, collectibles (where fakes are prevalent).
+
+business_case:
+  problem_statement: |
+    $350B+/year in counterfeit e-commerce sales (OECD estimate).
+    Buyers cannot verify authenticity pre-purchase (images alone are insufficient).
+    Marketplaces (Amazon, eBay) face regulatory pressure (FTC warnings, brand litigation).
+    Current solution: user-reported counterfeits (slow, reactive) + seller suspensions (blunt, damages legitimate sellers).
+    Opportunity: proactive real-time detection before listing goes live or within hours of posting.
+  
+  solution_approach: |
+    1. Listing ingestion: API receives product listing data (images, title, description, price, seller metrics)
+    2. Image analysis (CV): Extract features from product images, compare against known counterfeit patterns
+       - Packaging consistency (fonts, holograms, color accuracy)
+       - Product imperfections (symmetry, material quality visual cues)
+       - Metadata inspection (EXIF data, compression artifacts)
+    3. Text analysis (NLP): Analyze title + description for counterfeit signals
+       - Misspellings typical of fake listings ("ROLEX" vs "ROLEX", common Chinese English patterns)
+       - Unrealistic claims ("100% authentic luxury watch $50" = likely fake)
+       - Copy-paste indicators (exact duplicate listings across sellers)
+    4. Seller risk scoring: Seller metrics (new account, high volume, low rating, chargebacks) correlate with fake listings
+    5. Price anomaly detection: Unrealistic pricing for product category (luxury watch at 90% discount = suspicious)
+    6. Output: Confidence score 0–100% ("85% likely counterfeit") + reasoning
+  
+  revenue_model: |
+    B2B2C SaaS:
+    - Marketplace API: $100K–$500K/month per platform (Amazon, eBay, Aliexpress) for enterprise integration
+    - Seller subscription: $49–$199/month per seller (scan listings, get daily reports, brand reputation dashboard)
+    - Buyer browser extension: Freemium ($0/month free tier, $9.99/month premium for power users)
+    - Pay-per-scan: $0.01–$0.05 per scan (for low-volume users, APIs)
+  
+  first_year_revenue_usd: 3200000
+  first_year_users: 80000
+  projected_users_year_1: |
+    50K–100K seller subscriptions.
+    500K–1M buyer browser extension installs.
+    3–5 major marketplace partnerships (generating contractual revenue).
+    ARPU (sellers): $40/month average.
+    ARPU (marketplaces): $200K–$500K per platform.
+  
+  roi_time_in_months: 2.0
+  roi_breakdown: |
+    Week 1–2: CV model training (use public counterfeit datasets, open-source CV libraries)
+    Week 3: Text analysis pipeline (NLP for misspelling detection, price anomalies)
+    Week 4: Seller risk scorecard (seller metrics + history analysis)
+    Week 5: API + dashboard build (seller UI, listing upload, scanning)
+    Week 6: Browser extension development (Chrome, Firefox, Safari)
+    Week 7: First marketplace outreach (approach Shopee, Mercari; faster than Amazon/eBay)
+    Week 8: Freemium launch (free browser extension); organic growth via word-of-mouth
+    Week 9: First paid sellers convert; freemium to paid funnel optimization
+    Week 10: Marketplace partnership signed (contractual SaaS revenue)
+    First $ in door: Week 8–9 (freemium + first seller subscriptions) = $500–$2K
+    Year 1 revenue scaling: Organic (1–2 sellers/day signup) + partnerships (contracts)
+
+feasibility_score: 8.3
+feasibility_justification: |
+  Why it works:
+  - CV + NLP models are straightforward: Counterfeit detection by images/text is a solved problem (academic benchmarks exist).
+  - Data is abundant: Public counterfeit datasets, open-source CV models (ResNet, YOLO).
+  - MVP is achievable: Simple image + text analysis = 5–6 weeks to build.
+  - Distribution is easy: Browser extension (auto-installs, viral growth), API for sellers (low friction).
+  - Revenue is immediate: Sellers subscribe to prove authenticity; marketplaces pay for anti-counterfeiting.
+  
+  Blockers:
+  - CV accuracy <80% on unseen counterfeits: Different counterfeiting techniques may fool model.
+    Mitigation: Conservative flagging (only high-confidence detections); human review for edge cases; feedback loop improves over time.
+  - Marketplace API access: Amazon/eBay guard APIs strictly. Mitigation: Start with smaller platforms (Shopee, Mercari); prove model; approach big guys later.
+
+risk_analysis: |
+  Technical risks (MEDIUM):
+  - CV model accuracy: Counterfeiting is adversarial (fakers adapt to detection). Mitigation: quarterly retraining; ensemble methods (CV + text + seller risk).
+  - Scale (high volume): 100M+ scans/month may require distributed infrastructure. Mitigation: start with lower volume; scale infrastructure as revenue grows.
+  
+  Market risks (MEDIUM):
+  - Marketplace buy-in: Amazon/eBay may build their own. Mitigation: focus on seller-side tools (direct-to-seller subscriptions); less dependent on platforms.
+  - Competitor (existing vendors): Low risk initially (market is underserved); medium risk long-term.
+  
+  Legal/ethical (LOW):
+  - False accusations (flagging authentic as counterfeit): Low risk (system is advisory, not blocking). Mitigation: clear confidence scoring; appeal process for sellers.
+  - IP concerns: System uses CV for detection (not violating brands' IP); compliant.
+
+legal_and_ethical:
+  compliance: |
+    No IP violation (system analyzes images for fraud detection, not replicating designs).
+    Consumer-friendly (protects buyers from counterfeits).
+    GDPR-compliant (minimal personal data; no user tracking beyond listing metadata).
+  
+  ethical_position: |
+    Protects consumers (prevents fraud, counterfeit purchases).
+    Protects sellers (reduces unfair competition from fake listings).
+    Supports marketplaces (reduces regulatory liability).
+
+created_by:
+  agent: "GitHub Copilot"
+  model: "Claude Haiku 4.5"
+  provider: "Anthropic"
+
+created_at: "2026-02-22"
+status: draft
+linked_stories: []
+
+review_policy:
+  min_reviews: 1
+  approval_threshold: 0.8
+  require_blocking_clearance: false
+
+implementation_status: MVP
+implementation_timeline:
+  phase_1: "Weeks 1–2: CV model training + setup (use open-source models)"
+  phase_2: "Week 3: Text analysis + seller risk scoring"
+  phase_3: "Week 4: API + dashboard"
+  phase_4: "Week 5: Browser extension development"
+  phase_5: "Weeks 6–7: Marketplace outreach + pilot integrations"
+  phase_6: "Week 8–10: Freemium launch, seller subscription sales, first marketplace contracts"
+  total_weeks: 10
+
+success_metrics:
+  - "CV + text analysis accuracy >75% on test counterfeit dataset"
+  - "API latency <2s per scan"
+  - "Browser extension installs: 10K+ by week 10"
+  - "First 500+ paid sellers by end of week 10"
+  - "First marketplace contract ($100K+) by week 10"
+  - "Year 1 revenue: $3.2M (mix of seller subs + marketplace contracts + per-scan fees)"
+
+tags: ["ecommerce", "counterfeit_detection", "marketplace", "saas", "cv_nlp", "seller_tools", "consumer_trust"]

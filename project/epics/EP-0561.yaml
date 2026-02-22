@@ -1,0 +1,33 @@
+id: EP-0561
+title: Generative Drug Trial Patient Recruitment API
+description: |
+  **Idea:** Pharma companies fail 80% of clinical trials simply because they cannot find the specific sick patients needed. This API acts as an aggressive, algorithmic medical headhunter. It legally queries thousands of regional hospital EHR databases (via federated learning without breaking HIPAA) and scrapes niche Reddit disease support groups. It finds perfect genetic matches for upcoming Phase 3 trials and autonomously routes the recruitment offer directly to their primary care doctor.
+
+  **Why "WOW":** Saves the pharma pipeline by turning the massive, hidden global patient population into a searchable programmatic database.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building federated learning models for EHRs and secure messaging protocols).
+  - Cash Out: Bounty model: $15,000 per successfully recruited and verified patient.
+
+  **First Year Projections:**
+  - Patients Successfully Enrolled: 10,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Navigating the extreme labyrinth of healthcare privacy laws (HIPAA/GDPR) globally.
+  - Medium: Doctors ignoring the algorithmic outreach.
+  - Low: Pharma willingness to pay (A single delayed trial day costs them $1M-8M).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

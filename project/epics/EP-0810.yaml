@@ -1,0 +1,33 @@
+id: EP-0810
+title: AI-Directed Bunker Fuel Arbitrage & Hedging Oracle
+description: |
+  **Idea:** Bunker fuel is the single largest cost for shipping lines ($100B+ market). Prices vary by 20% across global ports (Singapore vs Rotterdam). This AI agent monitors global fuel spot prices, refinery output, and vessel routes. It autonomously dictates exactly where a fleet should refuel and executes high-frequency oil futures swaps to lock in the absolute lowest price 6 months in advance.
+
+  **Why "WOW":** It turns a physical logistics fleet into a high-frequency commodities trading desk. Squeezing massive alpha out of the marine fuel market.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Refinery API integrations and commodities hedging ML).
+  - Cash Out: 10% of the net fuel savings generated for the carrier.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Fuel Costs Hedged: $2,000,000,000\n  - Net Savings identified: $200,000,000
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Extreme volatility in oil markets causing margin calls on the hedging swaps.
+  - Medium: Port congestion preventing a ship from reaching the 'cheap fuel' port in time.
+  - Low: Carrier demand (Fuel cost is a board-level priority).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

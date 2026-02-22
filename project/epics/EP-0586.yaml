@@ -1,0 +1,33 @@
+id: EP-0586
+title: Automated Global Salary & Equity Benchmarking API
+description: |
+  **Idea:** HR departments use survey data that is 12 months out of date to set highly competitive software engineer salaries. This system integrates via API into the ATS (Applicant Tracking Systems like Greenhouse) and Payroll of 5,000 tech companies. It anonymizes and aggregates every single accepted/rejected offer letter in real-time. It provides an algorithmic, millisecond-accurate benchmark of exactly what a 'Senior Rust Dev in Berlin' commands today.
+
+  **Why "WOW":** True liquidity and transparency for human capital pricing. Destroys the information asymmetry of corporate HR.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2 months (Pipelining disparate HR systems and enforcing strict k-anonymity privacy protocols).
+  - Cash Out: Enterprise API subscription: $100k/year per major corporate client.
+
+  **First Year Projections:**
+  - Subscribed Enterprises: 1,500
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: Legal anti-trust concerns regarding algorithmic price fixing of wages (DOJ scrutiny).
+  - Medium: Ensuring perfect anonymization to prevent reverse-engineering employee identities.
+  - Low: Market Need (Talent wars require real-time data).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

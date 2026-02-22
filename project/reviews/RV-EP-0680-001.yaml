@@ -1,0 +1,38 @@
+id: RV-EP-0680-001
+epic: EP-0680
+created_at: "2026-02-22"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: scoring
+summary: >-
+  Strong B2B operations EPIC with clear financial upside and feasible autonomous resolution boundaries,
+  provided contractual procedure constraints are encoded explicitly.
+analysis:
+  strengths:
+    - "Targets a recurring, costly back-office bottleneck with measurable cycle-time savings."
+    - "Evidence-backed autoresolution can reduce manual dispute overhead significantly."
+    - "Good software-only fit with enterprise integration potential."
+  weaknesses:
+    - "Outcome trust depends on evidence completeness and explainability."
+    - "Contract-specific dispute workflows can reduce standardization."
+    - "Autonomy boundaries need strict policy controls per customer."
+  risks:
+    - "Technical: inconsistent evidence quality may degrade resolution accuracy."
+    - "Market: customers may resist full automation for high-value disputes."
+    - "Legal: deviations from contractual dispute procedure can void outcomes."
+  recommendations:
+    - "Automate low-risk classes first and preserve human escalation for edge cases."
+    - "Maintain contractual rule packs per customer with versioned audit trails."
+    - "Track win-rate and cycle-time deltas by dispute type to prove value."
+scores:
+  novelty: 0.76
+  software_only_fit: 0.92
+  three_month_feasibility: 0.88
+  revenue_realism_year1: 0.73
+  adoption_friction: 0.77
+  legal_ethical_clarity: 0.80
+  overall: 0.82
+weight: 1.0
+confidence: 0.88

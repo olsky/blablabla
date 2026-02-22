@@ -1,0 +1,33 @@
+id: EP-0870
+title: Generative 'Debt-Covenant' Compliance Guardian
+description: |
+  **Idea:** Banks loan billions to companies contingent on 'Covenants' (e.g. debt-to-equity ratio). Companies accidentally break these every day due to accounting delays. This AI agent sits as a 'Silent Guardian' on the company's ledger. It autonomously predicts if a covenant will be broken in 14 days and suggests specific algorithmic spending-freezes or asset-sales to stay compliant.
+
+  **Why "WOW":** It is the 'Financial Radar' for corporate CEOs. It prevents the bank from taking over the company via autonomous, early-warning compliance.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Developing the predictive covenant-violation models and integrating with ERP/Banking firehoses).
+  - Cash Out: Enterprise SaaS: $50k/month per large-cap borrower.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Corporate Clients: 250
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: The AI suggesting an 'Asset Sale' that is strategically disastrous for the company's long-term future.
+  - Medium: Banks disallowing 'Autonomous Covenant Remediation' and demanding a human CFO signature.
+  - Low: CEO Demand (They hate being in 'technical default' to the bank).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

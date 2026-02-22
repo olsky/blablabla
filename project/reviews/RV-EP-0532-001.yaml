@@ -1,0 +1,40 @@
+id: RV-EP-0532-001
+epic: EP-0532
+created_at: "2026-02-21"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: blocking
+summary: >-
+  EP-0532 is conceptually strong and highly viral, but in its current form it carries critical legal and
+  compliance risk (likely securities classification, IP licensing complexity, and market-manipulation exposure)
+  that makes a 3-month, low-sales, software-only launch unrealistic for a zero-stage startup.
+analysis:
+  strengths:
+    - Strong consumer appeal and clear "wow" factor around culture-finance convergence.
+    - Potentially massive transaction-volume business model with network effects.
+    - Data-native thesis with sentiment and pricing analytics aligned to autonomous systems.
+  weaknesses:
+    - Core product premise likely triggers securities law obligations in major jurisdictions.
+    - Underlying IP rights tokenization is unclear without direct, enforceable licensor contracts.
+    - Requires substantial trust, custody, and compliance infrastructure before safe launch.
+  risks:
+    - "Legal: SEC/ESMA and equivalent regulators may classify instruments as securities or derivatives requiring licenses."
+    - "Market: liquidity bootstrapping is expensive and may require market-maker incentives."
+    - "Operational: abuse vectors (wash trading, pump-and-dump behavior, oracle manipulation) can damage platform credibility."
+  recommendations:
+    - Pivot from tokenized rights trading to a software-only analytics and risk-pricing API for existing licensed marketplaces.
+    - Add a regulated-first operating model (jurisdiction gating, KYC/AML, surveillance) before any tradable instrument launch.
+    - Replace $10B volume assumption with staged milestones tied to signed distribution and liquidity partnerships.
+    - Redefine MVP to a legal-safe, non-custodial intelligence product shippable in <=90 days.
+scores:
+  novelty: 0.90
+  software_only_fit: 0.60
+  three_month_feasibility: 0.35
+  revenue_realism_year1: 0.40
+  adoption_friction: 0.45
+  legal_ethical_clarity: 0.18
+  overall: 0.43
+weight: 1.0
+confidence: 0.88

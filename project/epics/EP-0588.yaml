@@ -1,0 +1,33 @@
+id: EP-0588
+title: Algorithmic Spot Market for Rare Earth Elements
+description: |
+  **Idea:** Critical battery metals (Neodymium, Dysprosium) are controlled by opaque state-backed entities, causing massive price spikes for EV makers (Tesla/Ford). This system introduces an algorithmic, decentralized clearinghouse. It ingests mining production telemetry from independent mines in Australia/Canada and cross-references global EV production quotas. It enables direct, mathematically transparent spot purchasing and futures hedging for OEMs without geopolitical brokers.
+
+  **Why "WOW":** Brings Wall Street transparency to the most geopolitically sensitive supply chain on Earth.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the decentralized ledger and verifying physical metal purity via API labs).
+  - Cash Out: 1.5% transaction fee on all physical rare earth volume traded.
+
+  **First Year Projections:**
+  - Transaction volume cleared: $10,000,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: State-backed monopolies aggressively dumping metal to destroy the transparent pricing algorithm.
+  - Medium: Physically routing the highly regulated materials globally once traded.
+  - Low: EV OEM demand (They desperately need transparent, stable metal supply).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

@@ -1,0 +1,33 @@
+id: EP-0813
+title: Predictive Trans-Shipment Hub Selection Oracle
+description: |
+  **Idea:** Mega-ships don't go door-to-door; they drop goods at 'hubs' (Dubai, Singapore) to be split. Hub pricing and dwell-time fluctuate daily. This AI agent analyzes global port satellite telemetry and labor dispute sentiment to predict the most efficient trans-shipment hub 21 days in advance. It autonomously re-books the feeder-ship lanes to avoid hubs which are about to experience cargo pile-ups.
+
+  **Why "WOW":** It operates as the 'Waze' for global container ships, dodging multi-million dollar logistics traffic jams before they even happen.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Satellite crane-count models and GNN-based lane routing).
+  - Cash Out: Flat fee of $2,500 per container-batch successfully optimized.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Batches Optimized: 50,000
+  - Estimated Revenue: $125,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Hub port data being opaque or deliberately falsified to hide congestion.
+  - Medium: Feeder-ship availability at the alternative hub being too low.
+  - Low: Data availability (Satellite and AIS data are transparent).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

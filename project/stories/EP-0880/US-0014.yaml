@@ -1,0 +1,22 @@
+id: US-0014
+epic: EP-0880
+title: "Create Transaction Review Interface for Compliance Officers"
+layer: ui
+stack: "React, TanStack Query"
+acceptance_criteria:
+  - "Display transaction review queue with pending assessments"
+  - "Show transaction details card (vessel info, cargo, ports, counterparty, risk score breakdown)"
+  - "Display risk score visualization (radial gauge 0-100 with color gradient)"
+  - "Show evidence panel (sanctions matches, transponder gaps, zone violations with timestamps)"
+  - "Provide decision buttons (Approve, Request More Info, Block) with required justification text"
+  - "Include vessel history timeline (past transactions, risk score trends, previous alerts)"
+  - "Show sanctioned entity matches with source authority (OFAC, UN, EU) and date added to list"
+  - "Enable compliance officer notes (internal comments, not visible to vessel operator)"
+  - "Auto-refresh transaction status every 30 seconds if pending external review"
+  - "Track decision audit trail (who approved/blocked, when, justification)"
+created_at: "2026-02-22"
+created_by:
+  agent: decomposer
+  model: claude-sonnet-4.5
+  provider: anthropic
+status: draft

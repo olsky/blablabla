@@ -1,0 +1,33 @@
+id: EP-0705
+title: Autonomous On-Chain DAO Treasury Investment Manager
+description: |
+  **Idea:** Decentralized Autonomous Organizations (DAOs) like Uniswap or Arbitrum have billions in idle USDC sitting in smart contracts doing nothing because getting 10,000 human token-holders to vote on investments takes 30 days. This AI agent registers itself as an autonomous 'Financial Delegate'. using NLP, it auto-generates governance proposals offering a guaranteed 5% yield. Once voted in, it autonomously sweeps the DAO's massive idle treasuries into the absolute safest, highest-yielding cross-chain risk-adjusted protocols (Aave, Treasury Tokens) daily.
+
+  **Why "WOW":** It behaves as BlackRock for Web3. An artificial intelligence navigating complex blockchain politics to manage billions in corporate crypto treasuries.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the cross-chain yield optimization AI and the automated DAO governance PR/voting bots).
+  - Cash Out: 20% performance fee on the net-new algorithmic yield generated.
+
+  **First Year Projections:**
+  - Total DAO TVL Under Management: $10,000,000,000 (Very achievable with 3 major DAOs)
+  - Estimated Revenue: $100,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: The AI placing $500M of a DAO's treasury into a yield protocol that experiences a smart-contract hack, destroying the funds and the startup's reputation.
+  - Medium: Political friction (Human delegates resisting an AI managing the funds).
+  - Low: Demand (DAOs are notoriously terrible at managing their own cash).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

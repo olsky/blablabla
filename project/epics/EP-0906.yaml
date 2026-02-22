@@ -1,0 +1,33 @@
+id: EP-0906
+title: Autonomous Import Duty & Tariff Minimization Engine
+description: |
+  Autonomously classifies Harmonized System (HS) codes for imported goods, calculates optimal tariff rates, and identifies trade agreement savings opportunities. The system ingests purchase orders + bill-of-materials from procurement systems (SAP, Coupa, Ariba), applies rules-based HS classification + LLM for ambiguous cases, cross-references against trade agreements (USMCA, GSP, EU), and calculates duty savings. Results feed directly into ERP and customs documentation workflows.
+
+  **Why "WOW":** Addresses $7B annual gap in tariff overpayment. US–China tariffs remain at 20%+ through 2027; EU CBAM launches Q1 2026. Enterprises desperate for duty optimization with zero existing automation.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (HS classifier training, trade agreement logic, ERP integration)
+  - Cash Out: 40% of duty savings identified and captured
+
+  **First Year Projections:**
+  - Enterprise importers: 1-3 pilots = $840k-$2.5M annual revenue per customer
+  - Total portfolio: $95-130M (scaling to 20-30 importers by Year 2)
+
+  **Feasibility Score:** 8.2/10
+
+  **Risk Analysis:**
+  - High: 15-20% of HS codes are genuinely ambiguous; requires human broker escalation
+  - Medium: CBP tariff enforcement changes; requires quarterly policy updates
+  - Low: Market demand (enterprises bleeding money on tariffs; willingly share savings)
+
+created_at: "2026-02-22T01:21:34Z"
+created_by:
+  agent: session_agent
+  model: claude-haiku-4.5
+  provider: anthropic
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 1
+  approval_threshold: 0.75
+  require_blocking_clearance: false

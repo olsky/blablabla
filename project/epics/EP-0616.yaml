@@ -1,0 +1,23 @@
+id: EP-0616
+title: Autonomous Cloud RAN Placement and Cost Router
+description: Places virtualized RAN workloads across edge/cloud zones to balance latency, resiliency, and infra spend.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.8
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 232000000
+  first_year_users: 2600
+  roi_time_in_months: 3
+  roi_cash_out_usd: 141000000
+feasibility_score: 8.4
+risk_analysis:
+  technical: orchestration errors can impact radio performance quickly
+  market: ops teams require deterministic rollback controls
+  legal: data residency and lawful intercept constraints apply

@@ -1,0 +1,33 @@
+id: EP-0711
+title: Generative Smart Contract Automated Bug-Bounty Claimer
+description: |
+  **Idea:** Web3 protocols post massive bounties ($1M+) on platforms like Immunefi for anyone who can find critical bugs in their code. Exploiting them maliciously is illegal; finding them ethically is immensely profitable. This system utilizes a swarm of fine-tuned large language models and symbolic execution engines to autonomously read every line of Solidity/Rust code deployed on mainnet. When it mathematically proves a vulnerability (e.g., a reentrancy attack), it automatically generates the proof-of-concept code and submits a private, encrypted claim to the protocol's developer team.
+
+  **Why "WOW":** Turns an army of AI models into the most lucrative, legal white-hat hacking collective on earth, running 24/7.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Training the specialized LLM payload on Solidity exploits and building automated fuzzing environments).
+  - Cash Out: Massive, infrequent payout spikes. (Finding 50 critical $2M bugs per year).
+
+  **First Year Projections:**
+  - Critical Bugs Identified & Vetted: 100\n  - Average Payout: $1.2M
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Protocols refusing to pay the bounty, claiming the code was 'experimental' or they 'already knew about it' (Standard Bug Bounty friction).
+  - Medium: The AI hallucinating exploits that don't actually exist, wasting developer time and leading to a platform ban.
+  - Low: Scale (Deploying more compute directly equals reading more code).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

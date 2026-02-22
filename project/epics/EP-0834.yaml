@@ -1,0 +1,33 @@
+id: EP-0834
+title: Algorithmic Merchant-Cash-Advance (MCA) Risk-Arb Engine
+description: |
+  **Idea:** Small businesses take high-interest Merchant Cash Advances (MCA), and lenders lose 15% to defaults. This AI agent sits inside the merchant's POS (Point of Sale) system. It monitors real-time sales velocity and social media 'Local Trend' velocity. It algorithmically predicts a 'Bad Week' 7 days in advance and autonomously throttles the merchant's advertising or inventory spend to ensure the daily MCA repayment is always met, slashing legacy default rates by 50%.
+
+  **Why "WOW":** It is an autonomous CFO for the small-business lender. It manages the borrower's cashflow to guarantee the lender's yield. Pure risk arbitrage.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (POS system integrations and predictive local-economic temporal models).
+  - Cash Out: Taking a 5% 'Yield Protection' cut from the lender's final profit.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Loan Volume Protected: $4,000,000,000
+  - Estimated Revenue: $200,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Merchants being angered by an algorithm 'controlling' their business bank account or ad-spend without permission.
+  - Medium: Local economic shocks (e.g. a town-wide flood) that no amount of 'ad-spend throttling' can fix.
+  - Low: Lender demand (Default rates are their #1 nightmare).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

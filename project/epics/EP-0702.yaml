@@ -1,0 +1,33 @@
+id: EP-0702
+title: Zero-Knowledge Proof B2B Identity & Compliance Oracle
+description: |
+  **Idea:** Trillions of dollars in institutional capital (Fidelity, Blackrock) want to yield-farm in DeFi, but cannot legally interact with anonymous protocols due to KYC/AML laws. This system solves institutional Web3 compliance. It utilizes LLMs to ingest physical corporate formation documents, LEI codes, and beneficial ownership structures. It verifies them against global sanctions lists, and algorithmically mints a 'Soulbound' Zero-Knowledge Proof (zk-SNARK) token to the institution's wallet. The token cryptographically proves they are a legal, non-sanctioned US entity, without ever revealing their actual name or data to the public blockchain.
+
+  **Why "WOW":** Unlocks the floodgates of Wall Street capital into crypto by solving the anonymity vs. compliance paradox mathematically.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months (Writing the complex Zero-Knowledge circuits (Circom/Halo2) and integrating with global KYC/KYB databases).
+  - Cash Out: Enterprise SaaS subscription ($5k/month per institutional wallet verified) plus API query fees from the DeFi protocols.
+
+  **First Year Projections:**
+  - Institutional Wallets ZK-Verified: 2,500
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: The SEC refusing to recognize a cryptographic Zero-Knowledge proof as sufficient legal compliance.
+  - Medium: The massive computational overhead of generating and verifying zk-SNARKs on-chain.
+  - Low: Institutional willingness to pay (They view compliance as a mandatory cost of business).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

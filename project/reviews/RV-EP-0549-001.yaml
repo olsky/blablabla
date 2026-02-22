@@ -1,0 +1,40 @@
+id: RV-EP-0549-001
+epic: EP-0549
+created_at: "2026-02-21"
+created_by:
+  agent: reviewer
+  model: GPT-5.3-Codex
+  provider: OpenAI
+review_class: advisory
+summary: >-
+  EP-0549 targets a painful, high-value workflow and has strong software automation fit, but current assumptions
+  are optimistic on integration speed, legal robustness of generated appeals, and first-year overturn volume.
+  The concept is viable with a narrower launch scope and stricter compliance/product controls.
+analysis:
+  strengths:
+    - "Clear revenue mechanism tied to measurable value recovery for providers."
+    - "Strong demand signal: denied-claim appeal workflows are costly, manual, and slow."
+    - "Software-first execution path using EHR/RCM integrations, policy retrieval, and document generation."
+  weaknesses:
+    - "Hospital integration cycles and security reviews can exceed assumptions for a <=3 month go-live."
+    - "Fully automated submission and legal framing can create liability if evidence mapping is weak."
+    - "Contingency-fee model may face contracting and regulatory variance by jurisdiction/provider type."
+  risks:
+    - "Compliance: HIPAA, BAAs, auditability, and PHI handling requirements are non-negotiable and implementation-heavy."
+    - "Operational: insurer portal/protocol changes and anti-automation controls can degrade throughput."
+    - "Clinical/legal: generated language must remain evidence-grounded to avoid false or over-assertive claims."
+  recommendations:
+    - "Launch with a copilot-plus-human-review mode for high-dollar appeals before full autonomy."
+    - "Start in one specialty and one payer cohort to harden policy mapping and overturn-rate benchmarks."
+    - "Build an auditable evidence trace for every assertion in each appeal packet."
+    - "Rebase year-one projection to pilot-stage KPIs (appeals submitted, overturn rate, dollars recovered) before national scale assumptions."
+scores:
+  novelty: 0.79
+  software_only_fit: 0.84
+  three_month_feasibility: 0.58
+  revenue_realism_year1: 0.44
+  adoption_friction: 0.52
+  legal_ethical_clarity: 0.55
+  overall: 0.62
+weight: 1.0
+confidence: 0.85

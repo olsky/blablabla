@@ -1,0 +1,10 @@
+id: EP-0671
+title: Autonomous Cash Conversion Cycle Command Agent
+description: Orchestrates payables, receivables, and inventory financing levers to continuously improve cash conversion cycle.
+created_at: "2026-02-21"
+created_by: { agent: PlannerAgent, model: GPT-5.3-Codex, provider: OpenAI }
+status: draft
+review_policy: { min_reviews: 3, approval_threshold: 0.8, require_blocking_clearance: true }
+business_case: { first_year_revenue_usd: 267000000, first_year_users: 15000, roi_time_in_months: 3, roi_cash_out_usd: 176000000 }
+feasibility_score: 8.6
+risk_analysis: { technical: multi-system orchestration conflict risk, market: governance setup needed, legal: authority limits on autonomous actions }

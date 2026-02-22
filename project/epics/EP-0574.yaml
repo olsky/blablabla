@@ -1,0 +1,33 @@
+id: EP-0574
+title: Automated B2B Wholesale Cannabis Spot Market
+description: |
+  **Idea:** The massive, legal, multi-state wholesale cannabis market is completely fractured. Cultivators have millions in flower; brands need it, but they lack a centralized commodities market due to federal banking blockades. This system acts as a decentralized algorithmic clearinghouse. It ingests lab Certificates of Analysis (state APIs) to strictly guarantee chemical purity, standardizes the pricing based on THC/Terpene metrics, and clears the B2B physical transaction instantly through legal state-chartered credit union APIs.
+
+  **Why "WOW":** Brings rigorous, algorithmic Wall Street commodities trading to the chaotic, billion-dollar cannabis supply chain.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2 months (Pipelining state tracking APIs (METRC) and closed-loop payment rails).
+  - Cash Out: 3% transactional exchange toll on physical volume cleared and settled.
+
+  **First Year Projections:**
+  - Wholesale Volume Cleared: $4,000,000,000
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: Federal DEA intervention blocking the banking APIs, seizing the algorithmic payment rails.
+  - Medium: Fraudulent chemical testing labs faking the COA data that the algorithm relies on to price the commodity.
+  - Low: Market Need (The industry trades on WhatsApp right now, they crave a central exchange).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

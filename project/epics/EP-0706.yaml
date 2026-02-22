@@ -1,0 +1,33 @@
+id: EP-0706
+title: Algorithmic Stablecoin Depeg Parametric Insurance AMM
+description: |
+  **Idea:** When stablecoins (USDC, USDT) momentarily 'depeg' from $1.00 (like USDC did in 2023), the entire crypto ecosystem freezes in panic. Traditional insurance is too slow to react. This system acts as an Automated Market Maker (AMM) for panic insurance. It uses off-chain ML to analyze exchange withdrawal velocity and on-chain liquidity depth to constantly price the risk of a depeg. Users buy micro-policies via smart contracts. If a stablecoin drops below $0.90 for >10 blocks, the contract algorithmically self-executes, instantly paying out the insured party.
+
+  **Why "WOW":** Parametric panic insurance. It turns extreme market anxiety into a highly liquid, mathematically priced algorithmic commodity.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Creating the stochastic pricing models for 'tail-risk' stablecoin failures and building the underlying AMM solvency pools).
+  - Cash Out: Keeping the massive risk premiums (insurance float) paid by terrified hedge funds and protocols.
+
+  **First Year Projections:**
+  - Total Values Insured (TVL): $2,000,000,000\n  - Premiums Collected: 6%
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: A total, cascading collapse of USDT causing billions of dollars in claims that wipe out the protocol's liquidity pools instantly.
+  - Medium: Defining exactly what constitutes a 'depeg' reliably through decentralized oracles (Chainlink) without manipulation.
+  - Low: Market need (DeFi traders view this as mandatory portfolio hedging).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

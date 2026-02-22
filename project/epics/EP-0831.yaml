@@ -1,0 +1,33 @@
+id: EP-0831
+title: AI-Directed Multi-Source KYC/AML De-Duplication Ledger
+description: |
+  **Idea:** A single person opening accounts at 10 banks has their identity checked 10 times, at $15 per check, costing the industry billions. This system builds a 'Unified Compliance Hash' on a private ledger. The first bank performs the KYC. The AI hashes the result. The next 9 banks simply query the API to see the 'Pre-Verified Hash' for $2.00, saving them 80% and sharing the profit with the initial verifying bank.
+
+  **Why "WOW":** It turns the billion-dollar cost-center of KYC into a collaborative, decentralized profit network. It becomes the 'Single Sign-On' for global compliance.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3.5 months (Building the secure private ledger and the bank-consortium profit-sharing smart contracts).
+  - Cash Out: $0.50 per 'De-Dup' query cleared.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Identities Shared/Clearing through Ledger: 400,000,000
+  - Estimated Revenue: $200,000,000
+
+  **Feasibility Score:** 8/10
+
+  **Risk Analysis:**
+  - High: The initial bank performing a 'Lazy KYC' and then every other bank in the network inheriting the legal liability for the bad check.
+  - Medium: Regulatory pushback on 'Shared KYC' without a specific custodial license.
+  - Low: Bank Demand (They hate the $15-per-check fee; it kills their acquisition margins).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

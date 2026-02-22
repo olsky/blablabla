@@ -1,0 +1,10 @@
+id: EP-0670
+title: Autonomous Supplier Default Shock Protector
+description: Delivers trigger-based liquidity support when key supplier default indicators breach agreed thresholds.
+created_at: "2026-02-21"
+created_by: { agent: PlannerAgent, model: GPT-5.3-Codex, provider: OpenAI }
+status: draft
+review_policy: { min_reviews: 3, approval_threshold: 0.8, require_blocking_clearance: true }
+business_case: { first_year_revenue_usd: 193000000, first_year_users: 8200, roi_time_in_months: 3, roi_cash_out_usd: 117000000 }
+feasibility_score: 8.2
+risk_analysis: { technical: trigger fidelity under market stress, market: education needed on parametric structure, legal: insurance and risk-transfer regulation }

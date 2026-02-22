@@ -1,0 +1,33 @@
+id: EP-0815
+title: Autonomous Export Manifest Scrubbing Agent
+description: |
+  **Idea:** Shippers frequently omit 'Dangerous Goods' (batteries, chemicals) from manifests to save money, leading to catastrophic ship fires. This system uses LLMs to ingest the exporter's product catalog and shipping description. It algorithmically detects hidden hazardous materials via semantic patterns (e.g., identifying a 'power tool' as containing an undisclosed lithium battery) and autonomously blocks the export until correctly declared.
+
+  **Why "WOW":** It prevents multi-billion dollar maritime disasters (ships burning at sea) via pure textual pattern recognition. A super-human fire warden for global trade.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2.5 months (Training the Hazard-Detection NLP model and integrating with shipping ERPs).
+  - Cash Out: SaaS license ($1,000 per port terminal line per month).
+
+  **First Year Projections (Solo Founder Scale):**
+  - Port Terminals Equipped: 10,000
+  - Estimated Revenue: $120,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: The model missing a subtle chemical chemical signature, allowing a flammable cargo on board.
+  - Medium: Exporters trying to encrypt or obfuscate manifests to bypass the scrubber.
+  - Low: Port Authority Mandate (Safety is paramount).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

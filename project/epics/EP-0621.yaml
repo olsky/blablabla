@@ -1,0 +1,23 @@
+id: EP-0621
+title: Autonomous Subsea Cable Outage Impact Forecaster
+description: Forecasts traffic and revenue impact from subsea incidents and triggers pre-emptive rerouting and settlement actions.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 109000000
+  first_year_users: 1800
+  roi_time_in_months: 3
+  roi_cash_out_usd: 52000000
+feasibility_score: 8.4
+risk_analysis:
+  technical: sparse fault history limits rare-event estimation quality
+  market: buyers may rely on incumbent consultancies initially
+  legal: contract force-majeure clauses can limit recovery options

@@ -1,0 +1,34 @@
+id: EP-0900
+title: Deep-Code Plagiarism & Royalty Recovery Agent
+description: |
+  **Idea:** Large corporations often copy 'interesting' algorithmic kernels from public repos without checking the license (e.g., AGPL). This AI agent autonomously scans every public and accessible private repository (via partnership APIs) and compares 'Algorithmic Fingerprints' (AST structures) against a database of proprietary kernels. It identifies 'License-Breaches' in production code and autonomously issues a 'License-or-Litigate' demand to the corporate GRC team.
+
+  **Why "WOW":** It is a 'Passive Revenue Guard' for developers. It converts 'Stolen Code' into a mandatory licensing revenue stream with zero human lawyers needed for the initial discovery.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the AST-comparison engine and the global repo-crawler).
+  - Cash Out: 30% contingency fee on all recovered 'Back-Licensing' fees ($50k-$500k per event).
+
+  **First Year Projections (Solo Founder Scale):**
+  - High-Value Kernels Monitored: 50,000
+  - Confirmed Infringements Identified: 1,200
+  - Estimated Revenue: $180,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Corporations obfuscating their code (Minification) to hide AST-structural similarities.
+  - Medium: Legal pushback on the 'Algorithmic Fingerprinting' validity in specific jurisdictions.
+  - Low: Zero sales friction; developers are desperate to monetize their 'Stolen' work.
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

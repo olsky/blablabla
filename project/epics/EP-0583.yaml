@@ -1,0 +1,33 @@
+id: EP-0583
+title: Generative AI for Automated Legal Discovery (eDiscovery)
+description: |
+  **Idea:** In massive lawsuits, law firms bill $500/hr for junior associates to read 10 million irrelevant corporate emails. This system utilizes fine-tuned LLMs trained on federal case law. It ingests terabytes of raw corporate Exchange/Slack data, autonomously understands the semantic nuances of the specific lawsuit (e.g. 'Did they know the chemical was toxic?'), categorizes all 10M documents in hours, and automatically generates the privilege logs.
+
+  **Why "WOW":** Decimates the core revenue model of White Shoe law firms. Pure, unadulterated computational reading comprehension at scale.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2.5 months (Building high-security RAG architectures that never leak corporate secrets).
+  - Cash Out: Enterprise SaaS: $50,000 per terabyte processed.
+
+  **First Year Projections:**
+  - Terabytes Processed: 3,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: Judges rejecting LLM-categorized data if the algorithm misses a critical 'smoking gun' email (Recall errors).
+  - Medium: Pushback from law firms whose junior associate billing model is destroyed.
+  - Low: Corporate GC demand (They hate paying $10M for document review).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

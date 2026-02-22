@@ -1,0 +1,33 @@
+id: EP-0518
+title: Generative B2B Architecture Bidding & Compliance Engine
+description: |
+  **Idea:** Commercial real estate developers spend months and millions on architects just to see if a site *can* hold a profitable building within local zoning codes (FAR, setback, shadow studies). This system digests thousands of fragmented, archaic municipal zoning codes via LLMs. An enterprise user inputs a GPS coordinate and desired use-case. Within seconds, the multi-agent system autonomously generates thousands of 3D massing models, mathematically optimizes the floorplate for maximum rentable yield within the exact local legal constraints, conducts automated insolation/wind studies, and instantly outputs a highly-detailed, permit-ready "Zoning Feasibility Package" and a fully calculated cost breakdown.
+
+  **Why "WOW":** It compresses 3 months of expensive human architectural feasibility studies into a 4-second API call. It instantly identifies the most legally profitable structure for any piece of land on earth.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Ingesting and structuring municipal zoning APIs/PDFs, building the generative 3D spatial reasoning engine, connecting to real-time construction material pricing APIs).
+  - Cash Out: SaaS model. $2,000 to $10,000 per automated site-study package. 
+
+  **First Year Projections:**
+  - Feasibility Packages Generated: 25,000.
+  - Estimated Revenue: $125,000,000.
+
+  **Feasibility Score:** 8.5/10 (Spatial computing and parametric design algorithms are mature. The core IP is structuring the messy, unstructured local legal zoning text).
+
+  **Risk Analysis:**
+  - High: The profound un-standardization of municipal zoning documents (Requires very clever RAG architectures).
+  - Medium: Architects lobbying against automated feasibility generation.
+  - Low: User adoption (Real estate developers will pay anything for increased speed and guaranteed legal yield).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

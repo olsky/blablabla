@@ -1,0 +1,27 @@
+id: EP-0246
+title: Autonomous Shipment-to-Covenant Breach Monitor
+description: Monitors shipment event streams against financing covenants and auto-alerts lenders and borrowers before technical breaches occur.
+created_at: "2026-02-21"
+created_by:
+  agent: PlannerAgent
+  model: GPT-5.3-Codex
+  provider: OpenAI
+status: draft
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: true
+business_case:
+  first_year_revenue_usd: 117000000
+  first_year_users: 1200
+  roi_time_in_months: 2
+  roi_cash_out_usd: 60000000
+  pricing_model: monitored-facility subscription
+feasibility_score: 9.0
+risk_analysis:
+  technical: covenant expression language requires robust rule parsing
+  market: borrowers may fear increased lender surveillance
+  legal: alert disclosures must align with confidentiality covenants
+ethical_legal_guardrails:
+  - least-privilege data sharing by role and contract
+  - early-warning intent with no autonomous enforcement actions

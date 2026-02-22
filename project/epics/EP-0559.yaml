@@ -1,0 +1,33 @@
+id: EP-0559
+title: Algorithmic Short-Term Let Dynamic Yield Manager
+description: |
+  **Idea:** Large property managers have thousands of Airbnb/VRBO units. Traditional pricing software is slow. This system is a high-frequency yield engine. It ingests thousands of local event schedules, concert ticket sales velocities via API, airline flight delays, and local hotel occupancy rates. It algorithmically updates the nightly price of a massive portfolio of 50,000 units every 5 minutes natively across platforms, maximizing revenue yield mathematically exactly as airlines do.
+
+  **Why "WOW":** Brings Wall Street high-frequency trading principles to the retail short-term rental market. Maximizes every possible dollar of yield globally.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2.5 months (Building the vast API web-scraping ontology and the cross-platform rate-pushing engines).
+  - Cash Out: 2% cut of the generated booking revenue.
+
+  **First Year Projections:**
+  - Gross Booking Value Managed: $7,500,000,000
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: Airbnb/VRBO heavily throttling or banning the aggressive, high-frequency rate-update API calls.
+  - Medium: Algorithmic pricing spirals (racing to the bottom) against competing software.
+  - Low: Landlord adoption (Proven to bump yields by 15%+ instantly).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

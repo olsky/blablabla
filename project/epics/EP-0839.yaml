@@ -1,0 +1,33 @@
+id: EP-0839
+title: Autonomous Industrial Energy-Surcharge Recovery Bot
+description: |
+  **Idea:** Industrial energy contracts are Byzantine. Manufacturers are frequently overcharged via 'Peak Surcharges' and 'Transmission Fees' they shouldn't have paid. This AI agent connects to the factory's smart-meters and utility invoices. It identifies every billing anomaly perfectly. It autonomously generates the 'Regulatory Dispute' document, submits it to the Public Utility Commission (PUC) API, and claws back the overpayment.
+
+  **Why "WOW":** A passive, anonymous 'Tax Audit' for electricity. It recovers millions in pure cash for the manufacturer with zero human interaction.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~2.5 months (Utility API data-pipelining and the legal-regulatory NLP protest engine).
+  - Cash Out: 30% contingency fee on all recovered cash energy refunds.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Energy Overpayments Recovered: $600,000,000
+  - Estimated Revenue: $180,000,000
+
+  **Feasibility Score:** 9/10
+
+  **Risk Analysis:**
+  - High: Utility companies (monopolies) aggressively lobbying to prevent automated billing disputes.
+  - Medium: Smart meter data lacking the granularity to prove 'Non-Peak' usage retroactively.
+  - Low: CFO Demand (Energy is the #2 cost for manufacturing; they want every penny back).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

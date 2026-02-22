@@ -1,0 +1,33 @@
+id: EP-0885
+title: Generative 'Sovereign-Debt' Default Predictor & Insurer
+description: |
+  **Idea:** Emerging nations default on debt, causing global shocks. This AI agent monitors a nation's 'Economic Vital-Signs': local electricity consumption (via satellite), tax-collection velocity, and high-frequency sentiment of its finance ministry. It algorithmically prices a 'Sovereign-Bailout-Bond' and sells it as insurance to hedge funds holding the debt.
+
+  **Why "WOW":** It builds a 'Wall Street Insurance Product' for entire nations. An algorithmic actuary for sovereign bankruptcy.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months (Sovereign macroeconomic ML and satellite industrial-activity Drifts).
+  - Cash Out: 5% spread on the sovereign-insurance yield.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Sovereign Debt Insured: $4,000,000,000
+  - Estimated Revenue: $200,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: Total global systemic collapse where 'Insurance Payments' lose their value due to currency hyper-inflation.
+  - Medium: Gaining access to secretive national finance ministry digital-comms for sentiment analysis.
+  - Low: Hedge Fund Demand (Emerging market debt is high-yield but high-terror).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

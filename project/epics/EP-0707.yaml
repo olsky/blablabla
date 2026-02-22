@@ -1,0 +1,33 @@
+id: EP-0707
+title: Generative AI On-Chain IP Hashing & Auto-DMCA Bot
+description: |
+  **Idea:** Digital artists, game studios, and writers have their IP instantly downloaded and monetized by plagiarists via NFTs or unauthorized asset stores. This AI continuously ingests the creator's raw output (Photoshop files, Code, Audio). It instantly generates imperceptible cryptographic watermarks and hashes the files onto a cheap Layer-2 blockchain as absolute proof-of-creation. It then endlessly scans global NFT marketplaces (OpenSea) and Web2 platforms. If it detects a visual match via Computer Vision, it automatically executes a legal DMCA takedown or fires a smart-contract dispute to seize the plagiarist's funds in escrow.
+
+  **Why "WOW":** A merciless, autonomous copyright attorney for the digital age. It weaponizes blockchain immutability and AI vision to enforce global property rights instantly.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Building the scalable Computer Vision scanning engines and the legal/Web3 IP registry pipelines).
+  - Cash Out: B2B SaaS ($10k/month for major studios) + taking a 30% cut of seized/recovered funds from illicit NFT sales.
+
+  **First Year Projections:**
+  - Corporate/Studio Subscribers: 1,000\n  - Illicit Funds Intercepted: $50,000,000
+  - Estimated Revenue: $135,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: Decentralized marketplaces refusing to honor automated algorithmic DMCA notices.
+  - Medium: Plagiarists modifying the images just enough (cropping/filters) to evade the Computer Vision hash-matching.
+  - Low: Creator urgency (Stolen IP is an existential threat to digital asset studios).
+
+created_at: "2026-02-21"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

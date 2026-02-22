@@ -1,0 +1,33 @@
+id: EP-0855
+title: Generative Actuarial 'Loss-Model' Stress-Tester
+description: |
+  **Idea:** Insurers fail because their 'Loss Models' don't account for emergent AI risks. This system is a 'Red-Team' actuary. It uses LLMs to generate 100,000 'impossible' loss scenarios (e.g. fleet-wide autonomous car hack during a hurricane) and stresses the insurer's current capital reserves via API, and autonomously suggests specific re-insurance hedging trades.
+
+  **Why "WOW":** It is the first 'AI Stress-Test' for the $6T insurance industry. It identifies bankruptcy-level risks that human actuaries can't even imagine.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~3 months (Developing the generative scenario-model and the actuarial-math stress-test engine).
+  - Cash Out: Enterprise SaaS ($250k/year per major insurance carrier).
+
+  **First Year Projections (Solo Founder Scale):**
+  - Institutional Clients: 600
+  - Estimated Revenue: $150,000,000
+
+  **Feasibility Score:** 8.5/10
+
+  **Risk Analysis:**
+  - High: The AI missing a truly obvious scenario, giving the insurer a 'False Sense of Security' before a crash.
+  - Medium: Complexity of modeling multi-domain correlated failures in legacy software environments.
+  - Low: Regulatory Mandate (Solvency testing is a legal requirement for insurers).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true

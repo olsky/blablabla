@@ -1,0 +1,21 @@
+id: US-0012
+epic: EP-0880
+title: "Display Real-Time Vessel Tracking Map"
+layer: ui
+stack: "React, Mapbox GL JS, WebSocket"
+acceptance_criteria:
+  - "Render interactive world map with vessel positions as colored markers (green=low, yellow=medium, red=high risk)"
+  - "Stream real-time vessel position updates via WebSocket (refresh every 30 seconds)"
+  - "Display vessel details on marker click (name, IMO, flag, risk score, last AIS timestamp)"
+  - "Implement map filters (risk score range, vessel type, flag country, sanctions match)"
+  - "Show sanctioned zones as shaded overlays (Iran, North Korea, Syria, etc.)"
+  - "Highlight vessels with active transponder gaps (pulsing red circle at last known position)"
+  - "Support clustering for high-density areas (zoom in to expand clusters)"
+  - "Include map legend explaining marker colors and symbols"
+  - "Render 10k+ vessels smoothly without performance degradation"
+created_at: "2026-02-22"
+created_by:
+  agent: decomposer
+  model: claude-sonnet-4.5
+  provider: anthropic
+status: draft

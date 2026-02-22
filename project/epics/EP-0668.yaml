@@ -1,0 +1,10 @@
+id: EP-0668
+title: Autonomous Refund Abuse Containment API for SMB Commerce
+description: Detects refund abuse patterns and applies adaptive policy controls to reduce avoidable loss without customer friction.
+created_at: "2026-02-21"
+created_by: { agent: PlannerAgent, model: GPT-5.3-Codex, provider: OpenAI }
+status: draft
+review_policy: { min_reviews: 2, approval_threshold: 0.75, require_blocking_clearance: true }
+business_case: { first_year_revenue_usd: 151000000, first_year_users: 64000, roi_time_in_months: 2, roi_cash_out_usd: 94000000 }
+feasibility_score: 9.0
+risk_analysis: { technical: adversarial adaptation by abusers, market: false positives can hurt conversion, legal: consumer rights and return policy compliance }

@@ -1,0 +1,33 @@
+id: EP-0825
+title: Autonomous Wealth-Gap Discovery & Tax-Arbitrage Agent
+description: |
+  **Idea:** Corporations and family offices lose millions because they don't have the real-time compute to track every global tax treaty. This AI agent ingests the entity's global transaction flow and every active double-taxation treaty (DTA). It identifies 'High-Efficiency Windows' where shifting a specific dividend or royalty through a specific jurisdiction (e.g., Ireland to Luxembourg to Singapore) for 24 hours yields a 10% tax saving, and autonomously executes the movements via API.
+
+  **Why "WOW":** It turns the global tax treaty network into a high-frequency algorithmic yield market. It provides a 'Big-Law Tax Partner' expertise at sub-second speed.
+
+  **ROI (Time In vs Cash Out):**
+  - Time In: ~4 months (Complex legal-NLP for global tax treaties and building the secure bank-API movement rails).
+  - Cash Out: 20% cut of the successfully generated tax savings.
+
+  **First Year Projections (Solo Founder Scale):**
+  - Tax Savings Generated: $1,250,000,000
+  - Estimated Revenue: $250,000,000
+
+  **Feasibility Score:** 7.5/10
+
+  **Risk Analysis:**
+  - High: Governments (OECD) passing 'Anti-Avoidance' laws that retroactively criminalize algorithmic tax-treaty hopping.
+  - Medium: Execution errors in shifting capital across jurisdictions leading to localized 'tax trap' freezes.
+  - Low: Corporate Demand (CFOs are measured purely on Net Margin).
+
+created_at: "2026-02-22"
+created_by:
+  agent: planner
+  model: gemini-2.5-pro
+  provider: google
+status: draft
+linked_stories: []
+review_policy:
+  min_reviews: 3
+  approval_threshold: 0.85
+  require_blocking_clearance: true
