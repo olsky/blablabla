@@ -1,0 +1,45 @@
+id: EP-1024
+title: "Breeder Flock Replacement Cycle Optimizer"
+description: |
+  Autonomous system analyzing breeder flock age profiles, genetic drift, and market
+  demand to recommend optimal culling and replacement schedules. Agents predict
+  future hatchling supply and genetics to match customer demand for specific poultry
+  types (broilers, layers, turkeys).
+problem_statement: |
+  Breeder flock management is capital-intensive and multi-year commitment. Wrong
+  replacement timing leads to either hatchling shortage (lost sales) or excess
+  supply (depressed prices). Genetic drift from aging flocks degrades progeny
+  performance. Current planning is reactive; no agent optimizes replacement cycles
+  relative to market demand. A 5% improvement in supply-demand match = $100M+ value.
+solution:
+  approach: |
+    Ingest breeder flock databases (age, genetics, health), hatchery demand
+    forecasts, and multi-year market prices. Build optimization models predicting
+    progeny performance declines with flock age. Agent recommends replacement timing
+    and genetics selection to match forecasted demand and maximize margins.
+  technical_stack: |
+    Breeder flock MIS systems, demand forecasting (from integrators), multi-year
+    financial modeling, genetic performance databases.
+  revenue_model: |
+    SaaS per breeding company ($15K-40K/month) + placement fees from customer matches.
+business_case:
+  first_year_revenue_usd: 2900000
+  roi_time_in_months: 1.5
+  target_users_estimate: 12
+  average_customer_value_usd_per_month: 20416
+feasibility_score: 8.0
+status: draft
+implementation_timeline: "MVP: 10 weeks. Full: 15 weeks."
+risk_analysis: |
+  Technical: Breeder data access; mitigation: partner with major breeders (Aviagen,
+  Cobb, Hubbard) early. Business: Long-term decisions; mitigation: build trust
+  through early wins on shorter planning cycles.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 1
+  require_blocking_clearance: true
+created_by:
+  agent: epic_generator_v6
+  model: gpt-5.2-codex
+  provider: openai
+created_at: "2026-02-22T22:53:00Z"

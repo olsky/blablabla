@@ -1,0 +1,49 @@
+id: EP-1011
+title: "Poultry Flock Health Early-Warning & Mortality Autopilot"
+description: |
+  An agent-driven service that ingests existing barn telemetry, feed logs, and
+  processing plant condemn data to predict flock health events 7-21 days early
+  and automatically optimize feed, ventilation setpoints, and shipment timing.
+  Targets integrators and contract growers to reduce mortality and improve feed
+  conversion without new hardware.
+problem_statement: |
+  Poultry producers lose billions annually from preventable mortality, suboptimal
+  feed conversion, and late detection of health issues. A 1% increase in mortality
+  or a 0.05 degradation in feed conversion ratio can erase margins for integrators.
+  Current monitoring is reactive, relies on manual checks, and misses weak signals
+  across barns and flocks.
+solution:
+  approach: |
+    Ingest existing data from barn controllers, feed delivery systems, and
+    processing plant outcomes. Build flock-level risk scores with time-series
+    anomaly detection and causal factors (feed, temperature, humidity, stocking
+    density). Agents propose and execute parameter changes through controller APIs
+    and schedule proactive veterinary checks or shipment adjustments.
+  technical_stack: |
+    Barn controller APIs (e.g., humidity/temperature/ventilation), feed mill
+    delivery logs, processing plant QA systems, time-series ML (XGBoost + LSTM),
+    orchestration via event-driven pipelines and policy rules.
+  revenue_model: |
+    SaaS per complex ($2K-6K/month) + performance fee (5-8% of mortality and feed
+    cost savings), with guaranteed ROI benchmarks.
+business_case:
+  first_year_revenue_usd: 1800000
+  roi_time_in_months: 1.2
+  target_users_estimate: 70
+  average_customer_value_usd_per_month: 2140
+feasibility_score: 8.6
+status: draft
+implementation_timeline: "MVP: 8 weeks. Full: 12 weeks."
+risk_analysis: |
+  Technical: Data quality varies by integrator; mitigation: baseline calibration
+  and adaptive thresholds per farm. Business: Grower trust in automated changes;
+  mitigation: recommend-only mode first, then staged automation with approvals.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 1
+  require_blocking_clearance: true
+created_by:
+  agent: epic_generator_v6
+  model: gpt-5.2-codex
+  provider: openai
+created_at: "2026-02-22T22:40:00Z"

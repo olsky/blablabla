@@ -1,0 +1,47 @@
+id: EP-1023
+title: "Turkey Production & Seasonality Demand Forecaster"
+description: |
+  Autonomous forecasting system predicting turkey demand (holiday peaks, restaurant
+  contracts) and recommending optimal production batch scheduling to minimize
+  inventory holding costs while meeting customer commitments. Agents coordinate with
+  hatcheries and processing plants.
+problem_statement: |
+  Turkey production is highly seasonal (Thanksgiving, Christmas peaks). Producers
+  must commit to hatcheries 12-16 weeks ahead of delivery. Forecast errors are
+  costly: over-production ties up capital; under-production loses sales. Current
+  forecasting is manual and conservative (avoid stockouts). A 5% improvement in
+  forecast accuracy = $50M+ industry value.
+solution:
+  approach: |
+    Ingest turkey demand signals from customers (restaurants, retailers, food
+    service), historical sales patterns, and market intelligence (inflation, labor
+    costs, consumer trends). Build time-series forecast models (Prophet, LSTM) of
+    demand by product type and region. Agent recommends production batch sizes and
+    timing to minimize total cost (carrying costs + stockout risk).
+  technical_stack: |
+    Customer order management systems (EDI, APIs), retailer POS data (Nielsen,
+    Syndigo), forecast models (Prophet, LSTM), inventory optimization.
+  revenue_model: |
+    SaaS per producer ($5K-15K/month) + performance share (2-4% of working capital
+    reduction).
+business_case:
+  first_year_revenue_usd: 2100000
+  roi_time_in_months: 1.4
+  target_users_estimate: 28
+  average_customer_value_usd_per_month: 6250
+feasibility_score: 8.3
+status: draft
+implementation_timeline: "MVP: 9 weeks. Full: 13 weeks."
+risk_analysis: |
+  Technical: Customer data access limited; mitigation: partner with major turkey
+  producers (Butterball, Jennie-O) for pilot data. Business: Long lead times mean
+  forecast errors compound; mitigation: early warning system for demand shifts.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 1
+  require_blocking_clearance: true
+created_by:
+  agent: epic_generator_v6
+  model: gpt-5.2-codex
+  provider: openai
+created_at: "2026-02-22T22:52:00Z"

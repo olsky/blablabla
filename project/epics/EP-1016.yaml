@@ -1,0 +1,48 @@
+id: EP-1016
+title: "Poultry Genetics & Breeding Performance Matchmaker"
+description: |
+  Agent-driven platform analyzing genetic lineage databases, performance histograms
+  (growth, feed conversion, immune response), and environmental interactions to match
+  breeder flocks with broiler crosses. Predicts progeny performance and recommends
+  selective breeding strategies to breeders and integrators.
+problem_statement: |
+  Poultry genetics research and selection is data-rich but underutilized. Breeders
+  have decades of pedigree and performance data; integrators have flock outcome data.
+  No unified intelligence layer connects them. Suboptimal genetic selections cost
+  integrators $100M+ annually in missed performance gains. Each 1% gain in feed
+  conversion or growth rate = $50-100M industry value.
+solution:
+  approach: |
+    Build probabilistic models of genetic traits (growth rate, feed conversion,
+    disease resistance, egg weight) from breeder databases. Agents ingest integrator
+    flock results and production environment metadata (climate, feed, stocking
+    density) to predict progeny performance. Recommend specific genetic lines to
+    maximize traits for each customer's production scenario.
+  technical_stack: |
+    Genetic databases (pedigree APIs from major breeders: Aviagen, Cobb, Hubbard),
+    flock performance datasets (integrator ERP/MIS systems), statistical modeling
+    (Bayesian networks), recommendation engine.
+  revenue_model: |
+    SaaS per breeding company or integrator ($10K-50K/month) + referral/placement
+    fees from breeders on recommended selections.
+business_case:
+  first_year_revenue_usd: 2600000
+  roi_time_in_months: 1.4
+  target_users_estimate: 18
+  average_customer_value_usd_per_month: 12037
+feasibility_score: 8.1
+status: draft
+implementation_timeline: "MVP: 10 weeks. Full: 15 weeks."
+risk_analysis: |
+  Technical: Access to proprietary genetic data; mitigation: partner with major
+  breeders early, offer data licensing revenue. Business: Breeding science is
+  conservative; mitigation: publish early results in veterinary journals.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 1
+  require_blocking_clearance: true
+created_by:
+  agent: epic_generator_v6
+  model: gpt-5.2-codex
+  provider: openai
+created_at: "2026-02-22T22:45:00Z"
