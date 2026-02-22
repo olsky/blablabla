@@ -1,0 +1,29 @@
+id: EP-1004
+title: E-Commerce Marketplace Recommendations
+description: Agent personalizes product recommendations, increases AOV
+problem_statement: E-commerce loses $10B+/year to generic recommendations
+solution:
+  approach: Ingests behavior, product metadata, reviews, images; generates personalized
+    ranked recommendations
+  technical_stack: Shopify/WooCommerce/Magento, ProductAI, image recognition, review
+    analytics
+  revenue_model: 'Success: 2-8% incremental AOV. SaaS: $500-2K/month per seller'
+business_case:
+  first_year_revenue_usd: 2400000
+  roi_time_in_months: 1.1
+  target_users_estimate: 580
+  average_customer_value_usd_per_month: 345
+feasibility_score: 8.4
+status: draft
+implementation_timeline: 'MVP: 8 weeks. Full: 14 weeks.'
+risk_analysis: 'Risk: Implementation complexity. Mitigation: Phased with top 5 customers.
+  Risk: Data quality. Mitigation: Hybrid approach.'
+review_policy:
+  min_reviews: 2
+  approval_threshold: 1
+  require_blocking_clearance: true
+created_by:
+  agent: epic_generator_v5
+  model: claude-haiku-4.5
+  provider: anthropic
+created_at: '2026-02-22T23:50:00Z'

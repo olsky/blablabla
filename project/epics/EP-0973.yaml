@@ -1,0 +1,40 @@
+id: EP-0973
+title: "Subscription Metrics & MRR Intelligence Platform"
+description: |
+  ML system that aggregates subscription billing data across all payment platforms
+  and provides real-time MRR/ARR forecasting, cohort retention curves, and expansion
+  revenue tracking. Predicts revenue next 12 months with 85%+ accuracy.
+problem_statement: |
+  SaaS founders lack unified visibility into MRR/ARR across Stripe, Chargebee, Zuora.
+  Revenue forecasting for fundraising is manual (spreadsheets). Cohort retention analysis
+  requires SQL. Most SaaS compounds can't track true expansion revenue.
+solution:
+  approach: |
+    Billing system ingest (Stripe, Chargebee APIs) → MRR/ARR calculation → Cohort
+    retention curves → Expansion revenue tracking → Churn prediction → Revenue forecast
+  technical_stack:
+    - Data: Stripe, Chargebee, Zuora APIs
+    - ML: Time series forecasting (Prophet), cohort retention analysis
+    - Dashboard: MRR trends, cohort funnels, forecast models
+  revenue_model: "SaaS ($500-2K/month) per company + freemium upsell"
+business_case:
+  first_year_revenue_usd: 1200000
+  roi_time_in_months: 1.8
+  target_users_estimate: 400
+  average_customer_value_usd_per_month: 250
+feasibility_score: 9.1
+status: draft
+implementation_timeline: "7 weeks (Billing API integration → MRR calculation → forecast models)"
+risk_analysis: |
+  Technical: Billing API variety; mitigation = focus on top 50% (Stripe, Chargebee).
+  Market: Many BI tools already do this; mitigation = simplicity + founder focus.
+  Data: Sensitive billing data; mitigation = secure SOC2 architecture.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T22:50:00Z"

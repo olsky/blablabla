@@ -1,0 +1,31 @@
+id: EP-0999
+title: 'Legal: Due Diligence Automation'
+description: Agent auto-performs M&A due diligence (financial, legal, operational)
+  in 2 weeks vs 8-12
+problem_statement: M&A DD costs $500K-5M; 30% of deals have surprise issues post-close
+solution:
+  approach: Ingests financial statements, contracts, litigation, regulatory DBs; auto-generates
+    reports with risk scoring
+  technical_stack: SEC EDGAR/company docs, litigation DBs (PACER), regulatory records,
+    Financial statement APIs
+  revenue_model: 'Success: 2-5% of transaction value. SaaS: $5K-20K/month per law/PE
+    firm'
+business_case:
+  first_year_revenue_usd: 3800000
+  roi_time_in_months: 1.1
+  target_users_estimate: 120
+  average_customer_value_usd_per_month: 2640
+feasibility_score: 8.530000000000001
+status: draft
+implementation_timeline: 'MVP: 9 weeks. Full: 13 weeks.'
+risk_analysis: 'Risk: Implementation complexity. Mitigation: Phased with top 5 customers.
+  Risk: Data quality. Mitigation: Hybrid approach.'
+review_policy:
+  min_reviews: 2
+  approval_threshold: 1
+  require_blocking_clearance: true
+created_by:
+  agent: epic_generator_v5
+  model: claude-haiku-4.5
+  provider: anthropic
+created_at: '2026-02-22T23:50:00Z'

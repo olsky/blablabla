@@ -1,0 +1,40 @@
+id: EP-0975
+title: "Product Feature Adoption & Engagement Prediction"
+description: |
+  ML system that predicts which users will adopt new product features and when. Recommends
+  optimal timing/messaging for feature rollout to maximize adoption without overwhelming
+  users. Increases feature adoption by 30-50%.
+problem_statement: |
+  Product teams invest $10M+ in new features; 40% of users never adopt them. Feature
+  rolling is one-size-fits-all (email + in-app banner). Slack, Figma, Notion excel at
+  adoption; most struggle.
+solution:
+  approach: |
+    User engagement + product telemetry → Adoption readiness scoring → User segmentation →
+    Personalized feature rollout timing → Outcome tracking
+  technical_stack:
+    - Data: Product analytics APIs (Amplitude, Mixpanel), user databases
+    - ML: Adoption prediction, optimal rollout timing
+    - Agents: Feature rollout orchestration, messaging personalization
+  revenue_model: "SaaS ($2K-8K/month per product company)"
+business_case:
+  first_year_revenue_usd: 1600000
+  roi_time_in_months: 1.4
+  target_users_estimate: 85
+  average_customer_value_usd_per_month: 1569
+feasibility_score: 8.6
+status: draft
+implementation_timeline: "8 weeks (Analytics API → adoption model → rollout orchestration)"
+risk_analysis: |
+  Technical: Product analytics API variety; mitigation = top 3 platforms (Amplitude/Mixpanel).
+  Business: Product teams have strong opinions; mitigation = recommendation vs. mandate.
+  Data: User event data quality varies; mitigation = data validation + cleansing.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T23:00:00Z"

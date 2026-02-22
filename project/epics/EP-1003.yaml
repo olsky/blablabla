@@ -1,0 +1,29 @@
+id: EP-1003
+title: 'Support: Complaint Auto-Resolution'
+description: Agent auto-resolves 60-70% of common complaints without human
+problem_statement: Companies spend $50B+/year on support; 70% of tickets are repetitive
+solution:
+  approach: Uses NLU + support KB to auto-respond, resolve simple issues, escalate
+    complex ones
+  technical_stack: Zendesk/Freshdesk, knowledge bases, payment systems, shipment tracking
+  revenue_model: 'SaaS: $1K-3K/month per support team. Success: 10-15% support cost
+    reduction'
+business_case:
+  first_year_revenue_usd: 2100000
+  roi_time_in_months: 1.0
+  target_users_estimate: 450
+  average_customer_value_usd_per_month: 390
+feasibility_score: 9.05
+status: draft
+implementation_timeline: 'MVP: 10 weeks. Full: 13 weeks.'
+risk_analysis: 'Risk: Implementation complexity. Mitigation: Phased with top 5 customers.
+  Risk: Data quality. Mitigation: Hybrid approach.'
+review_policy:
+  min_reviews: 2
+  approval_threshold: 1
+  require_blocking_clearance: true
+created_by:
+  agent: epic_generator_v5
+  model: claude-haiku-4.5
+  provider: anthropic
+created_at: '2026-02-22T23:50:00Z'

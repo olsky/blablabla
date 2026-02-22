@@ -1,0 +1,31 @@
+TOP 10 STARTUP-VIABLE EPICS:
+1. EP-0933: Food Delivery Route Optimization & Time Prediction Engine
+   Score: 252.4 | Feas: 8.8/10 | MVP: 8w | ROI: 0.8m | Rev: $4,200,000
+
+2. EP-1002: Manufacturing: Equipment Failure Prediction
+   Score: 252.2 | Feas: 8.92/10 | MVP: 9w | ROI: 0.8m | Rev: $3,100,000
+
+3. EP-0964: Factory Floor Yield Optimization Engine
+   Score: 244.7 | Feas: 8.1/10 | MVP: 8w | ROI: 0.8m | Rev: $3,100,000
+
+4. EP-0942: Software Bug Prediction & Code Review Automation Engine
+   Score: 241.1 | Feas: 9.2/10 | MVP: 8w | ROI: 0.9m | Rev: $2,200,000
+
+5. EP-0729: Autonomous Fraud Detection and Security Suite
+   Score: 237.6 | Feas: 9/10 | MVP: 8w | ROI: 1m | Rev: $190,000,000
+
+6. EP-0732: Dynamic Pricing Engine for EV Charging Networks
+   Score: 237.5 | Feas: 9/10 | MVP: 8w | ROI: 1m | Rev: $180,000,000
+
+7. EP-0725: Dynamic Pricing and Revenue Optimization Engine
+   Score: 237.3 | Feas: 9/10 | MVP: 8w | ROI: 1m | Rev: $160,000,000
+
+8. EP-0737: EV Charging Reservation and Matching System
+   Score: 236.5 | Feas: 9/10 | MVP: 8w | ROI: 1m | Rev: $110,000,000
+
+9. EP-0959: Logistics Route & Load Optimization for 3PLs
+   Score: 235.6 | Feas: 8.6/10 | MVP: 8w | ROI: 0.9m | Rev: $2,800,000
+
+10. EP-0911: Cryptographic Tax Compliance & Reporting Engine
+   Score: 233.5 | Feas: 9.1/10 | MVP: 8w | ROI: 1.0m | Rev: $18,000,000
+

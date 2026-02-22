@@ -1,0 +1,41 @@
+id: EP-0972
+title: "B2B SaaS Churn Prediction & Upsell Automation"
+description: |
+  ML system for B2B SaaS companies that predicts customer churn risk at account and user level,
+  identifies at-risk cohorts, and automatically recommends/executes upsell/cross-sale offers.
+  Reduces churn by 10-20% and increases retention revenue by 25-40%.
+problem_statement: |
+  $300B+ enterprise SaaS market; median churn 5-7% monthly for SMB SaaS. Churn costs
+  SaaS companies $100B+ annually (lost revenue + replacement costs). Most churn is
+  preventable if caught 30-60 days before (engagement drops, usage decline).
+solution:
+  approach: |
+    Product usage + billing data ingest → Engagement metric extraction → Churn risk
+    scoring (gradient boosting) → Cohort identification → Upsell recommendation (by
+    feature adoption gaps) → Automated outreach (email, in-app) → Outcome tracking
+  technical_stack:
+    - Data: Segment/Amplitude APIs, billing systems, usage databases
+    - ML: Churn prediction, product-market fit scoring
+    - Agents: Upsell automation, customer success alerts
+  revenue_model: "SaaS ($3K-10K/month) +  revenue share (2-5% of retained MRR)"
+business_case:
+  first_year_revenue_usd: 2400000
+  roi_time_in_months: 1.1
+  target_users_estimate: 65
+  average_customer_value_usd_per_month: 3077
+feasibility_score: 9.0
+status: draft
+implementation_timeline: "8 weeks (Analytics API integration → churn prediction → upsell automation)"
+risk_analysis: |
+  Technical: SaaS analytics fragmentation; mitigation = support Segment/Amplitude primarily.
+  Business: Churn varies by vertical; mitigation = vertical-specific models.
+  Adoption: CSM team resistance; mitigation = shows impact on retention metrics.
+review_policy:
+  min_reviews: 2
+  approval_threshold: 0.75
+  require_blocking_clearance: false
+created_by:
+  agent: epic_generator_v1
+  model: claude-opus
+  provider: anthropic
+created_at: "2026-02-22T22:45:00Z"
